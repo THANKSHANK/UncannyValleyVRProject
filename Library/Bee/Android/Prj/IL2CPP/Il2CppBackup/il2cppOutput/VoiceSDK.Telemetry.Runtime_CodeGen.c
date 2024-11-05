@@ -1,0 +1,121 @@
+﻿#include "pch-c.h"
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mC0B8EB0D519F5AAE3428757C2F865890F4E27A20 (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m44E2E3746E0210639DBEEBB6F222D54526796DB3 (void);
+extern void OperationID_get_Value_mF6E0A8C6082A179B51AB2211B89A056C4E99A079 (void);
+extern void OperationID__ctor_mCCB860358B0F1F698D63F13170A1A153D85A1EED (void);
+extern void OperationID_get_IsAssigned_m2D22C0FD3AAA692663D4750CEE720B47EF851BF7 (void);
+extern void OperationID_ToString_mD2555FFE5F75C94E865A1D229A64E2DF0581C856 (void);
+extern void OperationID_op_Implicit_mECD2A625F5896A5CBEFD4B359112C765C85428BF (void);
+extern void OperationID_op_Explicit_mC930842D2E43B4CDA982CA11C15B570D73EA79F1 (void);
+extern void OperationID_op_Implicit_mADE3028CCD5B93C3486481245E53217D546A38EC (void);
+extern void OperationID_Equals_m76D155AFADF18D1A5FCB7082799398C8EA5EA586 (void);
+extern void OperationID_GetHashCode_m2336700928EF6430F0ADC4FD881CB8880FF3A3F1 (void);
+extern void RuntimeTelemetry__ctor_m098F268AC921BC7DF2BC368C94B77EB98154C48F (void);
+extern void RuntimeTelemetry_get_Instance_m85EB5D1188C03073D2BE99BED36CFB2416489614 (void);
+extern void RuntimeTelemetry_RegisterWriter_m408025C6CC8AEA45A7DDAB93D0CEA2F0ED002E3B (void);
+extern void RuntimeTelemetry_StartEvent_m4D4584E78CD1BEE5BA8DB7D887C4715965765C4E (void);
+extern void RuntimeTelemetry_LogEventTermination_m8CA3C902E33D8604D0AC4B826B15F9F2F0AD2990 (void);
+extern void RuntimeTelemetry_LogInstantaneousEvent_m8A3F8D4C457F53DC9D99D69AEB2182E279E24443 (void);
+extern void RuntimeTelemetry_LogPoint_mB2405F5031BD120BD3BFF8BE3E4D54B73CA34316 (void);
+extern void RuntimeTelemetry_AnnotateEvent_m504EE11A8AA7EC079282C9959C60560F580F7F24 (void);
+extern void RuntimeTelemetry__cctor_m0B3E4AD4AD979D9C57545CB007C17A9C7BCB88CC (void);
+static Il2CppMethodPointer s_methodPointers[25] = 
+{
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mC0B8EB0D519F5AAE3428757C2F865890F4E27A20,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m44E2E3746E0210639DBEEBB6F222D54526796DB3,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	OperationID_get_Value_mF6E0A8C6082A179B51AB2211B89A056C4E99A079,
+	OperationID__ctor_mCCB860358B0F1F698D63F13170A1A153D85A1EED,
+	OperationID_get_IsAssigned_m2D22C0FD3AAA692663D4750CEE720B47EF851BF7,
+	OperationID_ToString_mD2555FFE5F75C94E865A1D229A64E2DF0581C856,
+	OperationID_op_Implicit_mECD2A625F5896A5CBEFD4B359112C765C85428BF,
+	OperationID_op_Explicit_mC930842D2E43B4CDA982CA11C15B570D73EA79F1,
+	OperationID_op_Implicit_mADE3028CCD5B93C3486481245E53217D546A38EC,
+	OperationID_Equals_m76D155AFADF18D1A5FCB7082799398C8EA5EA586,
+	OperationID_GetHashCode_m2336700928EF6430F0ADC4FD881CB8880FF3A3F1,
+	RuntimeTelemetry__ctor_m098F268AC921BC7DF2BC368C94B77EB98154C48F,
+	RuntimeTelemetry_get_Instance_m85EB5D1188C03073D2BE99BED36CFB2416489614,
+	RuntimeTelemetry_RegisterWriter_m408025C6CC8AEA45A7DDAB93D0CEA2F0ED002E3B,
+	RuntimeTelemetry_StartEvent_m4D4584E78CD1BEE5BA8DB7D887C4715965765C4E,
+	RuntimeTelemetry_LogEventTermination_m8CA3C902E33D8604D0AC4B826B15F9F2F0AD2990,
+	RuntimeTelemetry_LogInstantaneousEvent_m8A3F8D4C457F53DC9D99D69AEB2182E279E24443,
+	RuntimeTelemetry_LogPoint_mB2405F5031BD120BD3BFF8BE3E4D54B73CA34316,
+	RuntimeTelemetry_AnnotateEvent_m504EE11A8AA7EC079282C9959C60560F580F7F24,
+	RuntimeTelemetry__cctor_m0B3E4AD4AD979D9C57545CB007C17A9C7BCB88CC,
+};
+extern void OperationID_get_Value_mF6E0A8C6082A179B51AB2211B89A056C4E99A079_AdjustorThunk (void);
+extern void OperationID__ctor_mCCB860358B0F1F698D63F13170A1A153D85A1EED_AdjustorThunk (void);
+extern void OperationID_get_IsAssigned_m2D22C0FD3AAA692663D4750CEE720B47EF851BF7_AdjustorThunk (void);
+extern void OperationID_ToString_mD2555FFE5F75C94E865A1D229A64E2DF0581C856_AdjustorThunk (void);
+extern void OperationID_Equals_m76D155AFADF18D1A5FCB7082799398C8EA5EA586_AdjustorThunk (void);
+extern void OperationID_GetHashCode_m2336700928EF6430F0ADC4FD881CB8880FF3A3F1_AdjustorThunk (void);
+static Il2CppTokenAdjustorThunkPair s_adjustorThunks[6] = 
+{
+	{ 0x06000008, OperationID_get_Value_mF6E0A8C6082A179B51AB2211B89A056C4E99A079_AdjustorThunk },
+	{ 0x06000009, OperationID__ctor_mCCB860358B0F1F698D63F13170A1A153D85A1EED_AdjustorThunk },
+	{ 0x0600000A, OperationID_get_IsAssigned_m2D22C0FD3AAA692663D4750CEE720B47EF851BF7_AdjustorThunk },
+	{ 0x0600000B, OperationID_ToString_mD2555FFE5F75C94E865A1D229A64E2DF0581C856_AdjustorThunk },
+	{ 0x0600000F, OperationID_Equals_m76D155AFADF18D1A5FCB7082799398C8EA5EA586_AdjustorThunk },
+	{ 0x06000010, OperationID_GetHashCode_m2336700928EF6430F0ADC4FD881CB8880FF3A3F1_AdjustorThunk },
+};
+static const int32_t s_InvokerIndices[25] = 
+{
+	23173,
+	14829,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	14648,
+	11660,
+	14461,
+	14648,
+	21535,
+	21572,
+	21571,
+	8325,
+	14571,
+	14829,
+	23043,
+	11660,
+	6340,
+	3060,
+	3060,
+	6340,
+	3061,
+	23112,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_VoiceSDK_Telemetry_Runtime_CodeGenModule;
+const Il2CppCodeGenModule g_VoiceSDK_Telemetry_Runtime_CodeGenModule = 
+{
+	"VoiceSDK.Telemetry.Runtime.dll",
+	25,
+	s_methodPointers,
+	6,
+	s_adjustorThunks,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+};

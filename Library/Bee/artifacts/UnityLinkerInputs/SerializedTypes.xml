@@ -1,0 +1,72 @@
+<linker>
+	<assembly fullname="Meta.Movement">
+		<type fullname="Oculus.Movement.AnimationRigging.Deprecated.DeformationCommon/ArmPosData" preserve="nothing" serialized="true"/>
+		<type fullname="Oculus.Movement.AnimationRigging.Deprecated.DeformationCommon/BonePairData" preserve="nothing" serialized="true"/>
+		<type fullname="Oculus.Movement.AnimationRigging.Deprecated.DeformationData" preserve="nothing" serialized="true"/>
+		<type fullname="Oculus.Movement.AnimationRigging.TwistDistributionData" preserve="nothing" serialized="true"/>
+		<type fullname="Oculus.Movement.Effects.LateMirroredSkeleton/MirroredBonePair" preserve="nothing" serialized="true"/>
+		<type fullname="Oculus.Movement.UI.SceneSelectIcon/IconPositionInformation" preserve="nothing" serialized="true"/>
+		<type fullname="Oculus.Movement.Utils.MovementAudioTrigger/MinMaxPair" preserve="nothing" serialized="true"/>
+	</assembly>
+	<assembly fullname="Oculus.Interaction">
+		<type fullname="Oculus.Interaction.InteractableColorVisual/ColorState" preserve="nothing" serialized="true"/>
+		<type fullname="Oculus.Interaction.MaterialPropertyVector" preserve="nothing" serialized="true"/>
+		<type fullname="Oculus.Interaction.PointerEvent" preserve="nothing" serialized="true"/>
+		<type fullname="Oculus.Interaction.PokeInteractable/DragThresholdsConfig" preserve="nothing" serialized="true"/>
+		<type fullname="Oculus.Interaction.PokeInteractable/MinThresholdsConfig" preserve="nothing" serialized="true"/>
+		<type fullname="Oculus.Interaction.PokeInteractable/PositionPinningConfig" preserve="nothing" serialized="true"/>
+		<type fullname="Oculus.Interaction.PokeInteractable/RecoilAssistConfig" preserve="nothing" serialized="true"/>
+		<type fullname="Oculus.Interaction.ProgressCurve" preserve="nothing" serialized="true"/>
+	</assembly>
+	<assembly fullname="Unity.Animation.Rigging">
+		<type fullname="UnityEngine.Animations.Rigging.RigEffectorData" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.Animations.Rigging.RigEffectorData/Style" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.Animations.Rigging.RigLayer" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.Animations.Rigging.WeightedTransform" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.Animations.Rigging.WeightedTransformArray" preserve="nothing" serialized="true"/>
+	</assembly>
+	<assembly fullname="Unity.InputSystem">
+		<type fullname="UnityEngine.InputSystem.InputAction" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.InputSystem.InputActionMap" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.InputSystem.InputBinding" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.InputSystem.InputControlScheme" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.InputSystem.InputControlScheme/DeviceRequirement" preserve="nothing" serialized="true"/>
+	</assembly>
+	<assembly fullname="Unity.TextMeshPro">
+		<type fullname="TMPro.FaceInfo_Legacy" preserve="nothing" serialized="true"/>
+		<type fullname="TMPro.FontAssetCreationSettings" preserve="nothing" serialized="true"/>
+		<type fullname="TMPro.KerningTable" preserve="nothing" serialized="true"/>
+		<type fullname="TMPro.TMP_Character" preserve="nothing" serialized="true"/>
+		<type fullname="TMPro.TMP_FontFeatureTable" preserve="nothing" serialized="true"/>
+		<type fullname="TMPro.TMP_FontWeightPair" preserve="nothing" serialized="true"/>
+		<type fullname="TMPro.TMP_Sprite" preserve="nothing" serialized="true"/>
+		<type fullname="TMPro.TMP_SpriteCharacter" preserve="nothing" serialized="true"/>
+		<type fullname="TMPro.TMP_SpriteGlyph" preserve="nothing" serialized="true"/>
+		<type fullname="TMPro.TMP_Style" preserve="nothing" serialized="true"/>
+		<type fullname="TMPro.VertexGradient" preserve="nothing" serialized="true"/>
+	</assembly>
+	<assembly fullname="UnityEngine.CoreModule">
+		<type fullname="UnityEngine.Events.ArgumentCache" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.Events.PersistentCallGroup" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.Events.PersistentListenerMode" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.Events.UnityEvent`1" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.RectOffset" preserve="nothing" serialized="true"/>
+	</assembly>
+	<assembly fullname="UnityEngine.TextCoreFontEngineModule">
+		<type fullname="UnityEngine.TextCore.FaceInfo" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.TextCore.Glyph" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.TextCore.GlyphMetrics" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.TextCore.GlyphRect" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.TextCore.LowLevel.GlyphAdjustmentRecord" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.TextCore.LowLevel.GlyphValueRecord" preserve="nothing" serialized="true"/>
+	</assembly>
+	<assembly fullname="UnityEngine.UI">
+		<type fullname="UnityEngine.UI.AnimationTriggers" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.UI.ColorBlock" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.UI.MaskableGraphic/CullStateChangedEvent" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.UI.Navigation" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.UI.SpriteState" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.UI.Toggle/ToggleEvent" preserve="nothing" serialized="true"/>
+	</assembly>
+</linker>

@@ -1,0 +1,111 @@
+<linker>
+	<assembly fullname="Meta.Movement" ignoreIfMissing="1">
+		<type fullname="Oculus.Movement.UI.BlendshapesMenuToggle">
+			<method name="ToggleBlendshapesMenuEnableState"/>
+			<method name="ToggleBlendshapesMenuEnableState"/>
+		</type>
+		<type fullname="Oculus.Movement.Utils.BodyTrackingFidelityToggle">
+			<method name="SwapFidelity"/>
+			<method name="SwapFidelity"/>
+		</type>
+		<type fullname="Oculus.Movement.Utils.MovementAudioTrigger">
+			<method name="PlayAudio"/>
+			<method name="PlayAudio"/>
+			<method name="PlayAudio"/>
+			<method name="PlayAudio"/>
+			<method name="PlayAudio"/>
+			<method name="PlayAudio"/>
+			<method name="PlayAudio"/>
+			<method name="PlayAudio"/>
+			<method name="PlayAudio"/>
+			<method name="PlayAudio"/>
+			<method name="PlayAudio"/>
+			<method name="PlayAudio"/>
+			<method name="PlayAudio"/>
+			<method name="PlayAudio"/>
+			<method name="PlayAudio"/>
+			<method name="PlayAudio"/>
+			<method name="PlayAudio"/>
+			<method name="PlayAudio"/>
+			<method name="PlayAudio"/>
+			<method name="PlayAudio"/>
+			<method name="PlayAudio"/>
+			<method name="PlayAudio"/>
+			<method name="PlayAudio"/>
+			<method name="PlayAudio"/>
+			<method name="PlayAudio"/>
+			<method name="PlayAudio"/>
+			<method name="PlayAudio"/>
+			<method name="PlayAudio"/>
+			<method name="PlayAudio"/>
+			<method name="PlayAudio"/>
+			<method name="PlayAudio"/>
+			<method name="PlayAudio"/>
+			<method name="PlayAudio"/>
+			<method name="PlayAudio"/>
+			<method name="PlayAudio"/>
+			<method name="PlayAudio"/>
+			<method name="PlayAudio"/>
+			<method name="PlayAudio"/>
+			<method name="PlayAudio"/>
+			<method name="PlayAudio"/>
+		</type>
+		<type fullname="Oculus.Movement.Utils.MovementSceneLoader">
+			<method name="Load"/>
+			<method name="Load"/>
+			<method name="Load"/>
+			<method name="Load"/>
+			<method name="Load"/>
+			<method name="Load"/>
+			<method name="Load"/>
+			<method name="Load"/>
+			<method name="Load"/>
+			<method name="Load"/>
+			<method name="Load"/>
+			<method name="Load"/>
+			<method name="Load"/>
+			<method name="Load"/>
+			<method name="Load"/>
+			<method name="Load"/>
+		</type>
+	</assembly>
+	<assembly fullname="Oculus.Interaction.Samples" ignoreIfMissing="1">
+		<type fullname="AnimatorOverrideLayerWeigth">
+			<method name="SetOverrideLayerActive"/>
+			<method name="SetOverrideLayerActive"/>
+			<method name="SetOverrideLayerActive"/>
+			<method name="SetOverrideLayerActive"/>
+			<method name="SetOverrideLayerActive"/>
+			<method name="SetOverrideLayerActive"/>
+			<method name="SetOverrideLayerActive"/>
+			<method name="SetOverrideLayerActive"/>
+			<method name="SetOverrideLayerActive"/>
+			<method name="SetOverrideLayerActive"/>
+			<method name="SetOverrideLayerActive"/>
+			<method name="SetOverrideLayerActive"/>
+			<method name="SetOverrideLayerActive"/>
+			<method name="SetOverrideLayerActive"/>
+			<method name="SetOverrideLayerActive"/>
+			<method name="SetOverrideLayerActive"/>
+			<method name="SetOverrideLayerActive"/>
+			<method name="SetOverrideLayerActive"/>
+			<method name="SetOverrideLayerActive"/>
+			<method name="SetOverrideLayerActive"/>
+			<method name="SetOverrideLayerActive"/>
+			<method name="SetOverrideLayerActive"/>
+			<method name="SetOverrideLayerActive"/>
+			<method name="SetOverrideLayerActive"/>
+			<method name="SetOverrideLayerActive"/>
+			<method name="SetOverrideLayerActive"/>
+			<method name="SetOverrideLayerActive"/>
+			<method name="SetOverrideLayerActive"/>
+			<method name="SetOverrideLayerActive"/>
+			<method name="SetOverrideLayerActive"/>
+		</type>
+		<type fullname="CanvasGroupAlphaToggle">
+			<method name="ToggleVisible"/>
+			<method name="ToggleVisible"/>
+			<method name="ToggleVisible"/>
+		</type>
+	</assembly>
+</linker>
