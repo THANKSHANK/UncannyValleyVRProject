@@ -39,6 +39,14 @@
       "version": "1.0.2",
       "source": "builtin"
     },
+    "com.unity.ide.rider@3.0.34": {
+      "name": "com.unity.ide.rider",
+      "resolvedPath": "/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/PackageCache/com.unity.ide.rider",
+      "fingerprint": "ecbf706690e5ce42dc165ddd8e5754acda3dc6b9",
+      "editorCompatibility": "2019.4.6f1",
+      "version": "3.0.34",
+      "source": "registry"
+    },
     "com.unity.inputsystem@1.11.2": {
       "name": "com.unity.inputsystem",
       "resolvedPath": "/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/PackageCache/com.unity.inputsystem",
@@ -70,14 +78,6 @@
       "editorCompatibility": "2019.2.0a1",
       "version": "2.0.0",
       "source": "builtin"
-    },
-    "com.unity.visualscripting@1.9.4": {
-      "name": "com.unity.visualscripting",
-      "resolvedPath": "/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/PackageCache/com.unity.visualscripting",
-      "fingerprint": "0920df93f9574f857a55af27bd38fdd9230a3f51",
-      "editorCompatibility": "2021.3.0a1",
-      "version": "1.9.4",
-      "source": "registry"
     },
     "com.unity.xr.hands@1.5.0": {
       "name": "com.unity.xr.hands",
@@ -331,20 +331,20 @@
       "version": "2.3.0",
       "source": "registry"
     },
+    "com.unity.ext.nunit@2.0.5": {
+      "name": "com.unity.ext.nunit",
+      "resolvedPath": "/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/PackageCache/com.unity.ext.nunit",
+      "fingerprint": "60ef35ffd3cd5e2f5c8887a4a4ca6148854cd092",
+      "editorCompatibility": "2019.4.0a1",
+      "version": "2.0.5",
+      "source": "registry"
+    },
     "com.unity.ide.visualstudio@2.0.22": {
       "name": "com.unity.ide.visualstudio",
       "resolvedPath": "/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/PackageCache/com.unity.ide.visualstudio",
       "fingerprint": "8140e851d83e922ca2021b04a89519de94ebe38c",
       "editorCompatibility": "2019.4.25f1",
       "version": "2.0.22",
-      "source": "registry"
-    },
-    "com.unity.ide.rider@3.0.31": {
-      "name": "com.unity.ide.rider",
-      "resolvedPath": "/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/PackageCache/com.unity.ide.rider",
-      "fingerprint": "7921be93db40ec070fcb01ed82d1c3df1bbdddcd",
-      "editorCompatibility": "2019.2.6f1",
-      "version": "3.0.31",
       "source": "registry"
     },
     "com.unity.editorcoroutines@1.0.0": {
@@ -481,14 +481,6 @@
       "fingerprint": "56a930affa1e4462d3595b5c19a1c2a4bf2015d2",
       "editorCompatibility": "2018.4.0a1",
       "version": "2.0.1",
-      "source": "registry"
-    },
-    "com.unity.ext.nunit@2.0.5": {
-      "name": "com.unity.ext.nunit",
-      "resolvedPath": "/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/PackageCache/com.unity.ext.nunit",
-      "fingerprint": "60ef35ffd3cd5e2f5c8887a4a4ca6148854cd092",
-      "editorCompatibility": "2019.4.0a1",
-      "version": "2.0.5",
       "source": "registry"
     },
     "com.unity.ai.navigation@2.0.4": {

@@ -39,11 +39,18 @@ public class VariableManager : MonoBehaviour
             correctivesFaceMouth = mouthObject.GetComponent<AvatarFaceCorrectively>();
         }
         audioSource = GetComponent<AudioSource>();
-        AddToggleListeners();
+        //AddToggleListeners();
        
     }
 
     private void Update()
+    {
+       findMirroredObject();
+       ToogleListeners();
+        
+    }
+
+    private void findMirroredObject()
     {
         if (mirroredObject == null)
         {
@@ -51,12 +58,50 @@ public class VariableManager : MonoBehaviour
             if (mirroredObject != null)
             {
                 mirroredRenderer = mirroredObject.GetComponent<MeshRenderer>();
-                
             }
         }
-        
     }
+    private void ToogleListeners()
+    {
+        if (multiplierToggleLow.isOn)
+        {
+            UpdateBlendShapeMultiplier(80f);
+        }
+        else if (multiplierToggleMedium.isOn)
+        {
+            UpdateBlendShapeMultiplier(100f);
+        }
+        else if (multiplierToggleHigh.isOn)
+        {
+            UpdateBlendShapeMultiplier(120f);
+        }
 
+        if (textureDetailToggleLow.isOn)
+        {
+            UpdateMaterial(lowDetailMaterial);
+        }
+        else if (textureDetailToggleMedium.isOn)
+        {
+            UpdateMaterial(mediumDetailMaterial);
+        }
+        else if (textureDetailToggleHigh.isOn)
+        {
+            UpdateMaterial(highDetailMaterial);
+        }
+
+        if (subtleEyeMotionToggleLow.isOn)
+        {
+            UpdateBlinkParameters(4f, 8f, 0.2f);
+        }
+        else if (subtleEyeMotionToggleMedium.isOn)
+        {
+            UpdateBlinkParameters(2f, 5f, 0.1f);
+        }
+        else if (subtleEyeMotionToggleHigh.isOn)
+        {
+            UpdateBlinkParameters(1f, 3f, 0.05f);
+        }
+    }
     private void AddToggleListeners()
     {
         multiplierToggleLow.onValueChanged.AddListener((isOn) =>
@@ -122,12 +167,9 @@ public class VariableManager : MonoBehaviour
         Material[] materials = mirroredRenderer.sharedMaterials;
         materials[0] = newMaterial;
         mirroredRenderer.sharedMaterials = materials;
-
         Debug.Log($"Material changed to: {newMaterial.name}");
-
         mirroredRenderer.enabled = false;
         mirroredRenderer.enabled = true;
-
     }
 
     private IEnumerator UpdateMirroredObjectMaterial(Material newMaterial)
@@ -148,7 +190,6 @@ public class VariableManager : MonoBehaviour
 
                     mirroredRenderer.enabled = false;
                     mirroredRenderer.enabled = true;
-
                     yield break;
                 }
             }

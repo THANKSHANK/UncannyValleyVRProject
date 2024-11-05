@@ -96,7 +96,6 @@
     <None Include="Library/PackageCache/com.meta.xr.sdk.interaction/package.json" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader" />
     <None Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Wit.ai/package.json" />
-    <None Include="Library/PackageCache/com.unity.visualscripting/package.json" />
     <None Include="Library/PackageCache/com.meta.xr.sdk.voice/Features/Composer/Composer/Lib/Wit.ai/Features/composer/package.json" />
     <None Include="Library/PackageCache/com.unity.editorcoroutines/package.json" />
     <None Include="Library/PackageCache/com.unity.collab-proxy/package.json" />
@@ -118,6 +117,7 @@
     <None Include="Library/PackageCache/com.unity.ide.rider/package.json" />
     <None Include="Library/PackageCache/com.unity.modules.video/package.json" />
     <None Include="Assets/TextMesh Pro/Shaders/SDFFunctions.hlsl" />
+    <None Include="Library/PackageCache/com.unity.ide.rider/ValidationExceptions.json" />
     <None Include="Library/PackageCache/com.unity.test-framework/package.json" />
     <None Include="Library/PackageCache/com.unity.performance.profile-analyzer/package.json" />
     <None Include="Library/PackageCache/com.unity.modules.particlesystem/package.json" />
@@ -125,7 +125,6 @@
     <None Include="Library/PackageCache/com.unity.modules.physics2d/package.json" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader" />
     <None Include="Library/PackageCache/com.unity.modules.vr/package.json" />
-    <None Include="Library/PackageCache/com.unity.visualscripting/ValidationExceptions.json" />
     <None Include="Library/PackageCache/com.unity.xr.hands/package.json" />
     <None Include="Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader" />
@@ -174,7 +173,6 @@
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader" />
     <None Include="Library/PackageCache/com.meta.xr.simulator/MetaXRSimulator/config/tracking/hand_frames_IsdkGrab.json" />
     <None Include="Library/PackageCache/com.unity.modules.director/package.json" />
-    <None Include="Library/PackageCache/com.unity.visualscripting/ValidationConfig.json" />
     <None Include="Library/PackageCache/com.meta.xr.sdk.haptics/package.json" />
     <None Include="Library/PackageCache/com.unity.modules.terrain/package.json" />
     <None Include="Library/PackageCache/com.meta.xr.sdk.voice/Features/Composer/Composer/package.json" />
@@ -549,9 +547,6 @@
     </Reference>
     <Reference Include="ReportGeneratorMerged">
       <HintPath>/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/PackageCache/com.unity.testtools.codecoverage/lib/ReportGenerator/ReportGeneratorMerged.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-      <HintPath>/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/PackageCache/com.unity.visualscripting/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/PackageCache/com.unity.nuget.newtonsoft-json/Runtime/Newtonsoft.Json.dll</HintPath>
@@ -1145,10 +1140,6 @@
       <Project>{9ded7567-9a64-fad6-25e5-5e119cc04c29}</Project>
       <Name>Unity.XR.Hands.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.Core.csproj">
-      <Project>{6fb53b02-949d-c090-5895-941581120e94}</Project>
-      <Name>Unity.VisualScripting.Core</Name>
-    </ProjectReference>
     <ProjectReference Include="Meta.WitAi.Lib.csproj">
       <Project>{0745d38c-7816-361f-2592-ff0d1a0493a0}</Project>
       <Name>Meta.WitAi.Lib</Name>
@@ -1180,14 +1171,6 @@
     <ProjectReference Include="Oculus.Interaction.Samples.Editor.csproj">
       <Project>{89f13057-3cef-23f3-7ef2-bce0382902c9}</Project>
       <Name>Oculus.Interaction.Samples.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.Shared.Editor.csproj">
-      <Project>{07a5b4a1-21dd-df4c-37d9-fd35d3e84d2f}</Project>
-      <Name>Unity.VisualScripting.Shared.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.Core.Editor.csproj">
-      <Project>{509acce4-a76c-c1fa-fa70-b994f2bf11fd}</Project>
-      <Name>Unity.VisualScripting.Core.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.SpatialTracking.csproj">
       <Project>{22f6142e-6739-f8bd-8df5-5d1420d994dd}</Project>
@@ -1237,10 +1220,6 @@
       <Project>{a6a80847-36fb-593a-86f7-e909b6bd5e12}</Project>
       <Name>Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.Flow.Editor.csproj">
-      <Project>{fc2d7ae8-a066-f163-be97-6c5d07264498}</Project>
-      <Name>Unity.VisualScripting.Flow.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="Oculus.Platform.csproj">
       <Project>{ebf298fa-9070-1ca8-b641-45d9f2022a9f}</Project>
       <Name>Oculus.Platform</Name>
@@ -1269,14 +1248,6 @@
       <Project>{a444104f-fc74-fa98-aef5-637d8eb42579}</Project>
       <Name>Unity.Animation.Rigging</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.SettingsProvider.Editor.csproj">
-      <Project>{44c55ed6-75a4-54b9-0193-d6496bea69f0}</Project>
-      <Name>Unity.VisualScripting.SettingsProvider.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.State.Editor.csproj">
-      <Project>{572e11dd-38e4-15c2-d60b-ab3a198cfc4b}</Project>
-      <Name>Unity.VisualScripting.State.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.AI.Navigation.Editor.csproj">
       <Project>{75c72ff9-041b-3e21-9725-fe45eadf819e}</Project>
       <Name>Unity.AI.Navigation.Editor</Name>
@@ -1304,10 +1275,6 @@
     <ProjectReference Include="VoiceSDK.Runtime.Composer.csproj">
       <Project>{78320fd9-89cc-24cc-3d34-131b57940172}</Project>
       <Name>VoiceSDK.Runtime.Composer</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.State.csproj">
-      <Project>{fe621794-f97f-6ff3-57cd-c7d88dea47b7}</Project>
-      <Name>Unity.VisualScripting.State</Name>
     </ProjectReference>
     <ProjectReference Include="Meta.XR.ImmersiveDebugger.Editor.csproj">
       <Project>{a21f9ff3-4f64-e335-1071-7d32d9c64a1c}</Project>
@@ -1392,10 +1359,6 @@
     <ProjectReference Include="Meta.Voice.NLayer.csproj">
       <Project>{de007f38-38ff-dbdb-ce37-ea0f37f29291}</Project>
       <Name>Meta.Voice.NLayer</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.Flow.csproj">
-      <Project>{a32d0af4-13cd-0f9d-a5a2-6445a575a669}</Project>
-      <Name>Unity.VisualScripting.Flow</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.Interaction.InterfaceSupport.csproj">
       <Project>{1e4319dd-cf76-fc96-c26a-983ad1da8659}</Project>

@@ -304,9 +304,6 @@
     <Reference Include="nunit.framework">
       <HintPath>/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/PackageCache/com.unity.ext.nunit/net40/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-      <HintPath>/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/PackageCache/com.unity.visualscripting/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
-    </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/PackageCache/com.unity.nuget.newtonsoft-json/Runtime/AOT/Newtonsoft.Json.dll</HintPath>
     </Reference>
