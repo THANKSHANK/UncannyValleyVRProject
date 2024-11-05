@@ -401,7 +401,6 @@
 -analyzer:"/Applications/Unity/Hub/Editor/6000.0.25f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"/Applications/Unity/Hub/Editor/6000.0.25f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 -analyzer:"/Applications/Unity/Hub/Editor/6000.0.25f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
-"Assets/Samples/Meta XR Interaction SDK Essentials/69.0.1/UnityXR Integration/Scripts/Editor/VerifyScenePackageDependencies.cs"
 "Library/PackageCache/com.meta.xr.sdk.interaction/Editor/AssemblyInfo.cs"
 "Library/PackageCache/com.meta.xr.sdk.interaction/Editor/AutoWiring/AutoWiring.cs"
 "Library/PackageCache/com.meta.xr.sdk.interaction/Editor/AutoWiring/FieldWiringStrategies.cs"

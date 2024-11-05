@@ -62,7 +62,6 @@
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.interaction/Editor/Grab/HandGrab/HandGhostProviderUtils.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.interaction/Editor/AutoWiring/AutoWiring.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.interaction/Editor/UnityCanvas/CanvasCylinderEditor.cs" />
-    <Compile Include="Assets/Samples/Meta XR Interaction SDK Essentials/69.0.1/UnityXR Integration/Scripts/Editor/VerifyScenePackageDependencies.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.interaction/Editor/QuickActions/Scripts/WizardStyles.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.interaction/Editor/Grab/SnapSurfaces/BoxGrabSurfaceEditor.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.interaction/Editor/UnityCanvas/CanvasRenderTextureEditor.cs" />
@@ -134,7 +133,6 @@
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.interaction/Editor/PoseDetection/JointRotationFeatureConfigEditor.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.interaction/Editor/Surfaces/SurfaceDrawing.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.interaction/Editor/Utils/IRemoteDrawable.cs" />
-    <None Include="Assets/Samples/Meta XR Interaction SDK Essentials/69.0.1/UnityXR Integration/Scripts/Editor/Oculus.Interaction.Editor.asmref" />
     <None Include="Library/PackageCache/com.meta.xr.sdk.interaction/Editor/Oculus.Interaction.Editor.asmdef" />
     <Reference Include="UnityEngine">
       <HintPath>/Applications/Unity/Hub/Editor/6000.0.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
