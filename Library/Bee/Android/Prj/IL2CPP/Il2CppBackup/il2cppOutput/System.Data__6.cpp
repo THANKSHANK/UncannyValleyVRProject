@@ -3744,7 +3744,7 @@ IL_0226:
 		L_101 = DataColumn_get_DataType_mD6633BF8B7F6470C96791128AA8B1D7F736EBD0E_inline(L_100, NULL);
 		NullCheck(L_101);
 		String_t* L_102;
-		L_102 = VirtualFuncInvoker0< String_t* >::Invoke(28, L_101);
+		L_102 = VirtualFuncInvoker0< String_t* >::Invoke(26, L_101);
 		NullCheck(L_99);
 		String_t* L_103;
 		L_103 = VirtualFuncInvoker3< String_t*, String_t*, String_t*, String_t* >::Invoke(62, L_99, _stringLiteralF81EA10CE8905B221B93A36C354A24A86EC751DC, _stringLiteral44796A9EA3476CDED88CE39A688C638A52C1D20E, L_102);
@@ -10493,7 +10493,7 @@ IL_0083:
 		L_31 = DataColumn_get_DataType_mD6633BF8B7F6470C96791128AA8B1D7F736EBD0E_inline(L_30, NULL);
 		NullCheck(L_31);
 		String_t* L_32;
-		L_32 = VirtualFuncInvoker0< String_t* >::Invoke(28, L_31);
+		L_32 = VirtualFuncInvoker0< String_t* >::Invoke(26, L_31);
 		NullCheck(L_29);
 		String_t* L_33;
 		L_33 = VirtualFuncInvoker3< String_t*, String_t*, String_t*, String_t* >::Invoke(62, L_29, _stringLiteralF81EA10CE8905B221B93A36C354A24A86EC751DC, _stringLiteral44796A9EA3476CDED88CE39A688C638A52C1D20E, L_32);
@@ -17608,7 +17608,7 @@ IL_00c2:
 		L_43 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3(L_42, NULL);
 		NullCheck(L_41);
 		bool L_44;
-		L_44 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(24, L_41, L_43);
+		L_44 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(22, L_41, L_43);
 		if (!L_44)
 		{
 			goto IL_010f;
@@ -17816,7 +17816,7 @@ IL_01f4:
 		Type_t* L_95 = V_4;
 		NullCheck(L_95);
 		String_t* L_96;
-		L_96 = VirtualFuncInvoker0< String_t* >::Invoke(27, L_95);
+		L_96 = VirtualFuncInvoker0< String_t* >::Invoke(25, L_95);
 		Exception_t* L_97;
 		L_97 = ExceptionBuilder_PolymorphismNotSupported_mED73E3663AB25A6452D89DBD16F1FFC7C481B497(L_96, NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_97, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NewDiffgramGen_GenerateColumn_m441934C35C4FAFBC172A182564012DC77A063A7B_RuntimeMethod_var)));
@@ -17904,7 +17904,7 @@ IL_0284:
 		Type_t* L_123 = V_4;
 		NullCheck(L_123);
 		String_t* L_124;
-		L_124 = VirtualFuncInvoker0< String_t* >::Invoke(28, L_123);
+		L_124 = VirtualFuncInvoker0< String_t* >::Invoke(26, L_123);
 		NullCheck(L_122);
 		XmlWriter_WriteAttributeString_m9BECE5A394F9A9601AB66932AF0D7EF25E16AE0B(L_122, _stringLiteralFD8C95D80EEF2E7B83B5F4CB39DF78DF93EB65EF, _stringLiteralF5272508B2E6395FDF44F8E7BE3B299EB6377D28, _stringLiteral44796A9EA3476CDED88CE39A688C638A52C1D20E, L_124, NULL);
 		goto IL_0314;
@@ -20387,7 +20387,7 @@ IL_030e_1:
 				L_142 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3(L_141, NULL);
 				NullCheck(L_140);
 				bool L_143;
-				L_143 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(24, L_140, L_142);
+				L_143 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(22, L_140, L_142);
 				if (!L_143)
 				{
 					goto IL_036d_1;
@@ -20565,7 +20565,7 @@ IL_043d_1:
 				Type_t* L_189 = V_10;
 				NullCheck(L_189);
 				String_t* L_190;
-				L_190 = VirtualFuncInvoker0< String_t* >::Invoke(27, L_189);
+				L_190 = VirtualFuncInvoker0< String_t* >::Invoke(25, L_189);
 				Exception_t* L_191;
 				L_191 = ExceptionBuilder_PolymorphismNotSupported_mED73E3663AB25A6452D89DBD16F1FFC7C481B497(L_190, NULL);
 				IL2CPP_RAISE_MANAGED_EXCEPTION(L_191, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&XmlDataTreeWriter_XmlDataRowWriter_mCFAF6D9BB1F372474DB4B5205D9157D8553FAC6B_RuntimeMethod_var)));
@@ -20653,7 +20653,7 @@ IL_04d1_1:
 				Type_t* L_217 = V_10;
 				NullCheck(L_217);
 				String_t* L_218;
-				L_218 = VirtualFuncInvoker0< String_t* >::Invoke(28, L_217);
+				L_218 = VirtualFuncInvoker0< String_t* >::Invoke(26, L_217);
 				NullCheck(L_216);
 				XmlWriter_WriteAttributeString_m9BECE5A394F9A9601AB66932AF0D7EF25E16AE0B(L_216, _stringLiteralFD8C95D80EEF2E7B83B5F4CB39DF78DF93EB65EF, _stringLiteralF5272508B2E6395FDF44F8E7BE3B299EB6377D28, _stringLiteral44796A9EA3476CDED88CE39A688C638A52C1D20E, L_218, NULL);
 				goto IL_0561_1;

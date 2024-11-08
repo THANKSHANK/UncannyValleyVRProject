@@ -47,16 +47,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlockData/MultiplayerBlocks/PhotonFusion/AutoMatchmaking/Scripts/AutoMatchmakingFusionInstallationRoutine.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlockData/MultiplayerBlocks/PhotonFusion/NetworkedGrabbableObject/Scripts/PhotonPhysicsAddOnSetupRules.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlockData/MultiplayerBlocks/PhotonFusion/PlayerVoiceChat/Scripts/VoiceChatInterfaceBlockData.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlockData/MultiplayerBlocks/PhotonFusion/AutoMatchmaking/Scripts/AutoMatchmakingFusionSetupRules.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlockData/MultiplayerBlocks/PhotonFusion/PlayerVoiceChat/Scripts/PhotonVoiceSetupRules.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlockData/MultiplayerBlocks/PhotonFusion/PlayerVoiceChat/Scripts/PlayerVoiceChatInstallationRoutine.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlockData/MultiplayerBlocks/PhotonFusion/NetworkedGrabbableObject/Scripts/NetworkedGrabbableObjectFusionInstallationRoutine.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlockData/MultiplayerBlocks/PhotonFusion/NetworkedGrabbableObject/Scripts/PhotonPhysicsAddOnSetupRules.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlockData/MultiplayerBlocks/PhotonFusion/PhotonPackagesImportProcessor.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlockData/MultiplayerBlocks/PhotonFusion/PlayerVoiceChat/Scripts/PhotonVoiceCustomPackageDependency.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlockData/MultiplayerBlocks/PhotonFusion/Voice2LipSyncRules.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlockData/MultiplayerBlocks/PhotonFusion/FusionBlockSetupRules.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlockData/MultiplayerBlocks/PhotonFusion/PlayerVoiceChat/Scripts/VoiceChatInterfaceBlockData.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlockData/MultiplayerBlocks/PhotonFusion/FusionCustomPackageDependency.cs" />
     <None Include="Library/PackageCache/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlockData/MultiplayerBlocks/PhotonFusion/Meta.XR.MultiplayerBlocks.Fusion.Editor.asmdef" />
     <Reference Include="UnityEngine">

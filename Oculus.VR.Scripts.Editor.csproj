@@ -48,6 +48,8 @@
   <ItemGroup>
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/Editor/MetaXRSimulatorEnabler.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/Editor/OVRSceneRoomEditor.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/Editor/Movement/OVRBodyEditor.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/Editor/OVRProjectConfigEditor.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/Editor/OVRSceneManagerEditor.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/Editor/Movement/OVRMovementTool.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/Editor/OVRManagerEditor.cs" />
@@ -56,15 +58,13 @@
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/Editor/OVRCustomSkeletonEditor.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/Editor/Movement/OVRSkeletonEditor.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/Editor/OVREditorUtil.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/Editor/Movement/OVRCustomFaceEditor.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/Editor/OVROverlayEditor.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/Editor/OVROverlayCanvasEditor.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/Editor/AssemblyInfo.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/Editor/OVRProfilerDeprecated.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/Editor/Movement/OVRBodyEditor.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/Editor/OVRProjectConfigEditor.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/Editor/Movement/OVRCustomFaceEditor.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/Editor/Movement/OVRProjectSetupMovementSDKConfigurationTasks.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/Editor/OVRPassthroughLayerEditor.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/Editor/OVRProfilerDeprecated.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/Editor/Movement/OVRUnityHumanoidSkeletonRetargeterEditor.cs" />
     <None Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/Editor/Oculus.VR.Scripts.Editor.asmdef" />
     <None Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/Editor/OVROverlaySrcRectEditor.shader" />

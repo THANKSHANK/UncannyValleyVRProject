@@ -31,7 +31,6 @@
           {
             "name": "NavMeshSettings",
             "scenes": [
-              "Assets/Samples/Meta Movement/69.0.0/Body Tracking Samples/Scenes/MovementHighFidelity.unity",
               "Assets/Scenes/SampleScene.unity"
             ],
             "dependencyType": 1,
@@ -49,7 +48,6 @@
           {
             "name": "AnimationClip",
             "scenes": [
-              "Assets/Samples/Meta Movement/69.0.0/Body Tracking Samples/Scenes/MovementHighFidelity.unity",
               "Assets/Scenes/SampleScene.unity"
             ],
             "dependencyType": 0,
@@ -58,7 +56,6 @@
           {
             "name": "Animator",
             "scenes": [
-              "Assets/Samples/Meta Movement/69.0.0/Body Tracking Samples/Scenes/MovementHighFidelity.unity",
               "Assets/Scenes/SampleScene.unity"
             ],
             "dependencyType": 0,
@@ -67,7 +64,6 @@
           {
             "name": "AnimatorController",
             "scenes": [
-              "Assets/Samples/Meta Movement/69.0.0/Body Tracking Samples/Scenes/MovementHighFidelity.unity",
               "Assets/Scenes/SampleScene.unity"
             ],
             "dependencyType": 1,
@@ -82,7 +78,6 @@
           {
             "name": "Avatar",
             "scenes": [
-              "Assets/Samples/Meta Movement/69.0.0/Body Tracking Samples/Scenes/MovementHighFidelity.unity",
               "Assets/Scenes/SampleScene.unity"
             ],
             "dependencyType": 0,
@@ -137,7 +132,6 @@
           {
             "name": "AudioBehaviour",
             "scenes": [
-              "Assets/Samples/Meta Movement/69.0.0/Body Tracking Samples/Scenes/MovementHighFidelity.unity",
               "Assets/Scenes/SampleScene.unity"
             ],
             "dependencyType": 0,
@@ -146,7 +140,6 @@
           {
             "name": "AudioClip",
             "scenes": [
-              "Assets/Samples/Meta Movement/69.0.0/Body Tracking Samples/Scenes/MovementHighFidelity.unity",
               "Assets/Scenes/SampleScene.unity"
             ],
             "dependencyType": 0,
@@ -155,7 +148,6 @@
           {
             "name": "AudioListener",
             "scenes": [
-              "Assets/Samples/Meta Movement/69.0.0/Body Tracking Samples/Scenes/MovementHighFidelity.unity",
               "Assets/Scenes/SampleScene.unity"
             ],
             "dependencyType": 0,
@@ -170,7 +162,6 @@
           {
             "name": "AudioResource",
             "scenes": [
-              "Assets/Samples/Meta Movement/69.0.0/Body Tracking Samples/Scenes/MovementHighFidelity.unity",
               "Assets/Scenes/SampleScene.unity"
             ],
             "dependencyType": 0,
@@ -179,7 +170,6 @@
           {
             "name": "AudioSource",
             "scenes": [
-              "Assets/Samples/Meta Movement/69.0.0/Body Tracking Samples/Scenes/MovementHighFidelity.unity",
               "Assets/Scenes/SampleScene.unity"
             ],
             "dependencyType": 0,
@@ -211,7 +201,6 @@
           {
             "name": "Camera",
             "scenes": [
-              "Assets/Samples/Meta Movement/69.0.0/Body Tracking Samples/Scenes/MovementHighFidelity.unity",
               "Assets/Scenes/SampleScene.unity"
             ],
             "dependencyType": 0,
@@ -232,7 +221,6 @@
           {
             "name": "Cubemap",
             "scenes": [
-              "Assets/Samples/Meta Movement/69.0.0/Body Tracking Samples/Scenes/MovementHighFidelity.unity",
               "Assets/Scenes/SampleScene.unity"
             ],
             "dependencyType": 0,
@@ -253,7 +241,6 @@
           {
             "name": "EditorExtension",
             "scenes": [
-              "Assets/Samples/Meta Movement/69.0.0/Body Tracking Samples/Scenes/MovementHighFidelity.unity",
               "Assets/Scenes/SampleScene.unity"
             ],
             "dependencyType": 1,
@@ -268,7 +255,6 @@
           {
             "name": "GameObject",
             "scenes": [
-              "Assets/Samples/Meta Movement/69.0.0/Body Tracking Samples/Scenes/MovementHighFidelity.unity",
               "Assets/Scenes/SampleScene.unity"
             ],
             "dependencyType": 0,
@@ -301,7 +287,6 @@
           {
             "name": "LevelGameManager",
             "scenes": [
-              "Assets/Samples/Meta Movement/69.0.0/Body Tracking Samples/Scenes/MovementHighFidelity.unity",
               "Assets/Scenes/SampleScene.unity"
             ],
             "dependencyType": 1,
@@ -310,7 +295,6 @@
           {
             "name": "Light",
             "scenes": [
-              "Assets/Samples/Meta Movement/69.0.0/Body Tracking Samples/Scenes/MovementHighFidelity.unity",
               "Assets/Scenes/SampleScene.unity"
             ],
             "dependencyType": 0,
@@ -319,7 +303,6 @@
           {
             "name": "LightProbeGroup",
             "scenes": [
-              "Assets/Samples/Meta Movement/69.0.0/Body Tracking Samples/Scenes/MovementHighFidelity.unity",
               "Assets/Scenes/SampleScene.unity"
             ],
             "dependencyType": 0,
@@ -333,24 +316,19 @@
           },
           {
             "name": "LightProbes",
-            "scenes": [
-              "Assets/Samples/Meta Movement/69.0.0/Body Tracking Samples/Scenes/MovementHighFidelity.unity"
-            ],
+            "scenes": [],
             "dependencyType": 0,
             "icon": null
           },
           {
             "name": "LightingSettings",
-            "scenes": [
-              "Assets/Samples/Meta Movement/69.0.0/Body Tracking Samples/Scenes/MovementHighFidelity.unity"
-            ],
+            "scenes": [],
             "dependencyType": 0,
             "icon": null
           },
           {
             "name": "LightmapSettings",
             "scenes": [
-              "Assets/Samples/Meta Movement/69.0.0/Body Tracking Samples/Scenes/MovementHighFidelity.unity",
               "Assets/Scenes/SampleScene.unity"
             ],
             "dependencyType": 0,
@@ -371,7 +349,6 @@
           {
             "name": "Material",
             "scenes": [
-              "Assets/Samples/Meta Movement/69.0.0/Body Tracking Samples/Scenes/MovementHighFidelity.unity",
               "Assets/Scenes/SampleScene.unity"
             ],
             "dependencyType": 0,
@@ -380,7 +357,6 @@
           {
             "name": "Mesh",
             "scenes": [
-              "Assets/Samples/Meta Movement/69.0.0/Body Tracking Samples/Scenes/MovementHighFidelity.unity",
               "Assets/Scenes/SampleScene.unity"
             ],
             "dependencyType": 0,
@@ -389,7 +365,6 @@
           {
             "name": "MeshFilter",
             "scenes": [
-              "Assets/Samples/Meta Movement/69.0.0/Body Tracking Samples/Scenes/MovementHighFidelity.unity",
               "Assets/Scenes/SampleScene.unity"
             ],
             "dependencyType": 0,
@@ -398,7 +373,6 @@
           {
             "name": "MeshRenderer",
             "scenes": [
-              "Assets/Samples/Meta Movement/69.0.0/Body Tracking Samples/Scenes/MovementHighFidelity.unity",
               "Assets/Scenes/SampleScene.unity"
             ],
             "dependencyType": 0,
@@ -407,7 +381,6 @@
           {
             "name": "MonoBehaviour",
             "scenes": [
-              "Assets/Samples/Meta Movement/69.0.0/Body Tracking Samples/Scenes/MovementHighFidelity.unity",
               "Assets/Scenes/SampleScene.unity"
             ],
             "dependencyType": 0,
@@ -422,7 +395,6 @@
           {
             "name": "MonoScript",
             "scenes": [
-              "Assets/Samples/Meta Movement/69.0.0/Body Tracking Samples/Scenes/MovementHighFidelity.unity",
               "Assets/Scenes/SampleScene.unity"
             ],
             "dependencyType": 1,
@@ -431,7 +403,6 @@
           {
             "name": "NamedObject",
             "scenes": [
-              "Assets/Samples/Meta Movement/69.0.0/Body Tracking Samples/Scenes/MovementHighFidelity.unity",
               "Assets/Scenes/SampleScene.unity"
             ],
             "dependencyType": 1,
@@ -464,7 +435,6 @@
           {
             "name": "RectTransform",
             "scenes": [
-              "Assets/Samples/Meta Movement/69.0.0/Body Tracking Samples/Scenes/MovementHighFidelity.unity",
               "Assets/Scenes/SampleScene.unity"
             ],
             "dependencyType": 0,
@@ -479,7 +449,6 @@
           {
             "name": "RenderSettings",
             "scenes": [
-              "Assets/Samples/Meta Movement/69.0.0/Body Tracking Samples/Scenes/MovementHighFidelity.unity",
               "Assets/Scenes/SampleScene.unity"
             ],
             "dependencyType": 0,
@@ -514,7 +483,6 @@
           {
             "name": "Shader",
             "scenes": [
-              "Assets/Samples/Meta Movement/69.0.0/Body Tracking Samples/Scenes/MovementHighFidelity.unity",
               "Assets/Scenes/SampleScene.unity"
             ],
             "dependencyType": 0,
@@ -529,7 +497,6 @@
           {
             "name": "SkinnedMeshRenderer",
             "scenes": [
-              "Assets/Samples/Meta Movement/69.0.0/Body Tracking Samples/Scenes/MovementHighFidelity.unity",
               "Assets/Scenes/SampleScene.unity"
             ],
             "dependencyType": 0,
@@ -976,7 +943,6 @@
           {
             "name": "BoxCollider",
             "scenes": [
-              "Assets/Samples/Meta Movement/69.0.0/Body Tracking Samples/Scenes/MovementHighFidelity.unity",
               "Assets/Scenes/SampleScene.unity"
             ],
             "dependencyType": 0,
@@ -1066,27 +1032,9 @@
         "name": "Physics2D",
         "dependencies": [
           {
-            "name": "Collider2D",
-            "scenes": [],
-            "dependencyType": 0,
-            "icon": null
-          },
-          {
-            "name": "Joint2D",
-            "scenes": [],
-            "dependencyType": 0,
-            "icon": null
-          },
-          {
             "name": "Physics2DSettings",
             "scenes": [],
             "dependencyType": 1,
-            "icon": null
-          },
-          {
-            "name": "Rigidbody2D",
-            "scenes": [],
-            "dependencyType": 0,
             "icon": null
           }
         ]
@@ -1389,7 +1337,6 @@
           {
             "name": "Font",
             "scenes": [
-              "Assets/Samples/Meta Movement/69.0.0/Body Tracking Samples/Scenes/MovementHighFidelity.unity",
               "Assets/Scenes/SampleScene.unity"
             ],
             "dependencyType": 0,

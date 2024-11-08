@@ -46,41 +46,41 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/6000.0.25f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Library/PackageCache/com.unity.xr.hands/Runtime/XRHandProviderUtility.deprecated.cs" />
-    <Compile Include="Library/PackageCache/com.unity.xr.hands/Runtime/XRHandProcessingUtility.cs" />
-    <Compile Include="Library/PackageCache/com.unity.xr.hands/Runtime/XRHandProviderUtility.cs" />
-    <Compile Include="Library/PackageCache/com.unity.xr.hands/Runtime/IXRHandProcessor.cs" />
-    <Compile Include="Library/PackageCache/com.unity.xr.hands/Runtime/OpenXR/MetaHandTrackingAim.cs" />
-    <Compile Include="Library/PackageCache/com.unity.xr.hands/Runtime/OpenXR/HandTracking.cs" />
-    <Compile Include="Library/PackageCache/com.unity.xr.hands/Runtime/Enums.cs" />
-    <Compile Include="Library/PackageCache/com.unity.xr.hands/Runtime/XRHandSkeletonDriver.cs" />
-    <Compile Include="Library/PackageCache/com.unity.xr.hands/Runtime/XRHandSubsystem.cs" />
-    <Compile Include="Library/PackageCache/com.unity.xr.hands/Runtime/AssemblyInfo.cs" />
-    <Compile Include="Library/PackageCache/com.unity.xr.hands/Runtime/OpenXR/OpenXRHandProvider.cs" />
-    <Compile Include="Library/PackageCache/com.unity.xr.hands/Runtime/MetaAim.cs" />
-    <Compile Include="Library/PackageCache/com.unity.xr.hands/Runtime/Gestures/XRHandShape.cs" />
-    <Compile Include="Library/PackageCache/com.unity.xr.hands/Runtime/Gestures/XRFingerShape.cs" />
-    <Compile Include="Library/PackageCache/com.unity.xr.hands/Runtime/XRCommonHandGestures.cs" />
-    <Compile Include="Library/PackageCache/com.unity.xr.hands/Runtime/XRHandSkeletonDriverUtility.cs" />
     <Compile Include="Library/PackageCache/com.unity.xr.hands/Runtime/XRHandTrackingEvents.cs" />
     <Compile Include="Library/PackageCache/com.unity.xr.hands/Runtime/Gestures/XRHandRelativeOrientation.cs" />
     <Compile Include="Library/PackageCache/com.unity.xr.hands/Runtime/Gestures/XRFingerShapeMath.cs" />
+    <Compile Include="Library/PackageCache/com.unity.xr.hands/Runtime/XRHandProviderUtility.deprecated.cs" />
     <Compile Include="Library/PackageCache/com.unity.xr.hands/Runtime/XRHandSubsystemDescriptor.cs" />
+    <Compile Include="Library/PackageCache/com.unity.xr.hands/Runtime/XRHandProcessingUtility.cs" />
+    <Compile Include="Library/PackageCache/com.unity.xr.hands/Runtime/XRHandProviderUtility.cs" />
     <Compile Include="Library/PackageCache/com.unity.xr.hands/Runtime/XRHandDevice.cs" />
     <Compile Include="Library/PackageCache/com.unity.xr.hands/Runtime/XRHandJointsUpdatedEventArgs.cs" />
+    <Compile Include="Library/PackageCache/com.unity.xr.hands/Runtime/IXRHandProcessor.cs" />
+    <Compile Include="Library/PackageCache/com.unity.xr.hands/Runtime/OpenXR/MetaHandTrackingAim.cs" />
     <Compile Include="Library/PackageCache/com.unity.xr.hands/Runtime/Gestures/XRFingerShapeConfiguration.cs" />
+    <Compile Include="Library/PackageCache/com.unity.xr.hands/Runtime/OpenXR/HandTracking.cs" />
+    <Compile Include="Library/PackageCache/com.unity.xr.hands/Runtime/Enums.cs" />
+    <Compile Include="Library/PackageCache/com.unity.xr.hands/Runtime/XRHandSkeletonDriver.cs" />
     <Compile Include="Library/PackageCache/com.unity.xr.hands/Runtime/XRHandSubsystemProvider.cs" />
     <Compile Include="Library/PackageCache/com.unity.xr.hands/Runtime/Gestures/XRFingerShapeCondition.cs" />
     <Compile Include="Library/PackageCache/com.unity.xr.hands/Runtime/XRHandJoint.cs" />
     <Compile Include="Library/PackageCache/com.unity.xr.hands/Runtime/OpenXR/MetaHandTrackingAim.deprecated.cs" />
+    <Compile Include="Library/PackageCache/com.unity.xr.hands/Runtime/XRHandSubsystem.cs" />
+    <Compile Include="Library/PackageCache/com.unity.xr.hands/Runtime/AssemblyInfo.cs" />
     <Compile Include="Library/PackageCache/com.unity.xr.hands/Runtime/XRHelpURLConstants.cs" />
     <Compile Include="Library/PackageCache/com.unity.xr.hands/Runtime/XRHandSubsystem.deprecated.cs" />
     <Compile Include="Library/PackageCache/com.unity.xr.hands/Runtime/XRHand.cs" />
     <Compile Include="Library/PackageCache/com.unity.xr.hands/Runtime/Gestures/Enums.cs" />
     <Compile Include="Library/PackageCache/com.unity.xr.hands/Runtime/Gestures/XRHandOrientationUtility.cs" />
+    <Compile Include="Library/PackageCache/com.unity.xr.hands/Runtime/OpenXR/OpenXRHandProvider.cs" />
+    <Compile Include="Library/PackageCache/com.unity.xr.hands/Runtime/MetaAim.cs" />
     <Compile Include="Library/PackageCache/com.unity.xr.hands/Runtime/XRHandMeshController.cs" />
     <Compile Include="Library/PackageCache/com.unity.xr.hands/Runtime/Gestures/XRHandPose.cs" />
+    <Compile Include="Library/PackageCache/com.unity.xr.hands/Runtime/Gestures/XRHandShape.cs" />
+    <Compile Include="Library/PackageCache/com.unity.xr.hands/Runtime/Gestures/XRFingerShape.cs" />
     <Compile Include="Library/PackageCache/com.unity.xr.hands/Runtime/MetaAim.deprecated.cs" />
+    <Compile Include="Library/PackageCache/com.unity.xr.hands/Runtime/XRCommonHandGestures.cs" />
+    <Compile Include="Library/PackageCache/com.unity.xr.hands/Runtime/XRHandSkeletonDriverUtility.cs" />
     <Reference Include="UnityEngine">
       <HintPath>/Applications/Unity/Hub/Editor/6000.0.25f1/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Managed/UnityEngine.dll</HintPath>
     </Reference>

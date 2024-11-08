@@ -46,12 +46,12 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/6000.0.25f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/SyntheticEnvironmentServer.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Registry.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/LocalSharingServer.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/JsonServer.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.simulator/Editor/Settings.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/SyntheticEnvironmentServer.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/Registry.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.simulator/Editor/Utils.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/LocalSharingServer.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.simulator/Editor/SyntheticEnvironments/SyntheticEnvironment.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.simulator/Editor/PlayHook.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.simulator/Editor/Enabler.cs" />

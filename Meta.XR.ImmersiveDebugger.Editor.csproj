@@ -46,16 +46,16 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/6000.0.25f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Editor/ImmersiveDebugger/RuntimeSettingsBuildProcessor.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Editor/ImmersiveDebugger/DebugMemberInspectorExtensions.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Editor/ImmersiveDebugger/Styles.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Editor/ImmersiveDebugger/AssetPostProcessor.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Editor/ImmersiveDebugger/Settings.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Editor/ImmersiveDebugger/DebugInspectorInspector.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Editor/ImmersiveDebugger/AssemblyInfo.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Editor/ImmersiveDebugger/RuntimeSettingsBuildProcessor.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Editor/ImmersiveDebugger/Utils.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Editor/ImmersiveDebugger/DebugMemberInspectorExtensions.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Editor/ImmersiveDebugger/Styles.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Editor/ImmersiveDebugger/CompilationProcessor.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Editor/ImmersiveDebugger/ControllerInspector.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Editor/ImmersiveDebugger/AssetPostProcessor.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Editor/ImmersiveDebugger/Settings.cs" />
     <None Include="Library/PackageCache/com.meta.xr.sdk.core/Editor/ImmersiveDebugger/Meta.XR.ImmersiveDebugger.Editor.asmdef" />
     <Reference Include="UnityEngine">
       <HintPath>/Applications/Unity/Hub/Editor/6000.0.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>

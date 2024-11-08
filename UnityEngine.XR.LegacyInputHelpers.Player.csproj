@@ -46,8 +46,8 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/6000.0.25f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Library/PackageCache/com.unity.xr.legacyinputhelpers/Runtime/ArmModels/TransitionArmModel.cs" />
     <Compile Include="Library/PackageCache/com.unity.xr.legacyinputhelpers/Runtime/ArmModels/ArmModel.cs" />
+    <Compile Include="Library/PackageCache/com.unity.xr.legacyinputhelpers/Runtime/ArmModels/TransitionArmModel.cs" />
     <Compile Include="Library/PackageCache/com.unity.xr.legacyinputhelpers/Runtime/ArmModels/SwingArmModel.cs" />
     <Compile Include="Library/PackageCache/com.unity.xr.legacyinputhelpers/Runtime/CameraOffset.cs" />
     <Reference Include="UnityEngine">

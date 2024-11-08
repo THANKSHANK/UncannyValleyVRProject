@@ -47,21 +47,21 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Library/PackageCache/com.unity.xr.oculus/Runtime/OculusBoundary.cs" />
+    <Compile Include="Library/PackageCache/com.unity.xr.oculus/Runtime/InputSystem/DeviceLayouts.cs" />
     <Compile Include="Library/PackageCache/com.unity.xr.oculus/Runtime/InputFocus.cs" />
     <Compile Include="Library/PackageCache/com.unity.xr.oculus/Runtime/EnvironmentDepth.cs" />
+    <Compile Include="Library/PackageCache/com.unity.xr.oculus/Runtime/OculusSettings.cs" />
     <Compile Include="Library/PackageCache/com.unity.xr.oculus/Runtime/OculusLoader.cs" />
     <Compile Include="Library/PackageCache/com.unity.xr.oculus/Runtime/OculusDevelopment.cs" />
-    <Compile Include="Library/PackageCache/com.unity.xr.oculus/Runtime/OculusRestarter.cs" />
-    <Compile Include="Library/PackageCache/com.unity.xr.oculus/Runtime/OculusSession.cs" />
-    <Compile Include="Library/PackageCache/com.unity.xr.oculus/Runtime/Device.cs" />
-    <Compile Include="Library/PackageCache/com.unity.xr.oculus/Runtime/RegisterUpdateCallback.cs" />
-    <Compile Include="Library/PackageCache/com.unity.xr.oculus/Runtime/InputSystem/DeviceLayouts.cs" />
-    <Compile Include="Library/PackageCache/com.unity.xr.oculus/Runtime/OculusSettings.cs" />
     <Compile Include="Library/PackageCache/com.unity.xr.oculus/Runtime/OculusPerformance.cs" />
     <Compile Include="Library/PackageCache/com.unity.xr.oculus/Runtime/ColorScale.cs" />
     <Compile Include="Library/PackageCache/com.unity.xr.oculus/Runtime/OculusPlugin.cs" />
     <Compile Include="Library/PackageCache/com.unity.xr.oculus/Runtime/OculusUsages.cs" />
+    <Compile Include="Library/PackageCache/com.unity.xr.oculus/Runtime/OculusRestarter.cs" />
     <Compile Include="Library/PackageCache/com.unity.xr.oculus/Runtime/FFR.cs" />
+    <Compile Include="Library/PackageCache/com.unity.xr.oculus/Runtime/OculusSession.cs" />
+    <Compile Include="Library/PackageCache/com.unity.xr.oculus/Runtime/Device.cs" />
+    <Compile Include="Library/PackageCache/com.unity.xr.oculus/Runtime/RegisterUpdateCallback.cs" />
     <Reference Include="UnityEngine">
       <HintPath>/Applications/Unity/Hub/Editor/6000.0.25f1/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Managed/UnityEngine.dll</HintPath>
     </Reference>

@@ -46,12 +46,12 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/6000.0.25f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.haptics/Runtime/Utils.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.haptics/Runtime/HapticsSdkFfi.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.haptics/Runtime/Haptics.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.haptics/Runtime/HapticClip.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.haptics/Runtime/Utils.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.haptics/Runtime/HapticClipPlayer.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.haptics/Runtime/AssemblyInfo.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.haptics/Runtime/HapticsSdkFfi.cs" />
     <None Include="Library/PackageCache/com.meta.xr.sdk.haptics/Runtime/Oculus.Haptics.asmdef" />
     <Reference Include="UnityEngine">
       <HintPath>/Applications/Unity/Hub/Editor/6000.0.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>

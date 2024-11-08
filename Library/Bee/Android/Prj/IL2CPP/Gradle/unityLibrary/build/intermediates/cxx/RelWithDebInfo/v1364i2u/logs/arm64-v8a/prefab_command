@@ -15,6 +15,6 @@
   --ndk-version \
   23 \
   --output \
-  /var/folders/td/wkfjys2d0bdgt7qggvlsw__00000gn/T/agp-prefab-staging14855161098226643175/staged-cli-output \
+  /var/folders/td/wkfjys2d0bdgt7qggvlsw__00000gn/T/agp-prefab-staging3578540266856034679/staged-cli-output \
   /Users/zihanw/.gradle/caches/transforms-3/4533d298259fc52a43021fce53f5e4a9/transformed/jetified-games-activity-3.0.5/prefab \
   /Users/zihanw/.gradle/caches/transforms-3/268849a49ea9eb2bba6f4e0ac95bfd63/transformed/jetified-games-frame-pacing-1.10.0/prefab

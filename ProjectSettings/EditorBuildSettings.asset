@@ -8,9 +8,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 1
-    path: Assets/Samples/Meta Movement/69.0.0/Body Tracking Samples/Scenes/MovementHighFidelity.unity
-    guid: 95d70f1c0a626c449881b1b4260b6b9d
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 56b98688c26e44885afac77402897f6a, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 289c1b55c9541489481df5cc06664110, type: 3}

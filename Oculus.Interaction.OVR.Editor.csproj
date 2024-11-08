@@ -46,27 +46,27 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/6000.0.25f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.interaction.ovr/Editor/Blocks/SyntheticHands/Scripts/OVRSyntheticHandsBlockData.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.interaction.ovr/Editor/AutoWiring/OVRAutoWiring.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.interaction.ovr/Editor/Blocks/RealHands/Scripts/RealHandsBlockData.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.interaction.ovr/Editor/Blocks/HandTracking/Scripts/OVRInteractionControllerTrackingBlockData.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.interaction.ovr/Editor/ProjectSetupTasks.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.interaction.ovr/Editor/Blocks/SyntheticHands/Scripts/OVRSyntheticHandsCollidersBlockData.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.interaction.ovr/Editor/QuickActions/Scripts/OVRComprehensiveRigWizard.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.interaction.ovr/Editor/Blocks/Interactors/Scripts/OVRInteractorBlockData.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.interaction.ovr/Editor/Blocks/BlockDataIds.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.interaction.ovr/Editor/Blocks/BlocksUtils.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.interaction.ovr/Editor/Blocks/Interactables/Scripts/InteractablesBlocksUtils.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.interaction.ovr/Editor/Blocks/Interactables/Scripts/InteractableInstallationRoutine.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.interaction.ovr/Editor/Blocks/HandTracking/Scripts/OVRInteractionBaseBlockData.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.interaction.ovr/Editor/Blocks/Interactions/Scripts/OVRInteractionBlockData.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.interaction.ovr/Editor/Blocks/Interactors/Scripts/OVRHandPhysicsBlockData.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.interaction.ovr/Editor/UnityCanvas/OVRCanvasMeshRendererEditor.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.interaction.ovr/Editor/Blocks/HandTracking/Scripts/OVRInteractionHandTrackingBlockData.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.interaction.ovr/Editor/AssemblyInfo.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.interaction.ovr/Editor/Blocks/Interactors/Scripts/OVRHandPokeLimiterBlockData.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.interaction.ovr/Editor/Blocks/BlocksRules.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.interaction.ovr/Editor/Blocks/Teleport/Scripts/TeleportInstallationRoutine.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.interaction.ovr/Editor/Blocks/SyntheticHands/Scripts/OVRSyntheticHandsBlockData.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.interaction.ovr/Editor/AutoWiring/OVRAutoWiring.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.interaction.ovr/Editor/Blocks/HandTracking/Scripts/OVRInteractionControllerTrackingBlockData.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.interaction.ovr/Editor/ProjectSetupTasks.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.interaction.ovr/Editor/Blocks/Interactors/Scripts/OVRInteractorBlockData.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.interaction.ovr/Editor/Blocks/BlockDataIds.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.interaction.ovr/Editor/Blocks/BlocksUtils.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.interaction.ovr/Editor/Blocks/Interactables/Scripts/InteractablesBlocksUtils.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.interaction.ovr/Editor/Blocks/Interactors/Scripts/OVRHandPhysicsBlockData.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.interaction.ovr/Editor/UnityCanvas/OVRCanvasMeshRendererEditor.cs" />
     <None Include="Library/PackageCache/com.meta.xr.sdk.interaction.ovr/Editor/Oculus.Interaction.OVR.Editor.asmdef" />
     <Reference Include="UnityEngine">
       <HintPath>/Applications/Unity/Hub/Editor/6000.0.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>

@@ -46,26 +46,26 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/6000.0.25f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Wit.ai/Lib/Conduit/Editor/ConduitStatistics.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Wit.ai/Lib/Conduit/Editor/Training/EnumSynchronizer.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Wit.ai/Lib/Conduit/Editor/Training/EnumCodeWrapper.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Wit.ai/Lib/Conduit/Editor/FileIo.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Wit.ai/Lib/Conduit/Editor/AssemblyInfo.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Wit.ai/Lib/Conduit/Editor/AssemblyMiner.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Wit.ai/Lib/Conduit/Editor/Training/KeywordsDelta.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Wit.ai/Lib/Conduit/Editor/IParameterValidator.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Wit.ai/Lib/Conduit/Editor/AssemblyWalker.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Wit.ai/Lib/Conduit/Editor/IPersistenceLayer.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Wit.ai/Lib/Conduit/Editor/Training/IProcessStep.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Wit.ai/Lib/Conduit/Editor/IAssemblyWalker.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Wit.ai/Lib/Conduit/Editor/IConduitAssembly.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Wit.ai/Lib/Conduit/Editor/IAssemblyMiner.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Wit.ai/Lib/Conduit/Editor/ManifestGenerator.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Wit.ai/Lib/Conduit/Editor/PersistenceLayer.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Wit.ai/Lib/Conduit/Editor/SourceCodeMapper.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Wit.ai/Lib/Conduit/Editor/IParameterFilter.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Wit.ai/Lib/Conduit/Editor/Training/EntitiesDelta.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Wit.ai/Lib/Conduit/Editor/ConduitAssembly.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Wit.ai/Lib/Conduit/Editor/ConduitStatistics.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Wit.ai/Lib/Conduit/Editor/Training/EnumSynchronizer.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Wit.ai/Lib/Conduit/Editor/FileIo.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Wit.ai/Lib/Conduit/Editor/AssemblyInfo.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Wit.ai/Lib/Conduit/Editor/AssemblyMiner.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Wit.ai/Lib/Conduit/Editor/IParameterValidator.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Wit.ai/Lib/Conduit/Editor/AssemblyWalker.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Wit.ai/Lib/Conduit/Editor/IPersistenceLayer.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Wit.ai/Lib/Conduit/Editor/IConduitAssembly.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Wit.ai/Lib/Conduit/Editor/ManifestGenerator.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Wit.ai/Lib/Conduit/Editor/PersistenceLayer.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Wit.ai/Lib/Conduit/Editor/IFileIo.cs" />
     <None Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Wit.ai/Lib/Conduit/Editor/Meta.Wit.Conduit.Editor.asmdef" />
     <Reference Include="UnityEngine">

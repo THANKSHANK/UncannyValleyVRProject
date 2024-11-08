@@ -7934,7 +7934,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JContainer_ValidateContent_m4D476F518DA9
 		L_3 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_2, NULL);
 		NullCheck(L_1);
 		bool L_4;
-		L_4 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(23, L_1, L_3);
+		L_4 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(21, L_1, L_3);
 		if (!L_4)
 		{
 			goto IL_0018;
@@ -26714,7 +26714,7 @@ IL_0014:
 		RuntimeObject* L_7 = __this->____annotations;
 		NullCheck(L_6);
 		bool L_8;
-		L_8 = VirtualFuncInvoker1< bool, RuntimeObject* >::Invoke(121, L_6, L_7);
+		L_8 = VirtualFuncInvoker1< bool, RuntimeObject* >::Invoke(116, L_6, L_7);
 		if (!L_8)
 		{
 			goto IL_0060;
@@ -26750,7 +26750,7 @@ IL_0044:
 		RuntimeObject* L_16 = V_2;
 		NullCheck(L_15);
 		bool L_17;
-		L_17 = VirtualFuncInvoker1< bool, RuntimeObject* >::Invoke(121, L_15, L_16);
+		L_17 = VirtualFuncInvoker1< bool, RuntimeObject* >::Invoke(116, L_15, L_16);
 		if (!L_17)
 		{
 			goto IL_0056;
@@ -26856,7 +26856,7 @@ IL_0014:
 		RuntimeObject* L_7 = __this->____annotations;
 		NullCheck(L_6);
 		bool L_8;
-		L_8 = VirtualFuncInvoker1< bool, RuntimeObject* >::Invoke(121, L_6, L_7);
+		L_8 = VirtualFuncInvoker1< bool, RuntimeObject* >::Invoke(116, L_6, L_7);
 		if (!L_8)
 		{
 			goto IL_0082;
@@ -26894,7 +26894,7 @@ IL_0047:
 		RuntimeObject* L_15 = V_3;
 		NullCheck(L_14);
 		bool L_16;
-		L_16 = VirtualFuncInvoker1< bool, RuntimeObject* >::Invoke(121, L_14, L_15);
+		L_16 = VirtualFuncInvoker1< bool, RuntimeObject* >::Invoke(116, L_14, L_15);
 		if (L_16)
 		{
 			goto IL_005f;
@@ -27448,7 +27448,7 @@ IL_0070:
 		RuntimeObject* L_18 = V_3;
 		NullCheck(L_17);
 		bool L_19;
-		L_19 = VirtualFuncInvoker1< bool, RuntimeObject* >::Invoke(121, L_17, L_18);
+		L_19 = VirtualFuncInvoker1< bool, RuntimeObject* >::Invoke(116, L_17, L_18);
 		if (!L_19)
 		{
 			goto IL_00a6;
@@ -27499,7 +27499,7 @@ IL_00ca:
 		RuntimeObject* L_27 = L_26->____annotations;
 		NullCheck(L_25);
 		bool L_28;
-		L_28 = VirtualFuncInvoker1< bool, RuntimeObject* >::Invoke(121, L_25, L_27);
+		L_28 = VirtualFuncInvoker1< bool, RuntimeObject* >::Invoke(116, L_25, L_27);
 		if (L_28)
 		{
 			goto IL_00df;

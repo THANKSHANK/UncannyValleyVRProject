@@ -47,9 +47,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/EnvironmentDepth/DepthProvider.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/EnvironmentDepth/EnvironmentDepthOcclusionShadersMode.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/EnvironmentDepth/EnvironmentDepthUtils.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs" />
     <Reference Include="UnityEngine">
       <HintPath>/Applications/Unity/Hub/Editor/6000.0.25f1/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Managed/UnityEngine.dll</HintPath>
     </Reference>

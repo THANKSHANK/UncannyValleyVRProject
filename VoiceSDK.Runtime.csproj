@@ -48,18 +48,18 @@
   <ItemGroup>
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Scripts/Runtime/Bindings/Android/VoiceSDKListenerBinding.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Scripts/Runtime/UX/VoiceTranscriptionLabel.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Scripts/Runtime/UX/HierarchySimplifier.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Scripts/Runtime/Bindings/Android/VoiceSDKBinding.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Scripts/Runtime/Interfaces/IPlatformVoiceServiceOverride.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Scripts/Runtime/Service/AppVoiceExperience.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Scripts/Runtime/Service/AppBuiltIns.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Scripts/Runtime/VoiceSDKConstants.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Scripts/Runtime/UX/VoiceActivationButton.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Scripts/Runtime/UX/HierarchySimplifier.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Scripts/Runtime/Utilities/MicPermissionsManager.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Scripts/Runtime/Service/AppBuiltIns.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Scripts/Runtime/Interfaces/IPlatformVoiceService.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Scripts/Runtime/Service/ObjectVoiceExperience.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Scripts/Runtime/Bindings/Android/VoiceSDKImplRequest.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Scripts/Runtime/VoiceSDKConstants.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Scripts/Runtime/Logging/TTSServiceLogging.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Scripts/Runtime/UX/VoiceActivationButton.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Scripts/Runtime/Bindings/Android/VoiceSDKImpl.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Scripts/Runtime/Bindings/Android/IVCBindingEvents.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Scripts/Runtime/Bindings/Android/VoiceSDKConfigBinding.cs" />

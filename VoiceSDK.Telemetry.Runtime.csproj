@@ -47,13 +47,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Telemetry/Scripts/Runtime/OperationID.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Telemetry/Scripts/Runtime/Telemetry.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Telemetry/Scripts/Runtime/ITelemetryWriter.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Telemetry/Scripts/Runtime/RuntimeTelemetryEventType.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Telemetry/Scripts/Runtime/RuntimeTelemetryPoint.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Telemetry/Scripts/Runtime/RuntimeTelemetry.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Telemetry/Scripts/Runtime/Telemetry.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Telemetry/Scripts/Runtime/TerminationReason.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Telemetry/Scripts/Runtime/AssemblyInfo.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Telemetry/Scripts/Runtime/ITelemetryWriter.cs" />
     <None Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Telemetry/Scripts/Runtime/Telemetry.Runtime.asmdef" />
     <Reference Include="UnityEngine">
       <HintPath>/Applications/Unity/Hub/Editor/6000.0.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>

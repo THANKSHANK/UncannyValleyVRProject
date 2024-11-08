@@ -47,8 +47,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/ImmersiveDebugger/Interface/CustomIntegrationConfig.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/ImmersiveDebugger/Interface/DebugAttributes.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/ImmersiveDebugger/Interface/DebugGizmoType.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/ImmersiveDebugger/Interface/DebugAttributes.cs" />
     <None Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/ImmersiveDebugger/Interface/Meta.XR.ImmersiveDebugger.Interface.asmdef" />
     <Reference Include="UnityEngine">
       <HintPath>/Applications/Unity/Hub/Editor/6000.0.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>

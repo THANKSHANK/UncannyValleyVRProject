@@ -23334,7 +23334,7 @@ IL_0040:
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_14 = L_13.___ModelName;
 		NullCheck(L_12);
 		String_t* L_15;
-		L_15 = VirtualFuncInvoker1< String_t*, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* >::Invoke(35, L_12, L_14);
+		L_15 = VirtualFuncInvoker1< String_t*, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* >::Invoke(34, L_12, L_14);
 		L_11->___ModelName = L_15;
 		Il2CppCodeGenWriteBarrier((void**)(&L_11->___ModelName), (void*)L_15);
 		RenderModelProperties_t3100D12EFD3B0E603817FFE2902A6CB2344EFE91* L_16 = ___1_modelProperties;

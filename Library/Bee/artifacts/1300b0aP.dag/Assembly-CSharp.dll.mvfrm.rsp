@@ -7,9 +7,6 @@ Library/Bee/artifacts/mvdfrm/Unity.Mathematics.ref.dll_92C0142275484313.mvfrm
 Library/Bee/artifacts/mvdfrm/Unity.Multiplayer.Center.Common.ref.dll_A2E97B59907D8CED.mvfrm
 Library/Bee/artifacts/mvdfrm/Unity.TextMeshPro.ref.dll_2E746244A5BDAEA0.mvfrm
 Library/Bee/artifacts/mvdfrm/Unity.Timeline.ref.dll_08E11C037DD39E3A.mvfrm
-Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.Core.ref.dll_0FD4FE2CDCC99BDF.mvfrm
-Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.Flow.ref.dll_56E5DE835ED3108E.mvfrm
-Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.State.ref.dll_A70CD23EFCFC9D47.mvfrm
 Library/Bee/artifacts/mvdfrm/Unity.XR.CoreUtils.ref.dll_A353C602C700ED67.mvfrm
 Library/Bee/artifacts/mvdfrm/Unity.XR.Hands.ref.dll_BCA9C208BAC4F729.mvfrm
 Library/Bee/artifacts/mvdfrm/Unity.XR.Management.ref.dll_2CC2F0B9CB7419B4.mvfrm
@@ -86,4 +83,3 @@ Library/Bee/artifacts/mvdfrm/UnityEngine.VideoModule.dll_F6C0B50AD31DFC82.mvfrm
 Library/Bee/artifacts/mvdfrm/UnityEngine.VRModule.dll_1081A59D891DDB49.mvfrm
 Library/Bee/artifacts/mvdfrm/UnityEngine.WindModule.dll_A1278451F83D3F85.mvfrm
 Library/Bee/artifacts/mvdfrm/UnityEngine.XRModule.dll_434068A2125828A7.mvfrm
-Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.Antlr3.Runtime.dll_54F233D7B0D751B2.mvfrm

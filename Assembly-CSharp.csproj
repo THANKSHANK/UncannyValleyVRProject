@@ -47,9 +47,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/Scripts/AvatarFaceCorrectively.cs" />
-    <Compile Include="Assets/Scripts/CustomOVRFaceWithDynamicMapping.cs" />
     <Compile Include="Assets/Scripts/MaterialDebugChanger.cs" />
     <Compile Include="Assets/Scripts/CustomBlendshapeModifier.cs" />
+    <Compile Include="Assets/Scripts/CustomOVRFaceWithDynamicMapping.cs" />
     <Compile Include="Assets/Scripts/VariableManager.cs" />
     <None Include="Library/PackageCache/com.unity.settings-manager/package.json" />
     <None Include="Library/PackageCache/com.unity.modules.subsystems/package.json" />
@@ -928,10 +928,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Unity.XR.CoreUtils.Editor.csproj">
-      <Project>{6e7ba18a-a9fd-0d78-aafd-eaae59856c16}</Project>
-      <Name>Unity.XR.CoreUtils.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="Meta.XR.BuildingBlocks.DepthAPI.Editor.csproj">
       <Project>{21a776da-03d9-a3e8-b496-36cc7d48937e}</Project>
       <Name>Meta.XR.BuildingBlocks.DepthAPI.Editor</Name>
@@ -1032,13 +1028,13 @@
       <Project>{d464350e-3237-606f-28c6-520298f29375}</Project>
       <Name>Meta.XR.Editor.StatusMenu</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.Timeline.csproj">
-      <Project>{cece0a91-5233-0d74-81bb-31c9f2a9dd2c}</Project>
-      <Name>Unity.Timeline</Name>
-    </ProjectReference>
     <ProjectReference Include="Meta.Wit.Composer.csproj">
       <Project>{49900c93-225e-478d-ce1b-23cbd802ac99}</Project>
       <Name>Meta.Wit.Composer</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Timeline.csproj">
+      <Project>{cece0a91-5233-0d74-81bb-31c9f2a9dd2c}</Project>
+      <Name>Unity.Timeline</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.csproj">
       <Project>{ac259559-7e0b-fc9a-3a54-1ebade72a72e}</Project>
@@ -1152,6 +1148,10 @@
       <Project>{e2c1266a-998c-3eec-e2cf-7506f1bb65a9}</Project>
       <Name>Meta.Voice.VSDKHub.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="VoiceSDK.Editor.csproj">
+      <Project>{6ba28ad5-5b19-2a72-57e0-e380a6d0e256}</Project>
+      <Name>VoiceSDK.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="Meta.XR.ImmersiveDebugger.Interface.csproj">
       <Project>{8ecf790e-4f0c-0ac7-6c41-7ea65ad6f6c0}</Project>
       <Name>Meta.XR.ImmersiveDebugger.Interface</Name>
@@ -1159,10 +1159,6 @@
     <ProjectReference Include="Meta.VoiceSDK.Mic.WebGL.csproj">
       <Project>{b3413127-d144-404c-0a1a-9bb51e13c5cc}</Project>
       <Name>Meta.VoiceSDK.Mic.WebGL</Name>
-    </ProjectReference>
-    <ProjectReference Include="VoiceSDK.Editor.csproj">
-      <Project>{6ba28ad5-5b19-2a72-57e0-e380a6d0e256}</Project>
-      <Name>VoiceSDK.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Meta.WitAi.Conduit.Editor.csproj">
       <Project>{b9b399d9-18f7-482a-96ff-29c6a0c43820}</Project>
@@ -1200,6 +1196,10 @@
       <Project>{e97b9c09-ac4e-86d8-4cd1-4dc6391f9c9f}</Project>
       <Name>NewAssembly</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.XR.Hands.csproj">
+      <Project>{24cb1a31-94df-5deb-1593-51c5862638d7}</Project>
+      <Name>Unity.XR.Hands</Name>
+    </ProjectReference>
     <ProjectReference Include="VoiceSDK.Telemetry.Runtime.csproj">
       <Project>{707dd2db-88c1-4178-8ef7-38041375f974}</Project>
       <Name>VoiceSDK.Telemetry.Runtime</Name>
@@ -1208,21 +1208,21 @@
       <Project>{cc2a5e73-d5b2-f8d4-9c45-ee860e7ece09}</Project>
       <Name>Meta.XR.Editor.PlayCompanion</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.XR.Hands.csproj">
-      <Project>{24cb1a31-94df-5deb-1593-51c5862638d7}</Project>
-      <Name>Unity.XR.Hands</Name>
+    <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.csproj">
+      <Project>{a6a80847-36fb-593a-86f7-e909b6bd5e12}</Project>
+      <Name>Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection</Name>
     </ProjectReference>
     <ProjectReference Include="VoiceSDK.Dictation.Runtime.csproj">
       <Project>{b38466bb-32a5-26c9-626e-f21a2defcf70}</Project>
       <Name>VoiceSDK.Dictation.Runtime</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.csproj">
-      <Project>{a6a80847-36fb-593a-86f7-e909b6bd5e12}</Project>
-      <Name>Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection</Name>
-    </ProjectReference>
     <ProjectReference Include="Oculus.Platform.csproj">
       <Project>{ebf298fa-9070-1ca8-b641-45d9f2022a9f}</Project>
       <Name>Oculus.Platform</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Animation.Rigging.csproj">
+      <Project>{a444104f-fc74-fa98-aef5-637d8eb42579}</Project>
+      <Name>Unity.Animation.Rigging</Name>
     </ProjectReference>
     <ProjectReference Include="Meta.VoiceSDK.Mic.Common.csproj">
       <Project>{4a9789d5-179d-f970-adc6-680736d51b3d}</Project>
@@ -1243,10 +1243,6 @@
     <ProjectReference Include="Unity.PlasticSCM.Editor.csproj">
       <Project>{9240851a-4152-3f97-8be0-a8845734e16e}</Project>
       <Name>Unity.PlasticSCM.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Animation.Rigging.csproj">
-      <Project>{a444104f-fc74-fa98-aef5-637d8eb42579}</Project>
-      <Name>Unity.Animation.Rigging</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.AI.Navigation.Editor.csproj">
       <Project>{75c72ff9-041b-3e21-9725-fe45eadf819e}</Project>
@@ -1360,6 +1356,10 @@
       <Project>{de007f38-38ff-dbdb-ce37-ea0f37f29291}</Project>
       <Name>Meta.Voice.NLayer</Name>
     </ProjectReference>
+    <ProjectReference Include="VoiceSDK.Dictation.Editor.csproj">
+      <Project>{311e87b5-8f17-ed36-52b7-2b7b42d59825}</Project>
+      <Name>VoiceSDK.Dictation.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="Oculus.Interaction.InterfaceSupport.csproj">
       <Project>{1e4319dd-cf76-fc96-c26a-983ad1da8659}</Project>
       <Name>Oculus.Interaction.InterfaceSupport</Name>
@@ -1368,9 +1368,9 @@
       <Project>{6b6a18f7-901a-2cfa-78a3-ce1133e5934e}</Project>
       <Name>Meta.XR.Audio</Name>
     </ProjectReference>
-    <ProjectReference Include="VoiceSDK.Dictation.Editor.csproj">
-      <Project>{311e87b5-8f17-ed36-52b7-2b7b42d59825}</Project>
-      <Name>VoiceSDK.Dictation.Editor</Name>
+    <ProjectReference Include="Unity.XR.CoreUtils.Editor.csproj">
+      <Project>{6e7ba18a-a9fd-0d78-aafd-eaae59856c16}</Project>
+      <Name>Unity.XR.CoreUtils.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.SpatialTracking.csproj">
       <Project>{97a6090f-0a97-281b-4cf9-29220aa79df5}</Project>

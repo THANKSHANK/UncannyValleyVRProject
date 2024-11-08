@@ -47,11 +47,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Library/PackageCache/com.unity.multiplayer.center/Common/IOnboardingSectionAnalyticsProvider.cs" />
-    <Compile Include="Library/PackageCache/com.unity.multiplayer.center/Common/AnswerData.cs" />
-    <Compile Include="Library/PackageCache/com.unity.multiplayer.center/Common/SelectedSolutionsData.cs" />
     <Compile Include="Library/PackageCache/com.unity.multiplayer.center/Common/IOnboardingSection.cs" />
     <Compile Include="Library/PackageCache/com.unity.multiplayer.center/Common/Preset.cs" />
+    <Compile Include="Library/PackageCache/com.unity.multiplayer.center/Common/AnswerData.cs" />
     <Compile Include="Library/PackageCache/com.unity.multiplayer.center/Common/StyleConstants.cs" />
+    <Compile Include="Library/PackageCache/com.unity.multiplayer.center/Common/SelectedSolutionsData.cs" />
     <None Include="Library/PackageCache/com.unity.multiplayer.center/Common/Unity.Multiplayer.Center.Common.asmdef" />
     <Reference Include="UnityEngine">
       <HintPath>/Applications/Unity/Hub/Editor/6000.0.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>

@@ -47,9 +47,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/Scripts/AvatarFaceCorrectively.cs" />
-    <Compile Include="Assets/Scripts/CustomOVRFaceWithDynamicMapping.cs" />
     <Compile Include="Assets/Scripts/MaterialDebugChanger.cs" />
     <Compile Include="Assets/Scripts/CustomBlendshapeModifier.cs" />
+    <Compile Include="Assets/Scripts/CustomOVRFaceWithDynamicMapping.cs" />
     <Compile Include="Assets/Scripts/VariableManager.cs" />
     <Reference Include="UnityEngine">
       <HintPath>/Applications/Unity/Hub/Editor/6000.0.25f1/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Managed/UnityEngine.dll</HintPath>
@@ -684,13 +684,13 @@
       <Project>{fdeb0a82-7e82-2a7e-615f-354c03e746d7}</Project>
       <Name>meta.xr.mrutilitykit.Player</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.Timeline.Player.csproj">
-      <Project>{639cda6c-1e0a-f63c-983d-92847d30c523}</Project>
-      <Name>Unity.Timeline.Player</Name>
-    </ProjectReference>
     <ProjectReference Include="Meta.Wit.Composer.Player.csproj">
       <Project>{35ad02d6-eca7-e198-0fce-96e41bd6e388}</Project>
       <Name>Meta.Wit.Composer.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Timeline.Player.csproj">
+      <Project>{639cda6c-1e0a-f63c-983d-92847d30c523}</Project>
+      <Name>Unity.Timeline.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
       <Project>{2b48e4a8-351a-8d9d-d674-b522e6c90cfe}</Project>
@@ -752,13 +752,13 @@
       <Project>{a793d8a7-d5f6-0008-8344-264b11960b5b}</Project>
       <Name>Unity.Multiplayer.Center.Common.Player</Name>
     </ProjectReference>
-    <ProjectReference Include="VoiceSDK.Telemetry.Runtime.Player.csproj">
-      <Project>{c4dc6c7b-8174-67c5-98b5-677a7fd2804f}</Project>
-      <Name>VoiceSDK.Telemetry.Runtime.Player</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.XR.Hands.Player.csproj">
       <Project>{eb1cee83-2ad2-b31b-de5b-29a735a2fea9}</Project>
       <Name>Unity.XR.Hands.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="VoiceSDK.Telemetry.Runtime.Player.csproj">
+      <Project>{c4dc6c7b-8174-67c5-98b5-677a7fd2804f}</Project>
+      <Name>VoiceSDK.Telemetry.Runtime.Player</Name>
     </ProjectReference>
     <ProjectReference Include="VoiceSDK.Dictation.Runtime.Player.csproj">
       <Project>{7e558388-1f10-8a3b-74f7-672c12fe6634}</Project>
@@ -767,6 +767,10 @@
     <ProjectReference Include="Oculus.Platform.Player.csproj">
       <Project>{21627221-27cd-dfbf-e6bf-e9c2c22d2ec0}</Project>
       <Name>Oculus.Platform.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Animation.Rigging.Player.csproj">
+      <Project>{fe3d3869-f40d-9203-6463-0d7426113cb2}</Project>
+      <Name>Unity.Animation.Rigging.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Meta.VoiceSDK.Mic.Common.Player.csproj">
       <Project>{fbcdda50-783f-ae69-d258-45074ffc9586}</Project>
@@ -779,10 +783,6 @@
     <ProjectReference Include="Unity.XR.Management.Player.csproj">
       <Project>{789dee72-3611-d2a3-bf1e-dcf581ec4b31}</Project>
       <Name>Unity.XR.Management.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Animation.Rigging.Player.csproj">
-      <Project>{fe3d3869-f40d-9203-6463-0d7426113cb2}</Project>
-      <Name>Unity.Animation.Rigging.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Mathematics.Player.csproj">
       <Project>{e8eb425a-b217-5efd-884f-cdafbdedfe40}</Project>

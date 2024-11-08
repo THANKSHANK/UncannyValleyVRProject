@@ -46,14 +46,14 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/6000.0.25f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Features/Dictation/source/Lib/Wit.ai/Features/dictation/Scripts/Runtime/Dictation/ServiceReferences/DictationServiceReference.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Features/Dictation/source/Lib/Wit.ai/Features/dictation/Scripts/Runtime/Dictation/Data/DictationSession.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Features/Dictation/source/Lib/Wit.ai/Features/dictation/Scripts/Runtime/Dictation/Events/DictationEvents.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Features/Dictation/source/Lib/Wit.ai/Features/dictation/Scripts/Runtime/Dictation/ServiceReferences/DictationServiceAudioEventReference.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Features/Dictation/source/Lib/Wit.ai/Features/dictation/Scripts/Runtime/Dictation/WitDictation.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Features/Dictation/source/Lib/Wit.ai/Features/dictation/Scripts/Runtime/Dictation/Events/DictationSessionEvent.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Features/Dictation/source/Lib/Wit.ai/Features/dictation/Scripts/Runtime/Dictation/ServiceReferences/DictationServiceReference.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Features/Dictation/source/Lib/Wit.ai/Features/dictation/Scripts/Runtime/Dictation/Data/DictationSession.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Features/Dictation/source/Lib/Wit.ai/Features/dictation/Scripts/Runtime/Dictation/MultiRequestTranscription.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Features/Dictation/source/Lib/Wit.ai/Features/dictation/Scripts/Runtime/Dictation/DictationService.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Features/Dictation/source/Lib/Wit.ai/Features/dictation/Scripts/Runtime/Dictation/Events/DictationSessionEvent.cs" />
     <Reference Include="UnityEngine">
       <HintPath>/Applications/Unity/Hub/Editor/6000.0.25f1/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Managed/UnityEngine.dll</HintPath>
     </Reference>

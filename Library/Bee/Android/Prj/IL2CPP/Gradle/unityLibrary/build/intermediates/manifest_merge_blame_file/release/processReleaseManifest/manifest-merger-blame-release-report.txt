@@ -9,295 +9,292 @@
 9    <uses-permission android:name="android.permission.INTERNET" />
 9-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:3:3-65
 9-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:3:20-62
-10    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-10-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:3-77
-10-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:20-74
-11    <uses-permission android:name="android.permission.RECORD_AUDIO" />
-11-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:5:3-69
-11-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:5:20-66
-12    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
-12-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:6:3-78
-12-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:6:20-75
-13
-14    <uses-feature
-14-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:7:3-111
-15        android:name="android.hardware.vr.headtracking"
-15-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:7:17-64
-16        android:required="true"
-16-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:7:65-88
-17        android:version="1" />
-17-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:7:89-108
-18    <uses-feature
-18-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:8:3-90
-19        android:name="android.hardware.vulkan.version"
-19-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:8:17-63
-20        android:required="true" />
-20-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:8:64-87
-21    <uses-feature
-21-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:9:3-87
-22        android:name="android.hardware.microphone"
-22-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:9:17-59
-23        android:required="false" />
-23-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:9:60-84
-24    <uses-feature
-24-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:10:3-88
-25        android:name="android.hardware.touchscreen"
-25-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:10:17-60
-26        android:required="false" />
-26-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:10:61-85
-27    <uses-feature
-27-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:11:3-99
-28        android:name="android.hardware.touchscreen.multitouch"
-28-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:11:17-71
-29        android:required="false" />
-29-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:11:72-96
-30    <uses-feature
-30-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:12:3-108
-31        android:name="android.hardware.touchscreen.multitouch.distinct"
-31-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:12:17-80
-32        android:required="false" />
-32-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:12:81-105
-33    <uses-feature
-33-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:43:3-88
-34        android:name="oculus.software.handtracking"
-34-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:43:17-60
-35        android:required="false" />
-35-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:43:61-85
-36
-37    <uses-permission android:name="com.oculus.permission.HAND_TRACKING" />
-37-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:44:3-73
-37-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:44:20-70
-38    <uses-permission android:name="com.oculus.permission.USE_ANCHOR_API" />
-38-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:45:3-74
-38-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:45:20-71
-39
-40    <uses-feature
-40-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:46:3-90
-41        android:name="com.oculus.feature.PASSTHROUGH"
-41-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:46:17-62
-42        android:required="false" />
-42-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:46:63-87
-43    <uses-feature android:name="com.oculus.feature.RENDER_MODEL" />
-43-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:47:3-66
-43-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:47:17-63
-44
-45    <uses-permission android:name="com.oculus.permission.RENDER_MODEL" />
-45-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:48:3-72
-45-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:48:20-69
-46
-47    <uses-feature
-47-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:49:3-93
-48        android:name="com.oculus.software.body_tracking"
-48-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:49:17-65
-49        android:required="false" />
-49-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:49:66-90
-50
-51    <uses-permission android:name="com.oculus.permission.BODY_TRACKING" />
-51-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:50:3-73
-51-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:50:20-70
-52
-53    <uses-feature
-53-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:51:3-89
-54        android:name="oculus.software.face_tracking"
-54-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:51:17-61
-55        android:required="false" />
-55-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:51:62-86
-56
-57    <uses-permission android:name="com.oculus.permission.FACE_TRACKING" />
-57-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:52:3-73
-57-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:52:20-70
-58
-59    <uses-feature
-59-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:53:3-88
-60        android:name="oculus.software.eye_tracking"
-60-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:53:17-60
-61        android:required="false" />
-61-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:53:61-85
-62
-63    <uses-permission android:name="com.oculus.permission.EYE_TRACKING" />
-63-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:54:3-72
-63-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:54:20-69
-64    <uses-permission android:name="com.oculus.permission.USE_SCENE" />
-64-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:55:3-69
-64-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:55:20-66
-65
-66    <application
-66-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:13:3-42:17
-67        android:allowBackup="false"
-67-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:13:16-43
-68        android:extractNativeLibs="true"
-68-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:13:44-76
-69        android:icon="@mipmap/app_icon"
-69-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:13:77-108
-70        android:label="@string/app_name"
-70-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:13:109-141
-71        android:networkSecurityConfig="@xml/network_sec_config" >
-71-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:13:142-197
-72        <meta-data
-72-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:14:5-89
-73            android:name="unityplayer.SkipPermissionsDialog"
-73-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:14:16-64
-74            android:value="false" />
-74-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:14:65-86
-75        <meta-data
-75-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:5-97
-76            android:name="com.samsung.android.vr.application.mode"
-76-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:16-70
-77            android:value="vr_only" />
-77-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:71-94
-78        <meta-data
-78-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:16:5-103
-79            android:name="com.oculus.ossplash.background"
-79-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:16:16-61
-80            android:value="passthrough-contextual" />
-80-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:16:62-100
-81        <meta-data
-81-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:17:5-120
-82            android:name="com.oculus.telemetry.project_guid"
-82-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:17:16-64
-83            android:value="111d50da-7e0c-44bf-8048-fa8ecd1cc715" />
-83-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:17:65-117
-84        <meta-data
-84-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:18:5-86
-85            android:name="com.oculus.supportedDevices"
-85-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:18:16-58
-86            android:value="questpro" />
-86-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:18:59-83
-87        <meta-data
-87-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:19:5-69
-88            android:name="unity.splash-mode"
-88-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:19:16-48
-89            android:value="0" />
-89-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:19:49-66
-90        <meta-data
-90-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:20:5-74
-91            android:name="unity.splash-enable"
-91-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:20:16-50
-92            android:value="True" />
-92-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:20:51-71
-93        <meta-data
-93-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:21:5-78
-94            android:name="unity.launch-fullscreen"
-94-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:21:16-54
-95            android:value="True" />
-95-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:21:55-75
-96        <meta-data
-96-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:22:5-84
-97            android:name="unity.render-outside-safearea"
-97-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:22:16-60
-98            android:value="True" />
-98-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:22:61-81
-99        <meta-data
-99-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:23:5-81
-100            android:name="notch.config"
-100-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:23:16-43
-101            android:value="portrait|landscape" />
-101-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:23:44-78
-102        <meta-data
-102-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:24:5-84
-103            android:name="unity.auto-report-fully-drawn"
-103-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:24:16-60
-104            android:value="true" />
-104-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:24:61-81
-105        <meta-data
-105-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:25:5-80
-106            android:name="unity.auto-set-game-state"
-106-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:25:16-56
-107            android:value="true" />
-107-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:25:57-77
-108        <meta-data
-108-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:26:5-78
-109            android:name="unity.strip-engine-code"
-109-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:26:16-54
-110            android:value="true" />
-110-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:26:55-75
-111
-112        <activity
-112-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:27:5-37:16
-113            android:name="com.unity3d.player.UnityPlayerGameActivity"
-113-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:27:274-331
-114            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|screenSize|uiMode|density"
-114-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:27:15-124
-115            android:enabled="true"
-115-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:27:125-147
-116            android:excludeFromRecents="true"
-116-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:27:148-181
-117            android:exported="true"
-117-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:27:182-205
-118            android:hardwareAccelerated="false"
-118-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:27:206-241
-119            android:launchMode="singleTask"
-119-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:27:242-273
-120            android:resizeableActivity="false"
-120-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:27:332-366
-121            android:screenOrientation="landscape"
-121-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:27:367-404
-122            android:theme="@style/BaseUnityGameActivityTheme" >
-122-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:27:405-454
-123            <intent-filter>
-123-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:28:7-32:23
-124                <category android:name="android.intent.category.LAUNCHER" />
-124-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:29:9-69
-124-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:29:19-66
-125                <category android:name="com.oculus.intent.category.VR" />
-125-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:30:9-66
-125-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:30:19-63
-126
-127                <action android:name="android.intent.action.MAIN" />
-127-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:31:9-61
-127-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:31:17-58
-128            </intent-filter>
-129
-130            <meta-data
-130-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:33:7-81
-131                android:name="com.oculus.vr.focusaware"
-131-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:33:18-57
-132                android:value="true" />
-132-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:33:58-78
-133            <meta-data
-133-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:34:7-130
-134                android:name="WindowManagerPreference:FreeformWindowSize"
-134-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:34:18-75
-135                android:value="@string/FreeformWindowSize_maximize" />
-135-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:34:76-127
-136            <meta-data
-136-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:35:7-145
-137                android:name="WindowManagerPreference:FreeformWindowOrientation"
-137-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:35:18-82
-138                android:value="@string/FreeformWindowOrientation_landscape" />
-138-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:35:83-142
-139            <meta-data
-139-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:36:7-70
-140                android:name="notch_support"
-140-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:36:18-46
-141                android:value="true" />
-141-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:36:47-67
-142        </activity>
-143
-144        <meta-data
-144-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:38:5-91
-145            android:name="com.unity.xr.oculus.LowOverheadMode"
-145-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:38:16-66
-146            android:value="false" />
-146-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:38:67-88
-147        <meta-data
-147-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:39:5-88
-148            android:name="com.unity.xr.oculus.LateLatching"
-148-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:39:16-63
-149            android:value="false" />
-149-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:39:64-85
-150        <meta-data
-150-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:40:5-93
-151            android:name="com.unity.xr.oculus.LateLatchingDebug"
-151-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:40:16-68
-152            android:value="false" />
-152-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:40:69-90
-153        <meta-data
-153-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:41:5-87
-154            android:name="com.oculus.handtracking.frequency"
-154-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:41:16-64
-155            android:value="MAX" />
-155-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:41:65-84
-156    </application>
-157
-158</manifest>
+10    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+10-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:3-69
+10-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:20-66
+11    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+11-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:5:3-78
+11-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:5:20-75
+12
+13    <uses-feature
+13-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:6:3-111
+14        android:name="android.hardware.vr.headtracking"
+14-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:6:17-64
+15        android:required="true"
+15-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:6:65-88
+16        android:version="1" />
+16-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:6:89-108
+17    <uses-feature
+17-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:7:3-90
+18        android:name="android.hardware.vulkan.version"
+18-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:7:17-63
+19        android:required="true" />
+19-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:7:64-87
+20    <uses-feature
+20-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:8:3-87
+21        android:name="android.hardware.microphone"
+21-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:8:17-59
+22        android:required="false" />
+22-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:8:60-84
+23    <uses-feature
+23-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:9:3-88
+24        android:name="android.hardware.touchscreen"
+24-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:9:17-60
+25        android:required="false" />
+25-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:9:61-85
+26    <uses-feature
+26-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:10:3-99
+27        android:name="android.hardware.touchscreen.multitouch"
+27-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:10:17-71
+28        android:required="false" />
+28-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:10:72-96
+29    <uses-feature
+29-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:11:3-108
+30        android:name="android.hardware.touchscreen.multitouch.distinct"
+30-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:11:17-80
+31        android:required="false" />
+31-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:11:81-105
+32    <uses-feature
+32-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:42:3-88
+33        android:name="oculus.software.handtracking"
+33-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:42:17-60
+34        android:required="false" />
+34-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:42:61-85
+35
+36    <uses-permission android:name="com.oculus.permission.HAND_TRACKING" />
+36-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:43:3-73
+36-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:43:20-70
+37    <uses-permission android:name="com.oculus.permission.USE_ANCHOR_API" />
+37-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:44:3-74
+37-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:44:20-71
+38
+39    <uses-feature
+39-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:45:3-90
+40        android:name="com.oculus.feature.PASSTHROUGH"
+40-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:45:17-62
+41        android:required="false" />
+41-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:45:63-87
+42    <uses-feature android:name="com.oculus.feature.RENDER_MODEL" />
+42-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:46:3-66
+42-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:46:17-63
+43
+44    <uses-permission android:name="com.oculus.permission.RENDER_MODEL" />
+44-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:47:3-72
+44-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:47:20-69
+45
+46    <uses-feature
+46-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:48:3-93
+47        android:name="com.oculus.software.body_tracking"
+47-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:48:17-65
+48        android:required="false" />
+48-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:48:66-90
+49
+50    <uses-permission android:name="com.oculus.permission.BODY_TRACKING" />
+50-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:49:3-73
+50-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:49:20-70
+51
+52    <uses-feature
+52-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:50:3-89
+53        android:name="oculus.software.face_tracking"
+53-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:50:17-61
+54        android:required="false" />
+54-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:50:62-86
+55
+56    <uses-permission android:name="com.oculus.permission.FACE_TRACKING" />
+56-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:51:3-73
+56-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:51:20-70
+57
+58    <uses-feature
+58-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:52:3-88
+59        android:name="oculus.software.eye_tracking"
+59-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:52:17-60
+60        android:required="false" />
+60-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:52:61-85
+61
+62    <uses-permission android:name="com.oculus.permission.EYE_TRACKING" />
+62-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:53:3-72
+62-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:53:20-69
+63    <uses-permission android:name="com.oculus.permission.USE_SCENE" />
+63-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:54:3-69
+63-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:54:20-66
+64
+65    <application
+65-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:12:3-41:17
+66        android:allowBackup="false"
+66-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:12:16-43
+67        android:extractNativeLibs="true"
+67-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:12:44-76
+68        android:icon="@mipmap/app_icon"
+68-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:12:77-108
+69        android:label="@string/app_name"
+69-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:12:109-141
+70        android:networkSecurityConfig="@xml/network_sec_config" >
+70-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:12:142-197
+71        <meta-data
+71-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:13:5-89
+72            android:name="unityplayer.SkipPermissionsDialog"
+72-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:13:16-64
+73            android:value="false" />
+73-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:13:65-86
+74        <meta-data
+74-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:14:5-97
+75            android:name="com.samsung.android.vr.application.mode"
+75-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:14:16-70
+76            android:value="vr_only" />
+76-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:14:71-94
+77        <meta-data
+77-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:5-103
+78            android:name="com.oculus.ossplash.background"
+78-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:16-61
+79            android:value="passthrough-contextual" />
+79-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:62-100
+80        <meta-data
+80-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:16:5-120
+81            android:name="com.oculus.telemetry.project_guid"
+81-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:16:16-64
+82            android:value="111d50da-7e0c-44bf-8048-fa8ecd1cc715" />
+82-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:16:65-117
+83        <meta-data
+83-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:17:5-86
+84            android:name="com.oculus.supportedDevices"
+84-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:17:16-58
+85            android:value="questpro" />
+85-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:17:59-83
+86        <meta-data
+86-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:18:5-69
+87            android:name="unity.splash-mode"
+87-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:18:16-48
+88            android:value="0" />
+88-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:18:49-66
+89        <meta-data
+89-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:19:5-74
+90            android:name="unity.splash-enable"
+90-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:19:16-50
+91            android:value="True" />
+91-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:19:51-71
+92        <meta-data
+92-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:20:5-78
+93            android:name="unity.launch-fullscreen"
+93-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:20:16-54
+94            android:value="True" />
+94-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:20:55-75
+95        <meta-data
+95-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:21:5-84
+96            android:name="unity.render-outside-safearea"
+96-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:21:16-60
+97            android:value="True" />
+97-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:21:61-81
+98        <meta-data
+98-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:22:5-81
+99            android:name="notch.config"
+99-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:22:16-43
+100            android:value="portrait|landscape" />
+100-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:22:44-78
+101        <meta-data
+101-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:23:5-84
+102            android:name="unity.auto-report-fully-drawn"
+102-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:23:16-60
+103            android:value="true" />
+103-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:23:61-81
+104        <meta-data
+104-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:24:5-80
+105            android:name="unity.auto-set-game-state"
+105-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:24:16-56
+106            android:value="true" />
+106-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:24:57-77
+107        <meta-data
+107-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:25:5-78
+108            android:name="unity.strip-engine-code"
+108-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:25:16-54
+109            android:value="true" />
+109-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:25:55-75
+110
+111        <activity
+111-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:26:5-36:16
+112            android:name="com.unity3d.player.UnityPlayerGameActivity"
+112-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:26:274-331
+113            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|screenSize|uiMode|density"
+113-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:26:15-124
+114            android:enabled="true"
+114-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:26:125-147
+115            android:excludeFromRecents="true"
+115-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:26:148-181
+116            android:exported="true"
+116-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:26:182-205
+117            android:hardwareAccelerated="false"
+117-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:26:206-241
+118            android:launchMode="singleTask"
+118-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:26:242-273
+119            android:resizeableActivity="false"
+119-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:26:332-366
+120            android:screenOrientation="landscape"
+120-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:26:367-404
+121            android:theme="@style/BaseUnityGameActivityTheme" >
+121-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:26:405-454
+122            <intent-filter>
+122-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:27:7-31:23
+123                <category android:name="android.intent.category.LAUNCHER" />
+123-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:28:9-69
+123-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:28:19-66
+124                <category android:name="com.oculus.intent.category.VR" />
+124-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:29:9-66
+124-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:29:19-63
+125
+126                <action android:name="android.intent.action.MAIN" />
+126-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:30:9-61
+126-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:30:17-58
+127            </intent-filter>
+128
+129            <meta-data
+129-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:32:7-81
+130                android:name="com.oculus.vr.focusaware"
+130-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:32:18-57
+131                android:value="true" />
+131-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:32:58-78
+132            <meta-data
+132-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:33:7-130
+133                android:name="WindowManagerPreference:FreeformWindowSize"
+133-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:33:18-75
+134                android:value="@string/FreeformWindowSize_maximize" />
+134-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:33:76-127
+135            <meta-data
+135-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:34:7-145
+136                android:name="WindowManagerPreference:FreeformWindowOrientation"
+136-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:34:18-82
+137                android:value="@string/FreeformWindowOrientation_landscape" />
+137-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:34:83-142
+138            <meta-data
+138-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:35:7-70
+139                android:name="notch_support"
+139-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:35:18-46
+140                android:value="true" />
+140-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:35:47-67
+141        </activity>
+142
+143        <meta-data
+143-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:37:5-91
+144            android:name="com.unity.xr.oculus.LowOverheadMode"
+144-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:37:16-66
+145            android:value="false" />
+145-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:37:67-88
+146        <meta-data
+146-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:38:5-88
+147            android:name="com.unity.xr.oculus.LateLatching"
+147-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:38:16-63
+148            android:value="false" />
+148-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:38:64-85
+149        <meta-data
+149-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:39:5-93
+150            android:name="com.unity.xr.oculus.LateLatchingDebug"
+150-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:39:16-68
+151            android:value="false" />
+151-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:39:69-90
+152        <meta-data
+152-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:40:5-87
+153            android:name="com.oculus.handtracking.frequency"
+153-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:40:16-64
+154            android:value="MAX" />
+154-->/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:40:65-84
+155    </application>
+156
+157</manifest>

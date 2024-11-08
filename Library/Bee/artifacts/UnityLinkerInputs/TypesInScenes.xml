@@ -8,7 +8,6 @@
 		<type fullname="Oculus.Movement.AnimationRigging.Deprecated.AnimationRigSetup" preserve="nothing"/>
 		<type fullname="Oculus.Movement.AnimationRigging.Deprecated.DeformationConstraint" preserve="nothing"/>
 		<type fullname="Oculus.Movement.AnimationRigging.TwistDistributionConstraint" preserve="nothing"/>
-		<type fullname="Oculus.Movement.Effects.CompareVectorHashes" preserve="nothing"/>
 		<type fullname="Oculus.Movement.Effects.LateMirroredSkeleton" preserve="nothing"/>
 		<type fullname="Oculus.Movement.Effects.MirrorTransformation" preserve="nothing"/>
 		<type fullname="Oculus.Movement.Effects.RecalculateNormals" preserve="nothing"/>
@@ -21,9 +20,6 @@
 		<type fullname="Oculus.Movement.Utils.MovementAudioTrigger" preserve="nothing"/>
 		<type fullname="Oculus.Movement.Utils.MovementSceneLoader" preserve="nothing"/>
 		<type fullname="Oculus.Movement.Utils.RequestMicrophonePermissions" preserve="nothing"/>
-	</assembly>
-	<assembly fullname="Meta.WitAi">
-		<type fullname="Meta.WitAi.Wit" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Meta.XR.Audio">
 		<type fullname="MetaXRAcousticMaterialMapping" preserve="nothing"/>
@@ -230,10 +226,8 @@
 		<type fullname="UnityEngine.Font" preserve="nothing"/>
 		<type fullname="UnityEngine.GameObject" preserve="nothing"/>
 		<type fullname="UnityEngine.Light" preserve="nothing"/>
-		<type fullname="UnityEngine.LightingSettings" preserve="nothing"/>
 		<type fullname="UnityEngine.LightmapSettings" preserve="nothing"/>
 		<type fullname="UnityEngine.LightProbeGroup" preserve="nothing"/>
-		<type fullname="UnityEngine.LightProbes" preserve="nothing"/>
 		<type fullname="UnityEngine.Material" preserve="nothing"/>
 		<type fullname="UnityEngine.Mesh" preserve="nothing"/>
 		<type fullname="UnityEngine.MeshFilter" preserve="nothing"/>

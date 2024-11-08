@@ -47,12 +47,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlockData/MultiplayerBlocks/NGO/BuildingBlockNGOUtils.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlockData/MultiplayerBlocks/NGO/SceneListenerNGO.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlockData/MultiplayerBlocks/NGO/PlayerNameTag/Scripts/PlayerNameTagNGOSetupRules.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlockData/MultiplayerBlocks/NGO/NetworkedGrabbableObject/Scripts/NetworkedGrabbableObjectNGOInstallationRoutine.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlockData/MultiplayerBlocks/NGO/AutoMatchmaking/Scripts/AutoMatchmakingNGOSetupRules.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlockData/MultiplayerBlocks/NGO/NetworkedAvatar/Scripts/NetworkedAvatarNGOSetupRules.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlockData/MultiplayerBlocks/NGO/SceneListenerNGO.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlockData/MultiplayerBlocks/NGO/NetworkManager/Scripts/NetworkManagerNGOSetupRules.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlockData/MultiplayerBlocks/NGO/NetworkedAvatar/Scripts/NetworkedAvatarNGOSetupRules.cs" />
     <None Include="Library/PackageCache/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlockData/MultiplayerBlocks/NGO/Meta.XR.MultiplayerBlocks.NGO.Editor.asmdef" />
     <Reference Include="UnityEngine">
       <HintPath>/Applications/Unity/Hub/Editor/6000.0.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>

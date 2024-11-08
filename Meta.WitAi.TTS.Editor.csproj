@@ -47,12 +47,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Wit.ai/Features/TTS/Scripts/Editor/TTSEditorUtilities.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Wit.ai/Features/TTS/Scripts/Editor/Preload/TTSPreloadSettingsInspector.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Wit.ai/Features/TTS/Scripts/Editor/TTSWitInspector.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Wit.ai/Features/TTS/Scripts/Editor/Preload/TTSPreloadUtility.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Wit.ai/Features/TTS/Scripts/Editor/Preload/TTSPreloadSettingsInspector.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Wit.ai/Features/TTS/Scripts/Editor/Voices/TTSWitVoiceSettingsDrawer.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Wit.ai/Features/TTS/Scripts/Editor/TTSSpeakerInspector.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Wit.ai/Features/TTS/Scripts/Editor/TTSServiceInspector.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Wit.ai/Features/TTS/Scripts/Editor/TTSWitInspector.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Wit.ai/Features/TTS/Scripts/Editor/Preload/TTSPreloadSettings.cs" />
     <None Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Wit.ai/Features/TTS/Scripts/Editor/Meta.Wit.TTS.Editor.asmdef" />
     <Reference Include="UnityEngine">

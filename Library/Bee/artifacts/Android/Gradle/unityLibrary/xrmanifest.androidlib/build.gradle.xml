@@ -9,7 +9,7 @@
   <element name="android" element-id="281" assign-type="None" type="Unity.Android.Gradle.Android" base-type="Unity.Android.Gradle.BaseBlock" is-default="true" dependencies="278">
     <element name="namespace" element-id="282" assign-type="None" property-value="com.UnityTechnologies.XR.Manifest" type="Unity.Android.Gradle.PropertyString" base-type="BaseProperty" is-default="true" dependencies="" />
     <element name="compileSdk" element-id="286" assign-type="None" property-value="32" type="Unity.Android.Gradle.PropertyUnsignedInteger" base-type="BaseProperty" is-default="true" dependencies="" />
-    <element name="buildToolsVersion" element-id="287" assign-type="Equals" property-value="34.0.0" type="Unity.Android.Gradle.PropertyString" base-type="BaseProperty" is-default="true" dependencies="" />
+    <element name="buildToolsVersion" element-id="287" assign-type="Equals" property-value="35.0.0" type="Unity.Android.Gradle.PropertyString" base-type="BaseProperty" is-default="true" dependencies="" />
     <element name="defaultConfig" element-id="292" assign-type="None" type="Unity.Android.Gradle.Flavor" base-type="Unity.Android.Gradle.BaseBlock" is-default="true" dependencies="">
       <element name="minSdk" element-id="300" assign-type="None" property-value="29" type="Unity.Android.Gradle.PropertyUnsignedInteger" base-type="BaseProperty" is-default="true" dependencies="" />
       <element name="targetSdk" element-id="301" assign-type="None" property-value="32" type="Unity.Android.Gradle.PropertyUnsignedInteger" base-type="BaseProperty" is-default="true" dependencies="" />

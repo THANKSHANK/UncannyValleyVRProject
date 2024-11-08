@@ -47,21 +47,21 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Wit.ai/Lib/third-party/NLayer/Decoder/BitReservoir.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Wit.ai/Lib/third-party/NLayer/Decoder/ID3Frame.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Wit.ai/Lib/third-party/NLayer/Decoder/VBRInfo.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Wit.ai/Lib/third-party/NLayer/Decoder/LayerIIDecoder.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Wit.ai/Lib/third-party/NLayer/MpegFile.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Wit.ai/Lib/third-party/NLayer/Decoder/LayerIDecoder.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Wit.ai/Lib/third-party/NLayer/MpegFrameDecoder.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Wit.ai/Lib/third-party/NLayer/Decoder/MpegStreamReader.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Wit.ai/Lib/third-party/NLayer/Decoder/LayerIIDecoderBase.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Wit.ai/Lib/third-party/NLayer/Enums.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Wit.ai/Lib/third-party/NLayer/Decoder/ID3Frame.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Wit.ai/Lib/third-party/NLayer/Decoder/LayerIIDecoder.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Wit.ai/Lib/third-party/NLayer/Decoder/FrameBase.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Wit.ai/Lib/third-party/NLayer/Decoder/LayerDecoderBase.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Wit.ai/Lib/third-party/NLayer/IMpegFrame.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Wit.ai/Lib/third-party/NLayer/Decoder/MpegFrame.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Wit.ai/Lib/third-party/NLayer/Decoder/RiffHeaderFrame.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Wit.ai/Lib/third-party/NLayer/Decoder/LayerIIIDecoder.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Wit.ai/Lib/third-party/NLayer/Decoder/LayerIIDecoderBase.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Wit.ai/Lib/third-party/NLayer/Enums.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Wit.ai/Lib/third-party/NLayer/Decoder/Huffman.cs" />
     <None Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Wit.ai/Lib/third-party/NLayer/Meta.Voice.NLayer.asmdef" />
     <Reference Include="UnityEngine">

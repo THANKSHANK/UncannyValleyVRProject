@@ -15790,7 +15790,7 @@ IL_002c:
 		L_9 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_8, NULL);
 		NullCheck(L_9);
 		FieldInfo_t* L_10;
-		L_10 = VirtualFuncInvoker2< FieldInfo_t*, String_t*, int32_t >::Invoke(91, L_9, _stringLiteralD83CDB3761B10F417CB55BF3B037AE17A6E65207, ((int32_t)36));
+		L_10 = VirtualFuncInvoker2< FieldInfo_t*, String_t*, int32_t >::Invoke(87, L_9, _stringLiteralD83CDB3761B10F417CB55BF3B037AE17A6E65207, ((int32_t)36));
 		V_1 = L_10;
 		FieldInfo_t* L_11 = V_1;
 		bool L_12;
@@ -16040,7 +16040,7 @@ IL_0016:
 		L_9 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_8, NULL);
 		NullCheck(L_9);
 		FieldInfo_t* L_10;
-		L_10 = VirtualFuncInvoker2< FieldInfo_t*, String_t*, int32_t >::Invoke(91, L_9, _stringLiteral47D8692F13C5CAB912106C6742DA900C47C0385A, ((int32_t)36));
+		L_10 = VirtualFuncInvoker2< FieldInfo_t*, String_t*, int32_t >::Invoke(87, L_9, _stringLiteral47D8692F13C5CAB912106C6742DA900C47C0385A, ((int32_t)36));
 		V_2 = L_10;
 		FieldInfo_t* L_11 = V_2;
 		bool L_12;
@@ -16070,7 +16070,7 @@ IL_005b:
 		L_19 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_18, NULL);
 		NullCheck(L_19);
 		FieldInfo_t* L_20;
-		L_20 = VirtualFuncInvoker2< FieldInfo_t*, String_t*, int32_t >::Invoke(91, L_19, _stringLiteral4D21C565E6C0B47661F19761D91792A7CB9A426C, ((int32_t)36));
+		L_20 = VirtualFuncInvoker2< FieldInfo_t*, String_t*, int32_t >::Invoke(87, L_19, _stringLiteral4D21C565E6C0B47661F19761D91792A7CB9A426C, ((int32_t)36));
 		V_3 = L_20;
 		FieldInfo_t* L_21 = V_3;
 		bool L_22;
@@ -16123,7 +16123,7 @@ IL_00a9:
 		L_35 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_34, NULL);
 		NullCheck(L_35);
 		FieldInfo_t* L_36;
-		L_36 = VirtualFuncInvoker2< FieldInfo_t*, String_t*, int32_t >::Invoke(91, L_35, _stringLiteralC3088FE3290E95F44941B3AC1BBE805C59E12BE5, ((int32_t)36));
+		L_36 = VirtualFuncInvoker2< FieldInfo_t*, String_t*, int32_t >::Invoke(87, L_35, _stringLiteralC3088FE3290E95F44941B3AC1BBE805C59E12BE5, ((int32_t)36));
 		FieldInfo_t* L_37 = L_36;
 		if (L_37)
 		{
@@ -16179,7 +16179,7 @@ IL_00d7:
 		L_43 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_42, NULL);
 		NullCheck(L_43);
 		FieldInfo_t* L_44;
-		L_44 = VirtualFuncInvoker2< FieldInfo_t*, String_t*, int32_t >::Invoke(91, L_43, _stringLiteral2AB23E3076D0BE873B20EABCF03053F0F4AF9CBD, ((int32_t)36));
+		L_44 = VirtualFuncInvoker2< FieldInfo_t*, String_t*, int32_t >::Invoke(87, L_43, _stringLiteral2AB23E3076D0BE873B20EABCF03053F0F4AF9CBD, ((int32_t)36));
 		FieldInfo_t* L_45 = L_44;
 		if (L_45)
 		{
@@ -18628,7 +18628,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AddComponentsRuntime_SetupCharacterForRe
 		L_5 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_4, NULL);
 		NullCheck(L_5);
 		FieldInfo_t* L_6;
-		L_6 = VirtualFuncInvoker2< FieldInfo_t*, String_t*, int32_t >::Invoke(91, L_5, _stringLiteralC3088FE3290E95F44941B3AC1BBE805C59E12BE5, ((int32_t)36));
+		L_6 = VirtualFuncInvoker2< FieldInfo_t*, String_t*, int32_t >::Invoke(87, L_5, _stringLiteralC3088FE3290E95F44941B3AC1BBE805C59E12BE5, ((int32_t)36));
 		FieldInfo_t* L_7 = L_6;
 		if (L_7)
 		{
@@ -18684,7 +18684,7 @@ IL_003c:
 		L_13 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_12, NULL);
 		NullCheck(L_13);
 		FieldInfo_t* L_14;
-		L_14 = VirtualFuncInvoker2< FieldInfo_t*, String_t*, int32_t >::Invoke(91, L_13, _stringLiteral2AB23E3076D0BE873B20EABCF03053F0F4AF9CBD, ((int32_t)36));
+		L_14 = VirtualFuncInvoker2< FieldInfo_t*, String_t*, int32_t >::Invoke(87, L_13, _stringLiteral2AB23E3076D0BE873B20EABCF03053F0F4AF9CBD, ((int32_t)36));
 		FieldInfo_t* L_15 = L_14;
 		if (L_15)
 		{

@@ -48,9 +48,9 @@
   <ItemGroup>
     <Compile Include="Library/PackageCache/com.unity.ai.navigation/Editor/Updater/NavMeshSceneConverter.cs" />
     <Compile Include="Library/PackageCache/com.unity.ai.navigation/Editor/Updater/BuiltInToNavMeshSurfaceConverterContainer.cs" />
-    <Compile Include="Library/PackageCache/com.unity.ai.navigation/Editor/Updater/NavMeshUpdaterUtility.cs" />
     <Compile Include="Library/PackageCache/com.unity.ai.navigation/Editor/Updater/NavMeshUpdaterEditor.cs" />
     <Compile Include="Library/PackageCache/com.unity.ai.navigation/Editor/Updater/AssemblyInfo.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ai.navigation/Editor/Updater/NavMeshUpdaterUtility.cs" />
     <None Include="Library/PackageCache/com.unity.ai.navigation/Editor/Updater/Unity.AI.Navigation.Updater.asmdef" />
     <Reference Include="UnityEngine">
       <HintPath>/Applications/Unity/Hub/Editor/6000.0.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>

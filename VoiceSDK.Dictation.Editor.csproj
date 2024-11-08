@@ -47,8 +47,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Features/Dictation/source/Scripts/Editor/AppDictationExperienceEditor.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Features/Dictation/source/Scripts/Editor/Data/AppDictationDataCreation.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Features/Dictation/source/Scripts/Editor/Drawers/WitDictationRuntimeConfigDrawer.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Features/Dictation/source/Scripts/Editor/Data/AppDictationDataCreation.cs" />
     <None Include="Library/PackageCache/com.meta.xr.sdk.voice/Features/Dictation/source/Scripts/Editor/VoiceSDK.Dictation.Editor.asmdef" />
     <Reference Include="UnityEngine">
       <HintPath>/Applications/Unity/Hub/Editor/6000.0.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>

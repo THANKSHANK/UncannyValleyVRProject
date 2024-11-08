@@ -48,8 +48,8 @@
   <ItemGroup>
     <Compile Include="Library/PackageCache/com.unity.testtools.codecoverage/Editor/CoverageFormats/OpenCover/Mono.Reflection/MethodBodyReader.cs" />
     <Compile Include="Library/PackageCache/com.unity.testtools.codecoverage/Editor/CoverageFormats/OpenCover/Mono.Reflection/ByteBuffer.cs" />
-    <Compile Include="Library/PackageCache/com.unity.testtools.codecoverage/Editor/CoverageFormats/OpenCover/Mono.Reflection/Instruction.cs" />
     <Compile Include="Library/PackageCache/com.unity.testtools.codecoverage/Editor/CoverageFormats/OpenCover/Mono.Reflection/Disassembler.cs" />
+    <Compile Include="Library/PackageCache/com.unity.testtools.codecoverage/Editor/CoverageFormats/OpenCover/Mono.Reflection/Instruction.cs" />
     <None Include="Library/PackageCache/com.unity.testtools.codecoverage/Editor/CoverageFormats/OpenCover/Mono.Reflection/Reflection.asmdef" />
     <Reference Include="UnityEngine">
       <HintPath>/Applications/Unity/Hub/Editor/6000.0.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>

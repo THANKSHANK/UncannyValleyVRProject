@@ -47,14 +47,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/PlatformCompatibility/Scripts/Runtime/Android/PlatformLogger/VoiceSDKLoggerBinding.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/PlatformCompatibility/Scripts/Runtime/Utility/DateTimeUtility.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/PlatformCompatibility/Scripts/Runtime/Interfaces/IVoiceSDKLogger.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/PlatformCompatibility/Scripts/Runtime/Interfaces/IConnection.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/PlatformCompatibility/Scripts/Runtime/Android/PlatformLogger/VoiceSDKConsoleLoggerImpl.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/PlatformCompatibility/Scripts/Runtime/Android/BaseAndriodConnectionImpl.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/PlatformCompatibility/Scripts/Runtime/Utility/ArrayElementTitleAttribute.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/PlatformCompatibility/Scripts/Runtime/Android/AndroidServiceConnection.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/PlatformCompatibility/Scripts/Runtime/Android/PlatformLogger/VoiceSDKPlatformLoggerImpl.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/PlatformCompatibility/Scripts/Runtime/Utility/DateTimeUtility.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/PlatformCompatibility/Scripts/Runtime/Android/PlatformLogger/VoiceSDKConsoleLoggerImpl.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/PlatformCompatibility/Scripts/Runtime/Utility/ArrayElementTitleAttribute.cs" />
     <None Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/PlatformCompatibility/Scripts/Runtime/AssistantCoreSDKRuntime.asmdef" />
     <Reference Include="UnityEngine">
       <HintPath>/Applications/Unity/Hub/Editor/6000.0.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>

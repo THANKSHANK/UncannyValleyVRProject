@@ -46,25 +46,25 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/6000.0.25f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Editor/Guide/Scripts/Core/GuideItems/Button.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Editor/Guide/Scripts/Core/GuideItems/LinkLabel.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Editor/Guide/Scripts/Core/GuideItems/Icon.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Editor/Guide/Scripts/Core/GuideItems/AddSpace.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Editor/Guide/Scripts/Core/GuideItems/BulletedLabel.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Editor/Guide/Scripts/Core/GuideItems/TextField.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Editor/Guide/Scripts/Utils/Utils.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Editor/Guide/Scripts/Core/GuideItems/Toggle.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Editor/Guide/Scripts/Core/GuideWindow.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Editor/Guide/AssemblyInfo.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Editor/Guide/Scripts/Core/GuideStyles.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Editor/Guide/Guides/GuidedSetupAccount/MetaAccountSetupGuide.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Editor/Guide/Scripts/Core/Guide.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Editor/Guide/Scripts/Core/GuideItems/Button.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Editor/Guide/Guides/GuidedSetupDynamicOcclusion/OcclusionBlockSetupInfo.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Editor/Guide/Scripts/Core/GuideItems/LinkLabel.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Editor/Guide/Scripts/Core/GuideItems/Icon.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Editor/Guide/Scripts/Core/GuideItems/GroupedGuideItem.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Editor/Guide/Scripts/Core/GuideProcessor.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Editor/Guide/Scripts/Core/GuideItems/AddSpace.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Editor/Guide/Scripts/Core/GuideItems/BulletedLabel.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Editor/Guide/Scripts/Core/GuideItems/TextField.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Editor/Guide/Scripts/Core/GuideItems/IGuideItem.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Editor/Guide/Scripts/Core/GuideItems/TextFieldWithButton.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Editor/Guide/Scripts/Core/GuideItems/Label.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Editor/Guide/Scripts/Utils/Utils.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Editor/Guide/Scripts/Core/GuideItems/Toggle.cs" />
     <None Include="Library/PackageCache/com.meta.xr.sdk.core/Editor/Guide/Meta.XR.Guides.Editor.asmdef" />
     <Reference Include="UnityEngine">
       <HintPath>/Applications/Unity/Hub/Editor/6000.0.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>

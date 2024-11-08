@@ -46,23 +46,23 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/6000.0.25f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Hub/Scripts/Editor/Interfaces/IOverrideWidth.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Hub/Scripts/Editor/Content/Samples/Sample.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Hub/Scripts/Editor/UIComponents/ImageView.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Hub/Scripts/Editor/Utilities/ReflectionUtils.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Hub/Scripts/Editor/Utilities/PageFinder.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Hub/Scripts/Editor/MetaHub.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Hub/Scripts/Editor/Inspectors/SamplesPageInspector.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Hub/Scripts/Editor/Inspectors/SampleEditor.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Hub/Scripts/Editor/Markdown/MarkdownInspector.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Hub/Scripts/Editor/Windows/ImageViewer.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Hub/Scripts/Editor/Markdown/MarkdownPage.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Hub/Scripts/Editor/MetaHubContext.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Hub/Scripts/Editor/Interfaces/IOverrideWidth.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Hub/Scripts/Editor/UIComponents/ImageView.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Hub/Scripts/Editor/Utilities/PageFinder.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Hub/Scripts/Editor/Inspectors/SamplesPageInspector.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Hub/Scripts/Editor/Utilities/ContextFinder.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Hub/Scripts/Editor/Content/Samples/SamplesPage.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Hub/Scripts/Editor/ImagePage.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Hub/Scripts/Editor/Windows/ImageViewer.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Hub/Scripts/Editor/Markdown/MarkdownPage.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Hub/Scripts/Editor/UIComponents/FoldoutHierarchy.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Hub/Scripts/Editor/MetaHubPage.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Hub/Scripts/Editor/MetaHubContext.cs" />
     <None Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Hub/Scripts/Editor/Meta.Voice.Hub.Editor.asmdef" />
     <Reference Include="UnityEngine">
       <HintPath>/Applications/Unity/Hub/Editor/6000.0.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>

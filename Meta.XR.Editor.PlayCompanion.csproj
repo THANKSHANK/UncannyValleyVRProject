@@ -47,11 +47,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Editor/Utils/PlayCompanion/Styles.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Editor/Utils/PlayCompanion/Menu.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Editor/Utils/PlayCompanion/AssemblyInfo.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Editor/Utils/PlayCompanion/Item.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Editor/Utils/PlayCompanion/Manager.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Editor/Utils/PlayCompanion/Toolbar.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Editor/Utils/PlayCompanion/Menu.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Editor/Utils/PlayCompanion/Item.cs" />
     <None Include="Library/PackageCache/com.meta.xr.sdk.core/Editor/Utils/PlayCompanion/Meta.XR.Editor.PlayCompanion.asmdef" />
     <Reference Include="UnityEngine">
       <HintPath>/Applications/Unity/Hub/Editor/6000.0.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>

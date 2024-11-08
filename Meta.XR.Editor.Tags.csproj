@@ -49,9 +49,9 @@
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Editor/Utils/Tag/Styles.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Editor/Utils/Tag/Tag.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Editor/Utils/Tag/AssemblyInfo.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Editor/Utils/Tag/TagBehavior.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Editor/Utils/Tag/TagArrayDrawer.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Editor/Utils/Tag/TagArray.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Editor/Utils/Tag/TagBehavior.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Editor/Utils/Tag/ITaggable.cs" />
     <None Include="Library/PackageCache/com.meta.xr.sdk.core/Editor/Utils/Tag/Meta.XR.Editor.Tags.asmdef" />
     <Reference Include="UnityEngine">

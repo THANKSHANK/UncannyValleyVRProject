@@ -1,5 +1,3 @@
-// Copyright (c) Meta Platforms, Inc. and affiliates.
-
 using Oculus.Interaction;
 using UnityEngine;
 
@@ -106,8 +104,8 @@ namespace Oculus.Movement.Tracking
         /// </summary>
         protected CorrectivesModule _correctivesModule;
         
-        public float nextBlinkTimeL = 0.0f; // Next time left eye should blink
-        public float nextBlinkTimeR = 0.0f; // Next time right eye should blink
+        public float nextBlinkTimeL = 0.1f; // Next time left eye should blink
+        public float nextBlinkTimeR = 0.1f; // Next time right eye should blink
         public float blinkDurationL = 0.1f; // Duration for left eye blink
         public float blinkDurationR = 0.1f; // Duration for right eye blink
         private bool isBlinkingL = false;
@@ -116,7 +114,9 @@ namespace Oculus.Movement.Tracking
         // Blinking happens randomly in a time range between minBlinkInterval and maxBlinkInterval
         public float minBlinkInterval = 2.0f;  // Minimum time between blinks
         public float maxBlinkInterval = 5.0f;  // Maximum time between blinks
-
+        
+        public float eyeMotionSpeed = 2.0f;
+        public float eyeMotionAmplitude = 2.0f;
         private void ApplySubtleEyeMotion()
         {
             float time = Time.time;
@@ -136,14 +136,15 @@ namespace Oculus.Movement.Tracking
             // Handle left eye blink progression
             if (isBlinkingL)
             {
-                HandleBlinkProgression(ref isBlinkingL, ref blinkDurationL, OVRPlugin.FaceExpression2.Eyes_Look_Down_L);
+                HandleBlinkProgression(ref isBlinkingL, ref blinkDurationL, OVRPlugin.FaceExpression2.Eyes_Closed_L);
             }
 
             // Handle right eye blink progression
             if (isBlinkingR)
             {
-                HandleBlinkProgression(ref isBlinkingR, ref blinkDurationR, OVRPlugin.FaceExpression2.Eyes_Look_Down_R);
+                HandleBlinkProgression(ref isBlinkingR, ref blinkDurationR, OVRPlugin.FaceExpression2.Eyes_Closed_R);
             }
+            
         }
 
         // Start a blink for the left eye
@@ -170,11 +171,11 @@ namespace Oculus.Movement.Tracking
             // Close the eye initially, then open it back
             if (blinkProgress < 0.5f)
             {
-                ExpressionWeights[(int)eyeCloseExpression] = Mathf.Lerp(0.0f, 1.0f, blinkProgress * 2.0f); // Closing phase
+                ExpressionWeights[(int)eyeCloseExpression] += Mathf.Lerp(0.0f, 1.0f, blinkProgress * 2.0f); // Closing phase
             }
             else
             {
-                ExpressionWeights[(int)eyeCloseExpression] = Mathf.Lerp(1.0f, 0.0f, (blinkProgress - 0.5f) * 2.0f); // Opening phase
+                ExpressionWeights[(int)eyeCloseExpression] += Mathf.Lerp(1.0f, 0.0f, (blinkProgress - 0.5f) * 2.0f); // Opening phase
             }
 
             // If blink is completed, stop blinking
@@ -273,6 +274,7 @@ namespace Oculus.Movement.Tracking
                 _faceExpressions.ValidExpressions)
             {
                 UpdateExpressionWeights();
+                ApplySubtleEyeMotion();
                 InitializeCachedValues();
                 UpdateCachedMeshValues();
                 if (_correctivesModule != null && CorrectivesEnabled)
@@ -330,10 +332,8 @@ namespace Oculus.Movement.Tracking
             int numBlendshapes = SkinnedMesh.sharedMesh.blendShapeCount;
             for (int blendShapeIndex = 0; blendShapeIndex < numBlendshapes; ++blendShapeIndex)
             {
-                OVRFaceExpressions.FaceExpression blendShapeToFaceExpression =
-                    GetFaceExpression(blendShapeIndex);
-                if (blendShapeToFaceExpression >= OVRFaceExpressions.FaceExpression.Max ||
-                    blendShapeToFaceExpression < 0)
+                OVRFaceExpressions.FaceExpression blendShapeToFaceExpression = GetFaceExpression(blendShapeIndex);
+                if (blendShapeToFaceExpression >= OVRFaceExpressions.FaceExpression.Max || blendShapeToFaceExpression < 0)
                 {
                     continue;
                 }

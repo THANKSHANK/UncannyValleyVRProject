@@ -46,13 +46,13 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/6000.0.25f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Library/PackageCache/com.unity.xr.management/Runtime/IXRLoaderPreInit.cs" />
-    <Compile Include="Library/PackageCache/com.unity.xr.management/Runtime/XRConfigurationData.cs" />
-    <Compile Include="Library/PackageCache/com.unity.xr.management/Runtime/XRGeneralSettings.cs" />
-    <Compile Include="Library/PackageCache/com.unity.xr.management/Runtime/XRManagementAnalytics.cs" />
     <Compile Include="Library/PackageCache/com.unity.xr.management/Runtime/XRManagerSettings.cs" />
     <Compile Include="Library/PackageCache/com.unity.xr.management/Runtime/XRLoader.cs" />
+    <Compile Include="Library/PackageCache/com.unity.xr.management/Runtime/IXRLoaderPreInit.cs" />
+    <Compile Include="Library/PackageCache/com.unity.xr.management/Runtime/XRGeneralSettings.cs" />
+    <Compile Include="Library/PackageCache/com.unity.xr.management/Runtime/XRConfigurationData.cs" />
     <Compile Include="Library/PackageCache/com.unity.xr.management/Runtime/XRLoaderHelper.cs" />
+    <Compile Include="Library/PackageCache/com.unity.xr.management/Runtime/XRManagementAnalytics.cs" />
     <None Include="Library/PackageCache/com.unity.xr.management/Runtime/Unity.XR.Management.asmdef" />
     <Reference Include="UnityEngine">
       <HintPath>/Applications/Unity/Hub/Editor/6000.0.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>

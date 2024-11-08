@@ -47,25 +47,25 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/BuildingBlocks/SampleSpatialAnchorControllerScripts/SpatialAnchorSpawnerBuildingBlock.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/BuildingBlocks/RunTimeUtils.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/BuildingBlocks/SampleSpatialAnchorControllerScripts/SpatialAnchorLocalStorageManagerBuildingBlock.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/BuildingBlocks/ControllerButtonsMapperScripts/ControllerButtonsMapper.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/BuildingBlocks/RoomMesh/RoomMeshAnchor.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/BuildingBlocks/BuildingBlock.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/BuildingBlocks/SharedSpatialAnchorCore/SharedSpatialAnchorCoreBuildingBlock.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/BuildingBlocks/SampleSpatialAnchorControllerScripts/SpatialAnchorLoaderBuildingBlock.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/BuildingBlocks/RoomMesh/RoomMeshController.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/BuildingBlocks/PassthroughProjectionSurfaceBuildingBlock.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/BuildingBlocks/AssemblyInfo.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/BuildingBlocks/RunTimeUtils.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/BuildingBlocks/Telemetry.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/BuildingBlocks/SampleSpatialAnchorControllerScripts/SpatialAnchorLocalStorageManagerBuildingBlock.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/BuildingBlocks/AlertViewHUD/AlertViewHUD.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/BuildingBlocks/SampleSpatialAnchorControllerScripts/FollowAndCreateAnchorAtHandPositionBuildingBlock.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/BuildingBlocks/ControllerButtonsMapperScripts/ControllerButtonsMapper.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/BuildingBlocks/PassthroughWindow/EnableUnpremultipliedAlpha.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/BuildingBlocks/RoomMesh/RoomMeshAnchor.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/BuildingBlocks/SharedSpatialAnchorCore/SharedSpatialAnchorErrorHandler.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/BuildingBlocks/BuildingBlock.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/BuildingBlocks/SharedSpatialAnchorCore/SharedSpatialAnchorCoreBuildingBlock.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/BuildingBlocks/Variants/InstallationRoutineCheckpoint.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/BuildingBlocks/SampleSpatialAnchorControllerScripts/SpatialAnchorLoaderBuildingBlock.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/BuildingBlocks/RoomMesh/RoomMeshEvent.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/BuildingBlocks/SharedSpatialAnchorCore/SharedSpatialAnchorCore.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/BuildingBlocks/SpatialAnchorManagerBlockScripts/SpatialAnchorCoreBuildingBlock.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/BuildingBlocks/RoomMesh/RoomMeshController.cs" />
     <Reference Include="UnityEngine">
       <HintPath>/Applications/Unity/Hub/Editor/6000.0.25f1/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Managed/UnityEngine.dll</HintPath>
     </Reference>

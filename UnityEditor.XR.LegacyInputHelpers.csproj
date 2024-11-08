@@ -49,8 +49,8 @@
     <Compile Include="Library/PackageCache/com.unity.xr.legacyinputhelpers/Editor/CameraOffsetEditor.cs" />
     <Compile Include="Library/PackageCache/com.unity.xr.legacyinputhelpers/Editor/ArmModels/TransitionArmModelEditor.cs" />
     <Compile Include="Library/PackageCache/com.unity.xr.legacyinputhelpers/Editor/ArmModels/SwingArmModelEditor.cs" />
-    <Compile Include="Library/PackageCache/com.unity.xr.legacyinputhelpers/Editor/MenuUtils.cs" />
     <Compile Include="Library/PackageCache/com.unity.xr.legacyinputhelpers/Editor/SeedXRInputBindings/SeedXRInputBindings.cs" />
+    <Compile Include="Library/PackageCache/com.unity.xr.legacyinputhelpers/Editor/MenuUtils.cs" />
     <Compile Include="Library/PackageCache/com.unity.xr.legacyinputhelpers/Editor/ArmModels/ArmModelEditor.cs" />
     <None Include="Library/PackageCache/com.unity.xr.legacyinputhelpers/Editor/LegacyInputHelpersEditor.asmdef" />
     <Reference Include="UnityEngine">

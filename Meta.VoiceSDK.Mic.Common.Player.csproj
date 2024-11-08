@@ -46,12 +46,12 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/6000.0.25f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Lib/Mic/Common/IAudioLevelRangeProvider.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Lib/Mic/Common/AudioEncoding.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Lib/Mic/Common/IAudioInputSource.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Lib/Mic/Common/IAudioLevelRangeProvider.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Lib/Mic/Common/MicBase.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Lib/Mic/Common/MicDebug.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Lib/Mic/Common/BaseAudioClipInput.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Wit.ai/Scripts/Runtime/Lib/Mic/Common/AudioEncoding.cs" />
     <Reference Include="UnityEngine">
       <HintPath>/Applications/Unity/Hub/Editor/6000.0.25f1/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Managed/UnityEngine.dll</HintPath>
     </Reference>

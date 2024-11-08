@@ -46,13 +46,13 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/6000.0.25f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.platform/Editor/OculusStandalonePlatformResponse.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.platform/Editor/OculusPluginUpdaterStub.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.platform/Editor/HorizonProfileTokenResponse.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.platform/Editor/GUIHelper.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.platform/Editor/OculusPlatformSettingsEditor.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.platform/Editor/BuildingBlocks/BlockDataIds.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.platform/Editor/OculusStandalonePlatformResponse.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.platform/Editor/OculusPluginUpdaterStub.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.platform/Editor/MetaGraphVariablesParam.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.platform/Editor/HorizonProfileTokenResponse.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.platform/Editor/AssemblyInfo.cs" />
     <None Include="Library/PackageCache/com.meta.xr.sdk.platform/Editor/Oculus.Platform.Editor.asmdef" />
     <Reference Include="UnityEngine">

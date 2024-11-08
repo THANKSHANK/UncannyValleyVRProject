@@ -46,14 +46,14 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/6000.0.25f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Features/Composer/Composer/Lib/Wit.ai/Features/composer/Scripts/Editor/Data/Configuration/IContextNodeParser.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Features/Composer/Composer/Lib/Wit.ai/Features/composer/Scripts/Editor/Data/Configuration/Tabs/WitConfigurationComposerTab.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Features/Composer/Composer/Lib/Wit.ai/Features/composer/Scripts/Editor/ComposerServiceEditor.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Features/Composer/Composer/Lib/Wit.ai/Features/composer/Scripts/Editor/Drawers/VersionTagDropdownDrawer.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Features/Composer/Composer/Lib/Wit.ai/Features/composer/Scripts/Editor/AssemblyInfo.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Features/Composer/Composer/Lib/Wit.ai/Features/composer/Scripts/Editor/Data/Configuration/IContextNodeParser.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Features/Composer/Composer/Lib/Wit.ai/Features/composer/Scripts/Editor/Data/ComposerCanvasData.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Features/Composer/Composer/Lib/Wit.ai/Features/composer/Scripts/Editor/Data/Configuration/ComposerParser.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Features/Composer/Composer/Lib/Wit.ai/Features/composer/Scripts/Editor/Drawers/WitComposerInfoPropertyDrawer.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Features/Composer/Composer/Lib/Wit.ai/Features/composer/Scripts/Editor/Drawers/VersionTagDropdownDrawer.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Features/Composer/Composer/Lib/Wit.ai/Features/composer/Scripts/Editor/AssemblyInfo.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Features/Composer/Composer/Lib/Wit.ai/Features/composer/Scripts/Editor/Data/Configuration/WitComposerDataRefresher.cs" />
     <None Include="Library/PackageCache/com.meta.xr.sdk.voice/Features/Composer/Composer/Lib/Wit.ai/Features/composer/Scripts/Editor/Meta.Wit.Composer.Editor.asmdef" />
     <Reference Include="UnityEngine">

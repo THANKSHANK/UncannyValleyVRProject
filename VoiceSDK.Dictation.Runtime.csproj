@@ -47,14 +47,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Features/Dictation/source/Scripts/Runtime/API/Listeners/DictationListener.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Features/Dictation/source/Scripts/Runtime/Bindings/Android/PlatformDictationSession.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Features/Dictation/source/Scripts/Runtime/Bindings/Android/IServiceEvents.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Features/Dictation/source/Scripts/Runtime/API/Configuration/DictationConfiguration.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Features/Dictation/source/Scripts/Runtime/Bindings/Android/DictationConfigurationBinding.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Features/Dictation/source/Scripts/Runtime/Bindings/Android/DictationListenerBinding.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Features/Dictation/source/Scripts/Runtime/Data/WitDictationRuntimeConfiguration.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Features/Dictation/source/Scripts/Runtime/API/Service/AppDictationExperience.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Features/Dictation/source/Scripts/Runtime/Bindings/Android/PlatformDictationSDKBinding.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Features/Dictation/source/Scripts/Runtime/Bindings/Android/PlatformDictationSession.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Features/Dictation/source/Scripts/Runtime/Bindings/Android/IServiceEvents.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Features/Dictation/source/Scripts/Runtime/API/Configuration/DictationConfiguration.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Features/Dictation/source/Scripts/Runtime/Bindings/Android/DictationConfigurationBinding.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Features/Dictation/source/Scripts/Runtime/Bindings/Android/PlatformDictationImpl.cs" />
     <None Include="Library/PackageCache/com.meta.xr.sdk.voice/Features/Dictation/source/Scripts/Runtime/VoiceSDK.Dictation.Runtime.asmdef" />
     <Reference Include="UnityEngine">

@@ -315,7 +315,6 @@
 -r:"/Applications/Unity/Hub/Editor/6000.0.25f1/Unity.app/Contents/NetStandard/ref/2.1.0/netstandard.dll"
 -r:"Library/PackageCache/com.unity.ext.nunit/net40/unity-custom/nunit.framework.dll"
 -r:"Library/PackageCache/com.unity.nuget.newtonsoft-json/Runtime/AOT/Newtonsoft.Json.dll"
--r:"Library/PackageCache/com.unity.visualscripting/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"Library/Bee/artifacts/1300b0aP.dag/Oculus.Interaction.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aP.dag/Oculus.VR.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aP.dag/UnityEngine.UI.ref.dll"

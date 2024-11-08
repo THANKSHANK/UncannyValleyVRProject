@@ -46,22 +46,22 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/6000.0.25f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.audio/Runtime/scripts/MetaXRAcousticMap.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.audio/Runtime/scripts/MetaXRAcousticMaterial.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.audio/Runtime/scripts/MetaXRAudioRoomAcousticProperties.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.audio/Runtime/scripts/MetaXRAcousticMaterialProperties.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.audio/Runtime/scripts/MetaXRAcousticControlZone.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.audio/Runtime/scripts/MetaXRAudioSettings.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.audio/Runtime/scripts/MetaXRAcousticSettings.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.audio/Runtime/AssemblyInfo.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.audio/Runtime/scripts/MetaXRAcousticMap.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.audio/Runtime/scripts/MetaXRAudioNativeInterface.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.audio/Runtime/scripts/MetaXRAudioVersion.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.audio/Runtime/scripts/MetaXRAcousticMaterial.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.audio/Runtime/scripts/MetaXRAudioRoomAcousticProperties.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.audio/Runtime/scripts/MetaXRAcousticSceneGroup.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.audio/Runtime/scripts/MetaXRAudioUtils.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.audio/Runtime/scripts/MetaXRAcousticMaterialMapping.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.audio/Runtime/scripts/MetaXRAudioSource.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.audio/Runtime/scripts/MetaXRAcousticMaterialProperties.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.audio/Runtime/scripts/MetaXRAudioSourceExperimentalFeatures.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.audio/Runtime/scripts/MetaXRAcousticControlZone.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.audio/Runtime/scripts/MetaXRAudioSettings.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.audio/Runtime/scripts/MetaXRAcousticNativeInterface.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.audio/Runtime/scripts/MetaXRAcousticSettings.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.audio/Runtime/scripts/MetaXRAcousticGeometry.cs" />
     <Reference Include="UnityEngine">
       <HintPath>/Applications/Unity/Hub/Editor/6000.0.25f1/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Managed/UnityEngine.dll</HintPath>

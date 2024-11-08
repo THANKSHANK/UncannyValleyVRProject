@@ -47,9 +47,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/EnvironmentDepth/DepthProvider.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/EnvironmentDepth/EnvironmentDepthOcclusionShadersMode.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/EnvironmentDepth/EnvironmentDepthUtils.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/EnvironmentDepth/EnvironmentDepthManager.cs" />
     <None Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/EnvironmentDepth/Meta.XR.EnvironmentDepth.asmdef" />
     <Reference Include="UnityEngine">
       <HintPath>/Applications/Unity/Hub/Editor/6000.0.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>

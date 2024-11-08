@@ -11,24 +11,25 @@ public class VariableManager : MonoBehaviour
     private AvatarFaceCorrectively correctivesFaceHead;
     private AvatarFaceCorrectively correctivesFaceMouth;
 
-
     public Toggle multiplierToggleLow, multiplierToggleMedium, multiplierToggleHigh;
-    public Toggle textureDetailToggleLow,textureDetailToggleMedium,textureDetailToggleHigh;
+    public Toggle textureDetailToggleLow, textureDetailToggleMedium, textureDetailToggleHigh;
     public Toggle subtleEyeMotionToggleLow, subtleEyeMotionToggleMedium, subtleEyeMotionToggleHigh;
 
-    public Material lowDetailMaterial, mediumDetailMaterial, highDetailMaterial;
+    public Material[] lowDetailMaterials, mediumDetailMaterials, highDetailMaterials;
 
     private GameObject mirroredObject;
     private MeshRenderer mirroredRenderer;
 
     public AudioClip toggleSelectSound;
     private AudioSource audioSource;
-    
-    
+
+    // Track the previous states of each toggle to play sound only on change
+    private bool prevMultiplierLow, prevMultiplierMedium, prevMultiplierHigh;
+    private bool prevTextureLow, prevTextureMedium, prevTextureHigh;
+    private bool prevEyeMotionLow, prevEyeMotionMedium, prevEyeMotionHigh;
+
     private void Start()
     {
-        // Start the coroutine to periodically change materials
-        //StartCoroutine(FindMirroredObjectAndChangeMaterial());
         if (headObject != null)
         {
             correctivesFaceHead = headObject.GetComponent<AvatarFaceCorrectively>();
@@ -39,15 +40,12 @@ public class VariableManager : MonoBehaviour
             correctivesFaceMouth = mouthObject.GetComponent<AvatarFaceCorrectively>();
         }
         audioSource = GetComponent<AudioSource>();
-        //AddToggleListeners();
-       
     }
 
     private void Update()
     {
-       findMirroredObject();
-       ToogleListeners();
-        
+        findMirroredObject();
+        ToogleListeners();
     }
 
     private void findMirroredObject()
@@ -61,93 +59,74 @@ public class VariableManager : MonoBehaviour
             }
         }
     }
+
     private void ToogleListeners()
     {
-        if (multiplierToggleLow.isOn)
-        {
-            UpdateBlendShapeMultiplier(80f);
-        }
-        else if (multiplierToggleMedium.isOn)
+        // Blend Shape Multiplier Toggles
+        if (multiplierToggleLow.isOn && !prevMultiplierLow)
         {
             UpdateBlendShapeMultiplier(100f);
+            PlayToggleSound();
         }
-        else if (multiplierToggleHigh.isOn)
+        prevMultiplierLow = multiplierToggleLow.isOn;
+
+        if (multiplierToggleMedium.isOn && !prevMultiplierMedium)
         {
             UpdateBlendShapeMultiplier(120f);
+            PlayToggleSound();
         }
+        prevMultiplierMedium = multiplierToggleMedium.isOn;
 
-        if (textureDetailToggleLow.isOn)
+        if (multiplierToggleHigh.isOn && !prevMultiplierHigh)
         {
-            UpdateMaterial(lowDetailMaterial);
+            UpdateBlendShapeMultiplier(140f);
+            PlayToggleSound();
         }
-        else if (textureDetailToggleMedium.isOn)
+        prevMultiplierHigh = multiplierToggleHigh.isOn;
+
+        // Texture Detail Toggles
+        if (textureDetailToggleLow.isOn && !prevTextureLow)
         {
-            UpdateMaterial(mediumDetailMaterial);
+            UpdateMaterial(lowDetailMaterials);
+            PlayToggleSound();
         }
-        else if (textureDetailToggleHigh.isOn)
+        prevTextureLow = textureDetailToggleLow.isOn;
+
+        if (textureDetailToggleMedium.isOn && !prevTextureMedium)
         {
-            UpdateMaterial(highDetailMaterial);
+            UpdateMaterial(mediumDetailMaterials);
+            PlayToggleSound();
         }
+        prevTextureMedium = textureDetailToggleMedium.isOn;
 
-        if (subtleEyeMotionToggleLow.isOn)
+        if (textureDetailToggleHigh.isOn && !prevTextureHigh)
         {
-            UpdateBlinkParameters(4f, 8f, 0.2f);
+            UpdateMaterial(highDetailMaterials);
+            PlayToggleSound();
         }
-        else if (subtleEyeMotionToggleMedium.isOn)
+        prevTextureHigh = textureDetailToggleHigh.isOn;
+
+        // Subtle Eye Motion Toggles
+        if (subtleEyeMotionToggleLow.isOn && !prevEyeMotionLow)
         {
-            UpdateBlinkParameters(2f, 5f, 0.1f);
+            UpdateBlinkParameters(2.5f, 5f, 0.1f);
+            PlayToggleSound();
         }
-        else if (subtleEyeMotionToggleHigh.isOn)
+        prevEyeMotionLow = subtleEyeMotionToggleLow.isOn;
+
+        if (subtleEyeMotionToggleMedium.isOn && !prevEyeMotionMedium)
         {
-            UpdateBlinkParameters(1f, 3f, 0.05f);
+            UpdateBlinkParameters(1.5f, 4f, 0.15f);
+            PlayToggleSound();
         }
-    }
-    private void AddToggleListeners()
-    {
-        multiplierToggleLow.onValueChanged.AddListener((isOn) =>
-        {
-            if (isOn) PlayToggleSound(); UpdateBlendShapeMultiplier(80f);
-        });
+        prevEyeMotionMedium = subtleEyeMotionToggleMedium.isOn;
 
-        multiplierToggleMedium.onValueChanged.AddListener((isOn) =>
+        if (subtleEyeMotionToggleHigh.isOn && !prevEyeMotionHigh)
         {
-            if (isOn) PlayToggleSound(); UpdateBlendShapeMultiplier(100f);
-        });
-
-        multiplierToggleHigh.onValueChanged.AddListener((isOn) =>
-        {
-            if (isOn) PlayToggleSound(); UpdateBlendShapeMultiplier(120f);
-        });
-
-        textureDetailToggleLow.onValueChanged.AddListener((isOn) =>
-        {
-            if (isOn) PlayToggleSound(); UpdateMaterial(lowDetailMaterial);
-        });
-
-        textureDetailToggleMedium.onValueChanged.AddListener((isOn) =>
-        {
-            if (isOn) PlayToggleSound(); UpdateMaterial(mediumDetailMaterial);
-        });
-
-        textureDetailToggleHigh.onValueChanged.AddListener((isOn) =>
-        {
-            if (isOn) PlayToggleSound(); UpdateMaterial(highDetailMaterial);
-        });
-
-        subtleEyeMotionToggleLow.onValueChanged.AddListener((isOn) =>
-        {
-            if (isOn) PlayToggleSound(); UpdateBlinkParameters(4f, 8f, 0.2f);
-        });
-
-        subtleEyeMotionToggleMedium.onValueChanged.AddListener((isOn) =>
-        {
-            if (isOn) PlayToggleSound(); UpdateBlinkParameters(2f, 5f, 0.1f);
-        });
-
-        subtleEyeMotionToggleHigh.onValueChanged.AddListener((isOn) =>
-        {
-            if (isOn) PlayToggleSound(); UpdateBlinkParameters(1f, 3f, 0.05f);
-        });
+            UpdateBlinkParameters(1f, 3f, 0.2f);
+            PlayToggleSound();
+        }
+        prevEyeMotionHigh = subtleEyeMotionToggleHigh.isOn;
     }
 
     private void PlayToggleSound()
@@ -162,38 +141,19 @@ public class VariableManager : MonoBehaviour
         }
     }
 
-    private void UpdateMaterial(Material newMaterial)
+    private void UpdateMaterial(Material[] newMaterials)
     {
-        Material[] materials = mirroredRenderer.sharedMaterials;
-        materials[0] = newMaterial;
-        mirroredRenderer.sharedMaterials = materials;
-        Debug.Log($"Material changed to: {newMaterial.name}");
-        mirroredRenderer.enabled = false;
-        mirroredRenderer.enabled = true;
-    }
-
-    private IEnumerator UpdateMirroredObjectMaterial(Material newMaterial)
-    {
-        while (mirroredObject == null)
+        if (mirroredRenderer != null)
         {
-            mirroredObject = GameObject.Find("HighFidelityMirrored_NormalRecalc");
-            if (mirroredObject != null)
+            Material[] materials = mirroredRenderer.sharedMaterials;
+            for (int i = 0; i < newMaterials.Length; i++)
             {
-                mirroredRenderer = mirroredObject.GetComponent<MeshRenderer>();
-                if (mirroredRenderer != null)
-                {
-                    Material[] materials = mirroredRenderer.sharedMaterials;
-                    materials[0] = newMaterial;
-                    mirroredRenderer.sharedMaterials = materials;
-
-                    Debug.Log($"Material changed to: {newMaterial.name}");
-
-                    mirroredRenderer.enabled = false;
-                    mirroredRenderer.enabled = true;
-                    yield break;
-                }
+                materials[i] = newMaterials[i];
             }
-            yield return new WaitForSeconds(0.1f);
+            mirroredRenderer.sharedMaterials = materials;
+            //Debug.Log($"Material changed to: {newMaterial.name}");
+            mirroredRenderer.enabled = false;
+            mirroredRenderer.enabled = true;
         }
     }
 
@@ -220,8 +180,6 @@ public class VariableManager : MonoBehaviour
             correctivesFaceHead.maxBlinkInterval = maxInterval;
             correctivesFaceHead.blinkDurationL = duration;
             correctivesFaceHead.blinkDurationR = duration;
-
-            Debug.Log($"Blink parameters updated: Min {minInterval}, Max {maxInterval}, Duration {duration}");
         }
 
         if (correctivesFaceMouth != null)
@@ -232,6 +190,4 @@ public class VariableManager : MonoBehaviour
             correctivesFaceMouth.blinkDurationR = duration;
         }
     }
-    
-
 }

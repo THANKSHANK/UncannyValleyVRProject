@@ -314,7 +314,6 @@
 -r:"/Applications/Unity/Hub/Editor/6000.0.25f1/Unity.app/Contents/NetStandard/ref/2.1.0/netstandard.dll"
 -r:"Library/PackageCache/com.unity.ext.nunit/net40/unity-custom/nunit.framework.dll"
 -r:"Library/PackageCache/com.unity.nuget.newtonsoft-json/Runtime/AOT/Newtonsoft.Json.dll"
--r:"Library/PackageCache/com.unity.visualscripting/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"Library/Bee/artifacts/1300b0aP.dag/AssistantCoreSDKRuntime.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aP.dag/AssistantVoiceCommandCommon.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aP.dag/Meta.Movement.ref.dll"
@@ -354,9 +353,6 @@
 -r:"Library/Bee/artifacts/1300b0aP.dag/Unity.Multiplayer.Center.Common.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aP.dag/Unity.TextMeshPro.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aP.dag/Unity.Timeline.ref.dll"
--r:"Library/Bee/artifacts/1300b0aP.dag/Unity.VisualScripting.Core.ref.dll"
--r:"Library/Bee/artifacts/1300b0aP.dag/Unity.VisualScripting.Flow.ref.dll"
--r:"Library/Bee/artifacts/1300b0aP.dag/Unity.VisualScripting.State.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aP.dag/Unity.XR.CoreUtils.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aP.dag/Unity.XR.Hands.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aP.dag/Unity.XR.Management.ref.dll"
@@ -376,7 +372,6 @@
 "Assets/Scripts/CustomOVRFaceWithDynamicMapping.cs"
 "Assets/Scripts/MaterialDebugChanger.cs"
 "Assets/Scripts/VariableManager.cs"
-"Assets/Unity.VisualScripting.Generated/VisualScripting.Core/AotStubs.cs"
 -langversion:9.0
 /deterministic
 /optimize+

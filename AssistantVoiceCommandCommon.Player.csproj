@@ -47,9 +47,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Common/Scripts/Runtime/Configuration/VoiceCommand.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Common/Scripts/Runtime/Listeners/SlotHandler.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Common/Scripts/Runtime/Data/VoiceCommandResult.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Common/Scripts/Runtime/Listeners/VoiceCommandListener.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Lib/Common/Scripts/Runtime/Listeners/SlotHandler.cs" />
     <Reference Include="UnityEngine">
       <HintPath>/Applications/Unity/Hub/Editor/6000.0.25f1/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Managed/UnityEngine.dll</HintPath>
     </Reference>

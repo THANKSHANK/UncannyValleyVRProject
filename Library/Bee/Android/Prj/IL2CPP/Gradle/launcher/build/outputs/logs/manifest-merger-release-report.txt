@@ -4,7 +4,7 @@ ADDED from /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Andro
 INJECTED from /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml:2:1-5:12
 INJECTED from /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml:2:1-5:12
 INJECTED from /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml:2:1-5:12
-MERGED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:2:1-158:12
+MERGED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:2:1-157:12
 MERGED from [:InteractionSdk:] /Users/zihanw/.gradle/caches/transforms-3/f77b62b436d0ee8ffd3d59cab8561fa9/transformed/jetified-InteractionSdk/AndroidManifest.xml:2:1-9:12
 MERGED from [:unityopus:] /Users/zihanw/.gradle/caches/transforms-3/26d0741d14ac57eb96688e715cb632af/transformed/jetified-unityopus/AndroidManifest.xml:2:1-11:12
 MERGED from [:SDKTelemetry:] /Users/zihanw/.gradle/caches/transforms-3/795604fea0c2a216862dc342af22fd22/transformed/jetified-SDKTelemetry/AndroidManifest.xml:2:1-9:12
@@ -56,8 +56,8 @@ MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/zihanw/.g
 application
 ADDED from /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml:3:3-83
 INJECTED from /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml:3:3-83
-MERGED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:66:5-156:19
-MERGED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:66:5-156:19
+MERGED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:65:5-155:19
+MERGED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:65:5-155:19
 MERGED from [:unityLibrary:xrmanifest.androidlib] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/xrmanifest.androidlib/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:7:5-9:19
 MERGED from [:unityLibrary:xrmanifest.androidlib] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/xrmanifest.androidlib/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:7:5-9:19
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/zihanw/.gradle/caches/transforms-3/87addd2f9ef0ee0ee44e96c1653f474c/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
@@ -74,17 +74,17 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/zihanw/.gradle/cache
 MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/zihanw/.gradle/caches/transforms-3/f98f388a29837a9685a9f8b5cf1e3c6c/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
 	android:extractNativeLibs
 		INJECTED from /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml
-		REJECTED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:68:9-41
+		REJECTED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:67:9-41
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.8.0] /Users/zihanw/.gradle/caches/transforms-3/568fa08692b0f6499f48d5b80c6eab7b/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
 	android:label
 		ADDED from /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml:3:48-80
 	android:allowBackup
-		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:67:9-36
+		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:66:9-36
 	android:icon
 		ADDED from /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml:3:16-47
 	android:networkSecurityConfig
-		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:71:9-64
+		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:70:9-64
 supports-screens
 ADDED from /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml:4:3-163
 	android:largeScreens
@@ -186,282 +186,278 @@ uses-permission#android.permission.INTERNET
 ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:9:5-67
 	android:name
 		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:9:22-64
-uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:10:5-79
-	android:name
-		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:10:22-76
 uses-permission#android.permission.RECORD_AUDIO
-ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:11:5-71
+ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:10:5-71
 	android:name
-		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:11:22-68
+		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:10:22-68
 uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
-ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:12:5-80
+ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:11:5-80
 	android:name
-		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:12:22-77
+		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:11:22-77
 uses-feature#android.hardware.vr.headtracking
-ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:14:5-17:31
+ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:13:5-16:31
 	android:version
-		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:17:9-28
+		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:16:9-28
 	android:required
-		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:16:9-32
+		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:15:9-32
 	android:name
-		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:15:9-56
+		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:14:9-56
 uses-feature#android.hardware.vulkan.version
-ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:18:5-20:35
+ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:17:5-19:35
 	android:required
-		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:20:9-32
+		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:19:9-32
 	android:name
-		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:19:9-55
+		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:18:9-55
 uses-feature#android.hardware.microphone
-ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:21:5-23:36
+ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:20:5-22:36
 	android:required
-		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:23:9-33
+		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:22:9-33
 	android:name
-		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:22:9-51
+		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:21:9-51
 uses-feature#android.hardware.touchscreen
-ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:24:5-26:36
+ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:23:5-25:36
 	android:required
-		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:26:9-33
+		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:25:9-33
 	android:name
-		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:25:9-52
+		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:24:9-52
 uses-feature#android.hardware.touchscreen.multitouch
-ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:27:5-29:36
+ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:26:5-28:36
 	android:required
-		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:29:9-33
+		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:28:9-33
 	android:name
-		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:28:9-63
+		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:27:9-63
 uses-feature#android.hardware.touchscreen.multitouch.distinct
-ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:30:5-32:36
+ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:29:5-31:36
 	android:required
-		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:32:9-33
+		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:31:9-33
 	android:name
-		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:31:9-72
+		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:30:9-72
 uses-feature#oculus.software.handtracking
-ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:33:5-35:36
+ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:32:5-34:36
 	android:required
-		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:35:9-33
+		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:34:9-33
 	android:name
-		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:34:9-52
+		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:33:9-52
 uses-permission#com.oculus.permission.HAND_TRACKING
-ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:37:5-75
+ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:36:5-75
 	android:name
-		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:37:22-72
+		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:36:22-72
 uses-permission#com.oculus.permission.USE_ANCHOR_API
-ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:38:5-76
+ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:37:5-76
 	android:name
-		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:38:22-73
+		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:37:22-73
 uses-feature#com.oculus.feature.PASSTHROUGH
-ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:40:5-42:36
+ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:39:5-41:36
 	android:required
-		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:42:9-33
+		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:41:9-33
 	android:name
-		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:41:9-54
+		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:40:9-54
 uses-feature#com.oculus.feature.RENDER_MODEL
-ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:43:5-68
+ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:42:5-68
 	android:name
-		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:43:19-65
+		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:42:19-65
 uses-permission#com.oculus.permission.RENDER_MODEL
-ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:45:5-74
+ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:44:5-74
 	android:name
-		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:45:22-71
+		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:44:22-71
 uses-feature#com.oculus.software.body_tracking
-ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:47:5-49:36
+ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:46:5-48:36
 	android:required
-		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:49:9-33
+		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:48:9-33
 	android:name
-		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:48:9-57
+		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:47:9-57
 uses-permission#com.oculus.permission.BODY_TRACKING
-ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:51:5-75
+ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:50:5-75
 	android:name
-		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:51:22-72
+		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:50:22-72
 uses-feature#oculus.software.face_tracking
-ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:53:5-55:36
+ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:52:5-54:36
 	android:required
-		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:55:9-33
+		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:54:9-33
 	android:name
-		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:54:9-53
+		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:53:9-53
 uses-permission#com.oculus.permission.FACE_TRACKING
-ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:57:5-75
+ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:56:5-75
 	android:name
-		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:57:22-72
+		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:56:22-72
 uses-feature#oculus.software.eye_tracking
-ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:59:5-61:36
+ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:58:5-60:36
 	android:required
-		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:61:9-33
+		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:60:9-33
 	android:name
-		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:60:9-52
+		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:59:9-52
 uses-permission#com.oculus.permission.EYE_TRACKING
-ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:63:5-74
+ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:62:5-74
 	android:name
-		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:63:22-71
+		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:62:22-71
 uses-permission#com.oculus.permission.USE_SCENE
-ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:64:5-71
+ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:63:5-71
 	android:name
-		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:64:22-68
+		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:63:22-68
 meta-data#unityplayer.SkipPermissionsDialog
-ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:72:9-74:37
+ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:71:9-73:37
 	android:value
-		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:74:13-34
+		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:73:13-34
 	android:name
-		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:73:13-61
+		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:72:13-61
 meta-data#com.samsung.android.vr.application.mode
-ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:75:9-77:39
+ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:74:9-76:39
 	android:value
-		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:77:13-36
+		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:76:13-36
 	android:name
-		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:76:13-67
+		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:75:13-67
 meta-data#com.oculus.ossplash.background
-ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:78:9-80:54
+ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:77:9-79:54
 	android:value
-		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:80:13-51
+		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:79:13-51
 	android:name
-		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:79:13-58
+		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:78:13-58
 meta-data#com.oculus.telemetry.project_guid
-ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:81:9-83:68
+ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:80:9-82:68
 	android:value
-		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:83:13-65
+		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:82:13-65
 	android:name
-		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:82:13-61
+		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:81:13-61
 meta-data#com.oculus.supportedDevices
-ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:84:9-86:40
+ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:83:9-85:40
 	android:value
-		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:86:13-37
+		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:85:13-37
 	android:name
-		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:85:13-55
+		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:84:13-55
 meta-data#unity.splash-mode
-ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:87:9-89:33
+ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:86:9-88:33
 	android:value
-		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:89:13-30
+		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:88:13-30
 	android:name
-		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:88:13-45
+		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:87:13-45
 meta-data#unity.splash-enable
-ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:90:9-92:36
+ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:89:9-91:36
 	android:value
-		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:92:13-33
+		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:91:13-33
 	android:name
-		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:91:13-47
+		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:90:13-47
 meta-data#unity.launch-fullscreen
-ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:93:9-95:36
+ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:92:9-94:36
 	android:value
-		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:95:13-33
+		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:94:13-33
 	android:name
-		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:94:13-51
+		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:93:13-51
 meta-data#unity.render-outside-safearea
-ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:96:9-98:36
+ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:95:9-97:36
 	android:value
-		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:98:13-33
+		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:97:13-33
 	android:name
-		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:97:13-57
+		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:96:13-57
 meta-data#notch.config
-ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:99:9-101:50
+ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:98:9-100:50
 	android:value
-		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:101:13-47
+		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:100:13-47
 	android:name
-		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:100:13-40
+		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:99:13-40
 meta-data#unity.auto-report-fully-drawn
-ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:102:9-104:36
+ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:101:9-103:36
 	android:value
-		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:104:13-33
+		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:103:13-33
 	android:name
-		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:103:13-57
+		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:102:13-57
 meta-data#unity.auto-set-game-state
-ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:105:9-107:36
+ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:104:9-106:36
 	android:value
-		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:107:13-33
+		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:106:13-33
 	android:name
-		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:106:13-53
+		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:105:13-53
 meta-data#unity.strip-engine-code
-ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:108:9-110:36
+ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:107:9-109:36
 	android:value
-		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:110:13-33
+		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:109:13-33
 	android:name
-		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:109:13-51
+		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:108:13-51
 activity#com.unity3d.player.UnityPlayerGameActivity
-ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:112:9-142:20
+ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:111:9-141:20
 MERGED from [:unityLibrary:xrmanifest.androidlib] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/xrmanifest.androidlib/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:8:9-79
 MERGED from [:unityLibrary:xrmanifest.androidlib] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/xrmanifest.androidlib/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:8:9-79
 	android:screenOrientation
-		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:121:13-50
+		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:120:13-50
 	android:enabled
-		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:115:13-35
+		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:114:13-35
 	android:excludeFromRecents
-		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:116:13-46
+		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:115:13-46
 	android:launchMode
-		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:119:13-44
+		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:118:13-44
 	android:hardwareAccelerated
-		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:118:13-48
+		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:117:13-48
 	android:exported
-		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:117:13-36
+		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:116:13-36
 	android:resizeableActivity
-		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:120:13-47
+		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:119:13-47
 	android:configChanges
-		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:114:13-122
+		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:113:13-122
 	android:theme
-		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:122:13-62
+		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:121:13-62
 	android:name
-		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:113:13-70
+		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:112:13-70
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER+category:name:com.oculus.intent.category.VR
-ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:123:13-128:29
+ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:122:13-127:29
 category#android.intent.category.LAUNCHER
-ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:124:17-77
+ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:123:17-77
 	android:name
-		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:124:27-74
+		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:123:27-74
 category#com.oculus.intent.category.VR
-ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:125:17-74
+ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:124:17-74
 	android:name
-		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:125:27-71
+		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:124:27-71
 action#android.intent.action.MAIN
-ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:127:17-69
+ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:126:17-69
 	android:name
-		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:127:25-66
+		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:126:25-66
 meta-data#com.oculus.vr.focusaware
-ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:130:13-132:40
+ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:129:13-131:40
 	android:value
-		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:132:17-37
+		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:131:17-37
 	android:name
-		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:131:17-56
+		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:130:17-56
 meta-data#WindowManagerPreference:FreeformWindowSize
-ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:133:13-135:71
+ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:132:13-134:71
 	android:value
-		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:135:17-68
+		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:134:17-68
 	android:name
-		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:134:17-74
+		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:133:17-74
 meta-data#WindowManagerPreference:FreeformWindowOrientation
-ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:136:13-138:79
+ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:135:13-137:79
 	android:value
-		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:138:17-76
+		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:137:17-76
 	android:name
-		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:137:17-81
+		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:136:17-81
 meta-data#notch_support
-ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:139:13-141:40
+ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:138:13-140:40
 	android:value
-		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:141:17-37
+		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:140:17-37
 	android:name
-		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:140:17-45
+		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:139:17-45
 meta-data#com.unity.xr.oculus.LowOverheadMode
-ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:144:9-146:37
+ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:143:9-145:37
 	android:value
-		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:146:13-34
+		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:145:13-34
 	android:name
-		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:145:13-63
+		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:144:13-63
 meta-data#com.unity.xr.oculus.LateLatching
-ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:147:9-149:37
+ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:146:9-148:37
 	android:value
-		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:149:13-34
+		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:148:13-34
 	android:name
-		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:148:13-60
+		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:147:13-60
 meta-data#com.unity.xr.oculus.LateLatchingDebug
-ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:150:9-152:37
+ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:149:9-151:37
 	android:value
-		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:152:13-34
+		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:151:13-34
 	android:name
-		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:151:13-65
+		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:150:13-65
 meta-data#com.oculus.handtracking.frequency
-ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:153:9-155:35
+ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:152:9-154:35
 	android:value
-		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:155:13-32
+		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:154:13-32
 	android:name
-		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:154:13-61
+		ADDED from [:unityLibrary] /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:153:13-61
 provider#androidx.startup.InitializationProvider
 ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/zihanw/.gradle/caches/transforms-3/e60bf0ab8a1217670124be7e52d524ab/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/zihanw/.gradle/caches/transforms-3/ca632e50827689b4d45330738d8735e2/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:26:9-34:20

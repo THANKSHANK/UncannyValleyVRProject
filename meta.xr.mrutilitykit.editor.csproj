@@ -47,14 +47,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Library/PackageCache/com.meta.xr.mrutilitykit/Editor/PST/OVRProjectSetupMRUK.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.mrutilitykit/Editor/SpaceMapGPUEditor.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.mrutilitykit/Editor/BuildingBlocks/AnchorPrefabSpawner/Scripts/AnchorPrefabSpawnerInstallationRoutine.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.mrutilitykit/Editor/AssemblyInfo.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.mrutilitykit/Editor/GridSliceResizerEditor.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.mrutilitykit/Editor/AnchorPrefabGroupPropertyDrawer.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.mrutilitykit/Editor/BuildingBlocks/FindSpawnPositions/Scripts/FindSpawnPositionsBlockData.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.mrutilitykit/Editor/BuildingBlocks/BlockDataIds.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.mrutilitykit/Editor/SpaceMapGPUEditor.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.mrutilitykit/Editor/BuildingBlocks/AnchorPrefabSpawner/Scripts/AnchorPrefabSpawnerInstallationRoutine.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.mrutilitykit/Editor/AssemblyInfo.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.mrutilitykit/Editor/BuildingBlocks/MRUtilityKit/Scripts/MRUtilityKitBlockData.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.mrutilitykit/Editor/GridSliceResizerEditor.cs" />
     <None Include="Library/PackageCache/com.meta.xr.mrutilitykit/Editor/meta.xr.mrutilitykit.editor.asmdef" />
     <Reference Include="UnityEngine">
       <HintPath>/Applications/Unity/Hub/Editor/6000.0.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>

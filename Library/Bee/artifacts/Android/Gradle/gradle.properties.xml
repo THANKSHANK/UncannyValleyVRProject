@@ -6,7 +6,7 @@
   <element name="" element-id="239" assign-type="None" raw-value="unityProjectPath=/Users/zihanw/Unity_Projects/UncannyValleyVRProject" type="Unity.Android.Gradle.Element" base-type="Unity.Android.Gradle.Element" is-default="false" dependencies="" />
   <element name="" element-id="240" assign-type="None" raw-value="unity.projectPath=/Users/zihanw/Unity_Projects/UncannyValleyVRProject" type="Unity.Android.Gradle.Element" base-type="Unity.Android.Gradle.Element" is-default="false" dependencies="" />
   <element name="" element-id="241" assign-type="None" raw-value="unity.debugSymbolLevel=none" type="Unity.Android.Gradle.Element" base-type="Unity.Android.Gradle.Element" is-default="false" dependencies="" />
-  <element name="" element-id="242" assign-type="None" raw-value="unity.buildToolsVersion=34.0.0" type="Unity.Android.Gradle.Element" base-type="Unity.Android.Gradle.Element" is-default="false" dependencies="" />
+  <element name="" element-id="242" assign-type="None" raw-value="unity.buildToolsVersion=35.0.0" type="Unity.Android.Gradle.Element" base-type="Unity.Android.Gradle.Element" is-default="false" dependencies="" />
   <element name="" element-id="243" assign-type="None" raw-value="unity.minSdkVersion=29" type="Unity.Android.Gradle.Element" base-type="Unity.Android.Gradle.Element" is-default="false" dependencies="" />
   <element name="" element-id="244" assign-type="None" raw-value="unity.targetSdkVersion=32" type="Unity.Android.Gradle.Element" base-type="Unity.Android.Gradle.Element" is-default="false" dependencies="" />
   <element name="" element-id="245" assign-type="None" raw-value="unity.compileSdkVersion=32" type="Unity.Android.Gradle.Element" base-type="Unity.Android.Gradle.Element" is-default="false" dependencies="" />

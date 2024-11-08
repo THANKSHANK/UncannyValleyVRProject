@@ -46,12 +46,12 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/6000.0.25f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Library/PackageCache/com.unity.inputsystem/Tests/TestFixture/AssemblyInfo.cs" />
-    <Compile Include="Library/PackageCache/com.unity.inputsystem/Tests/TestFixture/ScopedDisposable.cs" />
-    <Compile Include="Library/PackageCache/com.unity.inputsystem/Tests/TestFixture/AssetDatabaseUtils.cs" />
     <Compile Include="Library/PackageCache/com.unity.inputsystem/Tests/TestFixture/WinUserInput.cs" />
+    <Compile Include="Library/PackageCache/com.unity.inputsystem/Tests/TestFixture/AssemblyInfo.cs" />
     <Compile Include="Library/PackageCache/com.unity.inputsystem/Tests/TestFixture/InputTestRuntime.cs" />
+    <Compile Include="Library/PackageCache/com.unity.inputsystem/Tests/TestFixture/ScopedDisposable.cs" />
     <Compile Include="Library/PackageCache/com.unity.inputsystem/Tests/TestFixture/InputTestFixture.cs" />
+    <Compile Include="Library/PackageCache/com.unity.inputsystem/Tests/TestFixture/AssetDatabaseUtils.cs" />
     <Reference Include="UnityEngine">
       <HintPath>/Applications/Unity/Hub/Editor/6000.0.25f1/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Managed/UnityEngine.dll</HintPath>
     </Reference>

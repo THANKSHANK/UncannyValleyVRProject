@@ -20,7 +20,7 @@ android {
     ndkPath "/Applications/Unity/Hub/Editor/6000.0.25f1/PlaybackEngines/AndroidPlayer/NDK"
     ndkVersion "23.1.7779620"
     compileSdk 32
-    buildToolsVersion = "34.0.0"
+    buildToolsVersion = "35.0.0"
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_17

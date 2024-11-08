@@ -47,28 +47,28 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/SharedAnchorManager.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkDataUtils.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/ShareAndLocalizeParams.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/NetworkBootstrapperUtils.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/NetworkedAvatar/Scripts/AvatarEntity.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/INetworkMessenger.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/NetworkGrabbableObject/Scripts/TransferOwnershipOnSelect.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/INetworkData.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/NetworkedAvatar/AvatarSDK/Scripts/LipSyncMicInput.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationController.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/LogLevel.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AnchorDebugVisual.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/ColocationFailedReason.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkDataUtils.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlayerNameTag/Scripts/PlayerNameTagSpawner.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/PlatformInit/Scripts/PlatformInit_.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Player.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Logger.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/INetworkMessenger.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/NetworkGrabbableObject/Scripts/TransferOwnershipOnSelect.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/AssemblyInfo.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AutomaticColocationLauncher.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/NetworkedAvatar/Scripts/EntityInputManager.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/Anchor.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/INetworkData.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/NetworkedAvatar/AvatarSDK/Scripts/LipSyncMicInput.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/NetworkedAvatar/Scripts/InputTrackingDelegate.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/Scripts/ColocationController.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/LogLevel.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/NetworkedAvatar/Scripts/InputControlDelegate.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AnchorDebugVisual.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/ColocationFailedReason.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/NetworkAdapter.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.core/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Runtime/AlignCameraToAnchor.cs" />
     <Reference Include="UnityEngine">

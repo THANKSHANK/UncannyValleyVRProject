@@ -46,27 +46,27 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/6000.0.25f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Features/Composer/Composer/Lib/Wit.ai/Features/composer/Scripts/Runtime/Interfaces/IComposerActionHandler.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Features/Composer/Composer/Lib/Wit.ai/Features/composer/Scripts/Runtime/Interfaces/IComposerRequestHandler.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Features/Composer/Composer/Lib/Wit.ai/Features/composer/Scripts/Runtime/Interfaces/IComposerSpeechHandler.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Features/Composer/Composer/Lib/Wit.ai/Features/composer/Scripts/Runtime/Data/ReservedContextPathDictionary.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Features/Composer/Composer/Lib/Wit.ai/Features/composer/Scripts/Runtime/Data/ComposerResponseData.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Features/Composer/Composer/Lib/Wit.ai/Features/composer/Scripts/Runtime/Handlers/ComposerSpeechHandler.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Features/Composer/Composer/Lib/Wit.ai/Features/composer/Scripts/Runtime/Integrations/WitComposerService.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Features/Composer/Composer/Lib/Wit.ai/Features/composer/Scripts/Runtime/Handlers/ComposerSpeechUnityEvents.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Features/Composer/Composer/Lib/Wit.ai/Features/composer/Scripts/Runtime/AssemblyInfo.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Features/Composer/Composer/Lib/Wit.ai/Features/composer/Scripts/Runtime/Attributes/VersionTagDropdownAttribute.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Features/Composer/Composer/Lib/Wit.ai/Features/composer/Scripts/Runtime/Integrations/WitComposerConstants.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Features/Composer/Composer/Lib/Wit.ai/Features/composer/Scripts/Runtime/Data/ReservedPaths.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Features/Composer/Composer/Lib/Wit.ai/Features/composer/Scripts/Runtime/Actions.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Features/Composer/Composer/Lib/Wit.ai/Features/composer/Scripts/Runtime/ComposerEvents.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Features/Composer/Composer/Lib/Wit.ai/Features/composer/Scripts/Runtime/Integrations/WitComposerResponseExtensions.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Features/Composer/Composer/Lib/Wit.ai/Features/composer/Scripts/Runtime/Data/ComposerContextMap.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Features/Composer/Composer/Lib/Wit.ai/Features/composer/Scripts/Runtime/Interfaces/IComposerActionHandler.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Features/Composer/Composer/Lib/Wit.ai/Features/composer/Scripts/Runtime/Data/ComposerResponseData.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Features/Composer/Composer/Lib/Wit.ai/Features/composer/Scripts/Runtime/Handlers/ComposerSpeechHandler.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Features/Composer/Composer/Lib/Wit.ai/Features/composer/Scripts/Runtime/Handlers/ComposerSpeechUnityEvents.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Features/Composer/Composer/Lib/Wit.ai/Features/composer/Scripts/Runtime/Data/WitComposerData.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Features/Composer/Composer/Lib/Wit.ai/Features/composer/Scripts/Runtime/Data/BaseReservedContextPath.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Features/Composer/Composer/Lib/Wit.ai/Features/composer/Scripts/Runtime/ComposerEvents.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Features/Composer/Composer/Lib/Wit.ai/Features/composer/Scripts/Runtime/Handlers/ComposerActionHandler.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Features/Composer/Composer/Lib/Wit.ai/Features/composer/Scripts/Runtime/Integrations/WitComposerRequestHandler.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Features/Composer/Composer/Lib/Wit.ai/Features/composer/Scripts/Runtime/Integrations/WitComposerResponseExtensions.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Features/Composer/Composer/Lib/Wit.ai/Features/composer/Scripts/Runtime/ComposerService.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Features/Composer/Composer/Lib/Wit.ai/Features/composer/Scripts/Runtime/Data/ComposerContextMap.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Features/Composer/Composer/Lib/Wit.ai/Features/composer/Scripts/Runtime/Data/ReservedContextPath.cs" />
     <None Include="Library/PackageCache/com.meta.xr.sdk.voice/Features/Composer/Composer/Lib/Wit.ai/Features/composer/Scripts/Runtime/Meta.Wit.Composer.asmdef" />
     <Reference Include="UnityEngine">

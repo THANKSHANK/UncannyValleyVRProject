@@ -49,14 +49,14 @@
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Scripts/Editor/Utility/VoiceSDKMenu.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Scripts/Editor/Utility/VoiceSDKStyles.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Scripts/Editor/Utility/VoiceSDKVersion.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Scripts/Editor/Windows/VoiceSDKWizardWindow.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Scripts/Editor/Upgrade/WitUpgrader.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Scripts/Editor/Hub/VoiceSettings.cs" />
+    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Scripts/Editor/Data/VoiceSDKDataCreation.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Scripts/Editor/Windows/WelcomeWizard.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Scripts/Editor/Windows/AboutWindow.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Scripts/Editor/Inspectors/HierarchySimplifierInspector.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Scripts/Editor/Utility/InspectorHelper.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Scripts/Editor/Windows/VoiceSDKWizardWindow.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Scripts/Editor/Hub/VoiceSettings.cs" />
-    <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Scripts/Editor/Data/VoiceSDKDataCreation.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Scripts/Editor/Inspectors/AppVoiceExperienceEditor.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Scripts/Editor/Windows/SettingsWindow.cs" />
     <Compile Include="Library/PackageCache/com.meta.xr.sdk.voice/Scripts/Editor/Inspectors/AppVoiceExperienceWitConfigurationEditor.cs" />
