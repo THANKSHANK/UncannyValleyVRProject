@@ -93,11 +93,14 @@ extern "C" void RegisterStaticallyLinkedModulesGranular()
 	void RegisterModule_UnityWebRequest();
 	RegisterModule_UnityWebRequest();
 
-	void RegisterModule_XR();
-	RegisterModule_XR();
-
 	void RegisterModule_VR();
 	RegisterModule_VR();
+
+	void RegisterModule_Video();
+	RegisterModule_Video();
+
+	void RegisterModule_XR();
+	RegisterModule_XR();
 
 }
 
@@ -212,12 +215,14 @@ namespace UI { class Canvas; } template <> void RegisterUnityClass<UI::Canvas>(c
 namespace UI { class CanvasGroup; } template <> void RegisterUnityClass<UI::CanvasGroup>(const char*);
 namespace UI { class CanvasRenderer; } template <> void RegisterUnityClass<UI::CanvasRenderer>(const char*);
 class UIRenderer; template <> void RegisterUnityClass<UIRenderer>(const char*);
+class VideoClip; template <> void RegisterUnityClass<VideoClip>(const char*);
+class VideoPlayer; template <> void RegisterUnityClass<VideoPlayer>(const char*);
 
 void RegisterAllClasses()
 {
 void RegisterBuiltinTypes();
 RegisterBuiltinTypes();
-	//Total: 103 non stripped classes
+	//Total: 105 non stripped classes
 	//0. NavMeshAgent
 	RegisterUnityClass<NavMeshAgent>("AI");
 	//1. NavMeshData
@@ -424,5 +429,9 @@ RegisterBuiltinTypes();
 	RegisterUnityClass<UI::CanvasRenderer>("UI");
 	//102. UIRenderer
 	RegisterUnityClass<UIRenderer>("UIElements");
+	//103. VideoClip
+	RegisterUnityClass<VideoClip>("Video");
+	//104. VideoPlayer
+	RegisterUnityClass<VideoPlayer>("Video");
 
 }

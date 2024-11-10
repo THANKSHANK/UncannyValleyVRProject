@@ -5,18 +5,9 @@
 		<type fullname="Oculus.Movement.AnimationRigging.Deprecated.DeformationData" preserve="nothing" serialized="true"/>
 		<type fullname="Oculus.Movement.AnimationRigging.TwistDistributionData" preserve="nothing" serialized="true"/>
 		<type fullname="Oculus.Movement.Effects.LateMirroredSkeleton/MirroredBonePair" preserve="nothing" serialized="true"/>
-		<type fullname="Oculus.Movement.UI.SceneSelectIcon/IconPositionInformation" preserve="nothing" serialized="true"/>
-		<type fullname="Oculus.Movement.Utils.MovementAudioTrigger/MinMaxPair" preserve="nothing" serialized="true"/>
 	</assembly>
 	<assembly fullname="Oculus.Interaction">
-		<type fullname="Oculus.Interaction.InteractableColorVisual/ColorState" preserve="nothing" serialized="true"/>
 		<type fullname="Oculus.Interaction.MaterialPropertyVector" preserve="nothing" serialized="true"/>
-		<type fullname="Oculus.Interaction.PointerEvent" preserve="nothing" serialized="true"/>
-		<type fullname="Oculus.Interaction.PokeInteractable/DragThresholdsConfig" preserve="nothing" serialized="true"/>
-		<type fullname="Oculus.Interaction.PokeInteractable/MinThresholdsConfig" preserve="nothing" serialized="true"/>
-		<type fullname="Oculus.Interaction.PokeInteractable/PositionPinningConfig" preserve="nothing" serialized="true"/>
-		<type fullname="Oculus.Interaction.PokeInteractable/RecoilAssistConfig" preserve="nothing" serialized="true"/>
-		<type fullname="Oculus.Interaction.ProgressCurve" preserve="nothing" serialized="true"/>
 	</assembly>
 	<assembly fullname="Unity.Animation.Rigging">
 		<type fullname="UnityEngine.Animations.Rigging.RigEffectorData" preserve="nothing" serialized="true"/>
@@ -49,7 +40,6 @@
 		<type fullname="UnityEngine.Events.ArgumentCache" preserve="nothing" serialized="true"/>
 		<type fullname="UnityEngine.Events.PersistentCallGroup" preserve="nothing" serialized="true"/>
 		<type fullname="UnityEngine.Events.PersistentListenerMode" preserve="nothing" serialized="true"/>
-		<type fullname="UnityEngine.Events.UnityEvent`1" preserve="nothing" serialized="true"/>
 		<type fullname="UnityEngine.RectOffset" preserve="nothing" serialized="true"/>
 	</assembly>
 	<assembly fullname="UnityEngine.TextCoreFontEngineModule">

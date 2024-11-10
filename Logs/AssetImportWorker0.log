@@ -22,7 +22,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60756
+51565
 -job-worker-count
 3
 -background-job-worker-count
@@ -68,7 +68,7 @@ Successfully changed project path to: /Users/zihanw/Unity_Projects/UncannyValley
     "memorysetup-temp-allocator-size-gfx=262144"
 Player connection [8468363328]  Target information:
 
-Player connection [8468363328]  * "[IP] 10.117.12.253 [Port] 0 [Flags] 2 [Guid] 26839875 [EditorId] 26839875 [Version] 1048832 [Id] OSXEditor(0,Zihans-MacBook-Air-2.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [8468363328]  * "[IP] 192.168.1.80 [Port] 0 [Flags] 2 [Guid] 4046874343 [EditorId] 4046874343 [Version] 1048832 [Id] OSXEditor(0,Mac.lan) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
 Player connection [8468363328] Host joined multi-casting on [225.0.0.222:54997]...
 Player connection [8468363328] Host joined alternative multi-casting on [225.0.0.222:34997]...
@@ -82,8 +82,8 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 7.03 ms, found 10 plugins.
-Preloading 2 native plugins for Editor in 3.82 ms.
+Refreshing native plugins compatible for Editor in 24.36 ms, found 10 plugins.
+Preloading 2 native plugins for Editor in 8.59 ms.
 Initialize engine version: 6000.0.25f1 (4859ab7b5a49)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.0.25f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Assets
@@ -99,49 +99,49 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/6000.0.25f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/6000.0.25f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/6000.0.25f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56435
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56734
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/6000.0.25f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/6000.0.25f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/6000.0.25f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.003115 seconds.
-- Loaded All Assemblies, in  0.236 seconds
+Registered in 0.003736 seconds.
+- Loaded All Assemblies, in  0.245 seconds
 Native extension for Android target not found
 Android Extension - Scanning For ADB Devices 73 ms
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.423 seconds
-Domain Reload Profiling: 660ms
-	BeginReloadAssembly (71ms)
+- Finished resetting the current domain, in  0.392 seconds
+Domain Reload Profiling: 638ms
+	BeginReloadAssembly (74ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (23ms)
-	RebuildNativeTypeToScriptingClass (8ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (9ms)
 	initialDomainReloadingComplete (29ms)
-	LoadAllAssembliesAndSetupDomain (105ms)
-		LoadAssemblies (71ms)
+	LoadAllAssembliesAndSetupDomain (109ms)
+		LoadAssemblies (74ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (102ms)
-			TypeCache.Refresh (101ms)
-				TypeCache.ScanAssembly (94ms)
+		AnalyzeDomain (106ms)
+			TypeCache.Refresh (105ms)
+				TypeCache.ScanAssembly (97ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (424ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (393ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (392ms)
+		SetupLoadedEditorAssemblies (361ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (136ms)
-			SetLoadedEditorAssemblies (3ms)
+			InitializePlatformSupportModulesInManaged (135ms)
+			SetLoadedEditorAssemblies (2ms)
 			BeforeProcessingInitializeOnLoad (4ms)
 			ProcessInitializeOnLoadAttributes (156ms)
-			ProcessInitializeOnLoadMethodAttributes (91ms)
-			AfterProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadMethodAttributes (63ms)
+			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
@@ -150,8 +150,8 @@ Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.770 seconds
-Refreshing native plugins compatible for Editor in 2.57 ms, found 10 plugins.
+- Loaded All Assemblies, in  1.023 seconds
+Refreshing native plugins compatible for Editor in 1.59 ms, found 10 plugins.
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
@@ -162,9 +162,9 @@ Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 1.83 ms, found 10 plugins.
-07/11 18:03:03.348 {DEBUG}   [AnalyticsLifeTime] Pre initialization finished.
-07/11 18:03:03.348 {DEBUG}   [AnalyticsLifeTime] Post-migration initialization finished.
+Refreshing native plugins compatible for Editor in 2.51 ms, found 10 plugins.
+10/11 12:22:20.103 {DEBUG}   [AnalyticsLifeTime] Pre initialization finished.
+10/11 12:22:20.103 {DEBUG}   [AnalyticsLifeTime] Post-migration initialization finished.
 [MODES] ModeService[none].Initialize
 [MODES] ModeService[none].LoadModes
 [MODES] Loading mode Default (0) for mode-current-id-UncannyValleyVRProject
@@ -175,34 +175,34 @@ Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.684 seconds
-Domain Reload Profiling: 1454ms
-	BeginReloadAssembly (353ms)
+- Finished resetting the current domain, in  0.778 seconds
+Domain Reload Profiling: 1801ms
+	BeginReloadAssembly (560ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (27ms)
+		CreateAndSetChildDomain (36ms)
 	RebuildCommonClasses (24ms)
 	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (19ms)
-	LoadAllAssembliesAndSetupDomain (364ms)
-		LoadAssemblies (216ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (410ms)
+		LoadAssemblies (273ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (177ms)
-			TypeCache.Refresh (135ms)
-				TypeCache.ScanAssembly (119ms)
+		AnalyzeDomain (173ms)
+			TypeCache.Refresh (133ms)
+				TypeCache.ScanAssembly (116ms)
 			BuildScriptInfoCaches (29ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (685ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (778ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (550ms)
+		SetupLoadedEditorAssemblies (642ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (6ms)
 			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (43ms)
-			ProcessInitializeOnLoadAttributes (483ms)
+			BeforeProcessingInitializeOnLoad (45ms)
+			ProcessInitializeOnLoadAttributes (572ms)
 			ProcessInitializeOnLoadMethodAttributes (13ms)
 			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
@@ -212,437 +212,41 @@ Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
 [OVRPlugin][INFO] UnityPluginLoad called
 Launching external process: /Applications/Unity/Hub/Editor/6000.0.25f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
-Refreshing native plugins compatible for Editor in 6.42 ms, found 10 plugins.
-Preloading 2 native plugins for Editor in 0.29 ms.
+Launched and connected shader compiler UnityShaderCompiler after 0.06 seconds
+Refreshing native plugins compatible for Editor in 2.09 ms, found 10 plugins.
+Preloading 2 native plugins for Editor in 0.30 ms.
 Unloading 121 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5245 unused Assets / (1.4 MB). Loaded Objects now: 5925.
-Memory consumption went from 245.6 MB to 244.2 MB.
-Total: 7.569458 ms (FindLiveObjects: 0.443000 ms CreateObjectMapping: 0.122542 ms MarkObjects: 6.143792 ms  DeleteObjects: 0.859833 ms)
+Unloading 5246 unused Assets / (1.2 MB). Loaded Objects now: 5928.
+Memory consumption went from 245.9 MB to 244.7 MB.
+Total: 8.561667 ms (FindLiveObjects: 0.803750 ms CreateObjectMapping: 0.136583 ms MarkObjects: 6.627833 ms  DeleteObjects: 0.992750 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 9416.109082 seconds.
-  path: Assets/Textures/Albe_High.png
-  artifactKey: Guid(7fd9d7c199bd7412ba04cb21d7cf1d01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Albe_High.png using Guid(7fd9d7c199bd7412ba04cb21d7cf1d01) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c64c6824f150baf2dbf770d852995852') in 0.081285917 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Textures/Norm_High.png
-  artifactKey: Guid(0ab1e815139c746b39c6cfcfedcf8c57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Norm_High.png using Guid(0ab1e815139c746b39c6cfcfedcf8c57) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b571026d7d4ab9d5ce0c21d0adff98de') in 0.008312125 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.912587 seconds.
-  path: Assets/Textures/Norm_Medium.jpeg
-  artifactKey: Guid(09e49674af1c04371a9356b7a56af66c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Norm_Medium.jpeg using Guid(09e49674af1c04371a9356b7a56af66c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '15e95325d9056f5a269c784caf98d54e') in 0.008179167 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.005333 seconds.
-  path: Assets/Textures/Occu_High.png
-  artifactKey: Guid(08624da19f94b484f9d35ba11e7360a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Occu_High.png using Guid(08624da19f94b484f9d35ba11e7360a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '444762ae8ae21c54927d9ecf44fed451') in 0.005064 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.745369 seconds.
-  path: Assets/Textures/Occu_Low.jpeg
-  artifactKey: Guid(a16c5b91afd4642c2aba0bfc45661286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Occu_Low.jpeg using Guid(a16c5b91afd4642c2aba0bfc45661286) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c9ef0412cc68d1e6dc9cafd958da16ab') in 0.009585125 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.157778 seconds.
-  path: Assets/Textures/Occu_Medium.jpeg
-  artifactKey: Guid(d16b26ee72e144aa1ad8a9c7abce8b2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Occu_Medium.jpeg using Guid(d16b26ee72e144aa1ad8a9c7abce8b2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '33ac6ee02897a7f29fcdd2c53b44dc4e') in 0.013155792 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.131129 seconds.
-  path: Assets/Textures/Spec_High.png
-  artifactKey: Guid(d8fd3d672c7c747d195b24cf6630e10e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Spec_High.png using Guid(d8fd3d672c7c747d195b24cf6630e10e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7fec2e402d1fa58a75ff87afa9161380') in 0.006538042 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.674781 seconds.
-  path: Assets/Textures/Spec_Low.jpeg
-  artifactKey: Guid(cdb04098a2c8e462c8d31ae35f6ccd8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Spec_Low.jpeg using Guid(cdb04098a2c8e462c8d31ae35f6ccd8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '002a86aa06fe5ecbd4f74ff6157c0649') in 0.009591625 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.937785 seconds.
-  path: Assets/Textures/Spec_Medium.jpeg
-  artifactKey: Guid(9ce1ea137240f4f5592859cdc60d19df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Spec_Medium.jpeg using Guid(9ce1ea137240f4f5592859cdc60d19df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1741fef6268dd22298ba86ade96d8352') in 0.00598575 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 934.824819 seconds.
-  path: Assets/Materials/Head_High.mat
-  artifactKey: Guid(a01facf0746c44ed0ac35867eb2a58b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Head_High.mat using Guid(a01facf0746c44ed0ac35867eb2a58b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1e89453cbe34341e562a63870216f754') in 0.154529916 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Materials/Head_Med.mat
-  artifactKey: Guid(450eea99807b644708af39cd54177854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Head_Med.mat using Guid(450eea99807b644708af39cd54177854) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4bfde2448acfea195b75b55c3d0ae727') in 0.012148 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 80.620732 seconds.
-  path: Assets/Textures/Eyebrow_Color.png
-  artifactKey: Guid(a3de2757245e9404baa6a2c1c2b13838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Eyebrow_Color.png using Guid(a3de2757245e9404baa6a2c1c2b13838) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '33cca3c9a2cab5f64a9190bcad4448d0') in 0.011499875 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.757691 seconds.
-  path: Assets/Textures/Eyebrow_Albe_High.png
-  artifactKey: Guid(a3de2757245e9404baa6a2c1c2b13838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Eyebrow_Albe_High.png using Guid(a3de2757245e9404baa6a2c1c2b13838) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1b413e5e7da2eb3929806f6887b2aeba') in 0.014386958 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.479156 seconds.
-  path: Assets/Textures/Eyebrow_Spec.png
-  artifactKey: Guid(4b99a1efc40e64076852ef2060b5d70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Eyebrow_Spec.png using Guid(4b99a1efc40e64076852ef2060b5d70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca8a8e1068e5da2646aa6a9961659c95') in 0.006363708 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.398086 seconds.
-  path: Assets/Textures/Eyebrow_Spec_High.png
-  artifactKey: Guid(4b99a1efc40e64076852ef2060b5d70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Eyebrow_Spec_High.png using Guid(4b99a1efc40e64076852ef2060b5d70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b37600c7cb00139957fc2d75b67d5cba') in 0.007651042 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.604058 seconds.
-  path: Assets/Textures/Eyebrow_Normal.png
-  artifactKey: Guid(57e148a8fd8ba4888a9c8d6568fa40c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Eyebrow_Normal.png using Guid(57e148a8fd8ba4888a9c8d6568fa40c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ba5f611119ec1822b7e93bad7853ed89') in 0.01046325 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.162155 seconds.
-  path: Assets/Textures/Eyebrow_Normal_High.png
-  artifactKey: Guid(57e148a8fd8ba4888a9c8d6568fa40c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Eyebrow_Normal_High.png using Guid(57e148a8fd8ba4888a9c8d6568fa40c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '19e14d043dc43188abf4b296533f89c5') in 0.009246083 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 226.191638 seconds.
-  path: Assets/Materials/Eyebrow_High 1.mat
-  artifactKey: Guid(9b1bbcd004bec4238a088ed8bbae9512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Eyebrow_High 1.mat using Guid(9b1bbcd004bec4238a088ed8bbae9512) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4cdf0006876cd9f6f296fd14f3c97642') in 0.033044333 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.257633 seconds.
-  path: Assets/Materials/Eyebrow_High 2.mat
-  artifactKey: Guid(6a8647021722645078c9dd063cfb629f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Eyebrow_High 2.mat using Guid(6a8647021722645078c9dd063cfb629f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '26726f4190e7283f532de342f609ee80') in 0.006133042 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.871392 seconds.
-  path: Assets/Materials/Eyebrow_Med.mat
-  artifactKey: Guid(9b1bbcd004bec4238a088ed8bbae9512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Eyebrow_Med.mat using Guid(9b1bbcd004bec4238a088ed8bbae9512) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f6c429db7528dc0a4a992bdd8cd2641e') in 0.012804125 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.020175 seconds.
-  path: Assets/Materials/Eyebrow_lOW.mat
-  artifactKey: Guid(6a8647021722645078c9dd063cfb629f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Eyebrow_lOW.mat using Guid(6a8647021722645078c9dd063cfb629f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1d3ad2f2cf23d01f9fa634d39d8f5afa') in 0.011715833 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.248659 seconds.
-  path: Assets/Materials/Eyebrow_Low.mat
-  artifactKey: Guid(6a8647021722645078c9dd063cfb629f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Eyebrow_Low.mat using Guid(6a8647021722645078c9dd063cfb629f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dcd1ed54299030e72be8a9d5863b0aee') in 0.017993166 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 24.628667 seconds.
-  path: Assets/Textures/Eyebrow_Albe_Low.jpeg
-  artifactKey: Guid(ffb4bf970378d431aae7700fa5e99414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Eyebrow_Albe_Low.jpeg using Guid(ffb4bf970378d431aae7700fa5e99414) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f747c9cd12a3bdb3fb82f3efe73b7ab2') in 0.010112875 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Textures/Eyebrow_Normal_Medium.jpeg
-  artifactKey: Guid(7bca7759f3b60420cb0ef1264b527384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Eyebrow_Normal_Medium.jpeg using Guid(7bca7759f3b60420cb0ef1264b527384) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5d0df35c8011ca0600d6ecb81dfd3c44') in 0.007508375 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000107 seconds.
-  path: Assets/Textures/Eyebrow_Normal_Low.jpeg
-  artifactKey: Guid(e40e9aceaf2104281ae0ad00317980a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Eyebrow_Normal_Low.jpeg using Guid(e40e9aceaf2104281ae0ad00317980a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '100eb9779ab03047361449d1bf198301') in 0.007243333 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.655349 seconds.
-  path: Assets/Textures/Eyebrow_Spec_Medium.jpeg
-  artifactKey: Guid(8969784cc3c804ce28646a961ac0d72c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Eyebrow_Spec_Medium.jpeg using Guid(8969784cc3c804ce28646a961ac0d72c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f89f2d0ef8721e558286dc4cd219accd') in 0.0111495 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 67.796155 seconds.
-  path: Assets/Textures/Eyebrow_Spec_Low.jpeg
-  artifactKey: Guid(0c690eff8388d4812b4ea23b15b11ada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Eyebrow_Spec_Low.jpeg using Guid(0c690eff8388d4812b4ea23b15b11ada) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1b5f2de9e281c0dbdf859853006b49d6') in 0.008629042 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 112.544524 seconds.
-  path: Assets/Textures/Eyebrow_Albe_High.png
-  artifactKey: Guid(a3de2757245e9404baa6a2c1c2b13838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Eyebrow_Albe_High.png using Guid(a3de2757245e9404baa6a2c1c2b13838) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3cdef95266af052a61b6788d73a8e45c') in 0.015107709 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 22.455915 seconds.
-  path: Assets/Textures/Eyebrow_Normal_High.png
-  artifactKey: Guid(57e148a8fd8ba4888a9c8d6568fa40c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Eyebrow_Normal_High.png using Guid(57e148a8fd8ba4888a9c8d6568fa40c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '35d959385758d48a5cfbcd85dc18800c') in 0.00952925 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.014586 seconds.
-  path: Assets/Textures/Eyebrow_Normal_Low.jpeg
-  artifactKey: Guid(e40e9aceaf2104281ae0ad00317980a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Eyebrow_Normal_Low.jpeg using Guid(e40e9aceaf2104281ae0ad00317980a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c63d93a1594d8879fcafc8e058b3314a') in 0.007075584 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 21.279618 seconds.
-  path: Assets/Textures/Eyebrow_Spec_Medium.jpeg
-  artifactKey: Guid(8969784cc3c804ce28646a961ac0d72c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Eyebrow_Spec_Medium.jpeg using Guid(8969784cc3c804ce28646a961ac0d72c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '09e1cf49a2bc1558172a0eea0f4e912e') in 0.008677 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.006284 seconds.
-  path: Assets/Textures/Eyebrow_Spec_Low.jpeg
-  artifactKey: Guid(0c690eff8388d4812b4ea23b15b11ada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Eyebrow_Spec_Low.jpeg using Guid(0c690eff8388d4812b4ea23b15b11ada) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3b223c672b122b8f59a08273fa7e6347') in 0.004696833 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 94.806980 seconds.
-  path: Assets/Textures/Eyeball_Color.png
-  artifactKey: Guid(3174fc15a321743a08d1285c53d5c359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Eyeball_Color.png using Guid(3174fc15a321743a08d1285c53d5c359) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cae9da93634e70c3a13e92d2b3f0f319') in 0.0106425 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.440412 seconds.
-  path: Assets/Textures/Eyeball_Color_High.png
-  artifactKey: Guid(3174fc15a321743a08d1285c53d5c359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Eyeball_Color_High.png using Guid(3174fc15a321743a08d1285c53d5c359) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '10c9699f22df02dc3ecbf1f1d72b41c5') in 0.007944917 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.373209 seconds.
-  path: Assets/Materials/Eyebrow_Low.mat
-  artifactKey: Guid(6a8647021722645078c9dd063cfb629f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Eyebrow_Low.mat using Guid(6a8647021722645078c9dd063cfb629f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1997ba70f406c644ac446e46df1820cb') in 0.018999667 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.128163 seconds.
-  path: Assets/Materials/HighFidelityEyeMaterial.mat
-  artifactKey: Guid(3d9886a10d42845c8a94f6860d9b39c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/HighFidelityEyeMaterial.mat using Guid(3d9886a10d42845c8a94f6860d9b39c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0937c201344a143d2ceb38cf190ec11e') in 0.017646459 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.231179 seconds.
-  path: Assets/Materials/EyeMaterial_High.mat
-  artifactKey: Guid(3d9886a10d42845c8a94f6860d9b39c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/EyeMaterial_High.mat using Guid(3d9886a10d42845c8a94f6860d9b39c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd952bbfef52dc1d33e218e9a09c7895a') in 0.015613166 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 47.105518 seconds.
-  path: Assets/Materials/Eyelash_High.mat
-  artifactKey: Guid(8cb1ba5ae84b349118f0bcbdb50d5900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Eyelash_High.mat using Guid(8cb1ba5ae84b349118f0bcbdb50d5900) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd59cf73e231b91ced3e4896453b4f806') in 0.034428833 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 82.524603 seconds.
-  path: Assets/Materials/EyeMaterial_High 1.mat
-  artifactKey: Guid(8ed140491b4414e0ea3e7245ed55a554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/EyeMaterial_High 1.mat using Guid(8ed140491b4414e0ea3e7245ed55a554) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'af6319e0ddc35fcec722c9837c27b532') in 0.015484375 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.100613 seconds.
-  path: Assets/Materials/EyeMaterial_High 2.mat
-  artifactKey: Guid(675edd9c744a640b6ab1af3a0363cb85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/EyeMaterial_High 2.mat using Guid(675edd9c744a640b6ab1af3a0363cb85) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '79457f215dd86a91e4dd93faafbd5902') in 0.005089042 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.899956 seconds.
-  path: Assets/Materials/EyeMaterial_Med.mat
-  artifactKey: Guid(8ed140491b4414e0ea3e7245ed55a554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/EyeMaterial_Med.mat using Guid(8ed140491b4414e0ea3e7245ed55a554) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c544c803e418075884c45856529e0695') in 0.065547916 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.059424 seconds.
-  path: Assets/Materials/EyeMaterial_Low.mat
-  artifactKey: Guid(675edd9c744a640b6ab1af3a0363cb85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/EyeMaterial_Low.mat using Guid(675edd9c744a640b6ab1af3a0363cb85) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9293a15d0dbc33e694e787746ea3eabb') in 0.013435 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 104.358794 seconds.
-  path: Assets/Samples/Meta Movement/69.0.0/Body Tracking Samples/HighFidelity/Textures/wetsuit_AO.png
-  artifactKey: Guid(796f5bc61df07e64c9be916bf6121e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Meta Movement/69.0.0/Body Tracking Samples/HighFidelity/Textures/wetsuit_AO.png using Guid(796f5bc61df07e64c9be916bf6121e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4f65d6dfdaa54eb801db83712b654f25') in 0.04008875 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.703830 seconds.
-  path: Assets/Textures/Eyebrow_Normal_Medium.jpeg
-  artifactKey: Guid(7bca7759f3b60420cb0ef1264b527384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Eyebrow_Normal_Medium.jpeg using Guid(7bca7759f3b60420cb0ef1264b527384) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dfc95f740a19d812025198b6209bf7ec') in 0.019116792 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.030292 seconds.
-  path: Assets/Textures/Eyebrow_Normal_Low.jpeg
-  artifactKey: Guid(e40e9aceaf2104281ae0ad00317980a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Eyebrow_Normal_Low.jpeg using Guid(e40e9aceaf2104281ae0ad00317980a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2462576c80ba749ebe1c994f76d9f335') in 0.00645575 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.846854 seconds.
-  path: Assets/Textures/Eyeball_Color_Medium.jpeg
-  artifactKey: Guid(c55301246f81744c9a9f0190c38d64ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Eyeball_Color_Medium.jpeg using Guid(c55301246f81744c9a9f0190c38d64ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd91b6000b8881faac1d7692335be5bc1') in 0.005915958 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.195986 seconds.
-  path: Assets/Textures/Eyeball_Color_Low.jpeg
-  artifactKey: Guid(903927e0c35cc4cf7bbfbb007b127138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Eyeball_Color_Low.jpeg using Guid(903927e0c35cc4cf7bbfbb007b127138) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8aa03c86026d977ca2d5db9ccafde3c9') in 0.006361542 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.635525 seconds.
-  path: Assets/Textures/Eyeball_Color_Medium.jpeg
-  artifactKey: Guid(c55301246f81744c9a9f0190c38d64ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Eyeball_Color_Medium.jpeg using Guid(c55301246f81744c9a9f0190c38d64ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b2fadd4e9c8ecba1bfdb25d02be84bd3') in 0.00691425 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.011442 seconds.
-  path: Assets/Textures/Eyeball_Color_Low.jpeg
-  artifactKey: Guid(903927e0c35cc4cf7bbfbb007b127138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Eyeball_Color_Low.jpeg using Guid(903927e0c35cc4cf7bbfbb007b127138) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '98b187559bdb9fe51dd92b1336522f5a') in 0.007291833 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 133735.363948 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd4f76efbbee4e648aad11303d26571de') in 0.0035455 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Prepare
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
-Refreshing native plugins compatible for Editor in 1.75 ms, found 10 plugins.
-Preloading 2 native plugins for Editor in 0.35 ms.
+Refreshing native plugins compatible for Editor in 1.93 ms, found 10 plugins.
+Preloading 2 native plugins for Editor in 0.30 ms.
 Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5190 unused Assets / (1.0 MB). Loaded Objects now: 5963.
-Memory consumption went from 216.4 MB to 215.4 MB.
-Total: 25.576375 ms (FindLiveObjects: 0.378916 ms CreateObjectMapping: 0.115500 ms MarkObjects: 24.178542 ms  DeleteObjects: 0.903084 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
-Refreshing native plugins compatible for Editor in 10.64 ms, found 10 plugins.
-Preloading 2 native plugins for Editor in 0.59 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5190 unused Assets / (0.7 MB). Loaded Objects now: 5963.
-Memory consumption went from 214.7 MB to 214.0 MB.
-Total: 26.032750 ms (FindLiveObjects: 0.597083 ms CreateObjectMapping: 0.112250 ms MarkObjects: 23.824958 ms  DeleteObjects: 1.497333 ms)
+Unloading 5191 unused Assets / (1.3 MB). Loaded Objects now: 5921.
+Memory consumption went from 214.3 MB to 213.1 MB.
+Total: 23.893750 ms (FindLiveObjects: 0.338333 ms CreateObjectMapping: 0.106250 ms MarkObjects: 22.515667 ms  DeleteObjects: 0.932708 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-Thread 0x32f6c7000 may have been prematurely finalized
+Thread 0x30ef9f000 may have been prematurely finalized
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.649 seconds
-Refreshing native plugins compatible for Editor in 1.60 ms, found 10 plugins.
+- Loaded All Assemblies, in  0.510 seconds
+Refreshing native plugins compatible for Editor in 1.79 ms, found 10 plugins.
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
@@ -652,107 +256,41 @@ Native extension for WebGL target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 2.86 ms, found 10 plugins.
+Refreshing native plugins compatible for Editor in 2.27 ms, found 10 plugins.
 [MODES] ModeService[none].Initialize
 [MODES] ModeService[none].LoadModes
 Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.662 seconds
-Domain Reload Profiling: 1315ms
-	BeginReloadAssembly (197ms)
+- Finished resetting the current domain, in  0.669 seconds
+Domain Reload Profiling: 1181ms
+	BeginReloadAssembly (139ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (108ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (17ms)
-	LoadAllAssembliesAndSetupDomain (398ms)
-		LoadAssemblies (247ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (190ms)
-			TypeCache.Refresh (12ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (145ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (662ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (515ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (143ms)
-			ProcessInitializeOnLoadAttributes (347ms)
-			ProcessInitializeOnLoadMethodAttributes (13ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
-Refreshing native plugins compatible for Editor in 2.39 ms, found 10 plugins.
-Preloading 2 native plugins for Editor in 0.31 ms.
-Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5243 unused Assets / (0.8 MB). Loaded Objects now: 5974.
-Memory consumption went from 229.2 MB to 228.3 MB.
-Total: 8.307541 ms (FindLiveObjects: 0.270875 ms CreateObjectMapping: 0.155375 ms MarkObjects: 6.876875 ms  DeleteObjects: 1.003917 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Thread 0x17f58b000 may have been prematurely finalized
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.577 seconds
-Refreshing native plugins compatible for Editor in 8.60 ms, found 10 plugins.
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 1.71 ms, found 10 plugins.
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-Mono: successfully reloaded assembly
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.649 seconds
-Domain Reload Profiling: 1228ms
-	BeginReloadAssembly (213ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (105ms)
-	RebuildCommonClasses (23ms)
+		CreateAndSetChildDomain (69ms)
+	RebuildCommonClasses (29ms)
 	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (15ms)
-	LoadAllAssembliesAndSetupDomain (320ms)
-		LoadAssemblies (259ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (319ms)
+		LoadAssemblies (213ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (124ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (106ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (649ms)
+		AnalyzeDomain (137ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (115ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (669ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (505ms)
+		SetupLoadedEditorAssemblies (523ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (39ms)
-			ProcessInitializeOnLoadAttributes (442ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (57ms)
+			ProcessInitializeOnLoadAttributes (440ms)
 			ProcessInitializeOnLoadMethodAttributes (12ms)
 			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
@@ -760,363 +298,19 @@ Domain Reload Profiling: 1228ms
 		AwakeInstancesAfterBackupRestoration (4ms)
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
-Refreshing native plugins compatible for Editor in 2.10 ms, found 10 plugins.
-Preloading 2 native plugins for Editor in 0.37 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5243 unused Assets / (1.1 MB). Loaded Objects now: 5976.
-Memory consumption went from 232.1 MB to 231.0 MB.
-Total: 10.162500 ms (FindLiveObjects: 0.426709 ms CreateObjectMapping: 0.112791 ms MarkObjects: 8.380917 ms  DeleteObjects: 1.241583 ms)
+Refreshing native plugins compatible for Editor in 1.77 ms, found 10 plugins.
+Preloading 2 native plugins for Editor in 0.28 ms.
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5244 unused Assets / (1.6 MB). Loaded Objects now: 5933.
+Memory consumption went from 229.2 MB to 227.6 MB.
+Total: 7.310500 ms (FindLiveObjects: 0.239958 ms CreateObjectMapping: 0.141500 ms MarkObjects: 6.078625 ms  DeleteObjects: 0.849792 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Import Request.
-  Time since last request: 260.911394 seconds.
-  path: Assets/Textures/Eyelash_Normal.png
-  artifactKey: Guid(3d3837cc9d239458e916280cf1bb0683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Eyelash_Normal.png using Guid(3d3837cc9d239458e916280cf1bb0683) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a8d49f85b4ce76183e26d88a5df6e935') in 0.059336917 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.355748 seconds.
-  path: Assets/Textures/Eyelash_Color_High.png
-  artifactKey: Guid(f2f8af0f07d704ad1a813c20ea033c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Eyelash_Color_High.png using Guid(f2f8af0f07d704ad1a813c20ea033c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e917865b4db5b2c1dad4bba3d524ce81') in 0.012962584 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.426577 seconds.
-  path: Assets/Textures/Eyelash_Normal_High.png
-  artifactKey: Guid(3d3837cc9d239458e916280cf1bb0683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Eyelash_Normal_High.png using Guid(3d3837cc9d239458e916280cf1bb0683) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6be08c5e30c13aa0cc2c19c183b6ea94') in 0.043687042 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.927796 seconds.
-  path: Assets/Textures/Eyelash_Spec_High.png
-  artifactKey: Guid(c1ff7b46cb456482b9189004f1ecae07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Eyelash_Spec_High.png using Guid(c1ff7b46cb456482b9189004f1ecae07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '246b8d9b7278af441424588f9fa89ee0') in 0.019431375 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 56.801720 seconds.
-  path: Assets/Materials/Eyelash_High 1.mat
-  artifactKey: Guid(73c0243fba6e24325a7acb9cdc0fbdbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Eyelash_High 1.mat using Guid(73c0243fba6e24325a7acb9cdc0fbdbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1298e461b8fdfb290dff66c29253b1dd') in 0.066971958 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.057230 seconds.
-  path: Assets/Materials/Eyelash_High 2.mat
-  artifactKey: Guid(22213bb4fd6d1425a9d8a3ed0c143352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Eyelash_High 2.mat using Guid(22213bb4fd6d1425a9d8a3ed0c143352) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '706be1eacc082c8e09ef8f0e144ab29a') in 0.007247875 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.608093 seconds.
-  path: Assets/Materials/Eyelash_Low.mat
-  artifactKey: Guid(22213bb4fd6d1425a9d8a3ed0c143352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Eyelash_Low.mat using Guid(22213bb4fd6d1425a9d8a3ed0c143352) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4023c6251391acb9478276acb5c2f1e9') in 0.009642584 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.905942 seconds.
-  path: Assets/Materials/Eyelash_Med.mat
-  artifactKey: Guid(73c0243fba6e24325a7acb9cdc0fbdbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Eyelash_Med.mat using Guid(73c0243fba6e24325a7acb9cdc0fbdbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bfac262f41534b803aa62f5031c76462') in 0.040396291 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 136.551860 seconds.
-  path: Assets/Textures/Eyelash_Albe_Low.jpeg
-  artifactKey: Guid(496223e5a056c40e788dea9804ab3b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Eyelash_Albe_Low.jpeg using Guid(496223e5a056c40e788dea9804ab3b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1b04e03e68821f5369b89cf224b327c9') in 0.032713584 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.062406 seconds.
-  path: Assets/Textures/Eyelash_Albe_Medium.jpeg
-  artifactKey: Guid(4ddcaefdb0a6e4648b475b868ea82925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Eyelash_Albe_Medium.jpeg using Guid(4ddcaefdb0a6e4648b475b868ea82925) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ae061bc675f8e109cc12c0e085d52cbf') in 0.006022542 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.560710 seconds.
-  path: Assets/Textures/Eyelash_Normal_Low.jpeg
-  artifactKey: Guid(1ec7612c2de10429cb80a2cca45c6a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Eyelash_Normal_Low.jpeg using Guid(1ec7612c2de10429cb80a2cca45c6a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0359a9067455b2c1ea3c2ca2512c083e') in 0.00623 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.825337 seconds.
-  path: Assets/Textures/Eyelash_Albe_Low.jpeg
-  artifactKey: Guid(496223e5a056c40e788dea9804ab3b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Eyelash_Albe_Low.jpeg using Guid(496223e5a056c40e788dea9804ab3b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '87d4a82de855613112f7bb0b9a90de0e') in 0.041851875 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000070 seconds.
-  path: Assets/Textures/Eyelash_Color_High.png
-  artifactKey: Guid(f2f8af0f07d704ad1a813c20ea033c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Eyelash_Color_High.png using Guid(f2f8af0f07d704ad1a813c20ea033c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '77ead3e84859912ac0726acf3dbbcc00') in 0.010051666 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000104 seconds.
-  path: Assets/Textures/Eyelash_Normal_High.png
-  artifactKey: Guid(3d3837cc9d239458e916280cf1bb0683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Eyelash_Normal_High.png using Guid(3d3837cc9d239458e916280cf1bb0683) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a94b01c183faee7e40f88e60b7bd14da') in 0.005676792 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.700629 seconds.
-  path: Assets/Textures/Eyelash_Normal_Low.jpeg
-  artifactKey: Guid(1ec7612c2de10429cb80a2cca45c6a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Eyelash_Normal_Low.jpeg using Guid(1ec7612c2de10429cb80a2cca45c6a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4b5d0be369bbca8d90b2a2f8cefa57db') in 0.014202125 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.063005 seconds.
-  path: Assets/Textures/Eyelash_Normal_Medium.jpeg
-  artifactKey: Guid(ccb6b9c89cf634e7d8c2bec58a7ba119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Eyelash_Normal_Medium.jpeg using Guid(ccb6b9c89cf634e7d8c2bec58a7ba119) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5344e6fd7ad95f339e522e3acc122f14') in 0.004951417 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.043980 seconds.
-  path: Assets/Textures/Eyelash_Spec_High.png
-  artifactKey: Guid(c1ff7b46cb456482b9189004f1ecae07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Eyelash_Spec_High.png using Guid(c1ff7b46cb456482b9189004f1ecae07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd72d3f4615c53fc06bfbb069ae14cb4c') in 0.003964708 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.044864 seconds.
-  path: Assets/Textures/Eyelash_Spec_Low.jpeg
-  artifactKey: Guid(a97f86b6076044818a4f92480f99a65a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Eyelash_Spec_Low.jpeg using Guid(a97f86b6076044818a4f92480f99a65a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ea51c7081efa36d8c0da958781b65a73') in 0.003978333 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.049002 seconds.
-  path: Assets/Textures/Eyelash_Spec_Medium.jpeg
-  artifactKey: Guid(4ea6597e38c414ef5bb7f83a753e6224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Eyelash_Spec_Medium.jpeg using Guid(4ea6597e38c414ef5bb7f83a753e6224) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '68a0704ce612eb1f33733fc8ec47d9b3') in 0.004175916 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.410437 seconds.
-  path: Assets/Textures/Eyebrow_Spec_High.png
-  artifactKey: Guid(4b99a1efc40e64076852ef2060b5d70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Eyebrow_Spec_High.png using Guid(4b99a1efc40e64076852ef2060b5d70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '83171e8ed0153843ec7fc9e69787452c') in 0.042272834 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.118173 seconds.
-  path: Assets/Textures/Eyeball_Color_High.png
-  artifactKey: Guid(3174fc15a321743a08d1285c53d5c359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Eyeball_Color_High.png using Guid(3174fc15a321743a08d1285c53d5c359) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '50d029000c4b8b7110da448ba0a13f0d') in 0.006882959 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 230.732092 seconds.
-  path: Assets/Materials/Eyelash_High.mat
-  artifactKey: Guid(8cb1ba5ae84b349118f0bcbdb50d5900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Eyelash_High.mat using Guid(8cb1ba5ae84b349118f0bcbdb50d5900) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'acd5399846ad3d81d9126d42e21a291c') in 0.022643166 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/Materials/Eyelash_Med.mat
-  artifactKey: Guid(73c0243fba6e24325a7acb9cdc0fbdbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Eyelash_Med.mat using Guid(73c0243fba6e24325a7acb9cdc0fbdbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '817eb502abcdd66a2aea2ff7ca22ba74') in 0.01451775 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.226625 seconds.
-  path: Assets/Materials/Eyelash_Low.mat
-  artifactKey: Guid(22213bb4fd6d1425a9d8a3ed0c143352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Eyelash_Low.mat using Guid(22213bb4fd6d1425a9d8a3ed0c143352) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '78597a30013a915998d834ca5eff68a9') in 0.014338583 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 25.960632 seconds.
-  path: Assets/Textures/Eyebrow_Albe_Low.jpeg
-  artifactKey: Guid(ffb4bf970378d431aae7700fa5e99414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Eyebrow_Albe_Low.jpeg using Guid(ffb4bf970378d431aae7700fa5e99414) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '64313cace95521e5187a5fbe9bc9a1d1') in 0.032329958 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.572481 seconds.
-  path: Assets/Textures/Eyebrow_Albe_Medium.jpeg
-  artifactKey: Guid(94c5c7025e12244e6b1135390552e6ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Eyebrow_Albe_Medium.jpeg using Guid(94c5c7025e12244e6b1135390552e6ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e3939e2c20465fee1b412abd568283c1') in 0.006922708 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 24.019016 seconds.
-  path: Assets/Textures/Eyelash_Normal_Low.jpeg
-  artifactKey: Guid(1ec7612c2de10429cb80a2cca45c6a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Eyelash_Normal_Low.jpeg using Guid(1ec7612c2de10429cb80a2cca45c6a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5a79e83a819eac8ce78d87cd9583c363') in 0.013966416 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.000269 seconds.
-  path: Assets/Textures/Eyelash_Normal_Medium.jpeg
-  artifactKey: Guid(ccb6b9c89cf634e7d8c2bec58a7ba119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Eyelash_Normal_Medium.jpeg using Guid(ccb6b9c89cf634e7d8c2bec58a7ba119) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8c27cc0a8c87c50e56074ad792a6b75e') in 0.006503 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.488019 seconds.
-  path: Assets/Textures/Eyelash_Albe_Medium.jpeg
-  artifactKey: Guid(4ddcaefdb0a6e4648b475b868ea82925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Eyelash_Albe_Medium.jpeg using Guid(4ddcaefdb0a6e4648b475b868ea82925) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5907b3d63a6eb351754290bde36cea60') in 0.008095125 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.199819 seconds.
-  path: Assets/Textures/Eyelash_Albe_Low.jpeg
-  artifactKey: Guid(496223e5a056c40e788dea9804ab3b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Eyelash_Albe_Low.jpeg using Guid(496223e5a056c40e788dea9804ab3b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6f6fdbbaf8a1b35906725e5c6e87cb43') in 0.00786675 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 21.400024 seconds.
-  path: Assets/Textures/Eyelash_Normal_Low.jpeg
-  artifactKey: Guid(1ec7612c2de10429cb80a2cca45c6a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Eyelash_Normal_Low.jpeg using Guid(1ec7612c2de10429cb80a2cca45c6a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1d47efa486eb509bd261c1633f604809') in 0.007241125 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.839210 seconds.
-  path: Assets/Textures/Eyelash_Normal_Medium.jpeg
-  artifactKey: Guid(ccb6b9c89cf634e7d8c2bec58a7ba119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Eyelash_Normal_Medium.jpeg using Guid(ccb6b9c89cf634e7d8c2bec58a7ba119) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9c0da473d4f7246cf72fd97292788a92') in 0.007397084 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.720832 seconds.
-  path: Assets/Textures/Eyelash_Spec_Low.jpeg
-  artifactKey: Guid(a97f86b6076044818a4f92480f99a65a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Eyelash_Spec_Low.jpeg using Guid(a97f86b6076044818a4f92480f99a65a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd38c8d8ca90187b8e2fe2c25e01d2234') in 0.007704125 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.125721 seconds.
-  path: Assets/Textures/Eyelash_Spec_Medium.jpeg
-  artifactKey: Guid(4ea6597e38c414ef5bb7f83a753e6224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Eyelash_Spec_Medium.jpeg using Guid(4ea6597e38c414ef5bb7f83a753e6224) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'edd15f364ac28e0433a757a68201b6a0') in 0.008072167 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 26.743644 seconds.
-  path: Assets/Textures/Eyebrow_Spec_Low.jpeg
-  artifactKey: Guid(0c690eff8388d4812b4ea23b15b11ada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Eyebrow_Spec_Low.jpeg using Guid(0c690eff8388d4812b4ea23b15b11ada) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ebb8945c3cc3466e9e6dad7f564878ac') in 0.008104709 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.409874 seconds.
-  path: Assets/Textures/Eyebrow_Spec_Medium.jpeg
-  artifactKey: Guid(8969784cc3c804ce28646a961ac0d72c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Eyebrow_Spec_Medium.jpeg using Guid(8969784cc3c804ce28646a961ac0d72c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '72afffbe17053098ac188e7a3bde2605') in 0.006725459 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.930892 seconds.
-  path: Assets/Textures/Eyebrow_Albe_Low.jpeg
-  artifactKey: Guid(ffb4bf970378d431aae7700fa5e99414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Eyebrow_Albe_Low.jpeg using Guid(ffb4bf970378d431aae7700fa5e99414) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c50b967a0592736788582c1d4a989e65') in 0.00883225 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.463805 seconds.
-  path: Assets/Textures/Eyebrow_Albe_Medium.jpeg
-  artifactKey: Guid(94c5c7025e12244e6b1135390552e6ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Eyebrow_Albe_Medium.jpeg using Guid(94c5c7025e12244e6b1135390552e6ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9a50e1514bcffce227b18c5bd7a34dbf') in 0.007099583 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.076312 seconds.
-  path: Assets/Materials/Eyelash_Low.mat
-  artifactKey: Guid(22213bb4fd6d1425a9d8a3ed0c143352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Eyelash_Low.mat using Guid(22213bb4fd6d1425a9d8a3ed0c143352) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8931703016d4a6200635c1ac1100dc2f') in 0.017723791 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 22.723804 seconds.
-  path: Assets/Textures/Eyelash_Albe_High.png
-  artifactKey: Guid(f2f8af0f07d704ad1a813c20ea033c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Eyelash_Albe_High.png using Guid(f2f8af0f07d704ad1a813c20ea033c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'df1f75880c2c40345517c78f57bd9d4a') in 0.008852875 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.449083 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
-  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '16287e9a76dcdba62926232caf925bf6') in 0.04002775 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.107480 seconds.
-  path: Assets/Materials/Eyelash_High.mat
-  artifactKey: Guid(8cb1ba5ae84b349118f0bcbdb50d5900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Eyelash_High.mat using Guid(8cb1ba5ae84b349118f0bcbdb50d5900) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '603e2e95946f06abec36b2a00c5c46df') in 0.012850667 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.851734 seconds.
-  path: Assets/Materials/Eyebrow_Med.mat
-  artifactKey: Guid(9b1bbcd004bec4238a088ed8bbae9512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Eyebrow_Med.mat using Guid(9b1bbcd004bec4238a088ed8bbae9512) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '83b68b87596d48a3fc8dbeac72a77c27') in 0.009052875 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.683347 seconds.
-  path: Assets/Materials/Eyebrow_Low.mat
-  artifactKey: Guid(6a8647021722645078c9dd063cfb629f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Eyebrow_Low.mat using Guid(6a8647021722645078c9dd063cfb629f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '302937fb60b086a54a4fd9fcfa07929c') in 0.017286667 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+  Time since last request: 7812.766260 seconds.
+  path: Assets/DialogVideos/GetStartandContorl.mp4
+  artifactKey: Guid(98103d702967c42e5abb7fac79aa89bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogVideos/GetStartandContorl.mp4 using Guid(98103d702967c42e5abb7fac79aa89bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6db3bb09cfec46797fa2d61888e61d16') in 0.055591917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 

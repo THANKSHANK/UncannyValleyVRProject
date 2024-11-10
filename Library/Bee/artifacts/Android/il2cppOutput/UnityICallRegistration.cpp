@@ -7540,6 +7540,18 @@ void RegisterAllStrippedInternalCalls()
 
 	//End Registrations for type : UnityEngine.Vector3
 
+	//Start Registrations for type : UnityEngine.Video.VideoPlayer
+
+		//System.Void UnityEngine.Video.VideoPlayer::Play_Injected(System.IntPtr)
+		void Register_UnityEngine_Video_VideoPlayer_Play_Injected();
+		Register_UnityEngine_Video_VideoPlayer_Play_Injected();
+
+		//System.Void UnityEngine.Video.VideoPlayer::set_clip_Injected(System.IntPtr,System.IntPtr)
+		void Register_UnityEngine_Video_VideoPlayer_set_clip_Injected();
+		Register_UnityEngine_Video_VideoPlayer_set_clip_Injected();
+
+	//End Registrations for type : UnityEngine.Video.VideoPlayer
+
 	//Start Registrations for type : UnityEngine.XR.InputTracking
 
 		//System.Void UnityEngine.XR.InputTracking::GetNodeStates_Internal_Injected(UnityEngine.Bindings.BlittableListWrapper&)

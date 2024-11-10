@@ -1,5 +1,6 @@
 <linker>
 	<assembly fullname="Assembly-CSharp">
+		<type fullname="DialogManager" preserve="nothing"/>
 		<type fullname="Oculus.Movement.Tracking.AvatarFaceCorrectively" preserve="nothing"/>
 		<type fullname="Oculus.Movement.Tracking.CustomBlendshapeModifier" preserve="nothing"/>
 		<type fullname="VariableManager" preserve="nothing"/>
@@ -13,12 +14,6 @@
 		<type fullname="Oculus.Movement.Effects.RecalculateNormals" preserve="nothing"/>
 		<type fullname="Oculus.Movement.Tracking.BlendshapeModifier" preserve="nothing"/>
 		<type fullname="Oculus.Movement.Tracking.CorrectivesFace" preserve="nothing"/>
-		<type fullname="Oculus.Movement.UI.BlendshapesMenuToggle" preserve="nothing"/>
-		<type fullname="Oculus.Movement.UI.BlendshapesMenuVisual" preserve="nothing"/>
-		<type fullname="Oculus.Movement.UI.SceneSelectIcon" preserve="nothing"/>
-		<type fullname="Oculus.Movement.Utils.BodyTrackingFidelityToggle" preserve="nothing"/>
-		<type fullname="Oculus.Movement.Utils.MovementAudioTrigger" preserve="nothing"/>
-		<type fullname="Oculus.Movement.Utils.MovementSceneLoader" preserve="nothing"/>
 		<type fullname="Oculus.Movement.Utils.RequestMicrophonePermissions" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Meta.XR.Audio">
@@ -101,7 +96,6 @@
 		<type fullname="Oculus.Interaction.PhysicsGrabbable" preserve="nothing"/>
 		<type fullname="Oculus.Interaction.PointableCanvas" preserve="nothing"/>
 		<type fullname="Oculus.Interaction.PointableCanvasModule" preserve="nothing"/>
-		<type fullname="Oculus.Interaction.PointableUnityEventWrapper" preserve="nothing"/>
 		<type fullname="Oculus.Interaction.PokeInteractable" preserve="nothing"/>
 		<type fullname="Oculus.Interaction.PokeInteractableVisual" preserve="nothing"/>
 		<type fullname="Oculus.Interaction.PokeInteractor" preserve="nothing"/>
@@ -179,7 +173,6 @@
 		<type fullname="UnityEngine.InputSystem.UI.InputSystemUIInputModule" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Unity.TextMeshPro">
-		<type fullname="TMPro.TextMeshPro" preserve="nothing"/>
 		<type fullname="TMPro.TextMeshProUGUI" preserve="nothing"/>
 		<type fullname="TMPro.TMP_Dropdown" preserve="nothing"/>
 		<type fullname="TMPro.TMP_FontAsset" preserve="nothing"/>
@@ -251,6 +244,8 @@
 		<type fullname="UnityEngine.Texture" preserve="nothing"/>
 		<type fullname="UnityEngine.Texture2D" preserve="nothing"/>
 		<type fullname="UnityEngine.Transform" preserve="nothing"/>
+		<type fullname="UnityEngine.Video.VideoClip" preserve="nothing"/>
+		<type fullname="UnityEngine.Video.VideoPlayer" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="UnityEngine.UI">
 		<type fullname="UnityEngine.EventSystems.EventSystem" preserve="nothing"/>

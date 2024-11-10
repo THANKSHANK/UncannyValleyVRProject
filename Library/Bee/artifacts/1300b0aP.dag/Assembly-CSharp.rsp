@@ -370,6 +370,7 @@
 "Assets/Scripts/AvatarFaceCorrectively.cs"
 "Assets/Scripts/CustomBlendshapeModifier.cs"
 "Assets/Scripts/CustomOVRFaceWithDynamicMapping.cs"
+"Assets/Scripts/DialogManager.cs"
 "Assets/Scripts/MaterialDebugChanger.cs"
 "Assets/Scripts/VariableManager.cs"
 -langversion:9.0

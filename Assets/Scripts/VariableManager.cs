@@ -19,7 +19,13 @@ public class VariableManager : MonoBehaviour
 
     private GameObject mirroredObject;
     private MeshRenderer mirroredRenderer;
-
+    
+    public GameObject leftEyeObject;
+    public GameObject rightEyeObject;
+    private SkinnedMeshRenderer leftEyeRenderer;
+    private SkinnedMeshRenderer rightEyeRenderer;
+    public Material eyeMaterial_Low, eyeMaterial_Medium, eyeMaterial_High;
+    
     public AudioClip toggleSelectSound;
     private AudioSource audioSource;
 
@@ -39,6 +45,17 @@ public class VariableManager : MonoBehaviour
         {
             correctivesFaceMouth = mouthObject.GetComponent<AvatarFaceCorrectively>();
         }
+
+        if (leftEyeObject != null)
+        {
+            leftEyeRenderer = leftEyeObject.GetComponent<SkinnedMeshRenderer>();
+        }
+
+        if (rightEyeObject != null)
+        {
+            rightEyeRenderer = rightEyeObject.GetComponent<SkinnedMeshRenderer>();
+        }
+        
         audioSource = GetComponent<AudioSource>();
     }
 
@@ -87,21 +104,21 @@ public class VariableManager : MonoBehaviour
         // Texture Detail Toggles
         if (textureDetailToggleLow.isOn && !prevTextureLow)
         {
-            UpdateMaterial(lowDetailMaterials);
+            UpdateMaterial(lowDetailMaterials,eyeMaterial_Low);
             PlayToggleSound();
         }
         prevTextureLow = textureDetailToggleLow.isOn;
 
         if (textureDetailToggleMedium.isOn && !prevTextureMedium)
         {
-            UpdateMaterial(mediumDetailMaterials);
+            UpdateMaterial(mediumDetailMaterials,eyeMaterial_Medium);
             PlayToggleSound();
         }
         prevTextureMedium = textureDetailToggleMedium.isOn;
 
         if (textureDetailToggleHigh.isOn && !prevTextureHigh)
         {
-            UpdateMaterial(highDetailMaterials);
+            UpdateMaterial(highDetailMaterials,eyeMaterial_High);
             PlayToggleSound();
         }
         prevTextureHigh = textureDetailToggleHigh.isOn;
@@ -135,13 +152,9 @@ public class VariableManager : MonoBehaviour
         {
             audioSource.PlayOneShot(toggleSelectSound);
         }
-        else
-        {
-            Debug.LogWarning("AudioSource or ToggleSelectSound is not assigned.");
-        }
     }
 
-    private void UpdateMaterial(Material[] newMaterials)
+    private void UpdateMaterial(Material[] newMaterials, Material eyeMaterial)
     {
         if (mirroredRenderer != null)
         {
@@ -150,25 +163,33 @@ public class VariableManager : MonoBehaviour
             {
                 materials[i] = newMaterials[i];
             }
+
             mirroredRenderer.sharedMaterials = materials;
-            //Debug.Log($"Material changed to: {newMaterial.name}");
-            mirroredRenderer.enabled = false;
-            mirroredRenderer.enabled = true;
+            // mirroredRenderer.enabled = false;
+            // mirroredRenderer.enabled = true;
+        }
+
+        if (eyeMaterial != null)
+        {
+            Material[] eyematerials = leftEyeRenderer.sharedMaterials;
+            eyematerials[0] = eyeMaterial;
+            leftEyeRenderer.sharedMaterials = eyematerials;
+            rightEyeRenderer.sharedMaterials = eyematerials;
+
         }
     }
+
 
     private void UpdateBlendShapeMultiplier(float value)
     {
         if (correctivesFaceHead != null)
         {
             correctivesFaceHead.BlendShapeStrengthMultiplier = value;
-            Debug.Log($"Head BlendShapeMultiplier set to: {value}");
         }
 
         if (correctivesFaceMouth != null)
         {
             correctivesFaceMouth.BlendShapeStrengthMultiplier = value;
-            Debug.Log($"Mouth BlendShapeMultiplier set to: {value}");
         }
     }
 

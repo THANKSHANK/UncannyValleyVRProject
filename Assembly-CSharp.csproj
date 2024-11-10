@@ -49,6 +49,7 @@
     <Compile Include="Assets/Scripts/AvatarFaceCorrectively.cs" />
     <Compile Include="Assets/Scripts/MaterialDebugChanger.cs" />
     <Compile Include="Assets/Scripts/CustomBlendshapeModifier.cs" />
+    <Compile Include="Assets/Scripts/DialogManager.cs" />
     <Compile Include="Assets/Scripts/CustomOVRFaceWithDynamicMapping.cs" />
     <Compile Include="Assets/Scripts/VariableManager.cs" />
     <None Include="Library/PackageCache/com.unity.settings-manager/package.json" />

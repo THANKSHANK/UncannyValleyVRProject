@@ -37,6 +37,13 @@
             "usedInScenes": []
         },
         {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "DialogManager",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
             "managedAssemblyName": "",
             "nativeClass": "EditorExtension",
             "fullManagedTypeName": "",
@@ -623,13 +630,6 @@
         {
             "managedAssemblyName": "Oculus.Interaction.dll",
             "nativeClass": "",
-            "fullManagedTypeName": "Oculus.Interaction.PointableUnityEventWrapper",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Oculus.Interaction.dll",
-            "nativeClass": "",
             "fullManagedTypeName": "Oculus.Interaction.PokeInteractable",
             "moduleName": "",
             "usedInScenes": []
@@ -799,48 +799,6 @@
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
             "fullManagedTypeName": "Oculus.Movement.Tracking.CustomBlendshapeModifier",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Meta.Movement.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "Oculus.Movement.UI.BlendshapesMenuToggle",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Meta.Movement.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "Oculus.Movement.UI.BlendshapesMenuVisual",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Meta.Movement.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "Oculus.Movement.UI.SceneSelectIcon",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Meta.Movement.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "Oculus.Movement.Utils.BodyTrackingFidelityToggle",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Meta.Movement.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "Oculus.Movement.Utils.MovementAudioTrigger",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Meta.Movement.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "Oculus.Movement.Utils.MovementSceneLoader",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -1080,13 +1038,6 @@
             "nativeClass": "StreamingManager",
             "fullManagedTypeName": "",
             "moduleName": "Streaming",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Unity.TextMeshPro.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "TMPro.TextMeshPro",
-            "moduleName": "",
             "usedInScenes": []
         },
         {
@@ -1824,6 +1775,24 @@
             "fullManagedTypeName": "UnityEngine.UI.VerticalLayoutGroup",
             "moduleName": "",
             "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "VideoClip",
+            "fullManagedTypeName": "UnityEngine.Video.VideoClip",
+            "moduleName": "Video",
+            "usedInScenes": [
+                "Assets/Scenes/SampleScene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "VideoPlayer",
+            "fullManagedTypeName": "UnityEngine.Video.VideoPlayer",
+            "moduleName": "Video",
+            "usedInScenes": [
+                "Assets/Scenes/SampleScene.unity"
+            ]
         },
         {
             "managedAssemblyName": "Unity.XR.Management.dll",
