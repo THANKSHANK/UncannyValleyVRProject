@@ -1,0 +1,147 @@
+<linker>
+ <assembly fullname="UnityEngine.AnimationModule">
+  <type fullname="UnityEngine.Animations.PropertyStreamHandle">
+   <method name="GetFloatInternal"/>
+  </type>
+  <type fullname="UnityEngine.Animations.PropertyStreamHandle">
+   <method name="GetIntInternal"/>
+  </type>
+  <type fullname="UnityEngine.Animations.PropertyStreamHandle">
+   <method name="GetBoolInternal"/>
+  </type>
+  <type fullname="UnityEngine.Animations.PropertyStreamHandle">
+   <method name="ResolveInternal"/>
+  </type>
+  <type fullname="UnityEngine.Animations.TransformStreamHandle">
+   <method name="GetLocalTRSInternal"/>
+  </type>
+  <type fullname="UnityEngine.Animations.TransformStreamHandle">
+   <method name="ResolveInternal"/>
+  </type>
+  <type fullname="UnityEngine.Animations.TransformStreamHandle">
+   <method name="GetLocalPositionInternal_Injected"/>
+  </type>
+  <type fullname="UnityEngine.Animations.TransformStreamHandle">
+   <method name="GetLocalRotationInternal_Injected"/>
+  </type>
+  <type fullname="UnityEngine.Animations.TransformStreamHandle">
+   <method name="SetLocalPositionInternal_Injected"/>
+  </type>
+  <type fullname="UnityEngine.Animations.TransformStreamHandle">
+   <method name="SetLocalRotationInternal_Injected"/>
+  </type>
+  <type fullname="UnityEngine.Animations.TransformStreamHandle">
+   <method name="SetLocalTRSInternal_Injected"/>
+  </type>
+  <type fullname="UnityEngine.Animations.TransformSceneHandle">
+   <method name="HasValidTransform"/>
+  </type>
+  <type fullname="UnityEngine.Animations.TransformStreamHandle">
+   <method name="GetPositionInternal_Injected"/>
+  </type>
+  <type fullname="UnityEngine.Animations.TransformStreamHandle">
+   <method name="GetRotationInternal_Injected"/>
+  </type>
+  <type fullname="UnityEngine.Animations.TransformStreamHandle">
+   <method name="SetRotationInternal_Injected"/>
+  </type>
+  <type fullname="UnityEngine.Animations.TransformSceneHandle">
+   <method name="GetPositionInternal_Injected"/>
+  </type>
+  <type fullname="UnityEngine.Animations.TransformSceneHandle">
+   <method name="GetRotationInternal_Injected"/>
+  </type>
+  <type fullname="UnityEngine.Animations.AnimationStream">
+   <method name="GetVelocity_Injected"/>
+  </type>
+  <type fullname="UnityEngine.Animations.AnimationStream">
+   <method name="SetVelocity_Injected"/>
+  </type>
+  <type fullname="UnityEngine.Animations.TransformStreamHandle">
+   <method name="SetPositionInternal_Injected"/>
+  </type>
+  <type fullname="UnityEngine.Animations.AnimationStreamHandleUtility">
+   <method name="ReadStreamFloatsInternal"/>
+  </type>
+  <type fullname="UnityEngine.Animations.TransformSceneHandle">
+   <method name="GetLocalRotationInternal_Injected"/>
+  </type>
+  <type fullname="UnityEngine.Animations.TransformStreamHandle">
+   <method name="GetGlobalTRInternal"/>
+  </type>
+  <type fullname="UnityEngine.Animations.TransformSceneHandle">
+   <method name="GetGlobalTRInternal"/>
+  </type>
+  <type fullname="UnityEngine.Animations.TransformStreamHandle">
+   <method name="SetGlobalTRInternal_Injected"/>
+  </type>
+  <type fullname="UnityEngine.Animations.TransformSceneHandle">
+   <method name="GetLocalToWorldMatrixInternal_Injected"/>
+  </type>
+  <type fullname="UnityEngine.Animations.TransformStreamHandle">
+   <method name="GetLocalToWorldMatrixInternal_Injected"/>
+  </type>
+  <type fullname="UnityEngine.Animations.TransformSceneHandle">
+   <method name="GetLocalTRSInternal"/>
+  </type>
+  <type fullname="UnityEngine.Animations.AnimationStream">
+   <method name="GetDeltaTime"/>
+  </type>
+  <type fullname="UnityEngine.Animations.AnimationStreamHandleUtility">
+   <method name="WriteStreamFloatsInternal"/>
+  </type>
+  <type fullname="UnityEngine.Animations.AnimationSceneHandleUtility">
+   <method name="ReadSceneFloatsInternal"/>
+  </type>
+ </assembly>
+ <assembly fullname="UnityEngine.CoreModule">
+  <type fullname="UnityEngine.Jobs.TransformAccessArray">
+   <method name="GetSortedToUserIndex"/>
+  </type>
+  <type fullname="UnityEngine.Jobs.TransformAccessArray">
+   <method name="GetSortedTransformAccess"/>
+  </type>
+  <type fullname="Unity.Jobs.LowLevel.Unsafe.JobsUtility">
+   <method name="GetWorkStealingRange"/>
+  </type>
+  <type fullname="UnityEngine.Jobs.TransformAccess">
+   <method name="GetPosition"/>
+  </type>
+  <type fullname="UnityEngine.Jobs.TransformAccess">
+   <method name="GetRotation"/>
+  </type>
+  <type fullname="UnityEngine.Jobs.TransformAccess">
+   <method name="SetPositionAndRotation_Internal"/>
+  </type>
+  <type fullname="UnityEngine.Quaternion">
+   <method name="Slerp_Injected"/>
+  </type>
+  <type fullname="UnityEngine.Quaternion">
+   <method name="Internal_ToEulerRad_Injected"/>
+  </type>
+  <type fullname="UnityEngine.Quaternion">
+   <method name="Internal_FromEulerRad_Injected"/>
+  </type>
+  <type fullname="UnityEngine.Quaternion">
+   <method name="AngleAxis_Injected"/>
+  </type>
+  <type fullname="UnityEngine.Quaternion">
+   <method name="SlerpUnclamped_Injected"/>
+  </type>
+  <type fullname="UnityEngine.Quaternion">
+   <method name="FromToRotation_Injected"/>
+  </type>
+  <type fullname="UnityEngine.Quaternion">
+   <method name="LookRotation_Injected"/>
+  </type>
+  <type fullname="UnityEngine.Quaternion">
+   <method name="Inverse_Injected"/>
+  </type>
+  <type fullname="UnityEngine.Quaternion">
+   <method name="Lerp_Injected"/>
+  </type>
+  <type fullname="UnityEngine.Matrix4x4">
+   <method name="Inverse_Injected"/>
+  </type>
+ </assembly>
+</linker>

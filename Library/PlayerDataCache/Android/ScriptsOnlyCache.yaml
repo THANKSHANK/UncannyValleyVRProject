@@ -58,11 +58,22 @@ ScriptsOnlyBuild:
     Meta.XR.ImmersiveDebugger.dll:
     - Meta.XR.ImmersiveDebugger.RuntimeSettings
     Meta.XR.MultiplayerBlocks.Fusion.Editor.dll:
+    - Meta.XR.MultiplayerBlocks.Fusion.Editor.AutoMatchmakingFusionInstallationRoutine
+    - Meta.XR.MultiplayerBlocks.Fusion.Editor.NetworkedGrabbableObjectFusionInstallationRoutine
+    - Meta.XR.MultiplayerBlocks.Fusion.Editor.PlayerVoiceChatInstallationRoutine
     - Meta.XR.MultiplayerBlocks.Fusion.Editor.VoiceChatInterfaceBlockData
+    Meta.XR.MultiplayerBlocks.NGO.Editor.dll:
+    - Meta.XR.MultiplayerBlocks.NGO.Editor.NetworkedGrabbableObjectNGOInstallationRoutine
+    Meta.XR.MultiplayerBlocks.Shared.Editor.dll:
+    - Meta.XR.MultiplayerBlocks.Shared.Editor.NetworkInstallationRoutine
     Meta.XR.MultiplayerBlocks.Shared.dll:
+    - Meta.XR.MultiplayerBlocks.Shared.ColocationController
     - Meta.XR.MultiplayerBlocks.Shared.PlatformInit_
+    - Meta.XR.MultiplayerBlocks.Shared.PlayerNameTagSpawner
     Oculus.Interaction.OVR.Editor.dll:
+    - Meta.XR.BuildingBlocks.Editor.InteractableInstallationRoutine
     - Meta.XR.BuildingBlocks.Editor.RealHandsBlockData
+    - Meta.XR.BuildingBlocks.Editor.TeleportInstallationRoutine
     - Oculus.Interaction.Editor.BuildingBlocks.OVRHandPhysicsBlockData
     - Oculus.Interaction.Editor.BuildingBlocks.OVRHandPokeLimiterBlockData
     - Oculus.Interaction.Editor.BuildingBlocks.OVRInteractionBlockData
@@ -71,6 +82,9 @@ ScriptsOnlyBuild:
     - Oculus.Interaction.Editor.BuildingBlocks.OVRInteractorBlockData
     - Oculus.Interaction.Editor.BuildingBlocks.OVRSyntheticHandsBlockData
     - Oculus.Interaction.Editor.BuildingBlocks.OVRSyntheticHandsCollidersBlockData
+    Oculus.Interaction.OVR.Samples.dll:
+    - MRPassThroughMaterialChanger
+    - MRPassthrough
     Oculus.Interaction.OVR.dll:
     - Oculus.Interaction.Input.FromOVRControllerDataSource
     - Oculus.Interaction.Input.FromOVRHandDataSource
@@ -83,7 +97,9 @@ ScriptsOnlyBuild:
     Oculus.Interaction.Samples.dll:
     - AnimatorOverrideLayerWeigth
     - CanvasGroupAlphaToggle
+    - Oculus.Interaction.AudioTrigger
     - Oculus.Interaction.DisableRaycaster
+    - Oculus.Interaction.Samples.SceneLoader
     - RoundedBoxUIProperties
     Oculus.Interaction.dll:
     - Oculus.Interaction.ActiveStateGroup
@@ -126,6 +142,7 @@ ScriptsOnlyBuild:
     - Oculus.Interaction.PhysicsGrabbable
     - Oculus.Interaction.PointableCanvas
     - Oculus.Interaction.PointableCanvasModule
+    - Oculus.Interaction.PointableUnityEventWrapper
     - Oculus.Interaction.PokeInteractable
     - Oculus.Interaction.PokeInteractableVisual
     - Oculus.Interaction.PokeInteractor
@@ -141,6 +158,7 @@ ScriptsOnlyBuild:
     - Oculus.Interaction.Surfaces.PlaneSurface
     - Oculus.Interaction.Throw.HandPoseInputDevice
     - Oculus.Interaction.Throw.StandardVelocityCalculator
+    - Oculus.Interaction.VersionTextVisual
     Oculus.Platform:
     - Oculus.Platform.PlatformSettings
     Oculus.Platform.dll:
@@ -194,7 +212,6 @@ ScriptsOnlyBuild:
     - UnityEngine.InputSystem.UI.InputSystemUIInputModule
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.RiderScriptEditorData
-    - Packages.Rider.Editor.RiderScriptEditorPersistedState
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro:
     - TMPro.TMP_FontAsset
@@ -207,6 +224,7 @@ ScriptsOnlyBuild:
     - TMPro.TMP_Settings
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
+    - TMPro.TextMeshPro
     - TMPro.TextMeshProUGUI
     Unity.XR.Management.Editor.dll:
     - UnityEditor.XR.Management.XRGeneralSettingsPerBuildTarget
@@ -241,11 +259,13 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.VerticalLayoutGroup
     meta.xr.mrutilitykit.dll:
     - FindSpawnPositions
+    - Meta.XR.MRUtilityKit.AnchorPrefabSpawner
     - Meta.XR.MRUtilityKit.EffectMesh
     - Meta.XR.MRUtilityKit.MRUK
     - Meta.XR.MRUtilityKit.RoomGuardian
     - Meta.XR.MRUtilityKit.SceneDebugger
     meta.xr.mrutilitykit.editor.dll:
+    - AnchorPrefabSpawnerInstallationRoutine
     - Meta.XR.MRUtilityKit.FindSpawnPositionsBlockData
     - Meta.XR.MRUtilityKit.MRUtilityKitBlockData
   serializedClasses:
@@ -388,6 +408,8 @@ ScriptsOnlyBuild:
     - Class: 48
       Script: {instanceID: 0}
     - Class: 49
+      Script: {instanceID: 0}
+    - Class: 64
       Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
@@ -598,6 +620,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 37306}
     - Class: 114
+      Script: {instanceID: 37356}
+    - Class: 114
       Script: {instanceID: 37790}
     - Class: 114
       Script: {instanceID: 37804}
@@ -631,6 +655,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
+    - Class: 215
+      Script: {instanceID: 0}
     - Class: 220
       Script: {instanceID: 0}
     - Class: 222
@@ -644,6 +670,8 @@ ScriptsOnlyBuild:
     - Class: 328
       Script: {instanceID: 0}
     - Class: 329
+      Script: {instanceID: 0}
+    - Class: 850595691
       Script: {instanceID: 0}
   scriptHashData:
   - hash:

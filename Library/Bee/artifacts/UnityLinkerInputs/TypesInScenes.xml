@@ -47,13 +47,16 @@
 	</assembly>
 	<assembly fullname="meta.xr.mrutilitykit">
 		<type fullname="FindSpawnPositions" preserve="nothing"/>
+		<type fullname="Meta.XR.MRUtilityKit.AnchorPrefabSpawner" preserve="nothing"/>
 		<type fullname="Meta.XR.MRUtilityKit.EffectMesh" preserve="nothing"/>
 		<type fullname="Meta.XR.MRUtilityKit.MRUK" preserve="nothing"/>
 		<type fullname="Meta.XR.MRUtilityKit.RoomGuardian" preserve="nothing"/>
 		<type fullname="Meta.XR.MRUtilityKit.SceneDebugger" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Meta.XR.MultiplayerBlocks.Shared">
+		<type fullname="Meta.XR.MultiplayerBlocks.Shared.ColocationController" preserve="nothing"/>
 		<type fullname="Meta.XR.MultiplayerBlocks.Shared.PlatformInit_" preserve="nothing"/>
+		<type fullname="Meta.XR.MultiplayerBlocks.Shared.PlayerNameTagSpawner" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Oculus.Interaction">
 		<type fullname="Oculus.Interaction.ActiveStateGroup" preserve="nothing"/>
@@ -96,6 +99,7 @@
 		<type fullname="Oculus.Interaction.PhysicsGrabbable" preserve="nothing"/>
 		<type fullname="Oculus.Interaction.PointableCanvas" preserve="nothing"/>
 		<type fullname="Oculus.Interaction.PointableCanvasModule" preserve="nothing"/>
+		<type fullname="Oculus.Interaction.PointableUnityEventWrapper" preserve="nothing"/>
 		<type fullname="Oculus.Interaction.PokeInteractable" preserve="nothing"/>
 		<type fullname="Oculus.Interaction.PokeInteractableVisual" preserve="nothing"/>
 		<type fullname="Oculus.Interaction.PokeInteractor" preserve="nothing"/>
@@ -111,6 +115,7 @@
 		<type fullname="Oculus.Interaction.Surfaces.PlaneSurface" preserve="nothing"/>
 		<type fullname="Oculus.Interaction.Throw.HandPoseInputDevice" preserve="nothing"/>
 		<type fullname="Oculus.Interaction.Throw.StandardVelocityCalculator" preserve="nothing"/>
+		<type fullname="Oculus.Interaction.VersionTextVisual" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Oculus.Interaction.OVR">
 		<type fullname="Oculus.Interaction.Input.FromOVRControllerDataSource" preserve="nothing"/>
@@ -122,10 +127,16 @@
 		<type fullname="Oculus.Interaction.Input.Visuals.OVRControllerVisual" preserve="nothing"/>
 		<type fullname="Oculus.Interaction.OVR.Input.OVRAxis2D" preserve="nothing"/>
 	</assembly>
+	<assembly fullname="Oculus.Interaction.OVR.Samples">
+		<type fullname="MRPassthrough" preserve="nothing"/>
+		<type fullname="MRPassThroughMaterialChanger" preserve="nothing"/>
+	</assembly>
 	<assembly fullname="Oculus.Interaction.Samples">
 		<type fullname="AnimatorOverrideLayerWeigth" preserve="nothing"/>
 		<type fullname="CanvasGroupAlphaToggle" preserve="nothing"/>
+		<type fullname="Oculus.Interaction.AudioTrigger" preserve="nothing"/>
 		<type fullname="Oculus.Interaction.DisableRaycaster" preserve="nothing"/>
+		<type fullname="Oculus.Interaction.Samples.SceneLoader" preserve="nothing"/>
 		<type fullname="RoundedBoxUIProperties" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Oculus.Platform">
@@ -173,6 +184,7 @@
 		<type fullname="UnityEngine.InputSystem.UI.InputSystemUIInputModule" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Unity.TextMeshPro">
+		<type fullname="TMPro.TextMeshPro" preserve="nothing"/>
 		<type fullname="TMPro.TextMeshProUGUI" preserve="nothing"/>
 		<type fullname="TMPro.TMP_Dropdown" preserve="nothing"/>
 		<type fullname="TMPro.TMP_FontAsset" preserve="nothing"/>
@@ -219,10 +231,12 @@
 		<type fullname="UnityEngine.Font" preserve="nothing"/>
 		<type fullname="UnityEngine.GameObject" preserve="nothing"/>
 		<type fullname="UnityEngine.Light" preserve="nothing"/>
+		<type fullname="UnityEngine.LightingSettings" preserve="nothing"/>
 		<type fullname="UnityEngine.LightmapSettings" preserve="nothing"/>
 		<type fullname="UnityEngine.LightProbeGroup" preserve="nothing"/>
 		<type fullname="UnityEngine.Material" preserve="nothing"/>
 		<type fullname="UnityEngine.Mesh" preserve="nothing"/>
+		<type fullname="UnityEngine.MeshCollider" preserve="nothing"/>
 		<type fullname="UnityEngine.MeshFilter" preserve="nothing"/>
 		<type fullname="UnityEngine.MeshRenderer" preserve="nothing"/>
 		<type fullname="UnityEngine.MonoBehaviour" preserve="nothing"/>
@@ -230,6 +244,7 @@
 		<type fullname="UnityEngine.Object" preserve="nothing"/>
 		<type fullname="UnityEngine.QualitySettings" preserve="nothing"/>
 		<type fullname="UnityEngine.RectTransform" preserve="nothing"/>
+		<type fullname="UnityEngine.ReflectionProbe" preserve="nothing"/>
 		<type fullname="UnityEngine.Renderer" preserve="nothing"/>
 		<type fullname="UnityEngine.Rendering.GraphicsSettings" preserve="nothing"/>
 		<type fullname="UnityEngine.Rendering.SortingGroup" preserve="nothing"/>

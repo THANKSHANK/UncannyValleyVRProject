@@ -199,6 +199,13 @@
         {
             "managedAssemblyName": "meta.xr.mrutilitykit.dll",
             "nativeClass": "",
+            "fullManagedTypeName": "Meta.XR.MRUtilityKit.AnchorPrefabSpawner",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "meta.xr.mrutilitykit.dll",
+            "nativeClass": "",
             "fullManagedTypeName": "Meta.XR.MRUtilityKit.EffectMesh",
             "moduleName": "",
             "usedInScenes": []
@@ -227,7 +234,21 @@
         {
             "managedAssemblyName": "Meta.XR.MultiplayerBlocks.Shared.dll",
             "nativeClass": "",
+            "fullManagedTypeName": "Meta.XR.MultiplayerBlocks.Shared.ColocationController",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Meta.XR.MultiplayerBlocks.Shared.dll",
+            "nativeClass": "",
             "fullManagedTypeName": "Meta.XR.MultiplayerBlocks.Shared.PlatformInit_",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Meta.XR.MultiplayerBlocks.Shared.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Meta.XR.MultiplayerBlocks.Shared.PlayerNameTagSpawner",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -249,6 +270,20 @@
             "managedAssemblyName": "Meta.XR.Audio.dll",
             "nativeClass": "",
             "fullManagedTypeName": "MetaXRAudioSettings",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Oculus.Interaction.OVR.Samples.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "MRPassthrough",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Oculus.Interaction.OVR.Samples.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "MRPassThroughMaterialChanger",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -295,6 +330,13 @@
             "managedAssemblyName": "Oculus.Interaction.dll",
             "nativeClass": "",
             "fullManagedTypeName": "Oculus.Interaction.ActiveStateTracker",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Oculus.Interaction.Samples.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Oculus.Interaction.AudioTrigger",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -630,6 +672,13 @@
         {
             "managedAssemblyName": "Oculus.Interaction.dll",
             "nativeClass": "",
+            "fullManagedTypeName": "Oculus.Interaction.PointableUnityEventWrapper",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Oculus.Interaction.dll",
+            "nativeClass": "",
             "fullManagedTypeName": "Oculus.Interaction.PokeInteractable",
             "moduleName": "",
             "usedInScenes": []
@@ -691,6 +740,13 @@
             "usedInScenes": []
         },
         {
+            "managedAssemblyName": "Oculus.Interaction.Samples.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Oculus.Interaction.Samples.SceneLoader",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
             "managedAssemblyName": "Oculus.Interaction.dll",
             "nativeClass": "",
             "fullManagedTypeName": "Oculus.Interaction.Surfaces.BoundsClipper",
@@ -729,6 +785,13 @@
             "managedAssemblyName": "Oculus.Interaction.dll",
             "nativeClass": "",
             "fullManagedTypeName": "Oculus.Interaction.Throw.StandardVelocityCalculator",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Oculus.Interaction.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Oculus.Interaction.VersionTextVisual",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -1038,6 +1101,13 @@
             "nativeClass": "StreamingManager",
             "fullManagedTypeName": "",
             "moduleName": "Streaming",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.TextMeshPro.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "TMPro.TextMeshPro",
+            "moduleName": "",
             "usedInScenes": []
         },
         {
@@ -1452,6 +1522,15 @@
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "LightingSettings",
+            "fullManagedTypeName": "UnityEngine.LightingSettings",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/SampleScene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "LightmapSettings",
             "fullManagedTypeName": "UnityEngine.LightmapSettings",
             "moduleName": "Core",
@@ -1482,6 +1561,15 @@
             "nativeClass": "Mesh",
             "fullManagedTypeName": "UnityEngine.Mesh",
             "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/SampleScene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "MeshCollider",
+            "fullManagedTypeName": "UnityEngine.MeshCollider",
+            "moduleName": "Physics",
             "usedInScenes": [
                 "Assets/Scenes/SampleScene.unity"
             ]
@@ -1542,6 +1630,15 @@
             "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "RectTransform",
             "fullManagedTypeName": "UnityEngine.RectTransform",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/SampleScene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "ReflectionProbe",
+            "fullManagedTypeName": "UnityEngine.ReflectionProbe",
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/SampleScene.unity"
