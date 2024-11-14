@@ -7538,10 +7538,6 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Vector3_OrthoNormalize2();
 		Register_UnityEngine_Vector3_OrthoNormalize2();
 
-		//System.Void UnityEngine.Vector3::Slerp_Injected(UnityEngine.Vector3&,UnityEngine.Vector3&,System.Single,UnityEngine.Vector3&)
-		void Register_UnityEngine_Vector3_Slerp_Injected();
-		Register_UnityEngine_Vector3_Slerp_Injected();
-
 	//End Registrations for type : UnityEngine.Vector3
 
 	//Start Registrations for type : UnityEngine.Video.VideoPlayer

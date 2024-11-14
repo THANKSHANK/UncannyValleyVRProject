@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/Scripts/AvatarFaceCorrectively.cs" />
+    <Compile Include="Assets/Scripts/ResetScene.cs" />
     <Compile Include="Assets/Scripts/MaterialDebugChanger.cs" />
     <Compile Include="Assets/Scripts/CustomBlendshapeModifier.cs" />
     <Compile Include="Assets/Scripts/DialogManager.cs" />

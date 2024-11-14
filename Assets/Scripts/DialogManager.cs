@@ -14,13 +14,13 @@ public class DialogManager : MonoBehaviour
     private VideoPlayer _clip;
     private TextMeshProUGUI _title;
     private TextMeshProUGUI _text;
+    public GameObject mirroredAvatar;
 
     public VideoClip[] clips;
     public string[] titles;
     public string[] textContents;
     private int currentDialogIndex = 0; 
 
-    public Toggle previous;
     public Toggle next;
    
     void Start()
@@ -29,22 +29,12 @@ public class DialogManager : MonoBehaviour
         _title = title.GetComponent<TextMeshProUGUI>();
         _text = text.GetComponent<TextMeshProUGUI>();
 
-        // Set initial dialog
         UpdateDialog();
 
        
-        //previous.onValueChanged.AddListener((isOn) => { if (isOn) PlayToggleSound(); ShowPreviousDialog(); });
         next.onValueChanged.AddListener((isOn) => { if (isOn)  ShowNextDialog(); });
     }
 
-    /*public void ShowPreviousDialog()
-    {
-        if (currentDialogIndex > 0)
-        {
-            currentDialogIndex--;
-            UpdateDialog();
-        }
-    }*/
     
     public void ShowNextDialog()
     {
@@ -101,5 +91,6 @@ public class DialogManager : MonoBehaviour
         dialogObject.SetActive(false);  // Hide the dialog object
         controlUI.SetActive(true);      // Show the control UI
         attention.SetActive(true);
+        mirroredAvatar.SetActive(true);
     }
 }

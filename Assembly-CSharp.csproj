@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/Scripts/AvatarFaceCorrectively.cs" />
+    <Compile Include="Assets/Scripts/ResetScene.cs" />
     <Compile Include="Assets/Scripts/MaterialDebugChanger.cs" />
     <Compile Include="Assets/Scripts/CustomBlendshapeModifier.cs" />
     <Compile Include="Assets/Scripts/DialogManager.cs" />
@@ -122,6 +123,7 @@
     <None Include="Library/PackageCache/com.unity.test-framework/package.json" />
     <None Include="Library/PackageCache/com.unity.performance.profile-analyzer/package.json" />
     <None Include="Library/PackageCache/com.unity.modules.particlesystem/package.json" />
+    <None Include="Assets/3D Laboratory Environment with Appratus/Documentation/3D Laboratory environment with appratus.txt" />
     <None Include="Library/PackageCache/com.meta.xr.sdk.haptics/THIRD_PARTY_NOTICES.txt" />
     <None Include="Library/PackageCache/com.unity.modules.physics2d/package.json" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader" />

@@ -496,6 +496,7 @@
 "Assets/Scripts/CustomOVRFaceWithDynamicMapping.cs"
 "Assets/Scripts/DialogManager.cs"
 "Assets/Scripts/MaterialDebugChanger.cs"
+"Assets/Scripts/ResetScene.cs"
 "Assets/Scripts/VariableManager.cs"
 -langversion:9.0
 /deterministic
