@@ -12187,7 +12187,7 @@ MonoBehaviour:
   _data: {fileID: 0}
   _selector: {fileID: 485017628}
   _rayOrigin: {fileID: 416263589}
-  _maxRayLength: 10
+  _maxRayLength: 100
   _equalDistanceThreshold: 0.001
 --- !u!114 &388446248
 MonoBehaviour:
@@ -14354,7 +14354,7 @@ MonoBehaviour:
   _rayInteractor: {fileID: 388446247}
   _renderer: {fileID: 447863511}
   _materialPropertyBlockEditor: {fileID: 443860295}
-  _maxRayVisualLength: 0.5
+  _maxRayVisualLength: 1
   _hoverColor0: {r: 0.9921569, g: 0.9921569, b: 0.9921569, a: 1}
   _hoverColor1: {r: 1, g: 1, b: 1, a: 0}
   _selectColor0: {r: 0, g: 0.3413641, b: 0.7924528, a: 0.19607843}
@@ -24912,13 +24912,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 809050456}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.3664596, y: -1.8836123, z: -0.29727364}
+  m_LocalRotation: {x: 0.0009800707, y: -0.0010402628, z: -0.0014179244, w: 0.999998}
+  m_LocalPosition: {x: -1.3664596, y: -1.8836123, z: -0.29727367}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 143297399}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0.112, y: -0.119, z: -0.163}
 --- !u!65 &809050458
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -32260,7 +32260,7 @@ MonoBehaviour:
   _rayInteractor: {fileID: 1991516633}
   _renderer: {fileID: 343380021}
   _materialPropertyBlockEditor: {fileID: 1049595274}
-  _maxRayVisualLength: 0.5
+  _maxRayVisualLength: 1
   _hoverColor0: {r: 0.9921569, g: 0.9921569, b: 0.9921569, a: 1}
   _hoverColor1: {r: 1, g: 1, b: 1, a: 0}
   _selectColor0: {r: 0, g: 0.3413641, b: 0.7924528, a: 0.19607843}
@@ -40230,11 +40230,11 @@ MonoBehaviour:
   _activeState: {fileID: 1266133186}
   _interactableFilters: []
   _candidateTiebreaker: {fileID: 0}
-  _maxIterationsPerFrame: 1
+  _maxIterationsPerFrame: 3
   _data: {fileID: 0}
   _selector: {fileID: 423320723}
   _rayOrigin: {fileID: 566493404}
-  _maxRayLength: 10
+  _maxRayLength: 100
   _equalDistanceThreshold: 0.001
 --- !u!114 &1266133186
 MonoBehaviour:
@@ -46093,11 +46093,11 @@ MonoBehaviour:
   _activeState: {fileID: 1460864730}
   _interactableFilters: []
   _candidateTiebreaker: {fileID: 0}
-  _maxIterationsPerFrame: 1
+  _maxIterationsPerFrame: 3
   _data: {fileID: 0}
   _selector: {fileID: 718905222}
   _rayOrigin: {fileID: 1728518466}
-  _maxRayLength: 10
+  _maxRayLength: 100
   _equalDistanceThreshold: 0.001
 --- !u!114 &1460864730
 MonoBehaviour:
@@ -67460,7 +67460,7 @@ MonoBehaviour:
   _data: {fileID: 0}
   _selector: {fileID: 1531487601}
   _rayOrigin: {fileID: 25352436}
-  _maxRayLength: 10
+  _maxRayLength: 100
   _equalDistanceThreshold: 0.001
 --- !u!114 &1991516634
 MonoBehaviour:

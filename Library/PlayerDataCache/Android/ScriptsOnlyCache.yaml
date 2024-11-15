@@ -153,6 +153,7 @@ ScriptsOnlyBuild:
     - OVRConfig
     Oculus.VR.Editor.dll:
     - Assets.Oculus.VR.Editor.OVRPlatformToolSettings
+    - OVRConfig
     - OVRProjectConfig
     Oculus.VR.dll:
     - Meta.XR.InputActions.RuntimeSettings

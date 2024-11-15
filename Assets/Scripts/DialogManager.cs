@@ -28,10 +28,7 @@ public class DialogManager : MonoBehaviour
         _clip = videoPlayer.GetComponent<VideoPlayer>();
         _title = title.GetComponent<TextMeshProUGUI>();
         _text = text.GetComponent<TextMeshProUGUI>();
-
         UpdateDialog();
-
-       
         next.onValueChanged.AddListener((isOn) => { if (isOn)  ShowNextDialog(); });
     }
 
