@@ -82,21 +82,21 @@ public class VariableManager : MonoBehaviour
         // Blend Shape Multiplier Toggles
         if (multiplierToggleLow.isOn && !prevMultiplierLow)
         {
-            UpdateBlendShapeMultiplier(100f);
+            UpdateBlendShapeMultiplier(50f);
             PlayToggleSound();
         }
         prevMultiplierLow = multiplierToggleLow.isOn;
 
         if (multiplierToggleMedium.isOn && !prevMultiplierMedium)
         {
-            UpdateBlendShapeMultiplier(120f);
+            UpdateBlendShapeMultiplier(100f);
             PlayToggleSound();
         }
         prevMultiplierMedium = multiplierToggleMedium.isOn;
 
         if (multiplierToggleHigh.isOn && !prevMultiplierHigh)
         {
-            UpdateBlendShapeMultiplier(140f);
+            UpdateBlendShapeMultiplier(150f);
             PlayToggleSound();
         }
         prevMultiplierHigh = multiplierToggleHigh.isOn;

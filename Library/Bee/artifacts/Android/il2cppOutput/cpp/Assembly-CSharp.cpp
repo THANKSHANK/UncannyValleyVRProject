@@ -3367,7 +3367,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VariableManager_ToogleListeners_m013138B
 		}
 	}
 	{
-		VariableManager_UpdateBlendShapeMultiplier_m3ED268F086AF846ED4636EAB614D546934FCAC47(__this, (100.0f), NULL);
+		VariableManager_UpdateBlendShapeMultiplier_m3ED268F086AF846ED4636EAB614D546934FCAC47(__this, (50.0f), NULL);
 		VariableManager_PlayToggleSound_m46B008A247BC817C9E7BDF65F86CF9E3D1ACE620(__this, NULL);
 	}
 
@@ -3395,7 +3395,7 @@ IL_0026:
 		}
 	}
 	{
-		VariableManager_UpdateBlendShapeMultiplier_m3ED268F086AF846ED4636EAB614D546934FCAC47(__this, (120.0f), NULL);
+		VariableManager_UpdateBlendShapeMultiplier_m3ED268F086AF846ED4636EAB614D546934FCAC47(__this, (100.0f), NULL);
 		VariableManager_PlayToggleSound_m46B008A247BC817C9E7BDF65F86CF9E3D1ACE620(__this, NULL);
 	}
 
@@ -3423,7 +3423,7 @@ IL_005d:
 		}
 	}
 	{
-		VariableManager_UpdateBlendShapeMultiplier_m3ED268F086AF846ED4636EAB614D546934FCAC47(__this, (140.0f), NULL);
+		VariableManager_UpdateBlendShapeMultiplier_m3ED268F086AF846ED4636EAB614D546934FCAC47(__this, (150.0f), NULL);
 		VariableManager_PlayToggleSound_m46B008A247BC817C9E7BDF65F86CF9E3D1ACE620(__this, NULL);
 	}
 

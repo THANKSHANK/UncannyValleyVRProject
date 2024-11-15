@@ -19,10 +19,6 @@ ScriptsOnlyBuild:
     - MetaXRAcousticMaterialMapping
     - MetaXRAcousticSettings
     - MetaXRAudioSettings
-    Meta.XR.Audio.Editor.dll:
-    - MetaXRAcousticMaterialMappingEditor
-    Meta.XR.Audio.dll:
-    - MetaXRAcousticMaterialMapping
     Meta.XR.BuildingBlocks.DepthAPI.Editor.dll:
     - Meta.XR.BuildingBlocks.Editor.OcclusionBlockData
     Meta.XR.BuildingBlocks.Editor.dll:
@@ -622,11 +618,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 38668}
     - Class: 114
-      Script: {instanceID: 103788}
+      Script: {instanceID: 48822}
     - Class: 114
-      Script: {instanceID: 103814}
+      Script: {instanceID: 49030}
     - Class: 114
-      Script: {instanceID: 103820}
+      Script: {instanceID: 49062}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
