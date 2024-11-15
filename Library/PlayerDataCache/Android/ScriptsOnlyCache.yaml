@@ -153,7 +153,6 @@ ScriptsOnlyBuild:
     - OVRConfig
     Oculus.VR.Editor.dll:
     - Assets.Oculus.VR.Editor.OVRPlatformToolSettings
-    - OVRConfig
     - OVRProjectConfig
     Oculus.VR.dll:
     - Meta.XR.InputActions.RuntimeSettings
@@ -194,7 +193,6 @@ ScriptsOnlyBuild:
     - UnityEngine.InputSystem.UI.InputSystemUIInputModule
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.RiderScriptEditorData
-    - Packages.Rider.Editor.RiderScriptEditorPersistedState
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro:
     - TMPro.TMP_FontAsset
@@ -618,11 +616,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 38668}
     - Class: 114
-      Script: {instanceID: 48822}
+      Script: {instanceID: 48834}
     - Class: 114
-      Script: {instanceID: 49030}
+      Script: {instanceID: 49042}
     - Class: 114
-      Script: {instanceID: 49062}
+      Script: {instanceID: 49074}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
