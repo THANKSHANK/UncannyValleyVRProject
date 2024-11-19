@@ -18,10 +18,10 @@
   </element>
   <element name="android" element-id="15" assign-type="None" type="Unity.Android.Gradle.Android" base-type="Unity.Android.Gradle.BaseBlock" is-default="true" dependencies="12">
     <element name="namespace" element-id="16" assign-type="None" property-value="com.unity3d.player" type="Unity.Android.Gradle.PropertyString" base-type="BaseProperty" is-default="true" dependencies="" />
-    <element name="ndkPath" element-id="18" assign-type="None" property-value="/Applications/Unity/Hub/Editor/6000.0.25f1/PlaybackEngines/AndroidPlayer/NDK" type="Unity.Android.Gradle.PropertyString" base-type="BaseProperty" is-default="true" dependencies="" />
+    <element name="ndkPath" element-id="18" assign-type="None" property-value="/Applications/Unity/Hub/Editor/6000.0.27f1/PlaybackEngines/AndroidPlayer/NDK" type="Unity.Android.Gradle.PropertyString" base-type="BaseProperty" is-default="true" dependencies="" />
     <element name="ndkVersion" element-id="19" assign-type="None" property-value="23.1.7779620" type="Unity.Android.Gradle.PropertyString" base-type="BaseProperty" is-default="true" dependencies="" />
     <element name="compileSdk" element-id="20" assign-type="None" property-value="32" type="Unity.Android.Gradle.PropertyUnsignedInteger" base-type="BaseProperty" is-default="true" dependencies="" />
-    <element name="buildToolsVersion" element-id="21" assign-type="Equals" property-value="35.0.0" type="Unity.Android.Gradle.PropertyString" base-type="BaseProperty" is-default="true" dependencies="" />
+    <element name="buildToolsVersion" element-id="21" assign-type="Equals" property-value="34.0.0" type="Unity.Android.Gradle.PropertyString" base-type="BaseProperty" is-default="true" dependencies="" />
     <element name="compileOptions" element-id="23" assign-type="None" type="Unity.Android.Gradle.CompileOptions" base-type="Unity.Android.Gradle.BaseBlock" is-default="true" dependencies="">
       <element name="sourceCompatibility" element-id="24" assign-type="None" property-value="Version_17" type="Unity.Android.Gradle.PropertyEnum`1" base-type="BaseProperty" is-default="true" dependencies="" />
       <element name="targetCompatibility" element-id="25" assign-type="None" property-value="Version_17" type="Unity.Android.Gradle.PropertyEnum`1" base-type="BaseProperty" is-default="true" dependencies="" />

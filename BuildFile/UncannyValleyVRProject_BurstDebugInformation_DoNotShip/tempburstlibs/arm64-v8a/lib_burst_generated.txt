@@ -9,7 +9,7 @@ Library: /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Temp/BurstOutput/te
 --target-framework=NetFramework
 --generate-link-xml=Temp/burst.link.xml
 --temp-folder=/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Temp/Burst
---key-folder=/Applications/Unity/Hub/Editor/6000.0.25f1/PlaybackEngines/AndroidPlayer
+--key-folder=/Applications/Unity/Hub/Editor/6000.0.27f1/PlaybackEngines/AndroidPlayer
 --decode-folder=/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Burst
 --output=/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Temp/BurstOutput/tempburstlibs/arm64-v8a/lib_burst_generated
 --pdb-search-paths=Temp/ManagedSymbols/

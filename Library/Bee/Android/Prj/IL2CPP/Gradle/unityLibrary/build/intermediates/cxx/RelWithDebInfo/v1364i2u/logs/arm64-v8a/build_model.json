@@ -41,8 +41,8 @@
       "moduleBuildFile": "/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build.gradle",
       "makeFile": "/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/CMakeLists.txt",
       "buildSystem": "CMAKE",
-      "ndkFolder": "/Applications/Unity/Hub/Editor/6000.0.25f1/PlaybackEngines/AndroidPlayer/NDK",
-      "ndkFolderBeforeSymLinking": "/Applications/Unity/Hub/Editor/6000.0.25f1/PlaybackEngines/AndroidPlayer/NDK",
+      "ndkFolder": "/Applications/Unity/Hub/Editor/6000.0.27f1/PlaybackEngines/AndroidPlayer/NDK",
+      "ndkFolderBeforeSymLinking": "/Applications/Unity/Hub/Editor/6000.0.27f1/PlaybackEngines/AndroidPlayer/NDK",
       "ndkVersion": "23.1.7779620",
       "ndkSupportedAbiList": [
         "armeabi-v7a",
@@ -118,17 +118,17 @@
           "llvmTriple": "x86_64-none-linux-android"
         }
       ],
-      "cmakeToolchainFile": "/Applications/Unity/Hub/Editor/6000.0.25f1/PlaybackEngines/AndroidPlayer/NDK/build/cmake/android.toolchain.cmake",
+      "cmakeToolchainFile": "/Applications/Unity/Hub/Editor/6000.0.27f1/PlaybackEngines/AndroidPlayer/NDK/build/cmake/android.toolchain.cmake",
       "cmake": {
-        "cmakeExe": "/Applications/Unity/Hub/Editor/6000.0.25f1/PlaybackEngines/AndroidPlayer/SDK/cmake/3.22.1/bin/cmake",
+        "cmakeExe": "/Applications/Unity/Hub/Editor/6000.0.27f1/PlaybackEngines/AndroidPlayer/SDK/cmake/3.22.1/bin/cmake",
         "cmakeVersionFromDsl": "3.22.1"
       },
       "stlSharedObjectMap": {
         "LIBCXX_SHARED": {
-          "armeabi-v7a": "/Applications/Unity/Hub/Editor/6000.0.25f1/PlaybackEngines/AndroidPlayer/NDK/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/libc++_shared.so",
-          "arm64-v8a": "/Applications/Unity/Hub/Editor/6000.0.25f1/PlaybackEngines/AndroidPlayer/NDK/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/libc++_shared.so",
-          "x86": "/Applications/Unity/Hub/Editor/6000.0.25f1/PlaybackEngines/AndroidPlayer/NDK/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/libc++_shared.so",
-          "x86_64": "/Applications/Unity/Hub/Editor/6000.0.25f1/PlaybackEngines/AndroidPlayer/NDK/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/libc++_shared.so"
+          "armeabi-v7a": "/Applications/Unity/Hub/Editor/6000.0.27f1/PlaybackEngines/AndroidPlayer/NDK/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/libc++_shared.so",
+          "arm64-v8a": "/Applications/Unity/Hub/Editor/6000.0.27f1/PlaybackEngines/AndroidPlayer/NDK/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/libc++_shared.so",
+          "x86": "/Applications/Unity/Hub/Editor/6000.0.27f1/PlaybackEngines/AndroidPlayer/NDK/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/libc++_shared.so",
+          "x86_64": "/Applications/Unity/Hub/Editor/6000.0.27f1/PlaybackEngines/AndroidPlayer/NDK/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/libc++_shared.so"
         },
         "LIBCXX_STATIC": {},
         "NONE": {},
@@ -136,13 +136,13 @@
       },
       "project": {
         "rootBuildGradleFolder": "/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle",
-        "sdkFolder": "/Applications/Unity/Hub/Editor/6000.0.25f1/PlaybackEngines/AndroidPlayer/SDK",
+        "sdkFolder": "/Applications/Unity/Hub/Editor/6000.0.27f1/PlaybackEngines/AndroidPlayer/SDK",
         "isBuildOnlyTargetAbiEnabled": true,
         "isCmakeBuildCohabitationEnabled": false,
         "isPrefabEnabled": true
       },
       "outputOptions": [],
-      "ninjaExe": "/Applications/Unity/Hub/Editor/6000.0.25f1/PlaybackEngines/AndroidPlayer/SDK/cmake/3.22.1/bin/ninja",
+      "ninjaExe": "/Applications/Unity/Hub/Editor/6000.0.27f1/PlaybackEngines/AndroidPlayer/SDK/cmake/3.22.1/bin/ninja",
       "hasBuildTimeInformation": true
     },
     "prefabClassPaths": [
@@ -171,10 +171,10 @@
     "-DANDROID_PLATFORM\u003dandroid-29",
     "-DANDROID_ABI\u003darm64-v8a",
     "-DCMAKE_ANDROID_ARCH_ABI\u003darm64-v8a",
-    "-DANDROID_NDK\u003d/Applications/Unity/Hub/Editor/6000.0.25f1/PlaybackEngines/AndroidPlayer/NDK",
-    "-DCMAKE_ANDROID_NDK\u003d/Applications/Unity/Hub/Editor/6000.0.25f1/PlaybackEngines/AndroidPlayer/NDK",
-    "-DCMAKE_TOOLCHAIN_FILE\u003d/Applications/Unity/Hub/Editor/6000.0.25f1/PlaybackEngines/AndroidPlayer/NDK/build/cmake/android.toolchain.cmake",
-    "-DCMAKE_MAKE_PROGRAM\u003d/Applications/Unity/Hub/Editor/6000.0.25f1/PlaybackEngines/AndroidPlayer/SDK/cmake/3.22.1/bin/ninja",
+    "-DANDROID_NDK\u003d/Applications/Unity/Hub/Editor/6000.0.27f1/PlaybackEngines/AndroidPlayer/NDK",
+    "-DCMAKE_ANDROID_NDK\u003d/Applications/Unity/Hub/Editor/6000.0.27f1/PlaybackEngines/AndroidPlayer/NDK",
+    "-DCMAKE_TOOLCHAIN_FILE\u003d/Applications/Unity/Hub/Editor/6000.0.27f1/PlaybackEngines/AndroidPlayer/NDK/build/cmake/android.toolchain.cmake",
+    "-DCMAKE_MAKE_PROGRAM\u003d/Applications/Unity/Hub/Editor/6000.0.27f1/PlaybackEngines/AndroidPlayer/SDK/cmake/3.22.1/bin/ninja",
     "-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/v1364i2u/obj/arm64-v8a",
     "-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003d/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/v1364i2u/obj/arm64-v8a",
     "-DCMAKE_BUILD_TYPE\u003dRelWithDebInfo",
@@ -183,6 +183,6 @@
     "-GNinja",
     "-DANDROID_STL\u003dc++_shared"
   ],
-  "stlLibraryFile": "/Applications/Unity/Hub/Editor/6000.0.25f1/PlaybackEngines/AndroidPlayer/NDK/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/libc++_shared.so",
+  "stlLibraryFile": "/Applications/Unity/Hub/Editor/6000.0.27f1/PlaybackEngines/AndroidPlayer/NDK/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/libc++_shared.so",
   "intermediatesParentFolder": "/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/v1364i2u"
 }

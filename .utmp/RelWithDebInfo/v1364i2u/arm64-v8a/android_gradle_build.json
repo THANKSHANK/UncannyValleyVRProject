@@ -6,14 +6,14 @@
   ],
   "cleanCommandsComponents": [
     [
-      "/Applications/Unity/Hub/Editor/6000.0.25f1/PlaybackEngines/AndroidPlayer/SDK/cmake/3.22.1/bin/ninja",
+      "/Applications/Unity/Hub/Editor/6000.0.27f1/PlaybackEngines/AndroidPlayer/SDK/cmake/3.22.1/bin/ninja",
       "-C",
       "/Users/zihanw/Unity_Projects/UncannyValleyVRProject/.utmp/RelWithDebInfo/v1364i2u/arm64-v8a",
       "clean"
     ]
   ],
   "buildTargetsCommandComponents": [
-    "/Applications/Unity/Hub/Editor/6000.0.25f1/PlaybackEngines/AndroidPlayer/SDK/cmake/3.22.1/bin/ninja",
+    "/Applications/Unity/Hub/Editor/6000.0.27f1/PlaybackEngines/AndroidPlayer/SDK/cmake/3.22.1/bin/ninja",
     "-C",
     "/Users/zihanw/Unity_Projects/UncannyValleyVRProject/.utmp/RelWithDebInfo/v1364i2u/arm64-v8a",
     "{LIST_OF_TARGETS_TO_BUILD}"
@@ -36,8 +36,8 @@
   },
   "toolchains": {
     "toolchain": {
-      "cCompilerExecutable": "/Applications/Unity/Hub/Editor/6000.0.25f1/PlaybackEngines/AndroidPlayer/NDK/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang.lld",
-      "cppCompilerExecutable": "/Applications/Unity/Hub/Editor/6000.0.25f1/PlaybackEngines/AndroidPlayer/NDK/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++.lld"
+      "cCompilerExecutable": "/Applications/Unity/Hub/Editor/6000.0.27f1/PlaybackEngines/AndroidPlayer/NDK/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang.lld",
+      "cppCompilerExecutable": "/Applications/Unity/Hub/Editor/6000.0.27f1/PlaybackEngines/AndroidPlayer/NDK/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++.lld"
     }
   },
   "cFileExtensions": [],

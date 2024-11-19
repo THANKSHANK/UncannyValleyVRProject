@@ -25,7 +25,7 @@ rule CUSTOM_COMMAND
 rule CXX_COMPILER__game_RelWithDebInfo
   depfile = $DEP_FILE
   deps = gcc
-  command = /Applications/Unity/Hub/Editor/6000.0.25f1/PlaybackEngines/AndroidPlayer/NDK/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android29 --sysroot=/Applications/Unity/Hub/Editor/6000.0.25f1/PlaybackEngines/AndroidPlayer/NDK/toolchains/llvm/prebuilt/darwin-x86_64/sysroot $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = /Applications/Unity/Hub/Editor/6000.0.27f1/PlaybackEngines/AndroidPlayer/NDK/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android29 --sysroot=/Applications/Unity/Hub/Editor/6000.0.27f1/PlaybackEngines/AndroidPlayer/NDK/toolchains/llvm/prebuilt/darwin-x86_64/sysroot $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building CXX object $out
 
 
@@ -33,7 +33,7 @@ rule CXX_COMPILER__game_RelWithDebInfo
 # Rule for linking CXX shared library.
 
 rule CXX_SHARED_LIBRARY_LINKER__game_RelWithDebInfo
-  command = $PRE_LINK && /Applications/Unity/Hub/Editor/6000.0.25f1/PlaybackEngines/AndroidPlayer/NDK/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android29 --sysroot=/Applications/Unity/Hub/Editor/6000.0.25f1/PlaybackEngines/AndroidPlayer/NDK/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -fPIC $LANGUAGE_COMPILE_FLAGS $ARCH_FLAGS $LINK_FLAGS -shared $SONAME_FLAG$SONAME -o $TARGET_FILE $in $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
+  command = $PRE_LINK && /Applications/Unity/Hub/Editor/6000.0.27f1/PlaybackEngines/AndroidPlayer/NDK/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android29 --sysroot=/Applications/Unity/Hub/Editor/6000.0.27f1/PlaybackEngines/AndroidPlayer/NDK/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -fPIC $LANGUAGE_COMPILE_FLAGS $ARCH_FLAGS $LINK_FLAGS -shared $SONAME_FLAG$SONAME -o $TARGET_FILE $in $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
   description = Linking CXX shared library $TARGET_FILE
   restat = $RESTAT
 
@@ -44,7 +44,7 @@ rule CXX_SHARED_LIBRARY_LINKER__game_RelWithDebInfo
 rule CXX_COMPILER__swappywrapper_RelWithDebInfo
   depfile = $DEP_FILE
   deps = gcc
-  command = /Applications/Unity/Hub/Editor/6000.0.25f1/PlaybackEngines/AndroidPlayer/NDK/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android29 --sysroot=/Applications/Unity/Hub/Editor/6000.0.25f1/PlaybackEngines/AndroidPlayer/NDK/toolchains/llvm/prebuilt/darwin-x86_64/sysroot $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = /Applications/Unity/Hub/Editor/6000.0.27f1/PlaybackEngines/AndroidPlayer/NDK/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android29 --sysroot=/Applications/Unity/Hub/Editor/6000.0.27f1/PlaybackEngines/AndroidPlayer/NDK/toolchains/llvm/prebuilt/darwin-x86_64/sysroot $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building CXX object $out
 
 
@@ -52,7 +52,7 @@ rule CXX_COMPILER__swappywrapper_RelWithDebInfo
 # Rule for linking CXX shared library.
 
 rule CXX_SHARED_LIBRARY_LINKER__swappywrapper_RelWithDebInfo
-  command = $PRE_LINK && /Applications/Unity/Hub/Editor/6000.0.25f1/PlaybackEngines/AndroidPlayer/NDK/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android29 --sysroot=/Applications/Unity/Hub/Editor/6000.0.25f1/PlaybackEngines/AndroidPlayer/NDK/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -fPIC $LANGUAGE_COMPILE_FLAGS $ARCH_FLAGS $LINK_FLAGS -shared $SONAME_FLAG$SONAME -o $TARGET_FILE $in $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
+  command = $PRE_LINK && /Applications/Unity/Hub/Editor/6000.0.27f1/PlaybackEngines/AndroidPlayer/NDK/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android29 --sysroot=/Applications/Unity/Hub/Editor/6000.0.27f1/PlaybackEngines/AndroidPlayer/NDK/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -fPIC $LANGUAGE_COMPILE_FLAGS $ARCH_FLAGS $LINK_FLAGS -shared $SONAME_FLAG$SONAME -o $TARGET_FILE $in $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
   description = Linking CXX shared library $TARGET_FILE
   restat = $RESTAT
 
@@ -61,7 +61,7 @@ rule CXX_SHARED_LIBRARY_LINKER__swappywrapper_RelWithDebInfo
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /Applications/Unity/Hub/Editor/6000.0.25f1/PlaybackEngines/AndroidPlayer/SDK/cmake/3.22.1/bin/cmake --regenerate-during-build -S/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp -B/Users/zihanw/Unity_Projects/UncannyValleyVRProject/.utmp/RelWithDebInfo/v1364i2u/arm64-v8a
+  command = /Applications/Unity/Hub/Editor/6000.0.27f1/PlaybackEngines/AndroidPlayer/SDK/cmake/3.22.1/bin/cmake --regenerate-during-build -S/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp -B/Users/zihanw/Unity_Projects/UncannyValleyVRProject/.utmp/RelWithDebInfo/v1364i2u/arm64-v8a
   description = Re-running CMake...
   generator = 1
 
@@ -70,7 +70,7 @@ rule RERUN_CMAKE
 # Rule for cleaning all built files.
 
 rule CLEAN
-  command = /Applications/Unity/Hub/Editor/6000.0.25f1/PlaybackEngines/AndroidPlayer/SDK/cmake/3.22.1/bin/ninja $FILE_ARG -t clean $TARGETS
+  command = /Applications/Unity/Hub/Editor/6000.0.27f1/PlaybackEngines/AndroidPlayer/SDK/cmake/3.22.1/bin/ninja $FILE_ARG -t clean $TARGETS
   description = Cleaning all built files...
 
 
@@ -78,6 +78,6 @@ rule CLEAN
 # Rule for printing all primary targets available.
 
 rule HELP
-  command = /Applications/Unity/Hub/Editor/6000.0.25f1/PlaybackEngines/AndroidPlayer/SDK/cmake/3.22.1/bin/ninja -t targets
+  command = /Applications/Unity/Hub/Editor/6000.0.27f1/PlaybackEngines/AndroidPlayer/SDK/cmake/3.22.1/bin/ninja -t targets
   description = All primary targets available:
 

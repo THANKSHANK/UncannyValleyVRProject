@@ -151,6 +151,7 @@ struct KeyCollection_t7598DC94B4A545CCF571D4E3017810DEEFA35DE0;
 struct KeyCollection_tC71FA11749E936C809A9B4EF81DF00FE54556509;
 struct KeyCollection_t1B0FCC60AF08E0919CBEB42B9C2E7C15737FD20C;
 struct LinkedList_1_tA75C78C76C8C00278F758EE6873486604C8C880C;
+struct List_1_tDE5B540E5F4E233D4886D058A351E0A833F40467;
 struct List_1_tA5BDE435C735A082941CD33D212F97F4AE9FA55F;
 struct List_1_t2CDCA768E7F493F5EDEBC75AEB200FD621354E35;
 struct List_1_t3517D52AE25CA3B19051E691E9C06ED03A3AB9B8;
@@ -3409,8 +3410,8 @@ struct U3CU3Ec_t366AF356A3D25B81C4FD68C17E5F26CF6D8B818B_StaticFields
 struct U3CU3Ec_t78CBB26E17331985FDB35E3569981BD75BF092F7_StaticFields
 {
 	U3CU3Ec_t78CBB26E17331985FDB35E3569981BD75BF092F7* ___U3CU3E9;
-	Func_2_t7EE81CF26AC04DA708CB2D71E7A7EAAD54248769* ___U3CU3E9__142_0;
-	Func_2_tBA43006BE5B44011173C435E32D4BC18730623FB* ___U3CU3E9__143_0;
+	Func_2_t7EE81CF26AC04DA708CB2D71E7A7EAAD54248769* ___U3CU3E9__145_0;
+	Func_2_tBA43006BE5B44011173C435E32D4BC18730623FB* ___U3CU3E9__146_0;
 };
 struct U3CU3Ec_t6510EA3A70CB6591FBF3A9D8E05F50E8352DB516_StaticFields
 {
@@ -3546,6 +3547,7 @@ struct RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_StaticFields
 };
 struct TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160_StaticFields
 {
+	List_1_tDE5B540E5F4E233D4886D058A351E0A833F40467* ___s_CallbackInstances;
 	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_ReadFontAssetDefinitionMarker;
 	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_AddSynthesizedCharactersMarker;
 	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_TryAddGlyphMarker;
@@ -4743,7 +4745,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Remove_m4D7A58E2124F8D0D8AE3
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TMP_InputField_ClampArrayIndex_mFD46E1F200092DC5CD5BB8BE57E2D550F0DE21C0 (TMP_InputField_t3488E0EE8C3DF56C6A328EC95D1BEEA2DF4A7D5F* __this, int32_t ___0_index, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TMP_InputField_get_selectionFocusPosition_m64C9DB19CDB18E29B7CB02DCC84B5F05ACDB473E (TMP_InputField_t3488E0EE8C3DF56C6A328EC95D1BEEA2DF4A7D5F* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TMP_InputField_get_selectionAnchorPosition_mAAD925C368B16EFE972C11F551A1D9DCB93B0B93 (TMP_InputField_t3488E0EE8C3DF56C6A328EC95D1BEEA2DF4A7D5F* __this, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TMP_InputField_Insert_mD8773951E82B4743AF137BE4EDA14915EC704907 (TMP_InputField_t3488E0EE8C3DF56C6A328EC95D1BEEA2DF4A7D5F* __this, Il2CppChar ___0_c, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TMP_InputField_Insert_m578CF4FB635A35B19C76391C41643CE0D98111DA (TMP_InputField_t3488E0EE8C3DF56C6A328EC95D1BEEA2DF4A7D5F* __this, Il2CppChar ___0_c, bool ___1_updateText, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Insert_mA279E748F06514A6D0B9B680D651D6A6C6BB561A (String_t* __this, int32_t ___0_startIndex, String_t* ___1_value, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR OnChangeEvent_tDBB13012ABF81899E4DFDD82258EB7E9BB7A9F1D* TMP_InputField_get_onValueChanged_m407B5F5BFD1F4B04032F6B90B06F5072F5993407_inline (TMP_InputField_t3488E0EE8C3DF56C6A328EC95D1BEEA2DF4A7D5F* __this, const RuntimeMethod* method) ;
 inline void UnityEvent_1_Invoke_mA633B48B5D287DA856FB954AC3E4012487E63C15 (UnityEvent_1_tC9859540CF1468306CAB6D758C0A0D95DBCEC257* __this, String_t* ___0_arg0, const RuntimeMethod* method)
@@ -4926,7 +4928,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_mFF3DD36E78B4295FBBC0AEA2B
 		return;
 	}
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t U3CU3Ec_U3CSortCharacterTableU3Eb__142_0_mEE52B494E5B917A3F5A1426855BD94AED5581C58 (U3CU3Ec_t78CBB26E17331985FDB35E3569981BD75BF092F7* __this, TMP_Character_t7D37A55EF1A9FF6D0BFE6D50E86A00F80E7FAF35* ___0_c, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t U3CU3Ec_U3CSortCharacterTableU3Eb__145_0_mECDD1A88FFC96A5224C40A433BDDAA935C9B9AC6 (U3CU3Ec_t78CBB26E17331985FDB35E3569981BD75BF092F7* __this, TMP_Character_t7D37A55EF1A9FF6D0BFE6D50E86A00F80E7FAF35* ___0_c, const RuntimeMethod* method) 
 {
 	{
 		TMP_Character_t7D37A55EF1A9FF6D0BFE6D50E86A00F80E7FAF35* L_0 = ___0_c;
@@ -4936,7 +4938,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t U3CU3Ec_U3CSortCharacterTableU3Eb__1
 		return L_1;
 	}
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t U3CU3Ec_U3CSortGlyphTableU3Eb__143_0_m41E3DD123D9597A032025A5A5CD487B993846829 (U3CU3Ec_t78CBB26E17331985FDB35E3569981BD75BF092F7* __this, Glyph_t700CF8EBE04ED4AEAB520885AAA1B309E02A103F* ___0_c, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t U3CU3Ec_U3CSortGlyphTableU3Eb__146_0_m7F03FC3BF35E7B1A156F26855E023D04AD61A9F6 (U3CU3Ec_t78CBB26E17331985FDB35E3569981BD75BF092F7* __this, Glyph_t700CF8EBE04ED4AEAB520885AAA1B309E02A103F* ___0_c, const RuntimeMethod* method) 
 {
 	{
 		Glyph_t700CF8EBE04ED4AEAB520885AAA1B309E02A103F* L_0 = ___0_c;
@@ -12663,16 +12665,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TMP_InputField_UpdateKeyboardStringPosit
 IL_002e:
 	{
 		int32_t L_6;
-		L_6 = TMP_InputField_get_caretSelectPositionInternal_m977002CC2C821A3B4FA5FB3F1BC15C7DD0BA35A4(__this, NULL);
+		L_6 = TMP_InputField_get_stringSelectPositionInternal_m8FE3D7533D67501DFDC1EA83B3FD72F8C1E0A79D(__this, NULL);
 		int32_t L_7;
-		L_7 = TMP_InputField_get_caretPositionInternal_m21C9BFCD70C944B374E5C916C7E7E67B75B831EA(__this, NULL);
+		L_7 = TMP_InputField_get_stringPositionInternal_mBDA10D8ED51D01C973FB6CFDD1096DD29CA5D214(__this, NULL);
 		int32_t L_8;
 		L_8 = Mathf_Min_m888083F74FF5655778F0403BB5E9608BEFDEA8CB_inline(L_6, L_7, NULL);
 		V_0 = L_8;
 		int32_t L_9;
-		L_9 = TMP_InputField_get_caretSelectPositionInternal_m977002CC2C821A3B4FA5FB3F1BC15C7DD0BA35A4(__this, NULL);
+		L_9 = TMP_InputField_get_stringSelectPositionInternal_m8FE3D7533D67501DFDC1EA83B3FD72F8C1E0A79D(__this, NULL);
 		int32_t L_10;
-		L_10 = TMP_InputField_get_caretPositionInternal_m21C9BFCD70C944B374E5C916C7E7E67B75B831EA(__this, NULL);
+		L_10 = TMP_InputField_get_stringPositionInternal_mBDA10D8ED51D01C973FB6CFDD1096DD29CA5D214(__this, NULL);
 		int32_t L_11;
 		L_11 = Mathf_Abs_mD945EDDEA0D62D21BFDBAB7B1C0F18DFF1CEC905_inline(((int32_t)il2cpp_codegen_subtract(L_9, L_10)), NULL);
 		V_1 = L_11;
@@ -13538,16 +13540,16 @@ IL_03ba:
 	}
 	{
 		int32_t L_119;
-		L_119 = TMP_InputField_get_caretSelectPositionInternal_m977002CC2C821A3B4FA5FB3F1BC15C7DD0BA35A4(__this, NULL);
+		L_119 = TMP_InputField_get_stringSelectPositionInternal_m8FE3D7533D67501DFDC1EA83B3FD72F8C1E0A79D(__this, NULL);
 		int32_t L_120;
-		L_120 = TMP_InputField_get_caretPositionInternal_m21C9BFCD70C944B374E5C916C7E7E67B75B831EA(__this, NULL);
+		L_120 = TMP_InputField_get_stringPositionInternal_mBDA10D8ED51D01C973FB6CFDD1096DD29CA5D214(__this, NULL);
 		int32_t L_121;
 		L_121 = Mathf_Min_m888083F74FF5655778F0403BB5E9608BEFDEA8CB_inline(L_119, L_120, NULL);
 		V_8 = L_121;
 		int32_t L_122;
-		L_122 = TMP_InputField_get_caretSelectPositionInternal_m977002CC2C821A3B4FA5FB3F1BC15C7DD0BA35A4(__this, NULL);
+		L_122 = TMP_InputField_get_stringSelectPositionInternal_m8FE3D7533D67501DFDC1EA83B3FD72F8C1E0A79D(__this, NULL);
 		int32_t L_123;
-		L_123 = TMP_InputField_get_caretPositionInternal_m21C9BFCD70C944B374E5C916C7E7E67B75B831EA(__this, NULL);
+		L_123 = TMP_InputField_get_stringPositionInternal_mBDA10D8ED51D01C973FB6CFDD1096DD29CA5D214(__this, NULL);
 		int32_t L_124;
 		L_124 = Mathf_Abs_mD945EDDEA0D62D21BFDBAB7B1C0F18DFF1CEC905_inline(((int32_t)il2cpp_codegen_subtract(L_122, L_123)), NULL);
 		V_9 = L_124;
@@ -19081,7 +19083,7 @@ IL_01df:
 		Il2CppChar L_69;
 		L_69 = OnValidateInput_Invoke_m1CDDA220BF2691F42200A098F57AE10FDE383E49_inline(L_65, L_66, L_67, L_68, NULL);
 		___0_input = L_69;
-		goto IL_0231;
+		goto IL_0239;
 	}
 
 IL_01f9:
@@ -19090,7 +19092,7 @@ IL_01f9:
 		L_70 = TMP_InputField_get_characterValidation_m57E36C62FC9E23DB17F440BA4325A314EF0B0679_inline(__this, NULL);
 		if ((!(((uint32_t)L_70) == ((uint32_t)8))))
 		{
-			goto IL_021e;
+			goto IL_0226;
 		}
 	}
 	{
@@ -19112,49 +19114,51 @@ IL_01f9:
 
 IL_0211:
 	{
+		Il2CppChar L_76 = ___0_input;
+		TMP_InputField_Insert_m578CF4FB635A35B19C76391C41643CE0D98111DA(__this, L_76, (bool)0, NULL);
 		TMP_InputField_SendOnValueChanged_m9138A30966454771476FF25A71ED03DDAF6EC0C7(__this, NULL);
 		TMP_InputField_UpdateLabel_mC40048ECFCF13981FE38993C7251024EC2477ED2(__this, NULL);
 		return;
 	}
 
-IL_021e:
+IL_0226:
 	{
-		int32_t L_76;
-		L_76 = TMP_InputField_get_characterValidation_m57E36C62FC9E23DB17F440BA4325A314EF0B0679_inline(__this, NULL);
-		if (!L_76)
+		int32_t L_77;
+		L_77 = TMP_InputField_get_characterValidation_m57E36C62FC9E23DB17F440BA4325A314EF0B0679_inline(__this, NULL);
+		if (!L_77)
 		{
-			goto IL_0231;
+			goto IL_0239;
 		}
 	}
 	{
-		String_t* L_77 = V_1;
-		int32_t L_78 = V_0;
-		Il2CppChar L_79 = ___0_input;
-		Il2CppChar L_80;
-		L_80 = TMP_InputField_Validate_m76212763DA49DFD7C152C65F8AF6CC056EE69979(__this, L_77, L_78, L_79, NULL);
-		___0_input = L_80;
+		String_t* L_78 = V_1;
+		int32_t L_79 = V_0;
+		Il2CppChar L_80 = ___0_input;
+		Il2CppChar L_81;
+		L_81 = TMP_InputField_Validate_m76212763DA49DFD7C152C65F8AF6CC056EE69979(__this, L_78, L_79, L_80, NULL);
+		___0_input = L_81;
 	}
 
-IL_0231:
+IL_0239:
 	{
-		Il2CppChar L_81 = ___0_input;
-		if (L_81)
+		Il2CppChar L_82 = ___0_input;
+		if (L_82)
 		{
-			goto IL_0235;
+			goto IL_023d;
 		}
 	}
 	{
 		return;
 	}
 
-IL_0235:
+IL_023d:
 	{
-		Il2CppChar L_82 = ___0_input;
-		TMP_InputField_Insert_mD8773951E82B4743AF137BE4EDA14915EC704907(__this, L_82, NULL);
+		Il2CppChar L_83 = ___0_input;
+		TMP_InputField_Insert_m578CF4FB635A35B19C76391C41643CE0D98111DA(__this, L_83, (bool)1, NULL);
 		return;
 	}
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TMP_InputField_Insert_mD8773951E82B4743AF137BE4EDA14915EC704907 (TMP_InputField_t3488E0EE8C3DF56C6A328EC95D1BEEA2DF4A7D5F* __this, Il2CppChar ___0_c, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TMP_InputField_Insert_m578CF4FB635A35B19C76391C41643CE0D98111DA (TMP_InputField_t3488E0EE8C3DF56C6A328EC95D1BEEA2DF4A7D5F* __this, Il2CppChar ___0_c, bool ___1_updateText, const RuntimeMethod* method) 
 {
 	String_t* V_0 = NULL;
 	int32_t V_1 = 0;
@@ -19202,41 +19206,52 @@ IL_0009:
 
 IL_0034:
 	{
-		String_t* L_6;
-		L_6 = TMP_InputField_get_text_mA4ACBF52435893D9DFD822A492454301740B3C6A_inline(__this, NULL);
-		int32_t L_7 = __this->___m_StringPosition;
-		String_t* L_8 = V_0;
-		NullCheck(L_6);
-		String_t* L_9;
-		L_9 = String_Insert_mA279E748F06514A6D0B9B680D651D6A6C6BB561A(L_6, L_7, L_8, NULL);
-		__this->___m_Text = L_9;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Text), (void*)L_9);
-		Il2CppChar L_10 = ___0_c;
-		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.char_class);
-		bool L_11;
-		L_11 = Char_IsHighSurrogate_mED1E5FB863528ABB0D7D3DC4DE0FAB4517760658(L_10, NULL);
-		if (L_11)
+		bool L_6 = ___1_updateText;
+		if (!L_6)
 		{
-			goto IL_006b;
+			goto IL_004f;
 		}
 	}
 	{
-		int32_t L_12 = __this->___m_CaretPosition;
-		int32_t L_13 = ((int32_t)il2cpp_codegen_add(L_12, 1));
-		V_1 = L_13;
-		__this->___m_CaretPosition = L_13;
-		int32_t L_14 = V_1;
-		__this->___m_CaretSelectPosition = L_14;
+		String_t* L_7;
+		L_7 = TMP_InputField_get_text_mA4ACBF52435893D9DFD822A492454301740B3C6A_inline(__this, NULL);
+		int32_t L_8 = __this->___m_StringPosition;
+		String_t* L_9 = V_0;
+		NullCheck(L_7);
+		String_t* L_10;
+		L_10 = String_Insert_mA279E748F06514A6D0B9B680D651D6A6C6BB561A(L_7, L_8, L_9, NULL);
+		__this->___m_Text = L_10;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Text), (void*)L_10);
 	}
 
-IL_006b:
+IL_004f:
 	{
-		int32_t L_15 = __this->___m_StringPosition;
-		int32_t L_16 = ((int32_t)il2cpp_codegen_add(L_15, 1));
-		V_1 = L_16;
-		__this->___m_StringPosition = L_16;
-		int32_t L_17 = V_1;
-		__this->___m_StringSelectPosition = L_17;
+		Il2CppChar L_11 = ___0_c;
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.char_class);
+		bool L_12;
+		L_12 = Char_IsHighSurrogate_mED1E5FB863528ABB0D7D3DC4DE0FAB4517760658(L_11, NULL);
+		if (L_12)
+		{
+			goto IL_006e;
+		}
+	}
+	{
+		int32_t L_13 = __this->___m_CaretPosition;
+		int32_t L_14 = ((int32_t)il2cpp_codegen_add(L_13, 1));
+		V_1 = L_14;
+		__this->___m_CaretPosition = L_14;
+		int32_t L_15 = V_1;
+		__this->___m_CaretSelectPosition = L_15;
+	}
+
+IL_006e:
+	{
+		int32_t L_16 = __this->___m_StringPosition;
+		int32_t L_17 = ((int32_t)il2cpp_codegen_add(L_16, 1));
+		V_1 = L_17;
+		__this->___m_StringPosition = L_17;
+		int32_t L_18 = V_1;
+		__this->___m_StringSelectPosition = L_18;
 		TMP_InputField_UpdateTouchKeyboardFromEditChanges_m05E63AC0F9D593BB8584E97AC236646C05E22B12(__this, NULL);
 		TMP_InputField_SendOnValueChanged_m9138A30966454771476FF25A71ED03DDAF6EC0C7(__this, NULL);
 		return;

@@ -678,6 +678,36 @@ namespace TMPro
         internal static Func<Font, string> SetSourceFontGUID;
         #endif
 
+        /// <summary>
+        /// Weak reference to all <see cref="TMP_FontAsset"/> instances.
+        /// </summary>
+        static readonly List<WeakReference<TMP_FontAsset>> s_CallbackInstances = new();
+
+        /// <summary>
+        /// Register an instance for static lookup.
+        /// </summary>
+        /// <param name="instance">The instance to register.</param>
+        void RegisterCallbackInstance(TMP_FontAsset instance)
+        {
+            // Verify that it is not already registered.
+            for (var i = 0; i < s_CallbackInstances.Count; i++)
+            {
+                if (s_CallbackInstances[i].TryGetTarget(out TMP_FontAsset fa) && fa == instance)
+                    return;
+            }
+
+            for (var i = 0; i < s_CallbackInstances.Count; i++)
+            {
+                if (!s_CallbackInstances[i].TryGetTarget(out _))
+                {
+                    s_CallbackInstances[i] = new WeakReference<TMP_FontAsset>(instance);
+                    return;
+                }
+            }
+
+            s_CallbackInstances.Add(new WeakReference<TMP_FontAsset>(this));
+        }
+
         // Profiler Marker declarations
         private static ProfilerMarker k_ReadFontAssetDefinitionMarker = new ProfilerMarker("TMP.ReadFontAssetDefinition");
         private static ProfilerMarker k_AddSynthesizedCharactersMarker = new ProfilerMarker("TMP.AddSynthesizedCharacters");
@@ -794,6 +824,8 @@ namespace TMPro
 
             IsFontAssetLookupTablesDirty = false;
 
+            RegisterCallbackInstance(this);
+
             k_ReadFontAssetDefinitionMarker.End();
         }
 
@@ -891,6 +923,28 @@ namespace TMPro
             // Clear missing unicode lookup
             if (m_MissingUnicodesFromFontFile != null)
                 m_MissingUnicodesFromFontFile.Clear();
+        }
+
+        internal void ClearFallbackCharacterTable()
+        {
+            var keysToRemove = new List<uint>();
+
+            foreach (var characterLookup in m_CharacterLookupDictionary)
+            {
+                var character = characterLookup.Value;
+
+                // Collect the keys to remove
+                if (character.textAsset != this)
+                {
+                    keysToRemove.Add(characterLookup.Key);
+                }
+            }
+
+            // Now remove the collected keys
+            foreach (var key in keysToRemove)
+            {
+                m_CharacterLookupDictionary.Remove(key);
+            }
         }
 
         internal void InitializeLigatureSubstitutionLookupDictionary()
@@ -3374,6 +3428,13 @@ namespace TMPro
             ClearAtlasTextures(setAtlasSizeToZero);
 
             ReadFontAssetDefinition();
+
+            // Clear fallback character table for all other fontAssets, in case they were refereing this one.
+            for (var i = 0; i < s_CallbackInstances.Count; i++)
+                if (s_CallbackInstances[i].TryGetTarget(out var target) && target != this)
+                    target.ClearFallbackCharacterTable();
+
+            TMPro_EventManager.ON_FONT_PROPERTY_CHANGED(true, this);
 
             //TMP_ResourceManager.RebuildFontAssetCache();
 

@@ -1760,6 +1760,7 @@ struct OculusSettings_t0584FB71432B697479FD0BFC5B68C195F17CD321  : public Script
 	bool ___TargetQuest2;
 	bool ___TargetQuestPro;
 	bool ___TargetQuest3;
+	bool ___TargetQuest3S;
 	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___SystemSplashScreen;
 	bool ___UseStickControlThumbsticks;
 };

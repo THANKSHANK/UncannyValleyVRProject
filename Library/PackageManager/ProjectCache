@@ -5,22 +5,22 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638664368490000000
-    m_Hash: 3607574623
+      ticks: 638675719490000000
+    m_Hash: 1313951471
   m_LockFileStatus:
     m_FilePath: /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638664368490000000
-    m_Hash: 1931089394
+      ticks: 638675719580000000
+    m_Hash: 2306208483
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
 m_ProjectPath: /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Packages
-m_EditorVersion: 6000.0.25f1 (4859ab7b5a49)
+m_EditorVersion: 6000.0.27f1 (27c554a2199c)
 m_ResolvedPackages:
 - packageId: com.meta.movement@https://github.com/oculus-samples/Unity-Movement.git
   testable: 0
@@ -299,80 +299,6 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
-    - 1.2.3-preview
-    - 1.2.4-preview
-    - 1.2.6
-    - 1.2.7
-    - 1.2.9
-    - 1.2.11
-    - 1.2.15
-    - 1.2.16
-    - 1.2.17-preview.3
-    - 1.3.2
-    - 1.3.3
-    - 1.3.4
-    - 1.3.5
-    - 1.3.6
-    - 1.3.7
-    - 1.3.8
-    - 1.3.9
-    - 1.4.9
-    - 1.5.7
-    - 1.6.0
-    - 1.7.1
-    - 1.8.0
-    - 1.9.0
-    - 1.10.2
-    - 1.11.2
-    - 1.12.5
-    - 1.13.5
-    - 1.14.1
-    - 1.14.4
-    - 1.14.7
-    - 1.14.9
-    - 1.14.12
-    - 1.14.13
-    - 1.14.15
-    - 1.14.16
-    - 1.14.17
-    - 1.14.18
-    - 1.15.1
-    - 1.15.4
-    - 1.15.7
-    - 1.15.9
-    - 1.15.12
-    - 1.15.13
-    - 1.15.15
-    - 1.15.16
-    - 1.15.17
-    - 1.15.18
-    - 1.17.0
-    - 1.17.1
-    - 1.17.2
-    - 1.17.6
-    - 1.17.7
-    - 2.0.0-preview.6
-    - 2.0.0-preview.8
-    - 2.0.0-preview.15
-    - 2.0.0-preview.17
-    - 2.0.0-preview.20
-    - 2.0.0-preview.21
-    - 2.0.0-preview.22
-    - 2.0.0
-    - 2.0.1
-    - 2.0.3
-    - 2.0.4
-    - 2.0.5
-    - 2.0.7
-    - 2.1.0-preview.3
-    - 2.1.0-preview.5
-    - 2.1.0-preview.6
-    - 2.1.0
-    - 2.2.0
-    - 2.3.1
-    - 2.4.3
-    - 2.4.4
-    - 2.5.1
     - 2.5.2
     compatible:
     - 2.5.2
@@ -405,9 +331,9 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638630364536670000
+  datePublishedTicks: 0
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.collab-proxy@2.5/manual/index.html
   hasRepository: 1
   repository:
@@ -672,56 +598,6 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
-    - 0.1.2-preview
-    - 0.2.0-preview
-    - 0.2.1-preview
-    - 0.2.6-preview
-    - 0.2.8-preview
-    - 0.2.10-preview
-    - 0.9.0-preview
-    - 0.9.1-preview
-    - 0.9.2-preview
-    - 0.9.3-preview
-    - 0.9.4-preview
-    - 0.9.5-preview
-    - 0.9.6-preview
-    - 1.0.0-preview
-    - 1.0.0-preview.1
-    - 1.0.0-preview.2
-    - 1.0.0-preview.3
-    - 1.0.0-preview.4
-    - 1.0.0-preview.5
-    - 1.0.0-preview.6
-    - 1.0.0-preview.7
-    - 1.0.0
-    - 1.0.1
-    - 1.0.2
-    - 1.1.0-pre.5
-    - 1.1.0-pre.6
-    - 1.1.0-preview.1
-    - 1.1.0-preview.2
-    - 1.1.0-preview.3
-    - 1.1.1
-    - 1.2.0
-    - 1.3.0
-    - 1.4.1
-    - 1.4.2
-    - 1.4.3
-    - 1.4.4
-    - 1.5.0
-    - 1.5.1
-    - 1.6.1
-    - 1.6.3
-    - 1.7.0
-    - 1.8.0-pre.1
-    - 1.8.0-pre.2
-    - 1.8.0
-    - 1.8.1
-    - 1.8.2
-    - 1.9.0
-    - 1.10.0
-    - 1.11.0
-    - 1.11.1
     - 1.11.2
     compatible:
     - 1.11.2
@@ -760,9 +636,9 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638648557315530000
+  datePublishedTicks: 0
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.inputsystem@1.11/manual/index.html
   hasRepository: 1
   repository:
@@ -824,12 +700,6 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
-    - 0.2.1
-    - 0.3.0
-    - 0.4.0
-    - 1.0.0-pre.1
-    - 1.0.0-pre.2
-    - 1.0.0-pre.3
     - 1.0.0
     compatible:
     - 1.0.0
@@ -907,115 +777,30 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: assets
+  type: 
   description: Use Unity Timeline to create cinematic content, game-play sequences,
     audio sequences, and complex particle effects.
   errors: []
   versions:
     all:
-    - 1.2.0
-    - 1.2.1
-    - 1.2.2
-    - 1.2.3
-    - 1.2.4
-    - 1.2.5
-    - 1.2.6
-    - 1.2.7
-    - 1.2.9
-    - 1.2.10
-    - 1.2.11
-    - 1.2.12
-    - 1.2.13
-    - 1.2.14
-    - 1.2.15
-    - 1.2.16
-    - 1.2.17
-    - 1.2.18
-    - 1.3.0-preview.2
-    - 1.3.0-preview.3
-    - 1.3.0-preview.5
-    - 1.3.0-preview.6
-    - 1.3.0-preview.7
-    - 1.3.0
-    - 1.3.1
-    - 1.3.2
-    - 1.3.3
-    - 1.3.4
-    - 1.3.5
-    - 1.3.6
-    - 1.3.7
-    - 1.4.0-preview.1
-    - 1.4.0-preview.2
-    - 1.4.0-preview.3
-    - 1.4.0-preview.5
-    - 1.4.0-preview.6
-    - 1.4.0-preview.7
-    - 1.4.0
-    - 1.4.1
-    - 1.4.2
-    - 1.4.3
-    - 1.4.4
-    - 1.4.5
-    - 1.4.6
-    - 1.4.7
-    - 1.4.8
-    - 1.5.0-pre.2
-    - 1.5.0-preview.1
-    - 1.5.0-preview.2
-    - 1.5.0-preview.3
-    - 1.5.0-preview.4
-    - 1.5.0-preview.5
-    - 1.5.1-pre.1
-    - 1.5.1-pre.2
-    - 1.5.1-pre.3
-    - 1.5.2
-    - 1.5.4
-    - 1.5.5
-    - 1.5.6
-    - 1.5.7
-    - 1.6.0-pre.1
-    - 1.6.0-pre.3
-    - 1.6.0-pre.4
-    - 1.6.0-pre.5
-    - 1.6.1
-    - 1.6.2
-    - 1.6.3
-    - 1.6.4
-    - 1.6.5
-    - 1.7.0-pre.1
-    - 1.7.0-pre.2
-    - 1.7.0
-    - 1.7.1
-    - 1.7.2
-    - 1.7.3
-    - 1.7.4
-    - 1.7.5
-    - 1.7.6
-    - 1.8.0
-    - 1.8.1
-    - 1.8.2
-    - 1.8.3
-    - 1.8.4
-    - 1.8.5
-    - 1.8.6
     - 1.8.7
     compatible:
     - 1.8.7
     recommended: 1.8.7
     deprecated: []
   dependencies:
-  - name: com.unity.modules.audio
-    version: 1.0.0
   - name: com.unity.modules.director
     version: 1.0.0
   - name: com.unity.modules.animation
     version: 1.0.0
+  - name: com.unity.modules.audio
+    version: 1.0.0
   - name: com.unity.modules.particlesystem
     version: 1.0.0
   resolvedDependencies:
-  - name: com.unity.modules.audio
-    version: 1.0.0
   - name: com.unity.modules.director
+    version: 1.0.0
+  - name: com.unity.modules.audio
     version: 1.0.0
   - name: com.unity.modules.animation
     version: 1.0.0
@@ -1037,9 +822,9 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638524833900000000
+  datePublishedTicks: 0
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.timeline@1.8/manual/index.html
   hasRepository: 1
   repository:
@@ -1099,14 +884,8 @@ m_ResolvedPackages:
   versions:
     all:
     - 2.0.0
-    - 3.0.0-exp.1
-    - 3.0.0-exp.3
-    - 3.0.0-exp.4
     compatible:
     - 2.0.0
-    - 3.0.0-exp.1
-    - 3.0.0-exp.3
-    - 3.0.0-exp.4
     recommended: 2.0.0
     deprecated: []
   dependencies:
@@ -1163,7 +942,7 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: 306ebe9b8f890844da2089c9827a12c9a3167c92
+  fingerprint: 39a3f21cda3c1fcc427b8c2190194ca9b0e65c89
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 2.0.0
@@ -1188,45 +967,23 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
-    - 1.0.0-pre.2
-    - 1.1.0-pre.2
-    - 1.1.0-pre.3
-    - 1.1.0
-    - 1.2.0
-    - 1.2.1
-    - 1.3.0
-    - 1.4.0-pre.1
-    - 1.4.0
-    - 1.4.1
-    - 1.4.3
-    - 1.5.0-pre.1
-    - 1.5.0-pre.3
-    - 1.5.0-pre.4
     - 1.5.0
     compatible:
     - 1.5.0
     recommended: 1.5.0
     deprecated: []
   dependencies:
-  - name: com.unity.modules.xr
-    version: 1.0.0
   - name: com.unity.inputsystem
     version: 1.3.0
-  - name: com.unity.mathematics
-    version: 1.2.6
+  - name: com.unity.modules.xr
+    version: 1.0.0
   - name: com.unity.xr.core-utils
     version: 2.2.0
   - name: com.unity.xr.management
     version: 4.0.1
+  - name: com.unity.mathematics
+    version: 1.2.6
   resolvedDependencies:
-  - name: com.unity.modules.xr
-    version: 1.0.0
-  - name: com.unity.modules.physics
-    version: 1.0.0
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  - name: com.unity.modules.subsystems
-    version: 1.0.0
   - name: com.unity.inputsystem
     version: 1.11.2
   - name: com.unity.modules.uielements
@@ -1235,10 +992,16 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.modules.imgui
     version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
   - name: com.unity.modules.hierarchycore
     version: 1.0.0
-  - name: com.unity.mathematics
-    version: 1.3.2
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
   - name: com.unity.xr.core-utils
     version: 2.3.0
   - name: com.unity.xr.management
@@ -1247,6 +1010,8 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.xr.legacyinputhelpers
     version: 2.1.11
+  - name: com.unity.mathematics
+    version: 1.3.2
   keywords:
   - xr
   - vr
@@ -1266,9 +1031,9 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638630302524860000
+  datePublishedTicks: 0
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.hands@1.5/manual/index.html
   hasRepository: 1
   repository:
@@ -1337,90 +1102,37 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: assets
+  type: 
   description: Package that provides simple management of XR plug-ins. Manages and
     offers help with loading, initialization, settings, and build support for XR
     plug-ins.
   errors: []
   versions:
     all:
-    - 0.1.0-preview.8
-    - 0.1.0-preview.12
-    - 1.0.0-preview.2
-    - 2.0.0-preview.3
-    - 2.0.0-preview.6
-    - 2.0.0-preview.9
-    - 2.0.0-preview.10
-    - 2.0.0-preview.13
-    - 2.0.0-preview.21
-    - 2.0.0-preview.22
-    - 2.0.0-preview.24
-    - 2.0.0-preview.25
-    - 2.0.0-preview.26
-    - 3.0.1
-    - 3.0.2-preview.1
-    - 3.0.2-preview.2
-    - 3.0.3
-    - 3.0.4-preview.1
-    - 3.0.4-preview.3
-    - 3.0.4
-    - 3.0.5-preview.1
-    - 3.0.5
-    - 3.0.6-preview.2
-    - 3.0.6
-    - 3.1.0-preview.2
-    - 3.2.4
-    - 3.2.6
-    - 3.2.7
-    - 3.2.9
-    - 3.2.10
-    - 3.2.11-preview.1
-    - 3.2.12
-    - 3.2.13
-    - 3.2.15
-    - 3.2.16
-    - 3.2.17
-    - 4.0.0-exp.2
-    - 4.0.0-pre.2
-    - 4.0.0-pre.3
-    - 4.0.1
-    - 4.0.3
-    - 4.0.5
-    - 4.0.6
-    - 4.0.7
-    - 4.1.0-pre.1
-    - 4.1.0-pre.2
-    - 4.1.0
-    - 4.2.0
-    - 4.2.1
-    - 4.3.1
-    - 4.3.3
-    - 4.4.0
-    - 4.4.1
     - 4.5.0
     compatible:
     - 4.5.0
     recommended: 4.5.0
     deprecated: []
   dependencies:
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
   - name: com.unity.modules.vr
     version: 1.0.0
   - name: com.unity.modules.xr
-    version: 1.0.0
-  - name: com.unity.modules.subsystems
     version: 1.0.0
   - name: com.unity.xr.legacyinputhelpers
     version: 2.1.7
   resolvedDependencies:
-  - name: com.unity.modules.vr
+  - name: com.unity.modules.subsystems
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.vr
     version: 1.0.0
   - name: com.unity.modules.physics
     version: 1.0.0
   - name: com.unity.modules.xr
-    version: 1.0.0
-  - name: com.unity.modules.subsystems
     version: 1.0.0
   - name: com.unity.xr.legacyinputhelpers
     version: 2.1.11
@@ -1442,9 +1154,9 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638560264920000000
+  datePublishedTicks: 0
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.management@4.5/manual/index.html
   hasRepository: 1
   repository:
@@ -1475,10 +1187,10 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 4.5.0
     minimumUnityVersion: 2020.3.15f1
-- packageId: com.unity.xr.oculus@4.3.0
+- packageId: com.unity.xr.oculus@4.4.0
   testable: 0
   isDirectDependency: 1
-  version: 4.3.0
+  version: 4.4.0
   source: 1
   resolvedPath: /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/PackageCache/com.unity.xr.oculus
   assetPath: Packages/com.unity.xr.oculus
@@ -1494,94 +1206,10 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
-    - 0.0.9-preview
-    - 0.1.2-preview.1
-    - 0.8.4-preview
-    - 1.0.0-preview.4
-    - 1.0.0
-    - 1.0.2
-    - 1.0.3-preview.1
-    - 1.1.0-preview
-    - 1.1.0
-    - 1.1.1
-    - 1.1.2-preview
-    - 1.1.2
-    - 1.1.3-preview
-    - 1.1.3-preview.1
-    - 1.1.4-preview
-    - 1.1.4-preview.1
-    - 1.1.4
-    - 1.1.5-preview
-    - 1.1.5
-    - 1.2.0-preview.1
-    - 1.2.0
-    - 1.3.1
-    - 1.3.3
-    - 1.3.4
-    - 1.4.0-preview.1
-    - 1.4.0-preview.2
-    - 1.4.0
-    - 1.4.3
-    - 1.5.0
-    - 1.5.1
-    - 1.6.0-preview.1
-    - 1.6.0-preview.2
-    - 1.6.1
-    - 1.7.0-preview.1
-    - 1.7.0-preview.2
-    - 1.7.0
-    - 1.8.1
-    - 1.9.0-preview.1
-    - 1.9.0
-    - 1.9.1
-    - 1.10.0-preview.1
-    - 1.10.0-preview.2
-    - 1.10.0
-    - 1.10.1-preview.3
-    - 1.11.0
-    - 1.11.2
-    - 1.12.0
-    - 1.12.1
-    - 1.13.0
-    - 1.13.1-preview.1
-    - 1.13.1-preview.2
-    - 1.13.1
-    - 2.0.0-preview.1
-    - 2.0.0-preview.2
-    - 2.0.0-preview.4
-    - 2.0.0-preview.5
-    - 2.0.2-preview.1
-    - 2.2.0-preview.1
-    - 2.2.3-preview.1
-    - 2.2.3-preview.2
-    - 3.0.0-pre.1
-    - 3.0.0-pre.2
-    - 3.0.0-pre.4
-    - 3.0.0
-    - 3.0.1
-    - 3.0.2
-    - 3.1.1
-    - 3.2.1
-    - 3.2.2-pre.1
-    - 3.2.2
-    - 3.2.3-pre.1
-    - 3.2.3
-    - 3.3.0
-    - 3.4.0
-    - 3.4.1
-    - 4.0.0
-    - 4.1.1
-    - 4.1.2
-    - 4.2.0-exp-env-depth.1
-    - 4.2.0-exp-env-depth.2
-    - 4.2.0
-    - 4.3.0-pre.1
-    - 4.3.0
     - 4.4.0
     compatible:
-    - 4.3.0
     - 4.4.0
-    recommended: 4.3.0
+    recommended: 4.4.0
     deprecated: []
   dependencies:
   - name: com.unity.xr.management
@@ -1589,15 +1217,15 @@ m_ResolvedPackages:
   resolvedDependencies:
   - name: com.unity.xr.management
     version: 4.5.0
-  - name: com.unity.modules.vr
+  - name: com.unity.modules.subsystems
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.vr
     version: 1.0.0
   - name: com.unity.modules.physics
     version: 1.0.0
   - name: com.unity.modules.xr
-    version: 1.0.0
-  - name: com.unity.modules.subsystems
     version: 1.0.0
   - name: com.unity.xr.legacyinputhelpers
     version: 2.1.11
@@ -1619,18 +1247,18 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638624249962070000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.oculus@4.3/manual/index.html
+  datePublishedTicks: 0
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.oculus@4.4/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/xr.sdk.oculus.git
-    revision: 5559dca26d8434fb1535133f35f9d95b82f55cec
+    revision: 42bb58f0b7dd0d9234f3e7d8a9c42e9bd9c688ec
     path: 
   unityLifecycle:
-    version: 4.3.0
+    version: 4.4.0
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -1640,18 +1268,10 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Added\n- Added support for Unity''s new common
-    Foveated Rendering API, with improved URP support\n- Added option to Oculus settings
-    to activate support for Stick Control thumbsticks instead of Vector2 Control,
-    which allows a greater range of usages, such as a D-Pad and independent buttons.
-    When activating this feature, the define `META_USE_STICK_CONTROL_THUMBSTICKS`
-    will be added in Scripting Define Symbols under Player Settings. Note that this
-    feature requires at minimum the Input System package version 1.6.2 included in
-    the project\n\n### Changed\n- Improved Symmetric Projection texture resolution
-    calculations\n- Removed legacy code no longer needed in currently supported versions
-    of Unity\n\n### Fixed\n- Fixed an issue with eye poses being incorrect in certain
-    situations\n\n### Known Issues\n- `Unity.XR.Oculus.Stats.PerfMetrics` entries
-    currently return `0` when using the OpenXR runtime\n- `Unity.XR.Oculus.Stats.AppMetrics`
+  upmReserved: '{"changelog":"### Added\n- Added Quest 3S target device checkbox\n-
+    Updated the `SystemHeadset` enum to include `Meta_Quest_3S` and `Meta_Link_Quest_3S`
+    entries\n\n### Known Issues\n- `Unity.XR.Oculus.Stats.PerfMetrics` entries currently
+    return `0` when using the OpenXR runtime\n- `Unity.XR.Oculus.Stats.AppMetrics`
     entries return `0` on all Oculus runtimes\n- For both of the above, the suggested
     replacement is to use the profiling tools available via the Oculus Developer
     Hub: https://developer.oculus.com/documentation/unity/ts-odh-logs-metrics/\n-
@@ -1659,10 +1279,10 @@ m_ResolvedPackages:
     `0` when using the OpenXR runtime.  This is a limitation of the OpenXR API"}'
   assetStore:
     productId: 
-  fingerprint: 72d8a98de6a82b3424bc868814f85cfd5f53c0f0
+  fingerprint: b473ec6a88a7015acd72ea5b3f1d3eec6d208c6d
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 4.3.0
+    minimumPackageVersion: 4.4.0
     minimumUnityVersion: 2022.3.1f1
 - packageId: com.unity.modules.accessibility@1.0.0
   testable: 0
@@ -4109,31 +3729,6 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
-    - 1.0.0
-    - 1.0.2
-    - 1.0.3
-    - 1.3.1
-    - 1.3.2
-    - 1.3.4
-    - 1.3.5
-    - 1.3.6
-    - 1.3.7
-    - 1.3.8
-    - 1.3.11
-    - 2.0.1
-    - 2.0.2
-    - 2.0.4
-    - 2.0.6
-    - 2.0.8
-    - 2.1.1
-    - 2.1.2
-    - 2.1.3
-    - 2.1.4
-    - 2.1.6
-    - 2.1.7
-    - 2.1.8
-    - 2.1.9
-    - 2.1.10
     - 2.1.11
     compatible:
     - 2.1.11
@@ -4171,9 +3766,9 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638627703211970000
+  datePublishedTicks: 0
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.legacyinputhelpers@2.1/manual/index.html
   hasRepository: 1
   repository:
@@ -4201,95 +3796,6 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 2.1.11
     minimumUnityVersion: 2019.4.0a1
-- packageId: com.unity.mathematics@1.3.2
-  testable: 0
-  isDirectDependency: 0
-  version: 1.3.2
-  source: 1
-  resolvedPath: /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/PackageCache/com.unity.mathematics
-  assetPath: Packages/com.unity.mathematics
-  name: com.unity.mathematics
-  displayName: Mathematics
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: assets
-  description: Unity's C# SIMD math library providing vector types and math functions
-    with a shader like syntax.
-  errors: []
-  versions:
-    all:
-    - 0.0.12-preview.2
-    - 0.0.12-preview.5
-    - 0.0.12-preview.8
-    - 0.0.12-preview.10
-    - 0.0.12-preview.11
-    - 0.0.12-preview.13
-    - 0.0.12-preview.17
-    - 0.0.12-preview.19
-    - 0.0.12-preview.20
-    - 1.0.0-preview.1
-    - 1.0.1
-    - 1.1.0-preview.1
-    - 1.1.0
-    - 1.2.1
-    - 1.2.4
-    - 1.2.5
-    - 1.2.6
-    - 1.3.1
-    - 1.3.2
-    compatible:
-    - 1.3.2
-    recommended: 1.3.2
-    deprecated: []
-  dependencies: []
-  resolvedDependencies: []
-  keywords:
-  - unity
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 1
-  entitlements:
-    licensingModel: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 638409134840000000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.mathematics@1.3/manual/index.html
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.com/Unity-Technologies/Unity.Mathematics.git
-    revision: 1695a8503482a3131be78cc26308a93f82c05b04
-    path: 
-  unityLifecycle:
-    version: 1.3.2
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-  git:
-    hash: 
-    revision: 
-  upmReserved: '{"changelog":"### Fixed\n* Fixed `math.hash` crash when using IL2CPP
-    builds on Arm 32 bit devices.\n* Fixed obsolete method usage warnings for `MatrixDrawer.CanCacheInspectorGUI`
-    and `PrimitiveVectorDrawer.CanCacheInspectorGUI` in UNITY_2023_2_OR_NEWER.\n*
-    Updated minimum editor version to 2021.3"}'
-  assetStore:
-    productId: 
-  fingerprint: 8017b507cc74bf0a1dd14b18aa860569f807314d
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 1.3.2
-    minimumUnityVersion: 2021.3.0a1
 - packageId: com.unity.xr.core-utils@2.3.0
   testable: 0
   isDirectDependency: 0
@@ -4304,7 +3810,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: assets
+  type: 
   description: "Common utility classes for XR projects\nRefer to API documentation
     for details. Some particularly useful utilities include:\n\u25AA Geometry Utilities\n 
     \u25AA Point of closest approach\n  \u25AA Closest edge of a polygon\n  \u25AA
@@ -4316,32 +3822,9 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
-    - 2.0.0-pre.3
-    - 2.0.0-pre.5
-    - 2.0.0-pre.6
-    - 2.0.0
-    - 2.0.1
-    - 2.1.0-pre.1
-    - 2.1.0
-    - 2.1.1
-    - 2.2.0-pre.1
-    - 2.2.0-pre.2
-    - 2.2.0
-    - 2.2.1
-    - 2.2.2
-    - 2.2.3
-    - 2.3.0-pre.1
-    - 2.3.0-pre.2
-    - 2.3.0-pre.3
     - 2.3.0
-    - 2.4.0-exp.1
-    - 2.4.0-exp.2
-    - 2.4.0-exp.3
     compatible:
     - 2.3.0
-    - 2.4.0-exp.1
-    - 2.4.0-exp.2
-    - 2.4.0-exp.3
     recommended: 2.3.0
     deprecated: []
   dependencies:
@@ -4374,9 +3857,9 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638411351550000000
+  datePublishedTicks: 0
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.core-utils@2.3/manual/index.html
   hasRepository: 1
   repository:
@@ -4406,6 +3889,77 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 2.3.0
     minimumUnityVersion: 2019.4.0f1
+- packageId: com.unity.mathematics@1.3.2
+  testable: 0
+  isDirectDependency: 0
+  version: 1.3.2
+  source: 1
+  resolvedPath: /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/PackageCache/com.unity.mathematics
+  assetPath: Packages/com.unity.mathematics
+  name: com.unity.mathematics
+  displayName: Mathematics
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: Unity's C# SIMD math library providing vector types and math functions
+    with a shader like syntax.
+  errors: []
+  versions:
+    all:
+    - 1.3.2
+    compatible:
+    - 1.3.2
+    recommended: 1.3.2
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - unity
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.mathematics@1.3/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/Unity-Technologies/Unity.Mathematics.git
+    revision: 1695a8503482a3131be78cc26308a93f82c05b04
+    path: 
+  unityLifecycle:
+    version: 1.3.2
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Fixed\n* Fixed `math.hash` crash when using IL2CPP
+    builds on Arm 32 bit devices.\n* Fixed obsolete method usage warnings for `MatrixDrawer.CanCacheInspectorGUI`
+    and `PrimitiveVectorDrawer.CanCacheInspectorGUI` in UNITY_2023_2_OR_NEWER.\n*
+    Updated minimum editor version to 2021.3"}'
+  assetStore:
+    productId: 
+  fingerprint: 8017b507cc74bf0a1dd14b18aa860569f807314d
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.3.2
+    minimumUnityVersion: 2021.3.0a1
 - packageId: com.unity.ext.nunit@2.0.5
   testable: 0
   isDirectDependency: 0
@@ -4420,21 +3974,12 @@ m_ResolvedPackages:
     email: 
     url: 
   category: Libraries
-  type: assets
+  type: 
   description: A custom version of NUnit used by Unity Test Framework. Based on NUnit
     version 3.5 and works with all platforms, il2cpp and Mono AOT.
   errors: []
   versions:
     all:
-    - 0.1.5-preview
-    - 0.1.6-preview
-    - 0.1.9-preview
-    - 1.0.0
-    - 1.0.5
-    - 1.0.6
-    - 2.0.2
-    - 2.0.3
-    - 2.0.4
     - 2.0.5
     compatible:
     - 2.0.5
@@ -4456,9 +4001,9 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638236642220000000
+  datePublishedTicks: 0
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ext.nunit@2.0/manual/index.html
   hasRepository: 1
   repository:
@@ -4499,36 +4044,13 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: assets
+  type: 
   description: Code editor integration for supporting Visual Studio as code editor
     for unity. Adds support for generating csproj files for intellisense purposes,
     auto discovery of installations, etc.
   errors: []
   versions:
     all:
-    - 1.0.2
-    - 1.0.3
-    - 1.0.4
-    - 1.0.9
-    - 1.0.10
-    - 1.0.11
-    - 2.0.0
-    - 2.0.1
-    - 2.0.2
-    - 2.0.3
-    - 2.0.5
-    - 2.0.7
-    - 2.0.8
-    - 2.0.9
-    - 2.0.11
-    - 2.0.12
-    - 2.0.14
-    - 2.0.15
-    - 2.0.16
-    - 2.0.17
-    - 2.0.18
-    - 2.0.20
-    - 2.0.21
     - 2.0.22
     compatible:
     - 2.0.22
@@ -4557,9 +4079,9 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638326061910000000
+  datePublishedTicks: 0
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.visualstudio@2.0/manual/index.html
   hasRepository: 1
   repository:
@@ -4605,19 +4127,13 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: asset
+  type: 
   description: 'The editor coroutines package allows developers to start constructs
     similar to Unity''s monobehaviour based coroutines within the editor using abitrary
     objects. '
   errors: []
   versions:
     all:
-    - 0.0.1-preview.3
-    - 0.0.1-preview.4
-    - 0.0.1-preview.5
-    - 0.0.2-preview.1
-    - 0.1.0-preview.1
-    - 0.1.0-preview.2
     - 1.0.0
     compatible:
     - 1.0.0
@@ -4639,9 +4155,9 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 637232611380000000
+  datePublishedTicks: 0
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -4682,7 +4198,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: asset
+  type: 
   description: "The Profile Analyzer tool supports the standard Unity Profiler. You
     can use it to analyze multiple frames and multiple data sets of the CPU data
     in the Profiler.\n\nMain features: \n\u25AA Multi-frame analysis of a single
@@ -4691,19 +4207,6 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
-    - 0.4.0-preview.3
-    - 0.4.0-preview.5
-    - 0.4.0-preview.6
-    - 0.5.0-preview.1
-    - 0.6.0-preview.1
-    - 0.7.0-preview.4
-    - 1.0.0
-    - 1.0.1
-    - 1.0.2
-    - 1.0.3
-    - 1.1.0-pre.2
-    - 1.1.0
-    - 1.1.1
     - 1.2.2
     compatible:
     - 1.2.2
@@ -4722,9 +4225,9 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638108624620000000
+  datePublishedTicks: 0
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.performance.profile-analyzer@1.2/manual/index.html
   hasRepository: 1
   repository:
@@ -4766,70 +4269,14 @@ m_ResolvedPackages:
     email: 
     url: 
   category: Unity Test Framework
-  type: assets
+  type: 
   description: Test framework for running Edit mode and Play mode tests in Unity.
   errors: []
   versions:
     all:
-    - 0.0.4-preview
-    - 0.0.29-preview
-    - 1.0.0
-    - 1.0.7
-    - 1.0.9
-    - 1.0.11
-    - 1.0.12
-    - 1.0.13
-    - 1.0.14
-    - 1.0.16
-    - 1.0.17
-    - 1.0.18
-    - 1.1.0
-    - 1.1.1
-    - 1.1.2
-    - 1.1.3
-    - 1.1.5
-    - 1.1.8
-    - 1.1.9
-    - 1.1.11
-    - 1.1.13
-    - 1.1.14
-    - 1.1.16
-    - 1.1.18
-    - 1.1.19
-    - 1.1.20
-    - 1.1.22
-    - 1.1.24
-    - 1.1.26
-    - 1.1.27
-    - 1.1.29
-    - 1.1.30
-    - 1.1.31
-    - 1.1.33
-    - 1.3.0
-    - 1.3.1
-    - 1.3.2
-    - 1.3.3
-    - 1.3.4
-    - 1.3.5
-    - 1.3.7
-    - 1.3.8
-    - 1.3.9
-    - 1.4.0
-    - 1.4.1
-    - 1.4.2
-    - 1.4.3
-    - 1.4.4
     - 1.4.5
-    - 2.0.1-exp.1
-    - 2.0.1-exp.2
-    - 2.0.1-pre.12
-    - 2.0.1-pre.18
     compatible:
     - 1.4.5
-    - 2.0.1-exp.1
-    - 2.0.1-exp.2
-    - 2.0.1-pre.12
-    - 2.0.1-pre.18
     recommended: 1.4.5
     deprecated: []
   dependencies:
@@ -4859,9 +4306,9 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638575054880000000
+  datePublishedTicks: 0
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.test-framework@1.4/manual/index.html
   hasRepository: 1
   repository:
@@ -4929,7 +4376,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: assets
+  type: 
   description: Use this package to export code coverage data and reports from your
     automated tests. Additionally, the Code Coverage package offers a Coverage Recording
     feature which allows capturing coverage data on demand, for manual testing or
@@ -4937,37 +4384,6 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
-    - 0.2.0-preview
-    - 0.2.1-preview
-    - 0.2.2-preview
-    - 0.2.3-preview
-    - 0.3.0-preview
-    - 0.3.1-preview
-    - 0.4.0-preview
-    - 0.4.1-preview
-    - 0.4.2-preview
-    - 0.4.3-preview
-    - 1.0.0-pre.1
-    - 1.0.0-pre.2
-    - 1.0.0-pre.3
-    - 1.0.0-pre.4
-    - 1.0.0
-    - 1.0.1
-    - 1.1.0
-    - 1.1.1
-    - 1.2.0-exp.1
-    - 1.2.0-exp.2
-    - 1.2.0-exp.3
-    - 1.2.0-exp.4
-    - 1.2.0-exp.5
-    - 1.2.0-exp.6
-    - 1.2.0-exp.7
-    - 1.2.0
-    - 1.2.1
-    - 1.2.2
-    - 1.2.3
-    - 1.2.4
-    - 1.2.5
     - 1.2.6
     compatible:
     - 1.2.6
@@ -5004,9 +4420,9 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638575857900000000
+  datePublishedTicks: 0
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.testtools.codecoverage@1.2/manual/index.html
   hasRepository: 1
   repository:
@@ -5345,6 +4761,7 @@ m_ResolvedPackages:
     - 62.0.0
     - 64.0.0
     - 65.0.0
+    - 66.0.0
     - 66.0.1
     - 68.0.0
     - 69.0.0
@@ -5355,6 +4772,7 @@ m_ResolvedPackages:
     - 62.0.0
     - 64.0.0
     - 65.0.0
+    - 66.0.0
     - 66.0.1
     - 68.0.0
     - 69.0.0
@@ -5650,6 +5068,7 @@ m_ResolvedPackages:
     - 65.0.0
     - 66.0.0
     - 67.0.0
+    - 67.0.1
     - 68.0.0
     - 69.0.0
     compatible:
@@ -5663,6 +5082,7 @@ m_ResolvedPackages:
     - 65.0.0
     - 66.0.0
     - 67.0.0
+    - 67.0.1
     - 68.0.0
     - 69.0.0
     recommended: 
@@ -5865,10 +5285,12 @@ m_ResolvedPackages:
     - 64.0.0
     - 65.0.0
     - 66.0.0
+    - 67.0.0
     - 67.0.1
     - 68.0.0
     - 68.0.1
     - 68.0.2
+    - 69.0.0
     - 69.0.1
     - 69.0.2
     compatible:
@@ -5881,10 +5303,12 @@ m_ResolvedPackages:
     - 64.0.0
     - 65.0.0
     - 66.0.0
+    - 67.0.0
     - 67.0.1
     - 68.0.0
     - 68.0.1
     - 68.0.2
+    - 69.0.0
     - 69.0.1
     - 69.0.2
     recommended: 
@@ -5976,101 +5400,6 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
-    - 0.1.2
-    - 1.0.21
-    - 1.0.23
-    - 1.0.25
-    - 1.0.26
-    - 1.1.0
-    - 1.2.0
-    - 1.2.1
-    - 1.2.2
-    - 1.2.3
-    - 1.2.4
-    - 1.3.0-preview
-    - 1.3.0
-    - 1.4.0-preview.1b
-    - 1.4.0-preview.2a
-    - 1.4.0-preview.3a
-    - 1.4.0
-    - 1.4.1-preview.1
-    - 1.4.1
-    - 1.5.0-preview.1
-    - 1.5.0-preview.2
-    - 1.5.0-preview.3
-    - 1.5.0-preview.4
-    - 1.5.0-preview.5
-    - 1.5.0-preview.6
-    - 1.5.0-preview.7
-    - 1.5.0-preview.8
-    - 1.5.0-preview.10
-    - 1.5.0-preview.11
-    - 1.5.0-preview.12
-    - 1.5.0-preview.13
-    - 1.5.0-preview.14
-    - 1.5.0
-    - 1.5.1
-    - 1.5.3
-    - 1.5.4
-    - 1.5.5
-    - 1.5.6
-    - 1.6.0-preview.1
-    - 2.0.0
-    - 2.0.1-preview.1
-    - 2.0.1
-    - 2.1.0-preview.1
-    - 2.1.0-preview.2
-    - 2.1.0-preview.3
-    - 2.1.0-preview.4
-    - 2.1.0-preview.5
-    - 2.1.0-preview.7
-    - 2.1.0-preview.8
-    - 2.1.0-preview.10
-    - 2.1.0-preview.11
-    - 2.1.0-preview.12
-    - 2.1.0-preview.13
-    - 2.1.0-preview.14
-    - 2.1.0
-    - 2.1.1
-    - 2.1.3
-    - 2.1.4
-    - 2.1.5
-    - 2.1.6
-    - 2.2.0-preview.1
-    - 2.2.0-preview.2
-    - 2.2.0-preview.3
-    - 3.0.0-preview.1
-    - 3.0.0-preview.3
-    - 3.0.0-preview.4
-    - 3.0.0-preview.5
-    - 3.0.0-preview.7
-    - 3.0.0-preview.8
-    - 3.0.0-preview.10
-    - 3.0.0-preview.11
-    - 3.0.0-preview.12
-    - 3.0.0-preview.13
-    - 3.0.0-preview.14
-    - 3.0.0
-    - 3.0.1
-    - 3.0.3
-    - 3.0.4
-    - 3.0.5
-    - 3.0.6
-    - 3.0.7
-    - 3.0.8
-    - 3.0.9
-    - 3.2.0-pre.1
-    - 3.2.0-pre.2
-    - 3.2.0-pre.3
-    - 3.2.0-pre.4
-    - 3.2.0-pre.5
-    - 3.2.0-pre.6
-    - 3.2.0-pre.7
-    - 3.2.0-pre.8
-    - 3.2.0-pre.9
-    - 3.2.0-pre.10
-    - 4.0.0-pre.1
-    - 4.0.0-pre.2
     - 5.0.0
     compatible: []
     recommended: 
@@ -6141,28 +5470,11 @@ m_ResolvedPackages:
     email: 
     url: 
   category: Animation
-  type: asset
+  type: 
   description: Animation Rigging toolkit using Unity's Animation C# Jobs
   errors: []
   versions:
     all:
-    - 0.1.2-preview
-    - 0.1.4-preview
-    - 0.2.1-preview
-    - 0.2.2-preview
-    - 0.2.3-preview
-    - 0.2.5-preview
-    - 0.2.6-preview
-    - 0.2.7-preview
-    - 0.3.2-preview
-    - 0.3.3-preview
-    - 0.3.4-preview
-    - 1.0.2
-    - 1.0.3
-    - 1.1.0
-    - 1.1.1
-    - 1.2.0
-    - 1.2.1
     - 1.3.0
     compatible:
     - 1.3.0
@@ -6200,9 +5512,9 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638110143470000000
+  datePublishedTicks: 0
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.animation.rigging@1.3/manual/index.html
   hasRepository: 1
   repository:
@@ -6259,138 +5571,6 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
-    - 0.2.4-preview.5
-    - 0.2.4-preview.7
-    - 0.2.4-preview.11
-    - 0.2.4-preview.12
-    - 0.2.4-preview.13
-    - 0.2.4-preview.14
-    - 0.2.4-preview.15
-    - 0.2.4-preview.16
-    - 0.2.4-preview.17
-    - 0.2.4-preview.18
-    - 0.2.4-preview.19
-    - 0.2.4-preview.20
-    - 0.2.4-preview.21
-    - 0.2.4-preview.22
-    - 0.2.4-preview.23
-    - 0.2.4-preview.24
-    - 0.2.4-preview.25
-    - 0.2.4-preview.30
-    - 0.2.4-preview.31
-    - 0.2.4-preview.33
-    - 0.2.4-preview.34
-    - 0.2.4-preview.37
-    - 0.2.4-preview.41
-    - 0.2.4-preview.45
-    - 0.2.4-preview.48
-    - 0.2.4-preview.50
-    - 1.1.0-preview.2
-    - 1.1.0-preview.3
-    - 1.1.0-preview.4
-    - 1.1.1
-    - 1.1.2
-    - 1.1.3-preview.3
-    - 1.2.0-preview.1
-    - 1.2.0-preview.5
-    - 1.2.0-preview.6
-    - 1.2.0-preview.8
-    - 1.2.0-preview.9
-    - 1.2.0-preview.10
-    - 1.2.0-preview.11
-    - 1.2.0-preview.12
-    - 1.2.0
-    - 1.2.1
-    - 1.2.2
-    - 1.2.3
-    - 1.3.0-preview.1
-    - 1.3.0-preview.2
-    - 1.3.0-preview.3
-    - 1.3.0-preview.4
-    - 1.3.0-preview.5
-    - 1.3.0-preview.6
-    - 1.3.0-preview.7
-    - 1.3.0-preview.8
-    - 1.3.0-preview.9
-    - 1.3.0-preview.10
-    - 1.3.0-preview.11
-    - 1.3.0-preview.12
-    - 1.3.0-preview.13
-    - 1.3.0
-    - 1.3.1
-    - 1.3.2
-    - 1.3.3
-    - 1.3.4
-    - 1.3.5
-    - 1.3.6
-    - 1.3.7
-    - 1.3.8
-    - 1.3.9
-    - 1.4.0-pre.1
-    - 1.4.0-preview.1
-    - 1.4.0-preview.2
-    - 1.4.0-preview.3
-    - 1.4.0-preview.4
-    - 1.4.0-preview.5
-    - 1.4.1-pre.1
-    - 1.4.1-pre.2
-    - 1.4.1
-    - 1.4.2
-    - 1.4.3
-    - 1.4.4-preview.1
-    - 1.4.4-preview.2
-    - 1.4.4
-    - 1.4.5
-    - 1.4.6
-    - 1.4.7
-    - 1.4.8
-    - 1.4.9
-    - 1.4.11
-    - 1.5.0-pre.3
-    - 1.5.0-pre.4
-    - 1.5.0-pre.5
-    - 1.5.0
-    - 1.5.1
-    - 1.5.2
-    - 1.5.3
-    - 1.5.4
-    - 1.5.5
-    - 1.5.6-preview.1
-    - 1.5.6
-    - 1.6.0-pre.2
-    - 1.6.0-pre.3
-    - 1.6.0-pre.4
-    - 1.6.0
-    - 1.6.1
-    - 1.6.2
-    - 1.6.3
-    - 1.6.4
-    - 1.6.5
-    - 1.6.6
-    - 1.7.0-pre.1
-    - 1.7.0
-    - 1.7.1
-    - 1.7.2
-    - 1.7.3
-    - 1.7.4
-    - 1.8.0-pre.1
-    - 1.8.0-pre.2
-    - 1.8.0
-    - 1.8.1
-    - 1.8.2
-    - 1.8.3
-    - 1.8.4
-    - 1.8.7
-    - 1.8.8
-    - 1.8.9
-    - 1.8.10
-    - 1.8.11
-    - 1.8.12
-    - 1.8.13
-    - 1.8.14
-    - 1.8.15
-    - 1.8.16
-    - 1.8.17
     - 1.8.18
     compatible:
     - 1.8.18
@@ -6417,9 +5597,9 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638622972693870000
+  datePublishedTicks: 0
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.burst@1.8/manual/index.html
   hasRepository: 1
   repository:
@@ -6471,19 +5651,12 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: asset
+  type: 
   description: A framework for making any serializable field a setting, complete
     with a pre-built settings interface.
   errors: []
   versions:
     all:
-    - 0.1.0-preview.4
-    - 0.1.0-preview.8
-    - 1.0.0
-    - 1.0.1
-    - 1.0.2
-    - 1.0.3
-    - 2.0.0
     - 2.0.1
     compatible:
     - 2.0.1
@@ -6502,9 +5675,9 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 637744099390000000
+  datePublishedTicks: 0
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -6554,20 +5727,6 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
-    - 1.0.0-exp.1
-    - 1.0.0-exp.2
-    - 1.0.0-exp.3
-    - 1.0.0-exp.4
-    - 1.1.0-pre.1
-    - 1.1.0-pre.2
-    - 1.1.1
-    - 1.1.3
-    - 1.1.4
-    - 1.1.5
-    - 2.0.0-pre.3
-    - 2.0.0-pre.4
-    - 2.0.0
-    - 2.0.3
     - 2.0.4
     compatible:
     - 2.0.4
@@ -6608,9 +5767,9 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638605675584270000
+  datePublishedTicks: 0
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ai.navigation@2.0/manual/index.html
   hasRepository: 1
   repository:
@@ -6666,21 +5825,6 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
-    - 1.0.0-preview.2
-    - 1.0.0-preview.3
-    - 1.0.0-preview.4
-    - 1.0.1-preview.1
-    - 1.1.2
-    - 2.0.0-preview
-    - 2.0.0-preview.1
-    - 2.0.0-preview.2
-    - 2.0.0
-    - 2.0.1-preview.1
-    - 2.0.2
-    - 3.0.1
-    - 3.0.2
-    - 3.1.0
-    - 3.2.0
     - 3.2.1
     compatible:
     - 3.2.1
@@ -6699,9 +5843,9 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638186318800000000
+  datePublishedTicks: 0
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -6729,4 +5873,4 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 3.2.1
     minimumUnityVersion: 2018.4.0a1
-m_BuiltInPackagesHash: ce9d365432c3c7d37915b458f258e4c77ff6bd35
+m_BuiltInPackagesHash: 20e44c767eaf4744c76e72758d2720e9b1fba67b

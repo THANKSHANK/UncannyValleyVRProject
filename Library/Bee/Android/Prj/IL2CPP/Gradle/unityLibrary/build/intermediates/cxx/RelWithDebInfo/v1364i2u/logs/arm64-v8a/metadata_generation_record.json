@@ -14,7 +14,163 @@
   },
   {
     "level_": 0,
-    "message_": "JSON \u0027/Users/zihanw/Unity_Projects/UncannyValleyVRProject/.utmp/RelWithDebInfo/v1364i2u/arm64-v8a/android_gradle_build.json\u0027 was up-to-date",
+    "message_": "rebuilding JSON /Users/zihanw/Unity_Projects/UncannyValleyVRProject/.utmp/RelWithDebInfo/v1364i2u/arm64-v8a/android_gradle_build.json due to:",
+    "file_": "/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "- a hard configure file changed, will remove stale configuration folder",
+    "file_": "/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "  - /Users/zihanw/Unity_Projects/UncannyValleyVRProject/.utmp/RelWithDebInfo/v1364i2u/arm64-v8a/metadata_generation_command.txt (LAST_MODIFIED_CHANGED)",
+    "file_": "/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "/Applications/Unity/Hub/Editor/6000.0.27f1/PlaybackEngines/AndroidPlayer/OpenJDK/bin/java \\\n  --class-path \\\n  /Users/zihanw/.gradle/caches/modules-2/files-2.1/com.google.prefab/cli/2.0.0/f2702b5ca13df54e3ca92f29d6b403fb6285d8df/cli-2.0.0-all.jar \\\n  com.google.prefab.cli.AppKt \\\n  --build-system \\\n  cmake \\\n  --platform \\\n  android \\\n  --abi \\\n  arm64-v8a \\\n  --os-version \\\n  29 \\\n  --stl \\\n  c++_shared \\\n  --ndk-version \\\n  23 \\\n  --output \\\n  /var/folders/td/wkfjys2d0bdgt7qggvlsw__00000gn/T/agp-prefab-staging2116832816877399385/staged-cli-output \\\n  /Users/zihanw/.gradle/caches/transforms-3/4533d298259fc52a43021fce53f5e4a9/transformed/jetified-games-activity-3.0.5/prefab \\\n  /Users/zihanw/.gradle/caches/transforms-3/268849a49ea9eb2bba6f4e0ac95bfd63/transformed/jetified-games-frame-pacing-1.10.0/prefab\n",
+    "file_": "/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "Received process result: 0",
+    "file_": "/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "removing stale contents from \u0027/Users/zihanw/Unity_Projects/UncannyValleyVRProject/.utmp/RelWithDebInfo/v1364i2u/arm64-v8a\u0027",
+    "file_": "/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "created folder \u0027/Users/zihanw/Unity_Projects/UncannyValleyVRProject/.utmp/RelWithDebInfo/v1364i2u/arm64-v8a\u0027",
+    "file_": "/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "executing cmake /Applications/Unity/Hub/Editor/6000.0.27f1/PlaybackEngines/AndroidPlayer/SDK/cmake/3.22.1/bin/cmake \\\n  -H/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp \\\n  -DCMAKE_SYSTEM_NAME\u003dAndroid \\\n  -DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON \\\n  -DCMAKE_SYSTEM_VERSION\u003d29 \\\n  -DANDROID_PLATFORM\u003dandroid-29 \\\n  -DANDROID_ABI\u003darm64-v8a \\\n  -DCMAKE_ANDROID_ARCH_ABI\u003darm64-v8a \\\n  -DANDROID_NDK\u003d/Applications/Unity/Hub/Editor/6000.0.27f1/PlaybackEngines/AndroidPlayer/NDK \\\n  -DCMAKE_ANDROID_NDK\u003d/Applications/Unity/Hub/Editor/6000.0.27f1/PlaybackEngines/AndroidPlayer/NDK \\\n  -DCMAKE_TOOLCHAIN_FILE\u003d/Applications/Unity/Hub/Editor/6000.0.27f1/PlaybackEngines/AndroidPlayer/NDK/build/cmake/android.toolchain.cmake \\\n  -DCMAKE_MAKE_PROGRAM\u003d/Applications/Unity/Hub/Editor/6000.0.27f1/PlaybackEngines/AndroidPlayer/SDK/cmake/3.22.1/bin/ninja \\\n  -DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/v1364i2u/obj/arm64-v8a \\\n  -DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003d/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/v1364i2u/obj/arm64-v8a \\\n  -DCMAKE_BUILD_TYPE\u003dRelWithDebInfo \\\n  -DCMAKE_FIND_ROOT_PATH\u003d/Users/zihanw/Unity_Projects/UncannyValleyVRProject/.utmp/RelWithDebInfo/v1364i2u/prefab/arm64-v8a/prefab \\\n  -B/Users/zihanw/Unity_Projects/UncannyValleyVRProject/.utmp/RelWithDebInfo/v1364i2u/arm64-v8a \\\n  -GNinja \\\n  -DANDROID_STL\u003dc++_shared\n",
+    "file_": "/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "/Applications/Unity/Hub/Editor/6000.0.27f1/PlaybackEngines/AndroidPlayer/SDK/cmake/3.22.1/bin/cmake \\\n  -H/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp \\\n  -DCMAKE_SYSTEM_NAME\u003dAndroid \\\n  -DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON \\\n  -DCMAKE_SYSTEM_VERSION\u003d29 \\\n  -DANDROID_PLATFORM\u003dandroid-29 \\\n  -DANDROID_ABI\u003darm64-v8a \\\n  -DCMAKE_ANDROID_ARCH_ABI\u003darm64-v8a \\\n  -DANDROID_NDK\u003d/Applications/Unity/Hub/Editor/6000.0.27f1/PlaybackEngines/AndroidPlayer/NDK \\\n  -DCMAKE_ANDROID_NDK\u003d/Applications/Unity/Hub/Editor/6000.0.27f1/PlaybackEngines/AndroidPlayer/NDK \\\n  -DCMAKE_TOOLCHAIN_FILE\u003d/Applications/Unity/Hub/Editor/6000.0.27f1/PlaybackEngines/AndroidPlayer/NDK/build/cmake/android.toolchain.cmake \\\n  -DCMAKE_MAKE_PROGRAM\u003d/Applications/Unity/Hub/Editor/6000.0.27f1/PlaybackEngines/AndroidPlayer/SDK/cmake/3.22.1/bin/ninja \\\n  -DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/v1364i2u/obj/arm64-v8a \\\n  -DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003d/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/v1364i2u/obj/arm64-v8a \\\n  -DCMAKE_BUILD_TYPE\u003dRelWithDebInfo \\\n  -DCMAKE_FIND_ROOT_PATH\u003d/Users/zihanw/Unity_Projects/UncannyValleyVRProject/.utmp/RelWithDebInfo/v1364i2u/prefab/arm64-v8a/prefab \\\n  -B/Users/zihanw/Unity_Projects/UncannyValleyVRProject/.utmp/RelWithDebInfo/v1364i2u/arm64-v8a \\\n  -GNinja \\\n  -DANDROID_STL\u003dc++_shared\n",
+    "file_": "/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "Received process result: 0",
+    "file_": "/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "Exiting generation of /Users/zihanw/Unity_Projects/UncannyValleyVRProject/.utmp/RelWithDebInfo/v1364i2u/arm64-v8a/compile_commands.json.bin normally",
+    "file_": "/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "done executing cmake",
+    "file_": "/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "hard linked /Users/zihanw/Unity_Projects/UncannyValleyVRProject/.utmp/RelWithDebInfo/v1364i2u/arm64-v8a/compile_commands.json to /Users/zihanw/Unity_Projects/UncannyValleyVRProject/.utmp/tools/release/arm64-v8a/compile_commands.json",
     "file_": "/Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/CMakeLists.txt",
     "tag_": "release|arm64-v8a",
     "diagnosticCode_": 0,

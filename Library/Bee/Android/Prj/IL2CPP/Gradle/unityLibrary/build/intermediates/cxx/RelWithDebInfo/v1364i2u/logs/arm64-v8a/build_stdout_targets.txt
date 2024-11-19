@@ -1,2 +1,12 @@
 ninja: Entering directory `/Users/zihanw/Unity_Projects/UncannyValleyVRProject/.utmp/RelWithDebInfo/v1364i2u/arm64-v8a'
-ninja: no work to do.
+[1/11] Building CXX object FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o
+[2/11] Linking CXX shared library /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/v1364i2u/obj/arm64-v8a/libswappywrapper.so
+[3/11] Building CXX object GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o
+[4/11] Building CXX object GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o
+[5/11] Building CXX object GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o
+[6/11] Building CXX object GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o
+[7/11] Building CXX object GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o
+[8/11] Building CXX object GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o
+[9/11] Building CXX object GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o
+[10/11] Building CXX object GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o
+[11/11] Linking CXX shared library /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/v1364i2u/obj/arm64-v8a/libgame.so

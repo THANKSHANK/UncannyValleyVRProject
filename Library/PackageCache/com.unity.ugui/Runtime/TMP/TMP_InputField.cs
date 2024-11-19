@@ -1556,8 +1556,8 @@ namespace TMPro
             if (m_HideMobileInput && m_SoftKeyboard != null && m_SoftKeyboard.canSetSelection &&
                 (Application.platform == RuntimePlatform.IPhonePlayer || Application.platform == RuntimePlatform.tvOS))
             {
-                var selectionStart = Mathf.Min(caretSelectPositionInternal, caretPositionInternal);
-                var selectionLength = Mathf.Abs(caretSelectPositionInternal - caretPositionInternal);
+                var selectionStart = Mathf.Min(stringSelectPositionInternal, stringPositionInternal);
+                var selectionLength = Mathf.Abs(stringSelectPositionInternal - stringPositionInternal);
                 m_SoftKeyboard.selection = new RangeInt(selectionStart, selectionLength);
             }
         }
@@ -1828,8 +1828,8 @@ namespace TMPro
             else if (m_HideMobileInput && m_SoftKeyboard != null && m_SoftKeyboard.canSetSelection &&
                      Application.platform != RuntimePlatform.IPhonePlayer && Application.platform != RuntimePlatform.tvOS)
             {
-                var selectionStart = Mathf.Min(caretSelectPositionInternal, caretPositionInternal);
-                var selectionLength = Mathf.Abs(caretSelectPositionInternal - caretPositionInternal);
+                var selectionStart = Mathf.Min(stringSelectPositionInternal, stringPositionInternal);
+                var selectionLength = Mathf.Abs(stringSelectPositionInternal - stringPositionInternal);
                 m_SoftKeyboard.selection = new RangeInt(selectionStart, selectionLength);
             }
             else if (m_HideMobileInput && Application.platform == RuntimePlatform.Android ||
@@ -3311,6 +3311,9 @@ namespace TMPro
 
                 if (input == 0) return;
 
+                // Doesn't update the text but still updates CaretSelectPosition and StringSelectPosition.
+                Insert(input, false);
+
                 SendOnValueChanged();
                 UpdateLabel();
 
@@ -3331,7 +3334,7 @@ namespace TMPro
 
 
         // Insert the character and update the label.
-        private void Insert(char c)
+        private void Insert(char c, bool updateText = true)
         {
             if (m_ReadOnly)
                 return;
@@ -3345,7 +3348,11 @@ namespace TMPro
             if (characterLimit > 0 && text.Length >= characterLimit)
                 return;
 
-            m_Text = text.Insert(m_StringPosition, replaceString);
+            // In the case of custom validation, the user can update the text themselves.
+            if (updateText)
+            {
+                m_Text = text.Insert(m_StringPosition, replaceString);
+            }
 
             if (!char.IsHighSurrogate(c))
                 m_CaretSelectPosition = m_CaretPosition += 1;

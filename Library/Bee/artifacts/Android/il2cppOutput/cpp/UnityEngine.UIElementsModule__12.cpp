@@ -217,6 +217,7 @@ struct List_1_t2BD7CEB57459502C3896E8429E9E19A9BECBE82E;
 struct List_1_t3511E79D0F3D52BB0D400A24E9972D864D8538D0;
 struct List_1_tB0B0D918D3045DC4C586466D3B4766A7FC721F7F;
 struct List_1_t17793F9C5D3D05B86F970A73AEF8E8897591C9FC;
+struct List_1_tF9896BAC57953BF2BC32AA89D1FBAADE3B1B098D;
 struct List_1_t4A27DCC9A4080D8DA642DEA4EFFEBA72D6471715;
 struct List_1_t592DF2E59D6E244DA0041698383484A07C7E0480;
 struct List_1_tFED0F30EE65D995591571D3CD2C10F22439CB317;
@@ -1633,6 +1634,15 @@ struct TextHandleTemporaryCache_t12F4FD2714809BDD0AF7145D4B1C0F8F53E47597  : pub
 };
 struct TextUtilities_tC52E9C85AEB33F87F8A1354213478686A9534F84  : public RuntimeObject
 {
+};
+struct UnicodeLineBreakingRules_t80BE36F5E16AE48FE7B6DE1C91D36B1142B4EC0E  : public RuntimeObject
+{
+	TextAsset_t2C64E93DA366D9DE5A8209E1802FA4884AC1BD69* ___m_UnicodeLineBreakingRules;
+	TextAsset_t2C64E93DA366D9DE5A8209E1802FA4884AC1BD69* ___m_LeadingCharacters;
+	TextAsset_t2C64E93DA366D9DE5A8209E1802FA4884AC1BD69* ___m_FollowingCharacters;
+	bool ___m_UseModernHangulLineBreakingRules;
+	HashSet_1_t5DD20B42149A11AEBF12A75505306E6EFC34943A* ___m_LeadingCharactersLookup;
+	HashSet_1_t5DD20B42149A11AEBF12A75505306E6EFC34943A* ___m_FollowingCharactersLookup;
 };
 struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F  : public RuntimeObject
 {
@@ -6386,6 +6396,7 @@ struct BindingId_t8BBB6188CD126EACCA07816C78760E92DC16620E_StaticFields
 struct FontAsset_t61A6446D934E582651044E33D250EA8D306AB958_StaticFields
 {
 	Dictionary_2_tC20B3D6AE4370C892734F670EF4D1FB9CE91F371* ___kFontAssetByInstanceId;
+	List_1_tF9896BAC57953BF2BC32AA89D1FBAADE3B1B098D* ___s_CallbackInstances;
 	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_ReadFontAssetDefinitionMarker;
 	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_AddSynthesizedCharactersMarker;
 	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_TryAddGlyphMarker;
@@ -9154,6 +9165,8 @@ inline ManagedJobData_t30626E18102169B4EC093D6569A52DF45ABBAA0F* Enumerator_get_
 {
 	return ((  ManagedJobData_t30626E18102169B4EC093D6569A52DF45ABBAA0F* (*) (Enumerator_t78A3A56B0A1E9B43FDEF6FD63E58C7C2E4B1B098*, const RuntimeMethod*))Enumerator_get_Current_m6330F15D18EE4F547C05DF9BF83C5EB710376027_gshared_inline)(__this, method);
 }
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnicodeLineBreakingRules_t80BE36F5E16AE48FE7B6DE1C91D36B1142B4EC0E* TextSettings_get_lineBreakingRules_m96E2C32D4F08309D904B0BCD83CEBE8CD6716A04 (TextSettings_tB7F55685AFFD4A96F714427BCACFD6958E357D64* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnicodeLineBreakingRules_LoadLineBreakingRules_m4686111E39B00E27AA6AD88762793EEFCCC14A75 (UnicodeLineBreakingRules_t80BE36F5E16AE48FE7B6DE1C91D36B1142B4EC0E* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TextHandle_PrepareFontAsset_m09DBCA8383E73C03046A2B72F443F5CAE77F61B4 (TextHandle_tA1D5C98B154F1F73CBD35E42EB4E9CCB02280EF8* __this, const RuntimeMethod* method) ;
 inline bool Enumerator_MoveNext_m852D85927B617EF01B1D8F50CA0087D3CA96E5F5 (Enumerator_t78A3A56B0A1E9B43FDEF6FD63E58C7C2E4B1B098* __this, const RuntimeMethod* method)
 {
@@ -20313,6 +20326,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UITKTextHandle_UpdateMesh_mF406787AD6746
 	}
 	int32_t V_0 = 0;
 	bool V_1 = false;
+	int32_t G_B3_0 = 0;
 	{
 		bool L_0;
 		L_0 = VirtualFuncInvoker0< bool >::Invoke(8, __this);
@@ -20325,28 +20339,46 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UITKTextHandle_UpdateMesh_mF406787AD6746
 		V_0 = L_2;
 		int32_t L_3 = ((TextHandle_tA1D5C98B154F1F73CBD35E42EB4E9CCB02280EF8*)__this)->___m_PreviousGenerationSettingsHash;
 		int32_t L_4 = V_0;
-		V_1 = (bool)((((int32_t)L_3) == ((int32_t)L_4))? 1 : 0);
-		bool L_5 = V_1;
-		if (!L_5)
+		if ((!(((uint32_t)L_3) == ((uint32_t)L_4))))
 		{
-			goto IL_002a;
+			goto IL_0027;
 		}
 	}
 	{
-		int32_t L_6 = V_0;
-		TextHandle_AddTextInfoToTemporaryCache_m99B5D63C51AEC0B3494DF6750C1B0F6648C0355C(__this, L_6, NULL);
-		goto IL_003b;
+		bool L_5 = ((TextHandle_tA1D5C98B154F1F73CBD35E42EB4E9CCB02280EF8*)__this)->___isDirty;
+		G_B3_0 = ((((int32_t)L_5) == ((int32_t)0))? 1 : 0);
+		goto IL_0028;
 	}
 
-IL_002a:
+IL_0027:
+	{
+		G_B3_0 = 0;
+	}
+
+IL_0028:
+	{
+		V_1 = (bool)G_B3_0;
+		bool L_6 = V_1;
+		if (!L_6)
+		{
+			goto IL_0036;
+		}
+	}
+	{
+		int32_t L_7 = V_0;
+		TextHandle_AddTextInfoToTemporaryCache_m99B5D63C51AEC0B3494DF6750C1B0F6648C0355C(__this, L_7, NULL);
+		goto IL_0047;
+	}
+
+IL_0036:
 	{
 		TextHandle_RemoveTextInfoFromTemporaryCache_m078F98710A4FD1722F0932C65EEE801155088605(__this, NULL);
-		int32_t L_7 = V_0;
-		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_8;
-		L_8 = TextHandle_UpdateWithHash_mC4F89BB34B092BE7F5E2219531A4541454BB97BA(__this, L_7, NULL);
+		int32_t L_8 = V_0;
+		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_9;
+		L_9 = TextHandle_UpdateWithHash_mC4F89BB34B092BE7F5E2219531A4541454BB97BA(__this, L_8, NULL);
 	}
 
-IL_003b:
+IL_0047:
 	{
 		return;
 	}
@@ -20356,6 +20388,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UITKTextHandle_AddTextInfoToPermanentCac
 	bool V_0 = false;
 	bool V_1 = false;
 	bool V_2 = false;
+	bool V_3 = false;
 	{
 		bool L_0;
 		L_0 = TextHandle_get_useAdvancedText_mE7649150D29DE7D2768B084FB7140617F813BB7B(__this, NULL);
@@ -20388,17 +20421,25 @@ IL_002b:
 		V_1 = (bool)0;
 		NativeTextInfo_t374114235115CC53DD8E337DD2ECB1EE4504FE19 L_6;
 		L_6 = UITKTextHandle_UpdateNative_m0933F2F16500FD10A89E6A6A26AE23ED36432EAB(__this, (&V_1), NULL);
-		goto IL_0046;
+		goto IL_0049;
 	}
 
 IL_0038:
 	{
 		bool L_7;
 		L_7 = VirtualFuncInvoker0< bool >::Invoke(8, __this);
+		V_3 = L_7;
+		bool L_8 = V_3;
+		if (!L_8)
+		{
+			goto IL_0049;
+		}
+	}
+	{
 		TextHandle_AddTextInfoToPermanentCache_m6A1549020930BF0356032E2A12C8C98B00558F54(__this, NULL);
 	}
 
-IL_0046:
+IL_0049:
 	{
 		return;
 	}
@@ -20568,7 +20609,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool UITKTextHandle_ConvertUssToTextGeneratio
 		}
 	}
 	{
-		V_4 = (bool)1;
+		V_4 = (bool)0;
 		goto IL_0311;
 	}
 
@@ -20595,7 +20636,7 @@ IL_0054:
 		}
 	}
 	{
-		V_4 = (bool)1;
+		V_4 = (bool)0;
 		goto IL_0311;
 	}
 
@@ -26904,11 +26945,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UITKTextJobSystem_GenerateTextJobified_m
 	Enumerator_t78A3A56B0A1E9B43FDEF6FD63E58C7C2E4B1B098 V_3;
 	memset((&V_3), 0, sizeof(V_3));
 	ManagedJobData_t30626E18102169B4EC093D6569A52DF45ABBAA0F* V_4 = NULL;
-	bool V_5 = false;
-	GenerateTextJobData_t7A10E34B01929D66C91DD360ABCE0155BDDAC636 V_6;
-	memset((&V_6), 0, sizeof(V_6));
-	JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 V_7;
+	TextSettings_tB7F55685AFFD4A96F714427BCACFD6958E357D64* V_5 = NULL;
+	bool V_6 = false;
+	GenerateTextJobData_t7A10E34B01929D66C91DD360ABCE0155BDDAC636 V_7;
 	memset((&V_7), 0, sizeof(V_7));
+	JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 V_8;
+	memset((&V_8), 0, sizeof(V_8));
+	UnicodeLineBreakingRules_t80BE36F5E16AE48FE7B6DE1C91D36B1142B4EC0E* G_B6_0 = NULL;
+	UnicodeLineBreakingRules_t80BE36F5E16AE48FE7B6DE1C91D36B1142B4EC0E* G_B5_0 = NULL;
 	{
 		TextGenerator_set_IsExecutingJob_m876815F0F8AC65A3B9521C9691BFC452357F0D5C_inline((bool)0, NULL);
 		List_1_t4660843B6AC1A4C27EF17CF9F3F5FE37909D9B6E* L_0 = __this->___textJobDatas;
@@ -26921,7 +26965,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UITKTextJobSystem_GenerateTextJobified_m
 		auto __finallyBlock = il2cpp::utils::Finally([&]
 		{
 
-FINALLY_0060:
+FINALLY_0087:
 			{
 				Enumerator_Dispose_mCCE102056FC2CD6C0D211C14E309849D6435DBCA((&V_3), Enumerator_Dispose_mCCE102056FC2CD6C0D211C14E309849D6435DBCA_RuntimeMethod_var);
 				return;
@@ -26930,7 +26974,7 @@ FINALLY_0060:
 		try
 		{
 			{
-				goto IL_0055_1;
+				goto IL_007c_1;
 			}
 
 IL_0017_1:
@@ -26940,51 +26984,93 @@ IL_0017_1:
 				V_4 = L_2;
 				ManagedJobData_t30626E18102169B4EC093D6569A52DF45ABBAA0F* L_3 = V_4;
 				NullCheck(L_3);
-				bool L_4 = L_3->___prepareSuccess;
-				V_5 = L_4;
-				bool L_5 = V_5;
-				if (!L_5)
+				TextElement_tD56C5044CCC5552285DC8A9950CC60448C80FEE0* L_4 = L_3->___visualElement;
+				TextSettings_tB7F55685AFFD4A96F714427BCACFD6958E357D64* L_5;
+				L_5 = TextUtilities_GetTextSettingsFrom_mFD034569BC2E09F1D58BEC2D483A2B8E7075D78A(L_4, NULL);
+				V_5 = L_5;
+				TextSettings_tB7F55685AFFD4A96F714427BCACFD6958E357D64* L_6 = V_5;
+				if (L_6)
 				{
-					goto IL_0030_1;
+					goto IL_0035_1;
 				}
 			}
 			{
-				goto IL_0055_1;
+				goto IL_0048_1;
 			}
 
-IL_0030_1:
+IL_0035_1:
 			{
-				ManagedJobData_t30626E18102169B4EC093D6569A52DF45ABBAA0F* L_6 = V_4;
-				NullCheck(L_6);
-				TextElement_tD56C5044CCC5552285DC8A9950CC60448C80FEE0* L_7 = L_6->___visualElement;
+				TextSettings_tB7F55685AFFD4A96F714427BCACFD6958E357D64* L_7 = V_5;
 				NullCheck(L_7);
-				UITKTextHandle_t1FF3B4EC2367C05F42D61C660D6FE30DF91C06CE* L_8;
-				L_8 = TextElement_get_uitkTextHandle_mDD90F6CABD0751B41047595A894044FA654C360C_inline(L_7, NULL);
-				NullCheck(L_8);
-				bool L_9;
-				L_9 = VirtualFuncInvoker0< bool >::Invoke(8, L_8);
+				UnicodeLineBreakingRules_t80BE36F5E16AE48FE7B6DE1C91D36B1142B4EC0E* L_8;
+				L_8 = TextSettings_get_lineBreakingRules_m96E2C32D4F08309D904B0BCD83CEBE8CD6716A04(L_7, NULL);
+				UnicodeLineBreakingRules_t80BE36F5E16AE48FE7B6DE1C91D36B1142B4EC0E* L_9 = L_8;
+				if (L_9)
+				{
+					G_B6_0 = L_9;
+					goto IL_0042_1;
+				}
+				G_B5_0 = L_9;
+			}
+			{
+				goto IL_0048_1;
+			}
+
+IL_0042_1:
+			{
+				NullCheck(G_B6_0);
+				UnicodeLineBreakingRules_LoadLineBreakingRules_m4686111E39B00E27AA6AD88762793EEFCCC14A75(G_B6_0, NULL);
+			}
+
+IL_0048_1:
+			{
 				ManagedJobData_t30626E18102169B4EC093D6569A52DF45ABBAA0F* L_10 = V_4;
 				NullCheck(L_10);
-				TextElement_tD56C5044CCC5552285DC8A9950CC60448C80FEE0* L_11 = L_10->___visualElement;
-				NullCheck(L_11);
-				UITKTextHandle_t1FF3B4EC2367C05F42D61C660D6FE30DF91C06CE* L_12;
-				L_12 = TextElement_get_uitkTextHandle_mDD90F6CABD0751B41047595A894044FA654C360C_inline(L_11, NULL);
-				NullCheck(L_12);
-				bool L_13;
-				L_13 = TextHandle_PrepareFontAsset_m09DBCA8383E73C03046A2B72F443F5CAE77F61B4(L_12, NULL);
+				bool L_11 = L_10->___prepareSuccess;
+				V_6 = L_11;
+				bool L_12 = V_6;
+				if (!L_12)
+				{
+					goto IL_0057_1;
+				}
+			}
+			{
+				goto IL_007c_1;
 			}
 
-IL_0055_1:
+IL_0057_1:
 			{
-				bool L_14;
-				L_14 = Enumerator_MoveNext_m852D85927B617EF01B1D8F50CA0087D3CA96E5F5((&V_3), Enumerator_MoveNext_m852D85927B617EF01B1D8F50CA0087D3CA96E5F5_RuntimeMethod_var);
-				if (L_14)
+				ManagedJobData_t30626E18102169B4EC093D6569A52DF45ABBAA0F* L_13 = V_4;
+				NullCheck(L_13);
+				TextElement_tD56C5044CCC5552285DC8A9950CC60448C80FEE0* L_14 = L_13->___visualElement;
+				NullCheck(L_14);
+				UITKTextHandle_t1FF3B4EC2367C05F42D61C660D6FE30DF91C06CE* L_15;
+				L_15 = TextElement_get_uitkTextHandle_mDD90F6CABD0751B41047595A894044FA654C360C_inline(L_14, NULL);
+				NullCheck(L_15);
+				bool L_16;
+				L_16 = VirtualFuncInvoker0< bool >::Invoke(8, L_15);
+				ManagedJobData_t30626E18102169B4EC093D6569A52DF45ABBAA0F* L_17 = V_4;
+				NullCheck(L_17);
+				TextElement_tD56C5044CCC5552285DC8A9950CC60448C80FEE0* L_18 = L_17->___visualElement;
+				NullCheck(L_18);
+				UITKTextHandle_t1FF3B4EC2367C05F42D61C660D6FE30DF91C06CE* L_19;
+				L_19 = TextElement_get_uitkTextHandle_mDD90F6CABD0751B41047595A894044FA654C360C_inline(L_18, NULL);
+				NullCheck(L_19);
+				bool L_20;
+				L_20 = TextHandle_PrepareFontAsset_m09DBCA8383E73C03046A2B72F443F5CAE77F61B4(L_19, NULL);
+			}
+
+IL_007c_1:
+			{
+				bool L_21;
+				L_21 = Enumerator_MoveNext_m852D85927B617EF01B1D8F50CA0087D3CA96E5F5((&V_3), Enumerator_MoveNext_m852D85927B617EF01B1D8F50CA0087D3CA96E5F5_RuntimeMethod_var);
+				if (L_21)
 				{
 					goto IL_0017_1;
 				}
 			}
 			{
-				goto IL_006f;
+				goto IL_0096;
 			}
 		}
 		catch(Il2CppExceptionWrapper& e)
@@ -26993,41 +27079,41 @@ IL_0055_1:
 		}
 	}
 
-IL_006f:
+IL_0096:
 	{
 		il2cpp_codegen_runtime_class_init_inline(FontAsset_t61A6446D934E582651044E33D250EA8D306AB958_il2cpp_TypeInfo_var);
 		FontAsset_UpdateFontAssetsInUpdateQueue_m67B9FE54C99FDC8FD3FE3471768C416083E36768(NULL);
-		MeshGenerationContext_tD1BD8DB52C7126A7987DE5DF1A4AF47A906EAF62* L_15 = ___0_mgc;
-		NullCheck(L_15);
-		MeshGenerationContext_GetTempMeshAllocator_m55D086A87FD210C5651F45A86D424787A5F6325B(L_15, (&V_0), NULL);
-		il2cpp_codegen_initobj((&V_6), sizeof(GenerateTextJobData_t7A10E34B01929D66C91DD360ABCE0155BDDAC636));
-		GCHandle_tC44F6F72EE68BD4CFABA24309DA7A179D41127DC L_16 = __this->___textJobDatasHandle;
-		(&V_6)->___managedJobDataHandle = L_16;
-		TempMeshAllocator_tD37C436C57799A8137298056D60932C14639361C L_17 = V_0;
-		(&V_6)->___alloc = L_17;
-		GenerateTextJobData_t7A10E34B01929D66C91DD360ABCE0155BDDAC636 L_18 = V_6;
-		V_1 = L_18;
+		MeshGenerationContext_tD1BD8DB52C7126A7987DE5DF1A4AF47A906EAF62* L_22 = ___0_mgc;
+		NullCheck(L_22);
+		MeshGenerationContext_GetTempMeshAllocator_m55D086A87FD210C5651F45A86D424787A5F6325B(L_22, (&V_0), NULL);
+		il2cpp_codegen_initobj((&V_7), sizeof(GenerateTextJobData_t7A10E34B01929D66C91DD360ABCE0155BDDAC636));
+		GCHandle_tC44F6F72EE68BD4CFABA24309DA7A179D41127DC L_23 = __this->___textJobDatasHandle;
+		(&V_7)->___managedJobDataHandle = L_23;
+		TempMeshAllocator_tD37C436C57799A8137298056D60932C14639361C L_24 = V_0;
+		(&V_7)->___alloc = L_24;
+		GenerateTextJobData_t7A10E34B01929D66C91DD360ABCE0155BDDAC636 L_25 = V_7;
+		V_1 = L_25;
 		il2cpp_codegen_runtime_class_init_inline(TextHandle_tA1D5C98B154F1F73CBD35E42EB4E9CCB02280EF8_il2cpp_TypeInfo_var);
 		TextHandle_UpdateCurrentFrame_mDC4EC98BDB3E7DA3588FB85229D532069E5D8F19(NULL);
 		TextGenerator_set_IsExecutingJob_m876815F0F8AC65A3B9521C9691BFC452357F0D5C_inline((bool)1, NULL);
-		GenerateTextJobData_t7A10E34B01929D66C91DD360ABCE0155BDDAC636 L_19 = V_1;
-		List_1_t4660843B6AC1A4C27EF17CF9F3F5FE37909D9B6E* L_20 = __this->___textJobDatas;
-		NullCheck(L_20);
-		int32_t L_21;
-		L_21 = List_1_get_Count_mE18E5A3C4B8994CBE6315FF3ABE282FE9E8B1DCC_inline(L_20, List_1_get_Count_mE18E5A3C4B8994CBE6315FF3ABE282FE9E8B1DCC_RuntimeMethod_var);
-		il2cpp_codegen_initobj((&V_7), sizeof(JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08));
-		JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 L_22 = V_7;
-		JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 L_23;
-		L_23 = IJobParallelForExtensions_Schedule_TisGenerateTextJobData_t7A10E34B01929D66C91DD360ABCE0155BDDAC636_mB06263090F43EC3C611F4E2EF405E9A0A30C65B0(L_19, L_21, 1, L_22, IJobParallelForExtensions_Schedule_TisGenerateTextJobData_t7A10E34B01929D66C91DD360ABCE0155BDDAC636_mB06263090F43EC3C611F4E2EF405E9A0A30C65B0_RuntimeMethod_var);
-		V_2 = L_23;
-		MeshGenerationContext_tD1BD8DB52C7126A7987DE5DF1A4AF47A906EAF62* L_24 = ___0_mgc;
-		JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 L_25 = V_2;
-		NullCheck(L_24);
-		MeshGenerationContext_AddMeshGenerationJob_mE4B15CCA86E8D7674CFC0B8815C965C31DBF18B0(L_24, L_25, NULL);
-		MeshGenerationContext_tD1BD8DB52C7126A7987DE5DF1A4AF47A906EAF62* L_26 = ___0_mgc;
-		MeshGenerationCallback_t9735BAFB971D361BCB27AB541F8205A7C0FFEF50* L_27 = __this->___m_AddDrawEntriesCallback;
-		NullCheck(L_26);
-		MeshGenerationContext_AddMeshGenerationCallback_mFEC434C2C1DC64DCEA93753EB7357C870C3D7A5B(L_26, L_27, NULL, 2, (bool)1, NULL);
+		GenerateTextJobData_t7A10E34B01929D66C91DD360ABCE0155BDDAC636 L_26 = V_1;
+		List_1_t4660843B6AC1A4C27EF17CF9F3F5FE37909D9B6E* L_27 = __this->___textJobDatas;
+		NullCheck(L_27);
+		int32_t L_28;
+		L_28 = List_1_get_Count_mE18E5A3C4B8994CBE6315FF3ABE282FE9E8B1DCC_inline(L_27, List_1_get_Count_mE18E5A3C4B8994CBE6315FF3ABE282FE9E8B1DCC_RuntimeMethod_var);
+		il2cpp_codegen_initobj((&V_8), sizeof(JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08));
+		JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 L_29 = V_8;
+		JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 L_30;
+		L_30 = IJobParallelForExtensions_Schedule_TisGenerateTextJobData_t7A10E34B01929D66C91DD360ABCE0155BDDAC636_mB06263090F43EC3C611F4E2EF405E9A0A30C65B0(L_26, L_28, 1, L_29, IJobParallelForExtensions_Schedule_TisGenerateTextJobData_t7A10E34B01929D66C91DD360ABCE0155BDDAC636_mB06263090F43EC3C611F4E2EF405E9A0A30C65B0_RuntimeMethod_var);
+		V_2 = L_30;
+		MeshGenerationContext_tD1BD8DB52C7126A7987DE5DF1A4AF47A906EAF62* L_31 = ___0_mgc;
+		JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 L_32 = V_2;
+		NullCheck(L_31);
+		MeshGenerationContext_AddMeshGenerationJob_mE4B15CCA86E8D7674CFC0B8815C965C31DBF18B0(L_31, L_32, NULL);
+		MeshGenerationContext_tD1BD8DB52C7126A7987DE5DF1A4AF47A906EAF62* L_33 = ___0_mgc;
+		MeshGenerationCallback_t9735BAFB971D361BCB27AB541F8205A7C0FFEF50* L_34 = __this->___m_AddDrawEntriesCallback;
+		NullCheck(L_33);
+		MeshGenerationContext_AddMeshGenerationCallback_mFEC434C2C1DC64DCEA93753EB7357C870C3D7A5B(L_33, L_34, NULL, 2, (bool)1, NULL);
 		return;
 	}
 }
