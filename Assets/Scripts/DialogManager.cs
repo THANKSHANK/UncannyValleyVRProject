@@ -10,7 +10,7 @@ public class DialogManager : MonoBehaviour
     public GameObject text;
     public GameObject dialogObject;  // Reference to the dialog GameObject
     public GameObject controlUI;     // Reference to the control UI GameObject
-    public GameObject attention;
+    public GameObject attention;    
     private VideoPlayer _clip;
     private TextMeshProUGUI _title;
     private TextMeshProUGUI _text;
