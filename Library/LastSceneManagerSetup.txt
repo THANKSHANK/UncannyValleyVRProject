@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/SampleScene.unity
+- path: Assets/Samples/Meta Movement/69.0.0/Body Tracking Samples/Scenes/MovementHighFidelity.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

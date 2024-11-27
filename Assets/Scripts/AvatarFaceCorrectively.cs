@@ -3,35 +3,23 @@ using UnityEngine;
 
 namespace Oculus.Movement.Tracking
 {
-    /// <summary>
-    /// Face class that allows applying correctives and/or
-    /// modifiers.
-    /// </summary>
+  
     public class AvatarFaceCorrectively : OVRCustomFace
     {
-        /// <summary>
-        /// If true, the correctives driver will apply correctives.
-        /// </summary>
+        
         public bool CorrectivesEnabled { get; set; }
 
-        /// <summary>
-        /// Last updated expression weights.
-        /// </summary>
+       
         public float[] ExpressionWeights { get; private set; }
 
-        /// <summary>
-        /// Allows one to freeze current values obtained from facial expressions component.
-        /// </summary>
+       
         public bool FreezeExpressionWeights { get; set; }
 
-        /// <summary>
-        /// Forces the jaw to drop to accomodate the tongue if it is being stuck out.
-        /// </summary>
+        
         [SerializeField]
         [Tooltip("Whether or not to force the jaw open to accomodate an extended tongue")]
         protected bool _forceJawDropForTongue = true;
 
-        /// <inheritdoc cref="_forceJawDropForTongue" />
         public bool ForceJawDropForTongue
         {
             get { return _forceJawDropForTongue; }
@@ -46,62 +34,43 @@ namespace Oculus.Movement.Tracking
         [Tooltip("Minimum value of JawDrop to force when the user's tongue is out")]
         private float _minJawDrop = 0.5f;
 
-        /// <summary>
-        /// Optional blendshape modifier component.
-        /// </summary>
+      
         [SerializeField]
         [Optional]
         [Tooltip(CorrectivesFaceTooltips.BlendshapeModifier)]
         protected BlendshapeModifier _blendshapeModifier;
 
-        /// <inheritdoc cref="_blendshapeModifier"/>
         public BlendshapeModifier BlendshapeModifier
         {
             get { return _blendshapeModifier; }
             set { _blendshapeModifier = value; }
         }
 
-        /// <summary>
-        /// The json file containing the in-betweens and combinations data.
-        /// </summary>
+       
         [SerializeField]
         [Optional]
         [Tooltip(CorrectivesFaceTooltips.CombinationShapesTextAsset)]
         protected TextAsset _combinationShapesTextAsset;
 
-        /// <inheritdoc cref="_combinationShapesTextAsset"/>
         public TextAsset CombinationShapesTextAsset
         {
             get { return _combinationShapesTextAsset; }
             set { _combinationShapesTextAsset = value; }
         }
-
-        /// <summary>
-        /// Allows modifying retargeting type field.
-        /// </summary>
+        
         public RetargetingType RetargetingTypeField
         {
             get => RetargetingValue;
             set => RetargetingValue = value;
         }
-
-        /// <summary>
-        /// Allows modifying duplicates field.
-        /// </summary>
+        
         public bool AllowDuplicateMappingField
         {
             get => AllowDuplicateMapping;
             set => AllowDuplicateMapping = value;
         }
-
-        /// <summary>
-        /// Cached mesh blendshape values.
-        /// </summary>
         protected float[] _cachedBlendshapeValues;
 
-        /// <summary>
-        /// The correctives module.
-        /// </summary>
         protected CorrectivesModule _correctivesModule;
         
         public float nextBlinkTimeL = 0.1f; // Next time left eye should blink
@@ -120,74 +89,55 @@ namespace Oculus.Movement.Tracking
         private void ApplySubtleEyeMotion()
         {
             float time = Time.time;
-
-            // Check if it's time to blink the left eye
             if (time > nextBlinkTimeL && !isBlinkingL)
             {
-                StartBlinkLeftEye(); // Trigger a left eye blink
+                StartBlinkLeftEye(); 
             }
-
-            // Check if it's time to blink the right eye
             if (time > nextBlinkTimeR && !isBlinkingR)
             {
-                StartBlinkRightEye(); // Trigger a right eye blink
+                StartBlinkRightEye(); 
             }
-
-            // Handle left eye blink progression
             if (isBlinkingL)
             {
                 HandleBlinkProgression(ref isBlinkingL, ref blinkDurationL, OVRPlugin.FaceExpression2.Eyes_Closed_L);
             }
-
-            // Handle right eye blink progression
             if (isBlinkingR)
             {
                 HandleBlinkProgression(ref isBlinkingR, ref blinkDurationR, OVRPlugin.FaceExpression2.Eyes_Closed_R);
             }
-            
         }
 
-        // Start a blink for the left eye
         private void StartBlinkLeftEye()
         {
             isBlinkingL = true;
-            blinkDurationL = Random.Range(0.05f, 0.2f); // Random blink duration
-            nextBlinkTimeL = Time.time + Random.Range(minBlinkInterval, maxBlinkInterval); // Schedule next blink
+            blinkDurationL = Random.Range(0.05f, 0.2f); 
+            nextBlinkTimeL = Time.time + Random.Range(minBlinkInterval, maxBlinkInterval); 
         }
 
-        // Start a blink for the right eye
         private void StartBlinkRightEye()
         {
             isBlinkingR = true;
-            blinkDurationR = Random.Range(0.05f, 0.2f); // Random blink duration
-            nextBlinkTimeR = Time.time + Random.Range(minBlinkInterval, maxBlinkInterval); // Schedule next blink
+            blinkDurationR = Random.Range(0.05f, 0.2f); 
+            nextBlinkTimeR = Time.time + Random.Range(minBlinkInterval, maxBlinkInterval); 
         }
 
-        // Handle the progression of a blink (opening and closing over time)
         private void HandleBlinkProgression(ref bool isBlinking, ref float blinkDuration, OVRPlugin.FaceExpression2 eyeCloseExpression)
         {
             float blinkProgress = (Time.time - (nextBlinkTimeL - blinkDuration)) / blinkDuration;
-
-            // Close the eye initially, then open it back
             if (blinkProgress < 0.5f)
             {
-                ExpressionWeights[(int)eyeCloseExpression] += Mathf.Lerp(0.0f, 1.0f, blinkProgress * 2.0f); // Closing phase
+                ExpressionWeights[(int)eyeCloseExpression] += Mathf.Lerp(0.0f, 1.0f, blinkProgress * 2.0f); 
             }
             else
             {
-                ExpressionWeights[(int)eyeCloseExpression] += Mathf.Lerp(1.0f, 0.0f, (blinkProgress - 0.5f) * 2.0f); // Opening phase
+                ExpressionWeights[(int)eyeCloseExpression] += Mathf.Lerp(1.0f, 0.0f, (blinkProgress - 0.5f) * 2.0f); 
             }
-
-            // If blink is completed, stop blinking
             if (blinkProgress >= 1.0f)
             {
                 isBlinking = false;
             }
         }
-        
-        /// <summary>
-        /// Initializes weights and correctives module.
-        /// </summary>
+
         protected override void Awake()
         {
             base.Awake();
@@ -199,20 +149,12 @@ namespace Oculus.Movement.Tracking
                 _correctivesModule = new CorrectivesModule(_combinationShapesTextAsset);
             }
         }
-
-        /// <summary>
-        /// Returns OVRFaceExpressions value for the blend shape index provided.
-        /// </summary>
-        /// <param name="blendShapeIndex">Blend shape index.</param>
-        /// <returns>OVRFaceExpression value.</returns>
+        
         public OVRFaceExpressions.FaceExpression GetFaceExpressionForIndex(int blendShapeIndex)
         {
             return GetFaceExpression(blendShapeIndex);
         }
-
-        /// <summary>
-        /// Initialize the expression weights array.
-        /// </summary>
+        
         protected void InitializeExpressionWeights()
         {
             ExpressionWeights = new float[(int)OVRFaceExpressions.FaceExpression.Max];
@@ -221,11 +163,7 @@ namespace Oculus.Movement.Tracking
                 ExpressionWeights[i] = 0.0f;
             }
         }
-
-        /// <summary>
-        /// Activates a single face expression and sets the other to zero.
-        /// </summary>
-        /// <param name="faceExpression">Face expression to activate.</param>
+        
         public void ActivateFaceExpression(OVRFaceExpressions.FaceExpression faceExpression)
         {
             if (ExpressionWeights == null ||
@@ -258,9 +196,7 @@ namespace Oculus.Movement.Tracking
             UpdateSkinnedMesh();
         }
 
-        /// <summary>
-        /// Applies correctives to values before updating the skinned mesh.
-        /// </summary>
+
         protected override void Update()
         {
             if (ExpressionWeights == null ||
@@ -285,9 +221,7 @@ namespace Oculus.Movement.Tracking
             }
         }
 
-        /// <summary>
-        /// Update the expression weight values from face tracking data.
-        /// </summary>
+
         protected void UpdateExpressionWeights()
         {
             if (FreezeExpressionWeights)
@@ -307,10 +241,7 @@ namespace Oculus.Movement.Tracking
                 ExpressionWeights[(int)blendShapeToFaceExpression] = _faceExpressions[blendShapeToFaceExpression];
             }
         }
-
-        /// <summary>
-        /// Initialize cached blendshape values.
-        /// </summary>
+        
         protected void InitializeCachedValues()
         {
             int numBlendshapes = SkinnedMesh.sharedMesh.blendShapeCount;
@@ -323,10 +254,6 @@ namespace Oculus.Movement.Tracking
                 }
             }
         }
-
-        /// <summary>
-        /// Update the initialized cached values.
-        /// </summary>
         protected void UpdateCachedMeshValues()
         {
             int numBlendshapes = SkinnedMesh.sharedMesh.blendShapeCount;
@@ -367,9 +294,7 @@ namespace Oculus.Movement.Tracking
             }
         }
 
-        /// <summary>
-        /// Update the skinned mesh with the cached blendshape values.
-        /// </summary>
+       
         protected void UpdateSkinnedMesh()
         {
             var numBlendshapes = _cachedBlendshapeValues.Length;
