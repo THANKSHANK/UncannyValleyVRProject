@@ -497,6 +497,7 @@
 "Assets/Scripts/CustomBlendshapeModifier.cs"
 "Assets/Scripts/CustomOVRFaceWithDynamicMapping.cs"
 "Assets/Scripts/DialogManager.cs"
+"Assets/Scripts/eyeSubtleMotionDebugger.cs"
 "Assets/Scripts/MaterialDebugChanger.cs"
 "Assets/Scripts/ResetScene.cs"
 "Assets/Scripts/VariableManager.cs"

@@ -22,7 +22,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50238
+52682
 -job-worker-count
 3
 -background-job-worker-count
@@ -68,7 +68,7 @@ Successfully changed project path to: /Users/zihanw/Unity_Projects/UncannyValley
     "memorysetup-temp-allocator-size-gfx=262144"
 Player connection [8518678592]  Target information:
 
-Player connection [8518678592]  * "[IP] 192.168.86.185 [Port] 0 [Flags] 2 [Guid] 121271407 [EditorId] 121271407 [Version] 1048832 [Id] OSXEditor(0,mac.lan) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [8518678592]  * "[IP] 192.168.86.185 [Port] 0 [Flags] 2 [Guid] 2346677957 [EditorId] 2346677957 [Version] 1048832 [Id] OSXEditor(0,mac.lan) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
 Player connection [8518678592] Host joined multi-casting on [225.0.0.222:54997]...
 Player connection [8518678592] Host joined alternative multi-casting on [225.0.0.222:34997]...
@@ -82,8 +82,8 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 17.94 ms, found 10 plugins.
-Preloading 2 native plugins for Editor in 8.30 ms.
+Refreshing native plugins compatible for Editor in 15.64 ms, found 10 plugins.
+Preloading 2 native plugins for Editor in 4.47 ms.
 Initialize engine version: 6000.0.27f1 (27c554a2199c)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.0.27f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/zihanw/Unity_Projects/UncannyValleyVRProject/Assets
@@ -99,47 +99,47 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/6000.0.27f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/6000.0.27f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/6000.0.27f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56566
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56274
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/6000.0.27f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/6000.0.27f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.002486 seconds.
-- Loaded All Assemblies, in  0.240 seconds
+Registered in 0.002166 seconds.
+- Loaded All Assemblies, in  0.241 seconds
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 75 ms
+Android Extension - Scanning For ADB Devices 78 ms
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.371 seconds
-Domain Reload Profiling: 610ms
-	BeginReloadAssembly (82ms)
+- Finished resetting the current domain, in  0.392 seconds
+Domain Reload Profiling: 634ms
+	BeginReloadAssembly (79ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (22ms)
+	RebuildCommonClasses (24ms)
 	RebuildNativeTypeToScriptingClass (8ms)
 	initialDomainReloadingComplete (28ms)
-	LoadAllAssembliesAndSetupDomain (99ms)
-		LoadAssemblies (83ms)
+	LoadAllAssembliesAndSetupDomain (102ms)
+		LoadAssemblies (79ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (97ms)
-			TypeCache.Refresh (96ms)
-				TypeCache.ScanAssembly (86ms)
+		AnalyzeDomain (99ms)
+			TypeCache.Refresh (99ms)
+				TypeCache.ScanAssembly (90ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (371ms)
+	FinalizeReload (393ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (342ms)
+		SetupLoadedEditorAssemblies (363ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (133ms)
-			SetLoadedEditorAssemblies (2ms)
+			InitializePlatformSupportModulesInManaged (138ms)
+			SetLoadedEditorAssemblies (3ms)
 			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (144ms)
-			ProcessInitializeOnLoadMethodAttributes (58ms)
-			AfterProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (149ms)
+			ProcessInitializeOnLoadMethodAttributes (69ms)
+			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
@@ -148,8 +148,8 @@ Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.962 seconds
-Refreshing native plugins compatible for Editor in 1.63 ms, found 10 plugins.
+- Loaded All Assemblies, in  0.704 seconds
+Refreshing native plugins compatible for Editor in 1.61 ms, found 10 plugins.
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Package Manager log level set to [2]
@@ -159,12 +159,26 @@ Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 1.70 ms, found 10 plugins.
-26/11 19:44:29.700 {DEBUG}   [AnalyticsLifeTime] Pre initialization finished.
-26/11 19:44:29.700 {DEBUG}   [AnalyticsLifeTime] Post-migration initialization finished.
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-[MODES] Loading mode Default (0) for mode-current-id-UncannyValleyVRProject
+Refreshing native plugins compatible for Editor in 1.78 ms, found 10 plugins.
+27/11 22:04:52.253 {DEBUG}   [AnalyticsLifeTime] Pre initialization finished.
+27/11 22:04:52.253 {DEBUG}   [AnalyticsLifeTime] Post-migration initialization finished.
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.JsonUtility.FromJson[T] (System.String json) [0x00001] in /Users/bokken/build/output/unity/unity/Modules/JSONSerialize/Public/JsonUtility.bindings.cs:30 
+  at UnityEditor.StateCache`1[T].GetState (UnityEngine.Hash128 key, T defaultValue) [0x00067] in /Users/bokken/build/output/unity/unity/Editor/Mono/Utils/StateCache.cs:88 
+  at UnityEditor.Tools.OnEnable () [0x0003a] in /Users/bokken/build/output/unity/unity/Editor/Mono/Tools/Tools.cs:430 
+UnityEngine.ScriptableObject:CreateScriptableObjectInstanceFromType_Injected(Type, Boolean)
+UnityEngine.ScriptableObject:CreateScriptableObjectInstanceFromType(Type, Boolean)
+UnityEngine.ScriptableObject:CreateInstance(Type) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/ScriptableObject.bindings.cs:35)
+UnityEngine.ScriptableObject:CreateInstance() (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/ScriptableObject.bindings.cs:41)
+UnityEditor.Tools:get_get() (at /Users/bokken/build/output/unity/unity/Editor/Mono/Tools/Tools.cs:53)
+UnityEditor.Tools:get_visibleLayers() (at /Users/bokken/build/output/unity/unity/Editor/Mono/Tools/Tools.cs:398)
+UnityEditor.Animations.Rigging.BoneRendererUtils:.cctor() (at ./Library/PackageCache/com.unity.animation.rigging/Editor/Utils/BoneRendererUtils.cs:121)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(IntPtr)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes(Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:118)
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/Tools/Tools.cs Line: 430)
+
 Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
@@ -172,223 +186,85 @@ Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.607 seconds
-Domain Reload Profiling: 1567ms
-	BeginReloadAssembly (517ms)
+- Finished resetting the current domain, in  0.645 seconds
+Domain Reload Profiling: 1349ms
+	BeginReloadAssembly (273ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (25ms)
-	RebuildCommonClasses (24ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (19ms)
-	LoadAllAssembliesAndSetupDomain (393ms)
-		LoadAssemblies (238ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (378ms)
+		LoadAssemblies (239ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (187ms)
-			TypeCache.Refresh (149ms)
-				TypeCache.ScanAssembly (122ms)
-			BuildScriptInfoCaches (28ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (607ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (482ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (34ms)
-			ProcessInitializeOnLoadAttributes (423ms)
-			ProcessInitializeOnLoadMethodAttributes (13ms)
-			AfterProcessingInitializeOnLoad (3ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (2ms)
-Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-[OVRPlugin][INFO] UnityPluginLoad called
-Launching external process: /Applications/Unity/Hub/Editor/6000.0.27f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
-Refreshing native plugins compatible for Editor in 1.85 ms, found 10 plugins.
-Preloading 2 native plugins for Editor in 0.29 ms.
-Unloading 121 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5247 unused Assets / (1.5 MB). Loaded Objects now: 5956.
-Memory consumption went from 258.0 MB to 256.6 MB.
-Total: 7.672792 ms (FindLiveObjects: 0.483208 ms CreateObjectMapping: 0.110417 ms MarkObjects: 6.167750 ms  DeleteObjects: 0.911208 ms)
-
-========================================================================
-Received Prepare
-Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 2.00 ms, found 10 plugins.
-Preloading 2 native plugins for Editor in 0.34 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5192 unused Assets / (0.8 MB). Loaded Objects now: 5947.
-Memory consumption went from 225.7 MB to 224.9 MB.
-Total: 27.220541 ms (FindLiveObjects: 0.779541 ms CreateObjectMapping: 0.113834 ms MarkObjects: 25.215083 ms  DeleteObjects: 1.110958 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Thread 0x30fd9f000 may have been prematurely finalized
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.663 seconds
-Refreshing native plugins compatible for Editor in 2.39 ms, found 10 plugins.
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 2.00 ms, found 10 plugins.
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-Mono: successfully reloaded assembly
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.713 seconds
-Domain Reload Profiling: 1380ms
-	BeginReloadAssembly (279ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (202ms)
-	RebuildCommonClasses (24ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (15ms)
-	LoadAllAssembliesAndSetupDomain (340ms)
-		LoadAssemblies (220ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (158ms)
-			TypeCache.Refresh (16ms)
-				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (125ms)
-			ResolveRequiredComponents (12ms)
-	FinalizeReload (714ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (555ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (2ms)
-			BeforeProcessingInitializeOnLoad (77ms)
-			ProcessInitializeOnLoadAttributes (454ms)
-			ProcessInitializeOnLoadMethodAttributes (13ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
-Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 1.82 ms, found 10 plugins.
-Preloading 2 native plugins for Editor in 0.33 ms.
-Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5245 unused Assets / (0.6 MB). Loaded Objects now: 5959.
-Memory consumption went from 239.9 MB to 239.3 MB.
-Total: 9.903875 ms (FindLiveObjects: 0.327750 ms CreateObjectMapping: 0.170083 ms MarkObjects: 7.912667 ms  DeleteObjects: 1.492958 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 3.50 ms, found 10 plugins.
-Preloading 2 native plugins for Editor in 0.36 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5192 unused Assets / (0.9 MB). Loaded Objects now: 5950.
-Memory consumption went from 225.3 MB to 224.4 MB.
-Total: 15.532208 ms (FindLiveObjects: 0.604541 ms CreateObjectMapping: 0.117250 ms MarkObjects: 13.839750 ms  DeleteObjects: 0.970167 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Thread 0x30fd9f000 may have been prematurely finalized
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.660 seconds
-Refreshing native plugins compatible for Editor in 1.98 ms, found 10 plugins.
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 1.53 ms, found 10 plugins.
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-Mono: successfully reloaded assembly
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.684 seconds
-Domain Reload Profiling: 1346ms
-	BeginReloadAssembly (189ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (102ms)
-	RebuildCommonClasses (61ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (26ms)
-	LoadAllAssembliesAndSetupDomain (374ms)
-		LoadAssemblies (236ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (179ms)
-			TypeCache.Refresh (26ms)
-				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (143ms)
+		AnalyzeDomain (171ms)
+			TypeCache.Refresh (131ms)
+				TypeCache.ScanAssembly (116ms)
+			BuildScriptInfoCaches (29ms)
 			ResolveRequiredComponents (9ms)
-	FinalizeReload (684ms)
+	FinalizeReload (646ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (511ms)
+		SetupLoadedEditorAssemblies (512ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (6ms)
 			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (97ms)
-			ProcessInitializeOnLoadAttributes (392ms)
-			ProcessInitializeOnLoadMethodAttributes (11ms)
+			BeforeProcessingInitializeOnLoad (41ms)
+			ProcessInitializeOnLoadAttributes (447ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
 			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
-Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+		AwakeInstancesAfterBackupRestoration (2ms)
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+[OVRPlugin][INFO] UnityPluginLoad called
+Launching external process: /Applications/Unity/Hub/Editor/6000.0.27f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
 Refreshing native plugins compatible for Editor in 2.62 ms, found 10 plugins.
 Preloading 2 native plugins for Editor in 0.32 ms.
+Unloading 121 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5247 unused Assets / (1.6 MB). Loaded Objects now: 5956.
+Memory consumption went from 255.6 MB to 254.0 MB.
+Total: 7.328291 ms (FindLiveObjects: 0.448958 ms CreateObjectMapping: 0.107333 ms MarkObjects: 5.862167 ms  DeleteObjects: 0.909458 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 87724.277362 seconds.
+  path: Assets/Scripts/MaterialDebugChanger.cs
+  artifactKey: Guid(4f57e0d1dde92487ab6ae48d4fb8bcb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MaterialDebugChanger.cs using Guid(4f57e0d1dde92487ab6ae48d4fb8bcb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0388d4aec4b26ead95a3e3f747aa4352') in 0.003646 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Refreshing native plugins compatible for Editor in 2.02 ms, found 10 plugins.
+Preloading 2 native plugins for Editor in 0.33 ms.
 Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5245 unused Assets / (1.7 MB). Loaded Objects now: 5961.
-Memory consumption went from 237.2 MB to 235.4 MB.
-Total: 7.191333 ms (FindLiveObjects: 0.305125 ms CreateObjectMapping: 0.147750 ms MarkObjects: 5.822167 ms  DeleteObjects: 0.915875 ms)
+Unloading 5193 unused Assets / (1.5 MB). Loaded Objects now: 5950.
+Memory consumption went from 223.7 MB to 222.2 MB.
+Total: 6.777958 ms (FindLiveObjects: 0.290416 ms CreateObjectMapping: 0.098500 ms MarkObjects: 5.555708 ms  DeleteObjects: 0.833166 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Prepare
-Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 2.99 ms, found 10 plugins.
-Preloading 2 native plugins for Editor in 2.07 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5192 unused Assets / (467.3 KB). Loaded Objects now: 5952.
-Memory consumption went from 222.5 MB to 222.0 MB.
-Total: 33.503833 ms (FindLiveObjects: 5.322334 ms CreateObjectMapping: 0.289291 ms MarkObjects: 26.930750 ms  DeleteObjects: 0.960625 ms)
+Received Import Request.
+  Time since last request: 33.516908 seconds.
+  path: Assets/Scripts/eyeSubtleMotionDebugger.cs
+  artifactKey: Guid(5649d5c34936a4f39b963d36ca213834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/eyeSubtleMotionDebugger.cs using Guid(5649d5c34936a4f39b963d36ca213834) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8b57792567e881013589576aff400633') in 0.000494833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
-Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-Thread 0x30cd3b000 may have been prematurely finalized
+Thread 0x31af2b000 may have been prematurely finalized
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.569 seconds
+- Loaded All Assemblies, in  0.490 seconds
 Refreshing native plugins compatible for Editor in 1.75 ms, found 10 plugins.
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
@@ -398,75 +274,491 @@ Native extension for OSXStandalone target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 1.84 ms, found 10 plugins.
+Refreshing native plugins compatible for Editor in 1.88 ms, found 10 plugins.
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-UncannyValleyVRProject
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.674 seconds
+Domain Reload Profiling: 1165ms
+	BeginReloadAssembly (170ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (111ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (13ms)
+	LoadAllAssembliesAndSetupDomain (274ms)
+		LoadAssemblies (182ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (123ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (103ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (674ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (526ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (85ms)
+			ProcessInitializeOnLoadAttributes (418ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Refreshing native plugins compatible for Editor in 1.86 ms, found 10 plugins.
+Preloading 2 native plugins for Editor in 0.31 ms.
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5246 unused Assets / (468.2 KB). Loaded Objects now: 5962.
+Memory consumption went from 238.0 MB to 237.5 MB.
+Total: 7.530958 ms (FindLiveObjects: 0.300333 ms CreateObjectMapping: 0.102167 ms MarkObjects: 6.371458 ms  DeleteObjects: 0.756417 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.684124 seconds.
+  path: Assets/Scripts/eyeSubtleMotionDebugger.cs
+  artifactKey: Guid(5649d5c34936a4f39b963d36ca213834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/eyeSubtleMotionDebugger.cs using Guid(5649d5c34936a4f39b963d36ca213834) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '84fa3db068380aaa73d9e1a161da2bad') in 0.000840125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Refreshing native plugins compatible for Editor in 3.25 ms, found 10 plugins.
+Preloading 2 native plugins for Editor in 0.39 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5193 unused Assets / (475.6 KB). Loaded Objects now: 5953.
+Memory consumption went from 223.1 MB to 222.6 MB.
+Total: 27.779500 ms (FindLiveObjects: 0.374958 ms CreateObjectMapping: 0.114334 ms MarkObjects: 26.421000 ms  DeleteObjects: 0.868875 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 22.468680 seconds.
+  path: Assets/Scripts/eyeSubtleMotionDebugger.cs
+  artifactKey: Guid(5649d5c34936a4f39b963d36ca213834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/eyeSubtleMotionDebugger.cs using Guid(5649d5c34936a4f39b963d36ca213834) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0bdb7319bea1c4461b8df78a1748af26') in 0.001043833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Refreshing native plugins compatible for Editor in 1.95 ms, found 10 plugins.
+Preloading 2 native plugins for Editor in 0.29 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5193 unused Assets / (1.5 MB). Loaded Objects now: 5953.
+Memory consumption went from 220.9 MB to 219.4 MB.
+Total: 21.339333 ms (FindLiveObjects: 0.345959 ms CreateObjectMapping: 0.102666 ms MarkObjects: 19.988250 ms  DeleteObjects: 0.902083 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 201.087078 seconds.
+  path: Assets/Scripts/eyeSubtleMotionDebugger.cs
+  artifactKey: Guid(5649d5c34936a4f39b963d36ca213834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/eyeSubtleMotionDebugger.cs using Guid(5649d5c34936a4f39b963d36ca213834) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8607ccc19d6cc58c13ba9a1a34b10950') in 0.000523542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x17f1a7000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.521 seconds
+Refreshing native plugins compatible for Editor in 1.62 ms, found 10 plugins.
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 1.85 ms, found 10 plugins.
 [MODES] ModeService[none].Initialize
 [MODES] ModeService[none].LoadModes
 Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.647 seconds
-Domain Reload Profiling: 1220ms
-	BeginReloadAssembly (162ms)
+- Finished resetting the current domain, in  0.642 seconds
+Domain Reload Profiling: 1166ms
+	BeginReloadAssembly (161ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (97ms)
+		CreateAndSetChildDomain (86ms)
 	RebuildCommonClasses (24ms)
 	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (14ms)
-	LoadAllAssembliesAndSetupDomain (364ms)
-		LoadAssemblies (210ms)
+	initialDomainReloadingComplete (13ms)
+	LoadAllAssembliesAndSetupDomain (316ms)
+		LoadAssemblies (196ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (183ms)
-			TypeCache.Refresh (29ms)
+		AnalyzeDomain (155ms)
+			TypeCache.Refresh (11ms)
 				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (136ms)
-			ResolveRequiredComponents (15ms)
-	FinalizeReload (647ms)
+			BuildScriptInfoCaches (126ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (642ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (499ms)
+		SetupLoadedEditorAssemblies (498ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (50ms)
-			ProcessInitializeOnLoadAttributes (426ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (68ms)
+			ProcessInitializeOnLoadAttributes (405ms)
 			ProcessInitializeOnLoadMethodAttributes (12ms)
 			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (4ms)
-Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 1.73 ms, found 10 plugins.
-Preloading 2 native plugins for Editor in 0.33 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5245 unused Assets / (1.6 MB). Loaded Objects now: 5963.
-Memory consumption went from 234.4 MB to 232.8 MB.
-Total: 6.962958 ms (FindLiveObjects: 0.327375 ms CreateObjectMapping: 0.105167 ms MarkObjects: 5.667417 ms  DeleteObjects: 0.862542 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
 Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 2.60 ms, found 10 plugins.
-Preloading 2 native plugins for Editor in 0.58 ms.
+Refreshing native plugins compatible for Editor in 1.85 ms, found 10 plugins.
+Preloading 2 native plugins for Editor in 0.31 ms.
 Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5192 unused Assets / (1.0 MB). Loaded Objects now: 5954.
-Memory consumption went from 220.7 MB to 219.7 MB.
-Total: 27.317042 ms (FindLiveObjects: 0.718917 ms CreateObjectMapping: 0.134916 ms MarkObjects: 25.439792 ms  DeleteObjects: 1.023000 ms)
+Unloading 5246 unused Assets / (1.1 MB). Loaded Objects now: 5964.
+Memory consumption went from 233.0 MB to 231.9 MB.
+Total: 9.385333 ms (FindLiveObjects: 0.348500 ms CreateObjectMapping: 0.139041 ms MarkObjects: 7.960459 ms  DeleteObjects: 0.936792 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-Thread 0x30cd3b000 may have been prematurely finalized
+Thread 0x17f1a7000 may have been prematurely finalized
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.685 seconds
-Refreshing native plugins compatible for Editor in 1.76 ms, found 10 plugins.
+- Loaded All Assemblies, in  0.537 seconds
+Refreshing native plugins compatible for Editor in 1.91 ms, found 10 plugins.
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 1.73 ms, found 10 plugins.
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.613 seconds
+Domain Reload Profiling: 1152ms
+	BeginReloadAssembly (193ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (91ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (14ms)
+	LoadAllAssembliesAndSetupDomain (297ms)
+		LoadAssemblies (195ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (147ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (128ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (613ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (468ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (43ms)
+			ProcessInitializeOnLoadAttributes (403ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Refreshing native plugins compatible for Editor in 1.92 ms, found 10 plugins.
+Preloading 2 native plugins for Editor in 0.31 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5246 unused Assets / (1.1 MB). Loaded Objects now: 5966.
+Memory consumption went from 232.5 MB to 231.4 MB.
+Total: 7.834459 ms (FindLiveObjects: 0.303750 ms CreateObjectMapping: 0.101917 ms MarkObjects: 6.532833 ms  DeleteObjects: 0.895917 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Refreshing native plugins compatible for Editor in 2.25 ms, found 10 plugins.
+Preloading 2 native plugins for Editor in 0.36 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5193 unused Assets / (484.4 KB). Loaded Objects now: 5957.
+Memory consumption went from 219.4 MB to 218.9 MB.
+Total: 28.021041 ms (FindLiveObjects: 0.518417 ms CreateObjectMapping: 0.112375 ms MarkObjects: 26.427750 ms  DeleteObjects: 0.962416 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Refreshing native plugins compatible for Editor in 1.89 ms, found 10 plugins.
+Preloading 2 native plugins for Editor in 0.29 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5193 unused Assets / (1.7 MB). Loaded Objects now: 5957.
+Memory consumption went from 219.3 MB to 217.6 MB.
+Total: 7.131875 ms (FindLiveObjects: 0.307458 ms CreateObjectMapping: 0.099333 ms MarkObjects: 5.611792 ms  DeleteObjects: 1.113125 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x17f1a7000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.512 seconds
+Refreshing native plugins compatible for Editor in 1.74 ms, found 10 plugins.
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 1.83 ms, found 10 plugins.
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.640 seconds
+Domain Reload Profiling: 1155ms
+	BeginReloadAssembly (170ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (102ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (13ms)
+	LoadAllAssembliesAndSetupDomain (298ms)
+		LoadAssemblies (189ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (138ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (113ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (640ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (495ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (62ms)
+			ProcessInitializeOnLoadAttributes (409ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Refreshing native plugins compatible for Editor in 1.77 ms, found 10 plugins.
+Preloading 2 native plugins for Editor in 0.31 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5246 unused Assets / (1.7 MB). Loaded Objects now: 5968.
+Memory consumption went from 231.0 MB to 229.3 MB.
+Total: 6.826084 ms (FindLiveObjects: 0.243416 ms CreateObjectMapping: 0.143709 ms MarkObjects: 5.648375 ms  DeleteObjects: 0.790042 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 210.556096 seconds.
+  path: Assets/Scripts/AvatarFaceCorrectively.cs
+  artifactKey: Guid(b277a0df5fc2a4d9288bef65a538b2cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/AvatarFaceCorrectively.cs using Guid(b277a0df5fc2a4d9288bef65a538b2cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1e357379d645a47b89fd303343b7e52d') in 0.008135417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Refreshing native plugins compatible for Editor in 2.75 ms, found 10 plugins.
+Preloading 2 native plugins for Editor in 0.28 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5193 unused Assets / (0.9 MB). Loaded Objects now: 5959.
+Memory consumption went from 219.3 MB to 218.4 MB.
+Total: 24.622750 ms (FindLiveObjects: 0.338250 ms CreateObjectMapping: 0.122334 ms MarkObjects: 23.098000 ms  DeleteObjects: 1.063625 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Refreshing native plugins compatible for Editor in 2.01 ms, found 10 plugins.
+Preloading 2 native plugins for Editor in 0.31 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5193 unused Assets / (0.9 MB). Loaded Objects now: 5959.
+Memory consumption went from 219.3 MB to 218.5 MB.
+Total: 22.975458 ms (FindLiveObjects: 0.383125 ms CreateObjectMapping: 0.107916 ms MarkObjects: 21.428584 ms  DeleteObjects: 1.055292 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Refreshing native plugins compatible for Editor in 1.98 ms, found 10 plugins.
+Preloading 2 native plugins for Editor in 0.27 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5193 unused Assets / (1.5 MB). Loaded Objects now: 5959.
+Memory consumption went from 219.3 MB to 217.8 MB.
+Total: 25.166000 ms (FindLiveObjects: 0.362083 ms CreateObjectMapping: 0.110500 ms MarkObjects: 23.815500 ms  DeleteObjects: 0.877792 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Refreshing native plugins compatible for Editor in 1.94 ms, found 10 plugins.
+Preloading 2 native plugins for Editor in 0.29 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5193 unused Assets / (1.0 MB). Loaded Objects now: 5959.
+Memory consumption went from 219.4 MB to 218.3 MB.
+Total: 24.349584 ms (FindLiveObjects: 1.219833 ms CreateObjectMapping: 0.125417 ms MarkObjects: 22.130667 ms  DeleteObjects: 0.873417 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 2597.099221 seconds.
+  path: Assets/Scripts/AvatarFaceCorrectively.cs
+  artifactKey: Guid(b277a0df5fc2a4d9288bef65a538b2cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/AvatarFaceCorrectively.cs using Guid(b277a0df5fc2a4d9288bef65a538b2cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3f2bc184818fa2f39f0c045c25706281') in 0.000637458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Refreshing native plugins compatible for Editor in 2.01 ms, found 10 plugins.
+Preloading 2 native plugins for Editor in 0.36 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5193 unused Assets / (1.6 MB). Loaded Objects now: 5959.
+Memory consumption went from 219.3 MB to 217.8 MB.
+Total: 22.731833 ms (FindLiveObjects: 0.359458 ms CreateObjectMapping: 0.102709 ms MarkObjects: 21.303125 ms  DeleteObjects: 0.966083 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 53.479278 seconds.
+  path: Assets/Scripts/AvatarFaceCorrectively.cs
+  artifactKey: Guid(b277a0df5fc2a4d9288bef65a538b2cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/AvatarFaceCorrectively.cs using Guid(b277a0df5fc2a4d9288bef65a538b2cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7e248801db6fe22e81802097ad8077f8') in 0.00034875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Refreshing native plugins compatible for Editor in 4.17 ms, found 10 plugins.
+Preloading 2 native plugins for Editor in 0.34 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5193 unused Assets / (1.7 MB). Loaded Objects now: 5959.
+Memory consumption went from 219.3 MB to 217.7 MB.
+Total: 24.138667 ms (FindLiveObjects: 0.419667 ms CreateObjectMapping: 0.117875 ms MarkObjects: 22.660917 ms  DeleteObjects: 0.939792 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Refreshing native plugins compatible for Editor in 2.01 ms, found 10 plugins.
+Preloading 2 native plugins for Editor in 0.30 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5193 unused Assets / (1.1 MB). Loaded Objects now: 5959.
+Memory consumption went from 219.3 MB to 218.2 MB.
+Total: 22.311417 ms (FindLiveObjects: 0.356625 ms CreateObjectMapping: 0.104417 ms MarkObjects: 20.884166 ms  DeleteObjects: 0.965958 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Refreshing native plugins compatible for Editor in 2.75 ms, found 10 plugins.
+Preloading 2 native plugins for Editor in 0.31 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5193 unused Assets / (1.4 MB). Loaded Objects now: 5959.
+Memory consumption went from 219.3 MB to 217.9 MB.
+Total: 23.214250 ms (FindLiveObjects: 0.358625 ms CreateObjectMapping: 0.101667 ms MarkObjects: 21.816042 ms  DeleteObjects: 0.937667 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 172.513127 seconds.
+  path: Assets/Scripts/AvatarFaceCorrectively.cs
+  artifactKey: Guid(b277a0df5fc2a4d9288bef65a538b2cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/AvatarFaceCorrectively.cs using Guid(b277a0df5fc2a4d9288bef65a538b2cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7710e502ab5efab775a4d1efd2dd12de') in 0.000545 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Refreshing native plugins compatible for Editor in 1.96 ms, found 10 plugins.
+Preloading 2 native plugins for Editor in 0.31 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5193 unused Assets / (0.9 MB). Loaded Objects now: 5959.
+Memory consumption went from 219.3 MB to 218.4 MB.
+Total: 23.147083 ms (FindLiveObjects: 0.350208 ms CreateObjectMapping: 0.101125 ms MarkObjects: 21.688333 ms  DeleteObjects: 1.007292 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Refreshing native plugins compatible for Editor in 2.32 ms, found 10 plugins.
+Preloading 2 native plugins for Editor in 0.30 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5193 unused Assets / (1.5 MB). Loaded Objects now: 5959.
+Memory consumption went from 219.3 MB to 217.8 MB.
+Total: 26.217875 ms (FindLiveObjects: 0.833666 ms CreateObjectMapping: 0.125375 ms MarkObjects: 24.254459 ms  DeleteObjects: 1.003834 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 63.889014 seconds.
+  path: Assets/Scripts/AvatarFaceCorrectively.cs
+  artifactKey: Guid(b277a0df5fc2a4d9288bef65a538b2cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/AvatarFaceCorrectively.cs using Guid(b277a0df5fc2a4d9288bef65a538b2cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '681021913d728e9c7b0cb4d3c658cbae') in 0.002157333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x17f1a7000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.590 seconds
+Refreshing native plugins compatible for Editor in 3.65 ms, found 10 plugins.
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
@@ -482,222 +774,68 @@ Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.631 seconds
-Domain Reload Profiling: 1319ms
-	BeginReloadAssembly (329ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (227ms)
-	RebuildCommonClasses (24ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (16ms)
-	LoadAllAssembliesAndSetupDomain (310ms)
-		LoadAssemblies (182ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (166ms)
-			TypeCache.Refresh (10ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (144ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (631ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (491ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (69ms)
-			ProcessInitializeOnLoadAttributes (399ms)
-			ProcessInitializeOnLoadMethodAttributes (11ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 1.65 ms, found 10 plugins.
-Preloading 2 native plugins for Editor in 0.28 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5245 unused Assets / (1.7 MB). Loaded Objects now: 5965.
-Memory consumption went from 232.5 MB to 230.9 MB.
-Total: 6.589292 ms (FindLiveObjects: 0.242917 ms CreateObjectMapping: 0.125375 ms MarkObjects: 5.469166 ms  DeleteObjects: 0.751625 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 2.02 ms, found 10 plugins.
-Preloading 2 native plugins for Editor in 0.31 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5192 unused Assets / (1.2 MB). Loaded Objects now: 5956.
-Memory consumption went from 220.7 MB to 219.5 MB.
-Total: 9.494541 ms (FindLiveObjects: 0.306167 ms CreateObjectMapping: 0.095625 ms MarkObjects: 8.151041 ms  DeleteObjects: 0.941333 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Thread 0x30cd3b000 may have been prematurely finalized
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.551 seconds
-Refreshing native plugins compatible for Editor in 1.82 ms, found 10 plugins.
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 1.76 ms, found 10 plugins.
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-Mono: successfully reloaded assembly
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.622 seconds
-Domain Reload Profiling: 1177ms
-	BeginReloadAssembly (184ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (108ms)
-	RebuildCommonClasses (24ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (16ms)
-	LoadAllAssembliesAndSetupDomain (321ms)
-		LoadAssemblies (203ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (155ms)
-			TypeCache.Refresh (11ms)
-				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (123ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (622ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (484ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (47ms)
-			ProcessInitializeOnLoadAttributes (415ms)
-			ProcessInitializeOnLoadMethodAttributes (11ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
-Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 1.81 ms, found 10 plugins.
-Preloading 2 native plugins for Editor in 0.32 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5245 unused Assets / (1.7 MB). Loaded Objects now: 5967.
-Memory consumption went from 232.5 MB to 230.8 MB.
-Total: 7.369125 ms (FindLiveObjects: 0.303250 ms CreateObjectMapping: 0.142875 ms MarkObjects: 6.020916 ms  DeleteObjects: 0.901542 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 4.32 ms, found 10 plugins.
-Preloading 2 native plugins for Editor in 0.31 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5192 unused Assets / (1.4 MB). Loaded Objects now: 5958.
-Memory consumption went from 220.7 MB to 219.4 MB.
-Total: 26.569709 ms (FindLiveObjects: 0.358084 ms CreateObjectMapping: 0.105083 ms MarkObjects: 25.153917 ms  DeleteObjects: 0.952375 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Thread 0x30cd3b000 may have been prematurely finalized
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.521 seconds
-Refreshing native plugins compatible for Editor in 2.03 ms, found 10 plugins.
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 2.94 ms, found 10 plugins.
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-Mono: successfully reloaded assembly
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.618 seconds
-Domain Reload Profiling: 1142ms
-	BeginReloadAssembly (165ms)
+- Finished resetting the current domain, in  0.642 seconds
+Domain Reload Profiling: 1234ms
+	BeginReloadAssembly (164ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (98ms)
-	RebuildCommonClasses (25ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (15ms)
-	LoadAllAssembliesAndSetupDomain (310ms)
-		LoadAssemblies (200ms)
+		CreateAndSetChildDomain (96ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (14ms)
+	LoadAllAssembliesAndSetupDomain (381ms)
+		LoadAssemblies (215ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (142ms)
-			TypeCache.Refresh (11ms)
+		AnalyzeDomain (194ms)
+			TypeCache.Refresh (24ms)
 				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (117ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (619ms)
+			BuildScriptInfoCaches (158ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (642ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (477ms)
+		SetupLoadedEditorAssemblies (496ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (6ms)
 			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (41ms)
-			ProcessInitializeOnLoadAttributes (414ms)
-			ProcessInitializeOnLoadMethodAttributes (11ms)
+			BeforeProcessingInitializeOnLoad (66ms)
+			ProcessInitializeOnLoadAttributes (405ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
 			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
-Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+		AwakeInstancesAfterBackupRestoration (5ms)
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 1.68 ms, found 10 plugins.
-Preloading 2 native plugins for Editor in 0.27 ms.
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Refreshing native plugins compatible for Editor in 1.70 ms, found 10 plugins.
+Preloading 2 native plugins for Editor in 0.30 ms.
 Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5245 unused Assets / (1.6 MB). Loaded Objects now: 5969.
-Memory consumption went from 232.7 MB to 231.1 MB.
-Total: 6.582334 ms (FindLiveObjects: 0.250666 ms CreateObjectMapping: 0.129334 ms MarkObjects: 5.445208 ms  DeleteObjects: 0.756833 ms)
+Unloading 5246 unused Assets / (1.6 MB). Loaded Objects now: 5970.
+Memory consumption went from 232.5 MB to 230.9 MB.
+Total: 6.653958 ms (FindLiveObjects: 0.276792 ms CreateObjectMapping: 0.127250 ms MarkObjects: 5.438125 ms  DeleteObjects: 0.811375 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
-Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 3.98 ms, found 10 plugins.
-Preloading 2 native plugins for Editor in 0.33 ms.
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Refreshing native plugins compatible for Editor in 5.62 ms, found 10 plugins.
+Preloading 2 native plugins for Editor in 0.39 ms.
 Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5192 unused Assets / (1.7 MB). Loaded Objects now: 5960.
-Memory consumption went from 220.9 MB to 219.2 MB.
-Total: 22.657708 ms (FindLiveObjects: 0.364208 ms CreateObjectMapping: 0.107167 ms MarkObjects: 21.240500 ms  DeleteObjects: 0.945750 ms)
+Unloading 5193 unused Assets / (1.3 MB). Loaded Objects now: 5961.
+Memory consumption went from 221.4 MB to 220.1 MB.
+Total: 28.407834 ms (FindLiveObjects: 0.560583 ms CreateObjectMapping: 0.327625 ms MarkObjects: 26.443333 ms  DeleteObjects: 1.075625 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-Thread 0x30cd3b000 may have been prematurely finalized
+Thread 0x17f1a7000 may have been prematurely finalized
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.555 seconds
-Refreshing native plugins compatible for Editor in 1.78 ms, found 10 plugins.
+- Loaded All Assemblies, in  0.609 seconds
+Refreshing native plugins compatible for Editor in 2.46 ms, found 10 plugins.
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
@@ -706,53 +844,53 @@ Native extension for OSXStandalone target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 1.77 ms, found 10 plugins.
+Refreshing native plugins compatible for Editor in 1.83 ms, found 10 plugins.
 [MODES] ModeService[none].Initialize
 [MODES] ModeService[none].LoadModes
 Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.628 seconds
-Domain Reload Profiling: 1187ms
-	BeginReloadAssembly (178ms)
+- Finished resetting the current domain, in  0.655 seconds
+Domain Reload Profiling: 1268ms
+	BeginReloadAssembly (180ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (104ms)
-	RebuildCommonClasses (24ms)
+		CreateAndSetChildDomain (108ms)
+	RebuildCommonClasses (32ms)
 	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (12ms)
-	LoadAllAssembliesAndSetupDomain (337ms)
-		LoadAssemblies (206ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (376ms)
+		LoadAssemblies (228ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (168ms)
-			TypeCache.Refresh (19ms)
+		AnalyzeDomain (183ms)
+			TypeCache.Refresh (26ms)
 				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (133ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (628ms)
+			BuildScriptInfoCaches (140ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (656ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (492ms)
+		SetupLoadedEditorAssemblies (506ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (59ms)
-			ProcessInitializeOnLoadAttributes (411ms)
-			ProcessInitializeOnLoadMethodAttributes (11ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (58ms)
+			ProcessInitializeOnLoadAttributes (424ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
 			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (5ms)
-Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 1.94 ms, found 10 plugins.
-Preloading 2 native plugins for Editor in 0.33 ms.
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Refreshing native plugins compatible for Editor in 1.87 ms, found 10 plugins.
+Preloading 2 native plugins for Editor in 0.31 ms.
 Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5245 unused Assets / (1.7 MB). Loaded Objects now: 5971.
-Memory consumption went from 232.7 MB to 230.9 MB.
-Total: 7.104250 ms (FindLiveObjects: 0.316084 ms CreateObjectMapping: 0.102459 ms MarkObjects: 5.708541 ms  DeleteObjects: 0.976750 ms)
+Unloading 5246 unused Assets / (1.8 MB). Loaded Objects now: 5972.
+Memory consumption went from 232.4 MB to 230.7 MB.
+Total: 7.253833 ms (FindLiveObjects: 0.312959 ms CreateObjectMapping: 0.117583 ms MarkObjects: 5.873208 ms  DeleteObjects: 0.949666 ms)
 
 Prepare: number of updated asset objects reloaded= 0

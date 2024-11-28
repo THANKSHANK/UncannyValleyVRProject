@@ -7061,6 +7061,7 @@ GameObject:
   - component: {fileID: 232204841}
   - component: {fileID: 232204840}
   - component: {fileID: 232204842}
+  - component: {fileID: 232204843}
   m_Layer: 0
   m_Name: EffectVariableManager
   m_TagString: Untagged
@@ -7221,6 +7222,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &232204843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 232204838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5649d5c34936a4f39b963d36ca213834, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  variableManager: {fileID: 232204840}
 --- !u!1 &234336882
 GameObject:
   m_ObjectHideFlags: 0
@@ -42237,7 +42251,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1337104210
 Transform:
   m_ObjectHideFlags: 0

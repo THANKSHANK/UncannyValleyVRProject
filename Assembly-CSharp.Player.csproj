@@ -50,6 +50,7 @@
     <Compile Include="Assets/Scripts/ResetScene.cs" />
     <Compile Include="Assets/Scripts/MaterialDebugChanger.cs" />
     <Compile Include="Assets/Scripts/CustomBlendshapeModifier.cs" />
+    <Compile Include="Assets/Scripts/eyeSubtleMotionDebugger.cs" />
     <Compile Include="Assets/Scripts/DialogManager.cs" />
     <Compile Include="Assets/Scripts/CustomOVRFaceWithDynamicMapping.cs" />
     <Compile Include="Assets/Scripts/VariableManager.cs" />

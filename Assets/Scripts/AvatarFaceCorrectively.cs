@@ -6,20 +6,12 @@ namespace Oculus.Movement.Tracking
   
     public class AvatarFaceCorrectively : OVRCustomFace
     {
-        
         public bool CorrectivesEnabled { get; set; }
-
-       
         public float[] ExpressionWeights { get; private set; }
-
-       
         public bool FreezeExpressionWeights { get; set; }
-
-        
         [SerializeField]
         [Tooltip("Whether or not to force the jaw open to accomodate an extended tongue")]
         protected bool _forceJawDropForTongue = true;
-
         public bool ForceJawDropForTongue
         {
             get { return _forceJawDropForTongue; }
@@ -33,8 +25,6 @@ namespace Oculus.Movement.Tracking
         [SerializeField]
         [Tooltip("Minimum value of JawDrop to force when the user's tongue is out")]
         private float _minJawDrop = 0.5f;
-
-      
         [SerializeField]
         [Optional]
         [Tooltip(CorrectivesFaceTooltips.BlendshapeModifier)]
@@ -86,6 +76,7 @@ namespace Oculus.Movement.Tracking
         
         public float eyeMotionSpeed = 2.0f;
         public float eyeMotionAmplitude = 2.0f;
+       
         private void ApplySubtleEyeMotion()
         {
             float time = Time.time;
@@ -110,14 +101,18 @@ namespace Oculus.Movement.Tracking
         private void StartBlinkLeftEye()
         {
             isBlinkingL = true;
-            blinkDurationL = Random.Range(0.05f, 0.2f); 
+            float noiseScale = 0.5f; 
+            float noiseValue = Mathf.PerlinNoise(Time.time * noiseScale, 0.0f);
+            blinkDurationL = Mathf.Lerp(0.05f, 0.2f, noiseValue); // Smoothly vary the blink duration
             nextBlinkTimeL = Time.time + Random.Range(minBlinkInterval, maxBlinkInterval); 
         }
 
         private void StartBlinkRightEye()
         {
             isBlinkingR = true;
-            blinkDurationR = Random.Range(0.05f, 0.2f); 
+            float noiseScale = 0.5f; // Adjust this value for desired smoothness
+            float noiseValue = Mathf.PerlinNoise(Time.time * noiseScale, 0.0f);
+            blinkDurationL = Mathf.Lerp(0.05f, 0.2f, noiseValue);
             nextBlinkTimeR = Time.time + Random.Range(minBlinkInterval, maxBlinkInterval); 
         }
 

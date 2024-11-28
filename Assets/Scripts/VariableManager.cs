@@ -193,7 +193,7 @@ public class VariableManager : MonoBehaviour
         }
     }
 
-    private void UpdateBlinkParameters(float minInterval, float maxInterval, float duration)
+    public void UpdateBlinkParameters(float minInterval, float maxInterval, float duration)
     {
         if (correctivesFaceHead != null)
         {
