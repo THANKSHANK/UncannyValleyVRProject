@@ -165,8 +165,6 @@ public class VariableManager : MonoBehaviour
             }
 
             mirroredRenderer.sharedMaterials = materials;
-            // mirroredRenderer.enabled = false;
-            // mirroredRenderer.enabled = true;
         }
 
         if (eyeMaterial != null)

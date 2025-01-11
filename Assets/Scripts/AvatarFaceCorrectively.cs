@@ -259,9 +259,7 @@ namespace Oculus.Movement.Tracking
                 {
                     continue;
                 }
-
                 float currentWeight = ExpressionWeights[(int)blendShapeToFaceExpression];
-                // Recover true eyes closed values
                 if (blendShapeToFaceExpression == OVRFaceExpressions.FaceExpression.EyesClosedL)
                 {
                     currentWeight += ExpressionWeights[(int)OVRFaceExpressions.FaceExpression.EyesLookDownL];
@@ -272,15 +270,12 @@ namespace Oculus.Movement.Tracking
                 }
                 else if (ForceJawDropForTongue && blendShapeToFaceExpression == OVRFaceExpressions.FaceExpression.JawDrop)
                 {
-                    // Fetch this from the underlying expressions in case the renderer being fixed
-                    // has JawDrop but not TongueOut.
                     var tongueWeight = ExpressionWeights[(int)OVRFaceExpressions.FaceExpression.TongueOut];
                     if (tongueWeight > _tongueOutThreshold)
                     {
                         currentWeight = Mathf.Max(_minJawDrop, currentWeight);
                     }
                 }
-
                 if (_blendshapeModifier != null)
                 {
                     currentWeight = _blendshapeModifier.GetModifiedWeight(blendShapeToFaceExpression, currentWeight);
